@@ -1,11 +1,10 @@
 /** Fetch wrapper for the FastAPI backend (loopback / Vite proxy only). */
 
 /**
- * In Vite dev, use same-origin `/api` (proxied to 127.0.0.1:8010) so port-forwarded
- * browsers do not call :8010 on the client machine.
+ * Same-origin `/api` is proxied to FastAPI by Vite (dev) and launcher.static_server (prod).
  * Override with VITE_API_BASE when needed.
  */
-const DEFAULT_BASE = import.meta.env.DEV ? "/api" : "http://127.0.0.1:8010";
+const DEFAULT_BASE = "/api";
 
 export const API_BASE =
   (import.meta.env.VITE_API_BASE as string | undefined)?.trim() || DEFAULT_BASE;

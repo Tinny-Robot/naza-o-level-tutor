@@ -21,6 +21,11 @@ _CODE_FENCE_RE = re.compile(
     re.IGNORECASE,
 )
 _JSON_OBJECT_RE = re.compile(r"\{[\s\S]*\}")
+_CHUNK_CITE_RE = re.compile(r"\s*\[Chunk\s+[^\]]+\]", re.IGNORECASE)
+_BODY_FIELD_RE = re.compile(
+    r'"(?:body|content|text)"\s*:\s*"((?:\\.|[^"\\])*)(?:"|\Z)',
+    re.DOTALL,
+)
 
 
 def _as_str(value: Any, default: str = "") -> str:
@@ -29,6 +34,96 @@ def _as_str(value: Any, default: str = "") -> str:
     if isinstance(value, str):
         return value.strip()
     return str(value).strip()
+
+
+def _looks_like_json_blob(text: str) -> bool:
+    s = (text or "").strip()
+    if not s:
+        return False
+    if s.startswith("```"):
+        return True
+    if s.startswith("{") and ("\"heading\"" in s or "\"body\"" in s or "\"sections\"" in s):
+        return True
+    return False
+
+
+def strip_chunk_citations(text: str) -> str:
+    """Remove internal RAG chunk markers from student-facing lesson prose."""
+    cleaned = _CHUNK_CITE_RE.sub("", text or "")
+    cleaned = re.sub(r"[ \t]+\n", "\n", cleaned)
+    cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
+    return cleaned.strip()
+
+
+def _unescape_json_string(value: str) -> str:
+    try:
+        return json.loads(f'"{value}"')
+    except json.JSONDecodeError:
+        return (
+            value.replace("\\n", "\n")
+            .replace("\\t", "\t")
+            .replace('\\"', '"')
+            .replace("\\\\", "\\")
+        )
+
+
+def _body_from_broken_json(raw: str) -> str:
+    """Pull a body field out of truncated / invalid JSON when json.loads fails."""
+    text = (raw or "").strip()
+    fence = _CODE_FENCE_RE.search(text)
+    if fence:
+        text = fence.group(1).strip()
+    else:
+        # Truncated fence with no closing ```
+        text = re.sub(r"^```(?:json)?\s*", "", text, flags=re.IGNORECASE).strip()
+        text = re.sub(r"\s*```$", "", text).strip()
+    match = _BODY_FIELD_RE.search(text)
+    if match:
+        return strip_chunk_citations(_unescape_json_string(match.group(1)).strip())
+    return ""
+
+
+def sanitize_section_body(raw: str, *, heading: str = "") -> str:
+    """Never leave fenced/raw JSON in a lesson section body."""
+    text = (raw or "").strip()
+    if not text:
+        return ""
+    if not _looks_like_json_blob(text):
+        return strip_chunk_citations(text)
+
+    parsed = extract_json_object(text)
+    if isinstance(parsed, dict):
+        for key in ("body", "content", "text"):
+            value = parsed.get(key)
+            if isinstance(value, str) and value.strip():
+                return strip_chunk_citations(value.strip())
+        sections = parsed.get("sections")
+        if isinstance(sections, list):
+            needle = heading.strip().lower()
+            for item in sections:
+                if not isinstance(item, dict):
+                    continue
+                item_heading = str(item.get("heading") or item.get("title") or "").strip().lower()
+                body = str(item.get("body") or item.get("content") or "").strip()
+                if body and (not needle or item_heading == needle or needle in item_heading):
+                    return strip_chunk_citations(body)
+            for item in sections:
+                if isinstance(item, dict):
+                    body = str(item.get("body") or item.get("content") or "").strip()
+                    if body:
+                        return strip_chunk_citations(body)
+                elif isinstance(item, str) and item.strip() and not _looks_like_json_blob(item):
+                    return strip_chunk_citations(item.strip())
+        # Model returned only a heading - no usable prose
+        return ""
+
+    recovered = _body_from_broken_json(text)
+    if recovered:
+        return recovered
+    # Last resort: drop JSON blobs rather than show them in the UI
+    if _looks_like_json_blob(text):
+        return ""
+    return strip_chunk_citations(text)
 
 
 def _as_str_list(value: Any) -> list[str]:
@@ -53,11 +148,21 @@ def extract_json_object(raw: str) -> dict[str, Any] | None:
     if not text:
         return None
 
+    candidates: list[str] = [text]
+
+    # Prefer a whole-text parse first. Nested ```json fences inside string
+    # values (section bodies) must not steal the outer lesson object.
+    try:
+        parsed = json.loads(text)
+        if isinstance(parsed, dict):
+            return parsed
+    except json.JSONDecodeError:
+        pass
+
     fence = _CODE_FENCE_RE.search(text)
     if fence:
-        text = fence.group(1).strip()
+        candidates.append(fence.group(1).strip())
 
-    candidates = [text]
     match = _JSON_OBJECT_RE.search(text)
     if match:
         candidates.append(match.group(0))
@@ -74,14 +179,17 @@ def extract_json_object(raw: str) -> dict[str, Any] | None:
 
 def _section_from_any(item: Any) -> LessonSection | None:
     if isinstance(item, str):
-        body = item.strip()
+        body = sanitize_section_body(item.strip())
         if not body:
             return None
         return LessonSection(heading="Key idea", body=body)
     if not isinstance(item, dict):
         return None
     heading = _as_str(item.get("heading") or item.get("title"), "Key idea")
-    body = _as_str(item.get("body") or item.get("content") or item.get("text"))
+    body = sanitize_section_body(
+        _as_str(item.get("body") or item.get("content") or item.get("text")),
+        heading=heading,
+    )
     diagram = item.get("diagram_placeholder")
     if diagram is not None:
         diagram = _as_str(diagram) or None

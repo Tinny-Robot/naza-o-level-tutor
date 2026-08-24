@@ -17,7 +17,7 @@ REQUIRED_FIELDS: frozenset[str] = frozenset(
 OPTIONAL_IMAGE_FIELD = "images"
 # Optional metadata from repaired / curated qa.json revisions
 _OPTIONAL_BOOL_FIELDS = ("needs_review", "repaired")
-_OPTIONAL_STR_FIELDS = ("review_reason",)
+_OPTIONAL_STR_FIELDS = ("review_reason", "explanation")
 
 
 class QADatasetError(ValueError):

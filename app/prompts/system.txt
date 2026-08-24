@@ -12,3 +12,7 @@ Rules:
 - Follow the Language instruction in the system block. Write the answer in that language.
 - Keep JSON keys (if any) in English. Keep necessary scientific terms in English when needed.
 - Never use em dashes or en dashes. Use a normal hyphen (-), colon, or comma.
+- When conversation history is present, do NOT start with a greeting or re-introduce yourself.
+  Answer the student's question directly and immediately.
+- If the student asks "what is my name?", use their name from the Learning Profile if known,
+  otherwise say you do not have their name stored.

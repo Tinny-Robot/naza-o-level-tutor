@@ -1,0 +1,37 @@
+{
+  "team_id": "REPLACE_WITH_YOUR_ADTC_TEAM_ID",
+  "domain": "math_scientific_reasoning",
+  "language_scope": ["en", "ha"],
+  "african_alpha_claim": true,
+  "budget_laptop_claim": true,
+  "submitter": {
+    "name": "REPLACE_WITH_YOUR_NAME",
+    "email": "REPLACE_WITH_YOUR_EMAIL",
+    "github_handle": "Tinny-Robot"
+  },
+  "cross_disciplinary_pairing": {
+    "discipline": "education",
+    "load_bearing": true,
+    "description": "Offline Nigerian O-Level (WAEC/NECO) STEM tutor grounded in local syllabus materials, with English and Hausa teaching support for students on constrained networks."
+  },
+  "test_prompts": [
+    {
+      "prompt_id": "tp_001",
+      "prompt": "For WAEC Physics, state Ohm's law and rearrange it to find current when voltage is 12 V and resistance is 4 ohms. Show the formula and the final value with unit."
+    },
+    {
+      "prompt_id": "tp_002",
+      "prompt": "A set is well-defined. In one short paragraph suitable for a Nigerian SS2 student, explain what that means and give one valid example and one invalid example."
+    }
+  ],
+  "model": {
+    "name": "gemma-4-E4B-it-Q4_K_M",
+    "runtime": "llama.cpp",
+    "quantization": "GGUF Q4_K_M",
+    "parameters_estimate": "4B",
+    "packaging": "binary_bundle"
+  },
+  "_runtime": {
+    "model_path": "model/gemma-4-E4B-it-Q4_K_M.gguf"
+  }
+}

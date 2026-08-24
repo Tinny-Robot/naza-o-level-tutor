@@ -1,11 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useReducedMotion } from "framer-motion";
-import { BookOpen, GraduationCap, Lightbulb, Send } from "lucide-react";
+import { GraduationCap, Lightbulb, Send } from "lucide-react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { Naza } from "../../components/naza/Naza";
 import { Badge } from "../../components/ui/Badge";
 import { Button, ButtonLink } from "../../components/ui/Button";
 import { Card } from "../../components/ui/Card";
+import { MarkdownMessage } from "../../components/ui/MarkdownMessage";
 import { TextArea } from "../../components/ui/Input";
 import { ApiError } from "../../services/api";
 import { looksLikeLessonIntent, sendChat } from "../../services/chat";
@@ -61,13 +62,7 @@ export function TutorPage() {
   const composerRef = useRef<HTMLTextAreaElement | null>(null);
 
   const citations = last?.citations ?? [];
-  const isEmpty =
-    messages.length === 1 &&
-    messages[0].role === "assistant" &&
-    !messages[0].meta &&
-    !busy &&
-    !error &&
-    !buildingLesson;
+  const isEmpty = messages.length === 0 && !busy && !error && !buildingLesson;
 
   const modeBadge = useMemo(() => {
     if (!last) return null;
@@ -83,12 +78,8 @@ export function TutorPage() {
 
   useEffect(() => {
     setMessages((m) => {
-      if (m.length === 0) {
-        return [{ role: "assistant", text: t("tutor.hello") }];
-      }
-      if (m.length === 1 && m[0].role === "assistant" && !m[0].meta) {
-        return [{ role: "assistant", text: t("tutor.hello") }];
-      }
+      if (m.length === 0) return [];
+      if (m.length === 1 && m[0].role === "assistant" && !m[0].meta) return [];
       return m;
     });
   }, [t]);
@@ -424,19 +415,14 @@ export function TutorPage() {
                       aria-busy={m.typing || undefined}
                       onClick={m.typing ? finishTyping : undefined}
                     >
-                      {m.text}
-                      {m.typing ? "▍" : null}
-                      {m.meta?.mode === "study" &&
-                        m.meta.citations.length > 0 &&
-                        !m.typing && (
-                          <div className={`${styles.pillRow} ${styles.fieldSpaced}`}>
-                            {m.meta.citations.slice(0, 2).map((c) => (
-                              <Badge key={c.chunk_id} tone="study">
-                                <BookOpen size={12} /> {c.topic}
-                              </Badge>
-                            ))}
-                          </div>
-                        )}
+                      {m.role === "assistant" && !m.typing ? (
+                        <MarkdownMessage>{m.text}</MarkdownMessage>
+                      ) : (
+                        <>
+                          {m.text}
+                          {m.typing ? "▍" : null}
+                        </>
+                      )}
                       {m.role === "assistant" &&
                         m.meta?.mode === "study" &&
                         !m.typing && (

@@ -1,5 +1,11 @@
 import { apiFetch } from "./api";
 
+export type PracticeImage = {
+  url: string;
+  path?: string;
+  caption?: string;
+};
+
 export type PracticeQuestion = {
   id: string;
   subject: string;
@@ -11,6 +17,7 @@ export type PracticeQuestion = {
   options: string[];
   answer: string;
   explanation: string;
+  images?: PracticeImage[];
 };
 
 export function fetchPracticeTopics(subject: string) {

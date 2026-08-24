@@ -80,6 +80,7 @@ def practice_next(body: NextBody) -> dict[str, Any]:
                 # Keep for offline grade endpoint simplicity (desktop is trusted local)
                 "answer": q["answer"],
                 "explanation": q["explanation"],
+                "images": q.get("images") or [],
             }
         )
     return {"items": public}

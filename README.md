@@ -1,4 +1,66 @@
-# O-Level RAG Tutor
+# ADTC 2026 — Naza (Laptop LLM track)
+
+Submission layout follows the official
+[ADTC 2026 submission template](https://github.com/Africa-Deep-Tech-Foundation/adtc-2026-submission-template).
+Submit the public GitHub URL via [adtc-2026.devpost.com](https://adtc-2026.devpost.com).
+
+---
+
+## Submission checklist
+
+Before submitting, confirm every item:
+
+- [ ] Repository is **public** on GitHub
+- [ ] `metadata.json` is fully filled — replace every `REPLACE_WITH_*` placeholder
+- [ ] `metadata.json` has exactly **2** `test_prompts`
+- [ ] `bash download_model.sh` downloads a valid **GGUF** into `model/`
+- [ ] `model/*.gguf` is gitignored — **do not** commit weights
+- [ ] `REPORT.md` is filled and factual
+- [ ] Model runs **offline** during inference (no network after download)
+
+---
+
+## Required ADTC file structure
+
+```
+.
+├── metadata.json          ← Team, domain, languages, 2 test prompts, model meta
+├── download_model.sh      ← Public download of .gguf → model/
+├── REPORT.md              ← Technical writeup for judges / audit
+├── model/
+│   └── gemma-4-E4B-it-Q4_K_M.gguf   ← via download_model.sh (NOT in git)
+├── LICENSE                ← GPL-3.0 (template)
+├── .gitignore             ← Excludes *.gguf and model weights
+├── finetune/              ← Optional Hausa + curriculum adaptation methodology
+└── …                      ← Full offline tutor app (see below)
+```
+
+### Quick start (profiler)
+
+```bash
+bash download_model.sh
+
+pip install "git+https://github.com/Africa-Deep-Tech-Foundation/adtc-profiler.git"
+adtc-profiler run \
+  --submission . \
+  --mode participant \
+  --output submission.json \
+  --skip-accuracy
+```
+
+### Metadata you must edit
+
+Open [`metadata.json`](metadata.json) and set:
+
+- `team_id`, `submitter.name`, `submitter.email`
+- Keep `budget_laptop_claim: true`, `model.runtime: "llama.cpp"`
+- `language_scope`: `["en", "ha"]` (English + Hausa)
+- `african_alpha_claim: true` (Nigerian O-Level education use case)
+- `domain`: `math_scientific_reasoning`
+
+---
+
+# Naza — Offline O-Level RAG Tutor
 
 Semantic retrieval and grounded tutoring over Nigerian O-Level study materials
 (English, Physics, Mathematics, Chemistry). Raw textbooks, syllabi and past
@@ -12,10 +74,19 @@ Optional upgrades (off or dense-only by default so existing behaviour is
 unchanged): BM25 / hybrid RRF retrieval, cross-encoder reranking, metadata
 filters, and a retrieval evaluation harness.
 
+> **Note:** The ADTC profiler evaluates the GGUF under `model/` via llama.cpp.
+> The full product demo (`./launch.sh`) still uses `models/` by default
+> (`MODEL_PATH`). `download_model.sh` can hard-link an existing local GGUF into
+> `model/` without changing the running app.
+
 ## Project structure
 
 ```
 O-Level/
+├── metadata.json            # ADTC submission metadata
+├── download_model.sh        # ADTC GGUF download → model/
+├── REPORT.md                # ADTC technical report
+├── model/                   # ADTC weights directory (gguf gitignored)
 ├── app/
 │   ├── config.py              # Paths, embedding, chunking, retrieval, LLM settings
 │   ├── ingestion/
@@ -50,7 +121,9 @@ O-Level/
 │   │   └── general_user.txt   # General user template ({question})
 │   ├── models/document.py     # Document and Chunk dataclasses
 │   └── utils/logging.py       # get_logger() helper
-├── models/                    # GGUF + embeddings/KEmbed-naija-v3 (gitignored weights)
+├── models/                    # App GGUF + embeddings (gitignored weights; demo MODEL_PATH)
+├── model/                     # ADTC GGUF dir (download_model.sh → *.gguf gitignored)
+├── finetune/                  # Optional Hausa + curriculum LoRA methodology (not auto-loaded)
 ├── data/
 │   ├── raw/                   # Source corpus, one folder per subject (keep)
 │   ├── processed/             # chunks.json, metadata.json, embeddings.npy
@@ -75,6 +148,7 @@ O-Level/
 │   ├── stitch/                # Stitch HTML exports
 │   └── DESIGN.md              # Design system + Stitch project link
 ├── tests/                     # pytest suite (mocks embeddings and LLM)
+├── finetune/                  # Optional offline LoRA/QLoRA (not used by launch)
 ├── launch.sh                  # Official entry: ./launch.sh
 ├── pyproject.toml             # uv / pip project + lock source
 ├── uv.lock                    # Frozen Python deps
@@ -457,6 +531,21 @@ A retrieved doc is **relevant** if (case-insensitive):
 - **Hit Rate** - fraction of queries with ≥1 relevant doc in the retrieved list.
 
 Eval retrieves at least 10 docs per query so Recall@10 is meaningful.
+
+## Fine-tuning (optional, offline)
+
+Production Naza uses the **base Gemma GGUF + local RAG** only. Nothing under
+`finetune/` is loaded by `./launch.sh`, Docker, or `app/generation/llm.py`.
+
+For judges and operators who want an inspectable **Hausa + Nigerian curriculum
+LoRA/QLoRA adaptation pipeline** (dataset export from `data/eval/qa.json`,
+config templates, separate training deps), see:
+
+- [`finetune/README.md`](finetune/README.md) - methodology and reproducibility
+- [`finetune/SUBMISSION.md`](finetune/SUBMISSION.md) - short hackathon blurb
+- [`finetune/scripts/prepare_dataset.py`](finetune/scripts/prepare_dataset.py) - export instruction JSONL
+
+Adapters placed under `finetune/artifacts/adapters/` are **not** auto-loaded.
 
 ## Adding new datasets
 

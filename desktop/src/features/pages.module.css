@@ -186,6 +186,444 @@
   border-radius: 50%;
 }
 
+.practiceHud {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: var(--color-panel-low);
+  border: 1px solid var(--color-border);
+  align-items: center;
+}
+
+.hudStat {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--color-text-muted);
+}
+
+.hudLabel {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.hudValue {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.practiceHero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.practiceBestBadge,
+.practiceBestBadgeMuted {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 14px;
+  border-radius: 14px;
+  min-width: 132px;
+  border: 1px solid var(--color-border);
+}
+
+.practiceBestBadge {
+  background: linear-gradient(145deg, rgba(211, 146, 18, 0.2), var(--color-card));
+  border-color: rgba(211, 146, 18, 0.4);
+}
+
+.practiceBestBadgeMuted {
+  background: var(--color-panel-low);
+  color: var(--color-text-muted);
+}
+
+.practiceBestPct {
+  font-family: var(--font-display);
+  font-size: 1.55rem;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.practiceBestLocked {
+  font-size: 0.85rem;
+  font-weight: 600;
+  max-width: 11rem;
+  line-height: 1.25;
+}
+
+.hudMicro {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+}
+
+.practiceArena {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 16px;
+  border: 1px solid var(--color-border);
+  background:
+    radial-gradient(120% 80% at 0% 0%, rgba(211, 146, 18, 0.12), transparent 55%),
+    var(--color-card);
+}
+
+.practiceTrackHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.practiceTrackHead strong {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  color: var(--color-text);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.practiceDots {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.dotEmpty,
+.dotCurrent,
+.dotHit,
+.dotMiss {
+  height: 10px;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+}
+
+.dotEmpty {
+  background: var(--color-panel-low);
+}
+
+.dotCurrent {
+  background: rgba(211, 146, 18, 0.35);
+  border-color: rgba(211, 146, 18, 0.7);
+  box-shadow: 0 0 0 3px rgba(211, 146, 18, 0.15);
+}
+
+.dotHit {
+  background: var(--color-success);
+  border-color: transparent;
+}
+
+.dotMiss {
+  background: var(--color-error);
+  border-color: transparent;
+}
+
+.practiceHudRow {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.hudChip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: var(--color-panel-low);
+  border: 1px solid var(--color-border);
+  min-width: 0;
+}
+
+.hudChipHot {
+  border-color: rgba(211, 146, 18, 0.55);
+  background: linear-gradient(160deg, rgba(211, 146, 18, 0.18), var(--color-panel-low));
+}
+
+.practiceQuestionCard {
+  border-top: 3px solid rgba(211, 146, 18, 0.55);
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  height: 100%;
+}
+
+.practiceEmpty {
+  text-align: center;
+  padding: 28px 18px;
+}
+
+.practiceResultModal {
+  max-width: 420px;
+}
+
+.practiceResultBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  padding: 4px 4px 12px;
+}
+
+.practiceResultMarkOk,
+.practiceResultMarkBad {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.practiceResultMarkOk {
+  background: color-mix(in srgb, var(--color-success) 22%, transparent);
+  color: var(--color-success);
+}
+
+.practiceResultMarkBad {
+  background: color-mix(in srgb, var(--color-error) 18%, transparent);
+  color: var(--color-error);
+}
+
+.practiceRoundScore {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
+
+.practiceRoundPct {
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.practiceNewBest {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background: rgba(211, 146, 18, 0.2);
+  color: var(--color-text);
+}
+
+.practiceResultScore {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+
+.practiceStreakCallout {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  background: rgba(211, 146, 18, 0.16);
+}
+
+.practiceMotivate {
+  margin: 0;
+  font-weight: 600;
+}
+
+.practicePage {
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+  gap: 8px;
+}
+
+.practiceTopBar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+
+.practiceTitleBlock {
+  min-width: 0;
+}
+
+.practiceTitle {
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 2.2vw, 1.7rem);
+  margin: 2px 0 0;
+  line-height: 1.15;
+}
+
+.practiceFilters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+.fieldBlockCompact {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  min-width: 120px;
+}
+
+.fieldBlockCompact select {
+  min-height: 40px;
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+  background: var(--color-card);
+  color: var(--color-text);
+  padding: 6px 10px;
+  font-size: 0.95rem;
+}
+
+.practiceArenaCompact {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  border: 1px solid var(--color-border);
+  background:
+    radial-gradient(120% 80% at 0% 0%, rgba(211, 146, 18, 0.12), transparent 55%),
+    var(--color-card);
+}
+
+.practiceTrackCompact {
+  margin-top: 2px;
+}
+
+.practiceBestLockedInline {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+
+.practiceMain {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.practiceMain > * {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+}
+
+.practiceQMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.practiceStem {
+  margin: 8px 0;
+  font-size: 1.05rem;
+  line-height: 1.45;
+  font-weight: 600;
+}
+
+.practiceFigures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 4px 0 8px;
+}
+
+.practiceFigure {
+  margin: 0;
+  max-width: 100%;
+}
+
+.practiceFigure img {
+  display: block;
+  max-width: min(100%, 420px);
+  max-height: 140px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+  background: #fffdf6;
+}
+
+.optionStackCompact {
+  display: grid;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.optionStackCompact .optionBtn,
+.optionStackCompact .answerSelected,
+.optionStackCompact .answerCorrect,
+.optionStackCompact .answerWrong {
+  padding: 10px 12px;
+  font-size: 0.98rem;
+}
+
+.practiceActions {
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+}
+
+@media (max-width: 900px) {
+  .practiceHudRow {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .practiceHudRow {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .practiceDots {
+    gap: 4px;
+  }
+
+  .practicePage {
+    overflow: auto;
+    height: auto;
+    max-height: 100%;
+  }
+
+  .practiceFigure img {
+    max-height: 120px;
+  }
+}
+
 .list {
   display: flex;
   flex-direction: column;
@@ -635,7 +1073,7 @@
 
 .pageTitle {
   font-family: var(--font-display);
-  font-size: clamp(1.35rem, 2.4vw, 1.75rem);
+  font-size: clamp(1.5rem, 2.6vw, 1.95rem);
   margin: 4px 0 8px;
 }
 
@@ -643,7 +1081,7 @@
   display: flex;
   flex-direction: column;
   gap: 6px;
-  font-size: 0.85rem;
+  font-size: 0.92rem;
   color: var(--color-text-muted);
 }
 
@@ -778,13 +1216,18 @@
 .cbtShell {
   display: grid;
   grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
-  gap: 16px;
-  align-items: start;
+  gap: 14px;
+  align-items: stretch;
+  height: 100%;
+  min-height: 0;
 }
 
 .cbtSide {
   position: sticky;
-  top: 76px;
+  top: 0;
+  align-self: start;
+  max-height: calc(100dvh - var(--topbar-h) - 2 * var(--main-pad) - 48px);
+  overflow: auto;
   padding: 14px;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
@@ -804,7 +1247,8 @@
   background: var(--color-panel-low);
   color: var(--color-text-muted);
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 0.88rem;
+  font-weight: 600;
 }
 
 .cbtPalBtn:hover {
@@ -871,11 +1315,9 @@
 .cbtPassage {
   padding: 14px 16px;
   border-radius: 12px;
-  border: 1px solid rgba(148, 163, 184, 0.28);
-  background:
-    linear-gradient(180deg, rgba(15, 23, 42, 0.35), rgba(30, 41, 59, 0.2)),
-    var(--color-panel-low);
-  max-height: 280px;
+  border: 1px solid var(--color-border);
+  background: linear-gradient(180deg, #fffdf6, var(--color-panel-low));
+  max-height: 200px;
   overflow: auto;
 }
 
@@ -883,12 +1325,14 @@
   margin: 8px 0 0;
   line-height: 1.65;
   white-space: pre-wrap;
+  font-size: 1rem;
 }
 
 .cbtStem {
-  font-size: 1.05rem;
+  font-size: 1.12rem;
   line-height: 1.55;
   margin: 0;
+  font-weight: 600;
 }
 
 .cbtFigure {
@@ -899,15 +1343,15 @@
 
 .cbtFigure img {
   width: min(100%, 520px);
-  max-height: 320px;
+  max-height: 220px;
   object-fit: contain;
   border-radius: 10px;
   border: 1px solid var(--color-border);
-  background: #0b1220;
+  background: #fffdf6;
 }
 
 .cbtFigure figcaption {
-  font-size: 0.8rem;
+  font-size: 0.88rem;
   color: var(--color-text-muted);
 }
 

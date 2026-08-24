@@ -1,4 +1,18 @@
+# Model weights — never commit these to git (ADTC 2026)
+model/*.gguf
+model/*.bin
+model/*.safetensors
+models/*.gguf
+models/embeddings/
+*.gguf
+
+# Local profiler output (ADTC)
+submission.json
+audit.json
+
+# Python / tooling
 .venv/
+.venv-finetune/
 __pycache__/
 *.py[cod]
 .pytest_cache/
@@ -8,11 +22,10 @@ __pycache__/
 .ruff_cache/
 /dist/
 /build/
+
+# App runtime / local state
 desktop/node_modules/
 desktop/dist/
-models/*.gguf
-models/embeddings/
-*.gguf
 *.npy
 *.faiss
 .launcher-api.log
@@ -28,3 +41,11 @@ data/processed/chunks.json
 data/index/*.faiss
 ecosystem.config.cjs.bak
 .DS_Store
+
+# Optional offline fine-tune exports / weights (keep READMEs and .gitkeep)
+finetune/data/exports/*.jsonl
+!finetune/data/exports/sample_instruction_pairs.jsonl
+finetune/artifacts/**
+!finetune/artifacts/**/
+!finetune/artifacts/**/.gitkeep
+!finetune/artifacts/**/README.md

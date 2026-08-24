@@ -113,6 +113,56 @@ def test_extract_json_from_fenced_block() -> None:
     assert data["title"] == "X"
 
 
+def test_sanitize_section_body_unwraps_fenced_json() -> None:
+    from app.lesson.lesson_formatter import sanitize_section_body
+
+    raw = (
+        '```json\n{"heading": "Menene Set?", "body": "Set shine tattara. '
+        '[Chunk abc123]\\n\\nRoster: V = {a,e,i}."}\n```'
+    )
+    body = sanitize_section_body(raw, heading="Yadda za ka tuna da shi")
+    assert "```" not in body
+    assert "heading" not in body
+    assert "Set shine tattara" in body
+    assert "[Chunk" not in body
+    assert "Roster" in body
+
+
+def test_sanitize_section_body_recovers_truncated_json() -> None:
+    from app.lesson.lesson_formatter import sanitize_section_body
+
+    raw = (
+        '```json\n{\n  "heading": "Menene Set?",\n  "body": '
+        '"A matsayin dalibi, set shine tattara [Chunk deadbeef].\\n\\n'
+        'Wannan sanin menene set yana da muhimmanci.'
+        # truncated - no closing quote/brace/fence
+    )
+    body = sanitize_section_body(raw)
+    assert "```" not in body
+    assert "A matsayin dalibi" in body
+    assert "[Chunk" not in body
+
+
+def test_format_lesson_rejects_json_blob_section_body() -> None:
+    raw = json.dumps(
+        {
+            "title": "Sets",
+            "introduction": "Welcome.",
+            "sections": [
+                {
+                    "heading": "How to remember it",
+                    "body": '```json\n{"heading": "What is a set?", "body": "A set is a collection."}\n```',
+                }
+            ],
+            "practice": {"question": "Q?", "correct_answer": "A", "options": ["A", "B", "C", "D"]},
+        }
+    )
+    lesson = format_lesson(raw, topic="Sets")
+    assert lesson.sections
+    assert "```" not in lesson.sections[0].body
+    assert "A set is a collection" in lesson.sections[0].body
+
+
 def test_format_lesson_malformed_uses_safe_fallback() -> None:
     lesson = format_lesson("not json at all {{{", topic="Refraction", confidence=0.4)
     assert lesson.type == "lesson"

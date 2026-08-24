@@ -17,7 +17,6 @@ export function SettingsModal({
   const [language, setLanguage] = useState<AppLanguage>(liveLanguage);
   const [style, setStyle] = useState("worked_examples");
   const [name, setName] = useState("");
-  const [goal, setGoal] = useState("");
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const firstFieldRef = useRef<HTMLInputElement>(null);
@@ -32,7 +31,6 @@ export function SettingsModal({
         setLanguage(next);
         setStyle(s.preferences.explanation_style || "worked_examples");
         setName(s.display_name || "");
-        setGoal(s.goal_today || "");
       })
       .catch(() => {
         /* keep defaults if summary unavailable */
@@ -66,7 +64,6 @@ export function SettingsModal({
         language,
         explanation_style: style,
         display_name: name.trim() || undefined,
-        goal_today: goal.trim() || undefined,
       });
       await refresh();
       onClose();
@@ -120,18 +117,6 @@ export function SettingsModal({
               <option value="English">{t("lang.english")}</option>
               <option value="Hausa">{t("lang.hausa")}</option>
             </select>
-          </label>
-        </div>
-
-        <div className={styles.modalSection}>
-          <h3>{t("settings.section.learning")}</h3>
-          <label className={styles.field}>
-            <span>{t("settings.goal")}</span>
-            <input
-              value={goal}
-              onChange={(e) => setGoal(e.target.value)}
-              placeholder={t("settings.goalPh")}
-            />
           </label>
           <label className={styles.field}>
             <span>{t("settings.style")}</span>

@@ -88,6 +88,52 @@ function stepLabel(
   return t(STEP_KEYS[step as NamedStep]);
 }
 
+function sanitizeLessonBody(body: string): string {
+  const text = body.trim();
+  if (!text) return "";
+  const looksJson =
+    text.startsWith("```") ||
+    (text.startsWith("{") &&
+      (text.includes('"heading"') || text.includes('"body"') || text.includes('"sections"')));
+  if (!looksJson) {
+    return text.replace(/\s*\[Chunk\s+[^\]]+\]/gi, "").trim();
+  }
+  const fenced = text.match(/```(?:json)?\s*([\s\S]*?)\s*```/i);
+  const candidate = fenced?.[1]?.trim() || text.replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/, "");
+  try {
+    const parsed = JSON.parse(candidate) as {
+      body?: string;
+      content?: string;
+      text?: string;
+      sections?: { body?: string; content?: string }[];
+    };
+    const direct = parsed.body || parsed.content || parsed.text;
+    if (typeof direct === "string" && direct.trim()) {
+      return direct.replace(/\s*\[Chunk\s+[^\]]+\]/gi, "").trim();
+    }
+    const sectionBody = parsed.sections?.find((s) => s.body || s.content);
+    const nested = sectionBody?.body || sectionBody?.content;
+    if (typeof nested === "string" && nested.trim()) {
+      return nested.replace(/\s*\[Chunk\s+[^\]]+\]/gi, "").trim();
+    }
+  } catch {
+    const match = candidate.match(/"(?:body|content|text)"\s*:\s*"((?:\\.|[^"\\])*)"/);
+    if (match?.[1]) {
+      try {
+        return JSON.parse(`"${match[1]}"`) as string;
+      } catch {
+        return match[1]
+          .replace(/\\n/g, "\n")
+          .replace(/\\"/g, '"')
+          .replace(/\\\\/g, "\\")
+          .replace(/\s*\[Chunk\s+[^\]]+\]/gi, "")
+          .trim();
+      }
+    }
+  }
+  return "";
+}
+
 function splitSectionParagraphs(body: string): string[] {
   return body
     .split(/\n\s*\n/)
@@ -97,7 +143,7 @@ function splitSectionParagraphs(body: string): string[] {
 
 function SectionBody({ body }: { body: string }) {
   const { t } = useLanguage();
-  const text = body.trim();
+  const text = sanitizeLessonBody(body);
   if (!text) {
     return <p className={styles.muted}>{t("lesson.bodySoon")}</p>;
   }

@@ -52,10 +52,10 @@
   --shadow-glow: 0 8px 24px rgba(211, 146, 18, 0.22);
 
   --sidebar-w: 196px;
-  --topbar-h: 52px;
+  --topbar-h: 56px;
   --context-w: 260px;
-  --main-pad: clamp(10px, 1.4vw, 18px);
-  --bottom-nav-h: 58px;
+  --main-pad: clamp(12px, 1.6vw, 20px);
+  --bottom-nav-h: 62px;
 
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --dur: 220ms;

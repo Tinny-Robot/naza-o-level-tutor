@@ -24,6 +24,7 @@ from app.lesson.lesson_formatter import (
     fallback_lesson,
     format_feedback,
     format_lesson,
+    sanitize_section_body,
 )
 from app.utils.logging import get_logger
 
@@ -131,34 +132,7 @@ def _normalize_frame_dict(data: dict[str, Any]) -> dict[str, Any]:
 
 
 def _body_from_section_output(raw: str, heading: str) -> str:
-    parsed = extract_json_object(raw)
-    if not isinstance(parsed, dict):
-        text = (raw or "").strip()
-        if text and not text.startswith("{"):
-            return text
-        return ""
-    for key in ("body", "content", "text"):
-        value = parsed.get(key)
-        if isinstance(value, str) and value.strip():
-            return value.strip()
-    sections = parsed.get("sections")
-    if isinstance(sections, list):
-        needle = heading.strip().lower()
-        for item in sections:
-            if not isinstance(item, dict):
-                continue
-            item_heading = str(item.get("heading") or item.get("title") or "").strip().lower()
-            body = str(item.get("body") or item.get("content") or "").strip()
-            if body and (not needle or item_heading == needle or needle in item_heading):
-                return body
-        for item in sections:
-            if isinstance(item, dict):
-                body = str(item.get("body") or "").strip()
-                if body:
-                    return body
-            elif isinstance(item, str) and item.strip():
-                return item.strip()
-    return ""
+    return sanitize_section_body(raw or "", heading=heading)
 
 
 _FEEDBACK_SYSTEM = (

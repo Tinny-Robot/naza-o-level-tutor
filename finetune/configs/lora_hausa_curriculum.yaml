@@ -1,0 +1,86 @@
+# LoRA / QLoRA template - Hausa + Nigerian O-Level curriculum
+
+# OPTIONAL OFFLINE TRAINING ONLY.
+# Production Naza loads the base Gemma GGUF via llama.cpp and does not read this file.
+
+# Copy and edit paths for your GPU machine. Values are starting points for a
+# Gemma-class instruct model (e.g. Gemma 2/3/4 instruct checkpoints in HF format).
+# The deployed runtime model remains the GGUF under models/ unless you explicitly
+# merge and swap outside launch.sh.
+
+run:
+  name: lora_hausa_curriculum
+  output_dir: finetune/artifacts/runs/lora_hausa_curriculum
+  adapter_dir: finetune/artifacts/adapters/lora_hausa_curriculum
+  seed: 42
+  logging_steps: 10
+  save_steps: 200
+  # Do not invent wandb runs; leave disabled unless you configure a real project.
+  report_to: none
+
+model:
+  # Hugging Face / local transformers checkpoint used for PEFT training.
+  # Not the production GGUF path (models/*.gguf).
+  base_model: google/gemma-2-2b-it
+  torch_dtype: bfloat16
+  trust_remote_code: false
+  # QLoRA (recommended on consumer GPUs). Set load_in_4bit: false for full LoRA.
+  load_in_4bit: true
+  bnb_4bit_compute_dtype: bfloat16
+  bnb_4bit_quant_type: nf4
+  bnb_4bit_use_double_quant: true
+
+data:
+  train_file: finetune/data/exports/full_instruction_pairs.jsonl
+  # Prefer rows with output_ha filled for Hausa; English rows still teach curriculum.
+  languages: [en, ha]
+  max_seq_length: 2048
+  packing: false
+  validation_split: 0.02
+
+prompt:
+  # Align with app/i18n/language.py tutoring policy.
+  system_en: >
+    You are Naza, a friendly eagle tutor for Nigerian O-Level (WAEC/NECO) students.
+    Ground answers in syllabus-accurate Chemistry, Physics, Mathematics, and English.
+    Be clear, exam-focused, and honest when unsure.
+  system_ha: >
+    Kai Naza ne, malamin gaggafa na daliban O-Level (WAEC/NECO) na Najeriya.
+    Ka bayyana da Hausa mai sauƙi. Ka kiyaye kalmomin kimiyya da jarabawa a Turanci
+    idan Hausa ba ta bayyana su ba. Ka kasance daidai da manhaja.
+
+lora:
+  r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  bias: none
+  task_type: CAUSAL_LM
+  # Typical instruction-model targets; adjust to the concrete architecture.
+  target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+    - gate_proj
+    - up_proj
+    - down_proj
+
+training:
+  num_train_epochs: 2
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 8
+  learning_rate: 2.0e-4
+  lr_scheduler_type: cosine
+  warmup_ratio: 0.03
+  weight_decay: 0.0
+  max_grad_norm: 1.0
+  optim: paged_adamw_8bit
+  bf16: true
+  gradient_checkpointing: true
+
+eval:
+  # After training, evaluate offline with held-out JSONL - do not fake metrics.
+  holdout_file: finetune/data/exports/holdout_instruction_pairs.jsonl
+  metrics_note: >
+    Record real loss / qualitative Hausa tutoring checks only when a train
+    actually completes. Leave artifacts empty until then.

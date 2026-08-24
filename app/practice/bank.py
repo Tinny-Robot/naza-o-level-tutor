@@ -383,7 +383,7 @@ def _from_qa_json(subject: str) -> list[dict[str, Any]]:
                 "passage": None,
                 "options": opts,
                 "answer": answer,
-                "explanation": _scrub_exam_noise(str(q.get("answer") or "")),
+                "explanation": _scrub_exam_noise(str(q.get("explanation") or "")),
                 "images": images,
                 "source": f"qa.json:{q.get('id')}",
             }
@@ -410,7 +410,7 @@ def _qa_answer_index(subject: str) -> dict[str, dict[str, Any]]:
             continue
         index[key] = {
             "answer": answer,
-            "explanation": _scrub_exam_noise(str(q.get("answer") or "")),
+            "explanation": _scrub_exam_noise(str(q.get("explanation") or "")),
             "images": _resolve_image_paths(list(q.get("images") or [])),
             "id": q.get("id"),
         }

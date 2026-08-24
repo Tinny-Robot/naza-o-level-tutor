@@ -1,0 +1,18 @@
+# Optional PEFT / QLoRA dependencies (NOT used by production Naza)
+
+# Install into a separate virtualenv only:
+#   python -m venv .venv-finetune && source .venv-finetune/bin/activate
+#   pip install -r finetune/requirements.txt
+#
+# Do not add these to the main pyproject.toml / uv.lock used by ./launch.sh.
+
+torch>=2.2.0
+transformers>=4.44.0
+accelerate>=0.33.0
+peft>=0.12.0
+bitsandbytes>=0.43.0
+datasets>=2.20.0
+trl>=0.9.0
+pyyaml>=6.0
+sentencepiece>=0.2.0
+protobuf>=4.25.0
