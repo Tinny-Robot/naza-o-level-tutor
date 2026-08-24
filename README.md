@@ -1,4 +1,4 @@
-# ADTC 2026 — Naza (Laptop LLM track)
+# ADTC 2026 - Naza (Laptop LLM track)
 
 Submission layout follows the official
 [ADTC 2026 submission template](https://github.com/Africa-Deep-Tech-Foundation/adtc-2026-submission-template).
@@ -11,10 +11,10 @@ Submit the public GitHub URL via [adtc-2026.devpost.com](https://adtc-2026.devpo
 Before submitting, confirm every item:
 
 - [ ] Repository is **public** on GitHub
-- [ ] `metadata.json` is fully filled — replace every `REPLACE_WITH_*` placeholder
+- [ ] `metadata.json` is fully filled - replace every `REPLACE_WITH_*` placeholder
 - [ ] `metadata.json` has exactly **2** `test_prompts`
 - [ ] `bash download_model.sh` downloads a valid **GGUF** into `model/`
-- [ ] `model/*.gguf` is gitignored — **do not** commit weights
+- [ ] `model/*.gguf` is gitignored - **do not** commit weights
 - [ ] `REPORT.md` is filled and factual
 - [ ] Model runs **offline** during inference (no network after download)
 - [ ] `finetune/` documents Hausa + curriculum fine-tuning (dataset, config, scripts)
@@ -61,7 +61,7 @@ Open [`metadata.json`](metadata.json) and set:
 
 ---
 
-# Naza — Offline O-Level RAG Tutor
+# Naza - Offline O-Level RAG Tutor
 
 Semantic retrieval and grounded tutoring over Nigerian O-Level study materials
 (English, Physics, Mathematics, Chemistry). Raw textbooks, syllabi and past
@@ -72,7 +72,7 @@ answered via a fully offline retrieve-then-generate (RAG) layer powered by
 at runtime.
 
 The project also includes **offline fine-tuning** on curriculum-aligned instruction
-data for **English and Hausa** tutoring — instruction pairs exported from
+data for **English and Hausa** tutoring - instruction pairs exported from
 `data/eval/qa.json`, LoRA/QLoRA config, and reproducible scripts under
 [`finetune/`](finetune/). RAG grounding keeps study answers tied to local syllabus
 materials at demo time.

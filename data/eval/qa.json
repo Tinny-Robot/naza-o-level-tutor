@@ -83,7 +83,7 @@
     "id": "chemistry-syllabus-040-b4709340",
     "question": "What is Theories of Acids and Bases?",
     "answer": "Arrhenius, Bronsted-Lowry, and Lewis.",
-    "explanation": "Theories of Acids and Bases — Arrhenius, Bronsted-Lowry, and Lewis.",
+    "explanation": "Theories of Acids and Bases - Arrhenius, Bronsted-Lowry, and Lewis.",
     "subject": "chemistry",
     "topic": "Acids, Bases & Salts",
     "expected_keywords": [
@@ -101,7 +101,7 @@
     "id": "chemistry-syllabus-041-8a38d508",
     "question": "What is Properties?",
     "answer": "pH scale, weak and strong acids/bases, neutralization.",
-    "explanation": "Properties — pH scale, weak and strong acids/bases, neutralization.",
+    "explanation": "Properties - pH scale, weak and strong acids/bases, neutralization.",
     "subject": "chemistry",
     "topic": "Acids, Bases & Salts",
     "expected_keywords": [
@@ -120,7 +120,7 @@
     "id": "chemistry-syllabus-042-10fdeec8",
     "question": "What is Salts?",
     "answer": "Classification (acid, basic, normal, double, complex), preparation methods, solubility rules. Qualitative analysis for cations ($Fe^{2+}$, $Fe^{3+}$, $Cu^{2+}$, $Al^{3+}$, $Zn^{2+}$, $Ca^{2+}$, $NH_4^+$) and anions ($CO_3^{2-}$, $SO_4^{2-}$, $Cl^-$, $NO_3^-$).",
-    "explanation": "Salts — Classification (acid, basic, normal, double, complex), preparation methods, solubility rules. Qualitative analysis for cations ($Fe^{2+}$, $Fe^{3+}$, $Cu^{2+}$, $Al^{3+}$, $Zn^{2+}$, $Ca^{2+}$, $NH_4^+$) and anions ($CO_3^{2-}$, $SO_4^{2-}$, $Cl^-$, $NO_3^-$).",
+    "explanation": "Salts - Classification (acid, basic, normal, double, complex), preparation methods, solubility rules. Qualitative analysis for cations ($Fe^{2+}$, $Fe^{3+}$, $Cu^{2+}$, $Al^{3+}$, $Zn^{2+}$, $Ca^{2+}$, $NH_4^+$) and anions ($CO_3^{2-}$, $SO_4^{2-}$, $Cl^-$, $NO_3^-$).",
     "subject": "chemistry",
     "topic": "Acids, Bases & Salts",
     "expected_keywords": [
@@ -140,7 +140,7 @@
     "id": "chemistry-textbook_1-016-f65b709c",
     "question": "What are Acids?",
     "answer": "substances which in aqueous solution produce hydrogen ions ($H^+$ or $H_3O^+$) as the only positive ions.",
-    "explanation": "Acids — substances which in aqueous solution produce hydrogen ions ($H^+$ or $H_3O^+$) as the only positive ions.",
+    "explanation": "Acids - substances which in aqueous solution produce hydrogen ions ($H^+$ or $H_3O^+$) as the only positive ions.",
     "subject": "chemistry",
     "topic": "Acids, Bases & Salts",
     "expected_keywords": [
@@ -160,7 +160,7 @@
     "id": "chemistry-textbook_1-017-a4f1c55e",
     "question": "What are Bases?",
     "answer": "metallic oxides or hydroxides which react with acids to form salt and water only.",
-    "explanation": "Bases — metallic oxides or hydroxides which react with acids to form salt and water only.",
+    "explanation": "Bases - metallic oxides or hydroxides which react with acids to form salt and water only.",
     "subject": "chemistry",
     "topic": "Acids, Bases & Salts",
     "expected_keywords": [
@@ -180,7 +180,7 @@
     "id": "chemistry-textbook_1-018-1e7c01c6",
     "question": "What is A salt?",
     "answer": "formed when the replaceable hydrogen ions of an acid are partially or completely replaced by a metal or ammonium ion.",
-    "explanation": "A salt — formed when the replaceable hydrogen ions of an acid are partially or completely replaced by a metal or ammonium ion.",
+    "explanation": "A salt - formed when the replaceable hydrogen ions of an acid are partially or completely replaced by a metal or ammonium ion.",
     "subject": "chemistry",
     "topic": "Acids, Bases & Salts",
     "expected_keywords": [
@@ -200,7 +200,7 @@
     "id": "chemistry-textbook_1-019-c1c9dec2",
     "question": "What is Neutralization?",
     "answer": "$\\text{Acid} + \\text{Base} \\rightarrow \\text{Salt} + \\text{Water}$.",
-    "explanation": "Neutralization — $\\text{Acid} + \\text{Base} \\rightarrow \\text{Salt} + \\text{Water}$.",
+    "explanation": "Neutralization - $\\text{Acid} + \\text{Base} \\rightarrow \\text{Salt} + \\text{Water}$.",
     "subject": "chemistry",
     "topic": "Acids, Bases & Salts",
     "expected_keywords": [
@@ -217,7 +217,7 @@
     "id": "chemistry-textbook_1-020-e56213ab",
     "question": "What is Volumetric Analysis (Titration)?",
     "answer": "Using the formula $\\frac{C_A V_A}{C_B V_B} = \\frac{n_A}{n_B}$ to find unknown concentrations.",
-    "explanation": "Volumetric Analysis (Titration) — Using the formula $\\frac{C_A V_A}{C_B V_B} = \\frac{n_A}{n_B}$ to find unknown concentrations.",
+    "explanation": "Volumetric Analysis (Titration) - Using the formula $\\frac{C_A V_A}{C_B V_B} = \\frac{n_A}{n_B}$ to find unknown concentrations.",
     "subject": "chemistry",
     "topic": "Acids, Bases & Salts",
     "expected_keywords": [
@@ -6902,7 +6902,7 @@
     "id": "chemistry-syllabus-044-109dc76c",
     "question": "What is Reactions?",
     "answer": "Combustion, substitution, addition, esterification, saponification, addition and condensation polymerisation.",
-    "explanation": "Reactions — Combustion, substitution, addition, esterification, saponification, addition and condensation polymerisation.",
+    "explanation": "Reactions - Combustion, substitution, addition, esterification, saponification, addition and condensation polymerisation.",
     "subject": "chemistry",
     "topic": "Organic Chemistry",
     "expected_keywords": [
@@ -6922,7 +6922,7 @@
     "id": "physics-syllabus-053-b5729fc6",
     "question": "What is Electrostatics?",
     "answer": "Coulomb's law, electric field, electric potential, capacitors and capacitance, combination of capacitors (series and parallel).",
-    "explanation": "Electrostatics — Coulomb's law, electric field, electric potential, capacitors and capacitance, combination of capacitors (series and parallel).",
+    "explanation": "Electrostatics - Coulomb's law, electric field, electric potential, capacitors and capacitance, combination of capacitors (series and parallel).",
     "subject": "physics",
     "topic": "Electricity & Magnetism",
     "expected_keywords": [
@@ -6942,7 +6942,7 @@
     "id": "chemistry-syllabus-047-fd01c6c4",
     "question": "What is Pollution?",
     "answer": "Air, water, and soil pollution. Greenhouse effect, acid rain, ozone layer depletion. Water treatment.",
-    "explanation": "Pollution — Air, water, and soil pollution. Greenhouse effect, acid rain, ozone layer depletion. Water treatment.",
+    "explanation": "Pollution - Air, water, and soil pollution. Greenhouse effect, acid rain, ozone layer depletion. Water treatment.",
     "subject": "chemistry",
     "topic": "Environmental Chemistry",
     "expected_keywords": [
@@ -6962,7 +6962,7 @@
     "id": "chemistry-syllabus-038-2cae4bef",
     "question": "What is Rates of Reaction?",
     "answer": "Definition, Collision theory, activation energy, catalyst. Factors affecting reaction rates (temperature, concentration, surface area, catalyst).",
-    "explanation": "Rates of Reaction — Definition, Collision theory, activation energy, catalyst. Factors affecting reaction rates (temperature, concentration, surface area, catalyst).",
+    "explanation": "Rates of Reaction - Definition, Collision theory, activation energy, catalyst. Factors affecting reaction rates (temperature, concentration, surface area, catalyst).",
     "subject": "chemistry",
     "topic": "Kinetics & Chemical Equilibrium",
     "expected_keywords": [
@@ -6982,7 +6982,7 @@
     "id": "chemistry-syllabus-039-68a5320c",
     "question": "What is Chemical Equilibrium?",
     "answer": "Reversible reactions, dynamic equilibrium, Le Chatelier's principle (effects of temperature, pressure, concentration).",
-    "explanation": "Chemical Equilibrium — Reversible reactions, dynamic equilibrium, Le Chatelier's principle (effects of temperature, pressure, concentration).",
+    "explanation": "Chemical Equilibrium - Reversible reactions, dynamic equilibrium, Le Chatelier's principle (effects of temperature, pressure, concentration).",
     "subject": "chemistry",
     "topic": "Kinetics & Chemical Equilibrium",
     "expected_keywords": [
@@ -7042,7 +7042,7 @@
     "id": "physics-syllabus-058-15d83f42",
     "question": "What is Structure of the Atom?",
     "answer": "Models of the atom, energy levels, emission spectra.",
-    "explanation": "Structure of the Atom — Models of the atom, energy levels, emission spectra.",
+    "explanation": "Structure of the Atom - Models of the atom, energy levels, emission spectra.",
     "subject": "physics",
     "topic": "Modern Physics & Radioactivity",
     "expected_keywords": [
@@ -7061,7 +7061,7 @@
     "id": "physics-syllabus-060-9cf23bd8",
     "question": "What is Semiconductors?",
     "answer": "Intrinsic and extrinsic semiconductors, p-n junction diode, rectifiers.",
-    "explanation": "Semiconductors — Intrinsic and extrinsic semiconductors, p-n junction diode, rectifiers.",
+    "explanation": "Semiconductors - Intrinsic and extrinsic semiconductors, p-n junction diode, rectifiers.",
     "subject": "physics",
     "topic": "Modern Physics & Radioactivity",
     "expected_keywords": [
@@ -7080,7 +7080,7 @@
     "id": "chemistry-syllabus-045-2b14e9d7",
     "question": "What is Non-metals?",
     "answer": "Preparation, properties, and uses of Hydrogen, Oxygen, Nitrogen, Carbon, Sulphur, Halogens.",
-    "explanation": "Non-metals — Preparation, properties, and uses of Hydrogen, Oxygen, Nitrogen, Carbon, Sulphur, Halogens.",
+    "explanation": "Non-metals - Preparation, properties, and uses of Hydrogen, Oxygen, Nitrogen, Carbon, Sulphur, Halogens.",
     "subject": "chemistry",
     "topic": "Metals & Non-metals",
     "expected_keywords": [
@@ -7100,7 +7100,7 @@
     "id": "chemistry-syllabus-046-e71d13f5",
     "question": "What is Metals?",
     "answer": "Extraction principles (Iron in blast furnace, Aluminium from bauxite, Copper). Alloys and their uses.",
-    "explanation": "Metals — Extraction principles (Iron in blast furnace, Aluminium from bauxite, Copper). Alloys and their uses.",
+    "explanation": "Metals - Extraction principles (Iron in blast furnace, Aluminium from bauxite, Copper). Alloys and their uses.",
     "subject": "chemistry",
     "topic": "Metals & Non-metals",
     "expected_keywords": [
@@ -7140,7 +7140,7 @@
     "id": "chemistry-textbook_2-021-48eb095b",
     "question": "What is Organic chemistry?",
     "answer": "the chemistry of carbon compounds.",
-    "explanation": "Organic chemistry — the chemistry of carbon compounds.",
+    "explanation": "Organic chemistry - the chemistry of carbon compounds.",
     "subject": "chemistry",
     "topic": "Organic Chemistry",
     "expected_keywords": [
@@ -7156,7 +7156,7 @@
     "id": "chemistry-textbook_2-022-adb759c5",
     "question": "What is Carbon?",
     "answer": "tetravalent, allowing it to form stable covalent chains.",
-    "explanation": "Carbon — tetravalent, allowing it to form stable covalent chains.",
+    "explanation": "Carbon - tetravalent, allowing it to form stable covalent chains.",
     "subject": "chemistry",
     "topic": "Periodic Table & Chemical Bonding",
     "expected_keywords": [
@@ -7175,7 +7175,7 @@
     "id": "chemistry-textbook_2-023-9286a942",
     "question": "What is Homologous Series?",
     "answer": "Alkanes ($C_nH_{2n+2}$), Alkenes ($C_nH_{2n}$), Alkynes ($C_nH_{2n-2}$), Alkanols ($C_nH_{2n+1}OH$), Alkanoic acids ($C_nH_{2n+1}COOH$).",
-    "explanation": "Homologous Series — Alkanes ($C_nH_{2n+2}$), Alkenes ($C_nH_{2n}$), Alkynes ($C_nH_{2n-2}$), Alkanols ($C_nH_{2n+1}OH$), Alkanoic acids ($C_nH_{2n+1}COOH$).",
+    "explanation": "Homologous Series - Alkanes ($C_nH_{2n+2}$), Alkenes ($C_nH_{2n}$), Alkynes ($C_nH_{2n-2}$), Alkanols ($C_nH_{2n+1}OH$), Alkanoic acids ($C_nH_{2n+1}COOH$).",
     "subject": "chemistry",
     "topic": "Organic Chemistry",
     "expected_keywords": [
@@ -7215,7 +7215,7 @@
     "id": "chemistry-textbook_reference-011-df5ec945",
     "question": "What are Organic compounds?",
     "answer": "named systematically using the IUPAC (International Union of Pure and Applied Chemistry) rules.",
-    "explanation": "Organic compounds — named systematically using the IUPAC (International Union of Pure and Applied Chemistry) rules.",
+    "explanation": "Organic compounds - named systematically using the IUPAC (International Union of Pure and Applied Chemistry) rules.",
     "subject": "chemistry",
     "topic": "Organic Chemistry",
     "expected_keywords": [
@@ -7272,7 +7272,7 @@
     "id": "chemistry-syllabus-030-6d90566a",
     "question": "What is Periodicity?",
     "answer": "Periodic trends in atomic radius, ionic radius, ionization energy, electron affinity, and electronegativity.",
-    "explanation": "Periodicity — Periodic trends in atomic radius, ionic radius, ionization energy, electron affinity, and electronegativity.",
+    "explanation": "Periodicity - Periodic trends in atomic radius, ionic radius, ionization energy, electron affinity, and electronegativity.",
     "subject": "chemistry",
     "topic": "Periodic Table & Chemical Bonding",
     "expected_keywords": [
@@ -7292,7 +7292,7 @@
     "id": "chemistry-syllabus-031-a3d04965",
     "question": "What is Chemical Bonding?",
     "answer": "Electrovalent (ionic), covalent, coordinate (dative), metallic bonding. Intermolecular forces: Van der Waals forces, dipole-dipole, and hydrogen bonding.",
-    "explanation": "Chemical Bonding — Electrovalent (ionic), covalent, coordinate (dative), metallic bonding. Intermolecular forces: Van der Waals forces, dipole-dipole, and hydrogen bonding.",
+    "explanation": "Chemical Bonding - Electrovalent (ionic), covalent, coordinate (dative), metallic bonding. Intermolecular forces: Van der Waals forces, dipole-dipole, and hydrogen bonding.",
     "subject": "chemistry",
     "topic": "Periodic Table & Chemical Bonding",
     "expected_keywords": [
@@ -7409,7 +7409,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-11240-4f388354",
     "question": "What is Electronegativity?",
     "answer": "the tendency of atoms to attract electrons.",
-    "explanation": "Electronegativity — the tendency of atoms to attract electrons.",
+    "explanation": "Electronegativity - the tendency of atoms to attract electrons.",
     "subject": "chemistry",
     "topic": "Periodic Table & Chemical Bonding",
     "expected_keywords": [
@@ -7427,7 +7427,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-11241-c30e88e4",
     "question": "What is A period?",
     "answer": "a horizontal row in the periodic table of the elements.",
-    "explanation": "A period — a horizontal row in the periodic table of the elements.",
+    "explanation": "A period - a horizontal row in the periodic table of the elements.",
     "subject": "chemistry",
     "topic": "Periodic Table & Chemical Bonding",
     "expected_keywords": [
@@ -7464,7 +7464,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-11343-57a32924",
     "question": "What are The chlorides?",
     "answer": "compounds with chlorine and the oxides are compounds with oxygen.",
-    "explanation": "The chlorides — compounds with chlorine and the oxides are compounds with oxygen.",
+    "explanation": "The chlorides - compounds with chlorine and the oxides are compounds with oxygen.",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -7542,7 +7542,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-11947-37f86078",
     "question": "What are Elements?",
     "answer": "arranged in periods and groups on the periodic table.",
-    "explanation": "Elements — arranged in periods and groups on the periodic table.",
+    "explanation": "Elements - arranged in periods and groups on the periodic table.",
     "subject": "chemistry",
     "topic": "Periodic Table & Chemical Bonding",
     "expected_keywords": [
@@ -7559,7 +7559,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-11948-50f92368",
     "question": "What are The elements?",
     "answer": "arranged according to increasing atomic number.",
-    "explanation": "The elements — arranged according to increasing atomic number.",
+    "explanation": "The elements - arranged according to increasing atomic number.",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -8089,7 +8089,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-22074-9578a0b8",
     "question": "What are C60, buckyballs)?",
     "answer": "all examples of covalent molecular structures.",
-    "explanation": "C60, buckyballs) — all examples of covalent molecular structures.",
+    "explanation": "C60, buckyballs) - all examples of covalent molecular structures.",
     "subject": "chemistry",
     "topic": "Periodic Table & Chemical Bonding",
     "expected_keywords": [
@@ -8192,7 +8192,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-22380-ee914d57",
     "question": "What are The atoms?",
     "answer": "represented by spheres.",
-    "explanation": "The atoms — represented by spheres.",
+    "explanation": "The atoms - represented by spheres.",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -8371,7 +8371,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-25390-80925edd",
     "question": "What is The equation?",
     "answer": "now balanced.",
-    "explanation": "The equation — now balanced.",
+    "explanation": "The equation - now balanced.",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -8406,7 +8406,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-25592-43a2a5f1",
     "question": "What are The reactants?",
     "answer": "zinc (Zn) and hydrochloric acid (HCl).",
-    "explanation": "The reactants — zinc (Zn) and hydrochloric acid (HCl).",
+    "explanation": "The reactants - zinc (Zn) and hydrochloric acid (HCl).",
     "subject": "chemistry",
     "topic": "Acids, Bases & Salts",
     "expected_keywords": [
@@ -8486,7 +8486,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-25896-290ff343",
     "question": "What is The arrow?",
     "answer": "used to show the direction of the reaction.",
-    "explanation": "The arrow — used to show the direction of the reaction.",
+    "explanation": "The arrow - used to show the direction of the reaction.",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -8586,7 +8586,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-3003-d6103971",
     "question": "What is Proportion?",
     "answer": "a way of describing relationships between values or between constants.",
-    "explanation": "Proportion — a way of describing relationships between values or between constants.",
+    "explanation": "Proportion - a way of describing relationships between values or between constants.",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -8839,7 +8839,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-7216-e93eee4c",
     "question": "What is Evaporation?",
     "answer": "the process of going from a liquid to a gas.",
-    "explanation": "Evaporation — the process of going from a liquid to a gas.",
+    "explanation": "Evaporation - the process of going from a liquid to a gas.",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -8857,7 +8857,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-7217-7b69dc8f",
     "question": "What is Condensation?",
     "answer": "the process of going from gas to liquid.",
-    "explanation": "Condensation — the process of going from gas to liquid.",
+    "explanation": "Condensation - the process of going from gas to liquid.",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -8875,7 +8875,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-7218-f19426bb",
     "question": "What is Sublimation?",
     "answer": "the process of going from a solid to a gas.",
-    "explanation": "Sublimation — the process of going from a solid to a gas.",
+    "explanation": "Sublimation - the process of going from a solid to a gas.",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -8893,7 +8893,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-7719-54aca245",
     "question": "What is The process?",
     "answer": "called evaporation.",
-    "explanation": "The process — called evaporation.",
+    "explanation": "The process - called evaporation.",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -8909,7 +8909,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-7920-367a2b14",
     "question": "What are Atoms?",
     "answer": "the basis of all the structures and organisms in the universe.",
-    "explanation": "Atoms — the basis of all the structures and organisms in the universe.",
+    "explanation": "Atoms - the basis of all the structures and organisms in the universe.",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -8928,7 +8928,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-8021-056bd38e",
     "question": "What is A model?",
     "answer": "a representation of a system in the real world.",
-    "explanation": "A model — a representation of a system in the real world.",
+    "explanation": "A model - a representation of a system in the real world.",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -8968,7 +8968,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-8423-02018a9a",
     "question": "What is An atom?",
     "answer": "therefore very very small.",
-    "explanation": "An atom — therefore very very small.",
+    "explanation": "An atom - therefore very very small.",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -8985,7 +8985,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-8724-d7e58786",
     "question": "What is The electron?",
     "answer": "a very tiny particle.",
-    "explanation": "The electron — a very tiny particle.",
+    "explanation": "The electron - a very tiny particle.",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -9040,7 +9040,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-8927-92037afc",
     "question": "What is An ion?",
     "answer": "a charged atom.",
-    "explanation": "An ion — a charged atom.",
+    "explanation": "An ion - a charged atom.",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -9056,7 +9056,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-9028-646bd4c9",
     "question": "What is Sodium?",
     "answer": "neutral, so it has the same number of electrons as protons.",
-    "explanation": "Sodium — neutral, so it has the same number of electrons as protons.",
+    "explanation": "Sodium - neutral, so it has the same number of electrons as protons.",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -9200,7 +9200,7 @@
     "id": "chemistry-physical_sciences_ss1_siyavula_learner-10422-8e882694",
     "question": "What is An octet?",
     "answer": "a set of 8, and the number of electrons in a full energy level is 8.",
-    "explanation": "An octet — a set of 8, and the number of electrons in a full energy level is 8.",
+    "explanation": "An octet - a set of 8, and the number of electrons in a full energy level is 8.",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -9340,7 +9340,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-30385-0d9af914",
     "question": "What is Resistance?",
     "answer": "a measure of \"how hard\" it is to \"push\" electricity through a circuit element.",
-    "explanation": "Resistance — a measure of \"how hard\" it is to \"push\" electricity through a circuit element.",
+    "explanation": "Resistance - a measure of \"how hard\" it is to \"push\" electricity through a circuit element.",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -9402,7 +9402,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-7510-5afaa133",
     "question": "What is If the copper?",
     "answer": "heated, the energy of the atoms increases.",
-    "explanation": "If the copper — heated, the energy of the atoms increases.",
+    "explanation": "If the copper - heated, the energy of the atoms increases.",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -9479,7 +9479,7 @@
     "id": "physics-textbook_reference-012-6f746c7a",
     "question": "What is Radioactivity?",
     "answer": "the spontaneous disintegration of unstable atomic nuclei with the emission of ionizing radiation ($lpha$-particles, $\beta$-particles, or $\\gamma$-rays).",
-    "explanation": "Radioactivity — the spontaneous disintegration of unstable atomic nuclei with the emission of ionizing radiation ($lpha$-particles, $\beta$-particles, or $\\gamma$-rays).",
+    "explanation": "Radioactivity - the spontaneous disintegration of unstable atomic nuclei with the emission of ionizing radiation ($lpha$-particles, $\beta$-particles, or $\\gamma$-rays).",
     "subject": "physics",
     "topic": "Modern Physics & Radioactivity",
     "expected_keywords": [
@@ -9615,7 +9615,7 @@
     "id": "chemistry-syllabus-043-3c92f6a1",
     "question": "What is Redox Processes?",
     "answer": "Oxidation state, oxidizing and reducing agents, balancing redox equations.",
-    "explanation": "Redox Processes — Oxidation state, oxidizing and reducing agents, balancing redox equations.",
+    "explanation": "Redox Processes - Oxidation state, oxidizing and reducing agents, balancing redox equations.",
     "subject": "chemistry",
     "topic": "Redox & Electrochemistry",
     "expected_keywords": [
@@ -9635,7 +9635,7 @@
     "id": "chemistry-textbook_reference-006-952d903e",
     "question": "What is Oxidation?",
     "answer": "defined as the loss of electrons or increase in oxidation number, while reduction is the gain of electrons or decrease in oxidation number.",
-    "explanation": "Oxidation — defined as the loss of electrons or increase in oxidation number, while reduction is the gain of electrons or decrease in oxidation number.",
+    "explanation": "Oxidation - defined as the loss of electrons or increase in oxidation number, while reduction is the gain of electrons or decrease in oxidation number.",
     "subject": "chemistry",
     "topic": "Redox & Electrochemistry",
     "expected_keywords": [
@@ -9655,7 +9655,7 @@
     "id": "chemistry-textbook_reference-007-295eb71b",
     "question": "What is An oxidizing agent accepts electrons and?",
     "answer": "reduced, while a reducing agent donates electrons and is oxidized.",
-    "explanation": "An oxidizing agent accepts electrons and — reduced, while a reducing agent donates electrons and is oxidized.",
+    "explanation": "An oxidizing agent accepts electrons and - reduced, while a reducing agent donates electrons and is oxidized.",
     "subject": "chemistry",
     "topic": "Redox & Electrochemistry",
     "expected_keywords": [
@@ -9675,7 +9675,7 @@
     "id": "chemistry-textbook_reference-008-7aaa059e",
     "question": "What is Electrolysis?",
     "answer": "the decomposition of an electrolyte by passing an electric current through it.",
-    "explanation": "Electrolysis — the decomposition of an electrolyte by passing an electric current through it.",
+    "explanation": "Electrolysis - the decomposition of an electrolyte by passing an electric current through it.",
     "subject": "chemistry",
     "topic": "Redox & Electrochemistry",
     "expected_keywords": [
@@ -9694,7 +9694,7 @@
     "id": "chemistry-textbook_reference-009-8dde61ad",
     "question": "What does Faraday's second law state?",
     "answer": "when the same quantity of electricity is passed through different electrolytes, the masses of the substances liberated are proportional to their chemical equivalents (molar mass divided by the charge of the ion).",
-    "explanation": "Faraday's second law state — when the same quantity of electricity is passed through different electrolytes, the masses of the substances liberated are proportional to their chemical equivalents (molar mass divided by the charge of the ion).",
+    "explanation": "Faraday's second law state - when the same quantity of electricity is passed through different electrolytes, the masses of the substances liberated are proportional to their chemical equivalents (molar mass divided by the charge of the ion).",
     "subject": "chemistry",
     "topic": "Redox & Electrochemistry",
     "expected_keywords": [
@@ -9714,7 +9714,7 @@
     "id": "chemistry-textbook_reference-010-b621e8b8",
     "question": "What is One Faraday ($1\\text{ F}$)?",
     "answer": "the charge of one mole of electrons, which is equal to approximately $96500\\text{ C}$.",
-    "explanation": "One Faraday ($1\\text{ F}$) — the charge of one mole of electrons, which is equal to approximately $96500\\text{ C}$.",
+    "explanation": "One Faraday ($1\\text{ F}$) - the charge of one mole of electrons, which is equal to approximately $96500\\text{ C}$.",
     "subject": "chemistry",
     "topic": "Redox & Electrochemistry",
     "expected_keywords": [
@@ -9734,7 +9734,7 @@
     "id": "chemistry-textbook_2-025-209364cb",
     "question": "What is Reduction?",
     "answer": "the gain of electrons or decrease in oxidation number.",
-    "explanation": "Reduction — the gain of electrons or decrease in oxidation number.",
+    "explanation": "Reduction - the gain of electrons or decrease in oxidation number.",
     "subject": "chemistry",
     "topic": "Redox & Electrochemistry",
     "expected_keywords": [
@@ -9752,7 +9752,7 @@
     "id": "chemistry-textbook_2-026-3fa4d614",
     "question": "What is Faraday's First Law of Electrolysis?",
     "answer": "$m = zIt$, where $m$ is mass deposited, $I$ is current, and $t$ is time. One Faraday ($96500\\text{ C}$) is the charge of one mole of electrons.",
-    "explanation": "Faraday's First Law of Electrolysis — $m = zIt$, where $m$ is mass deposited, $I$ is current, and $t$ is time. One Faraday ($96500\\text{ C}$) is the charge of one mole of electrons.",
+    "explanation": "Faraday's First Law of Electrolysis - $m = zIt$, where $m$ is mass deposited, $I$ is current, and $t$ is time. One Faraday ($96500\\text{ C}$) is the charge of one mole of electrons.",
     "subject": "chemistry",
     "topic": "Redox & Electrochemistry",
     "expected_keywords": [
@@ -9792,7 +9792,7 @@
     "id": "chemistry-syllabus-036-10a147f4",
     "question": "What is Kinetic Molecular Theory?",
     "answer": "Explaining gases, liquids, and solids.",
-    "explanation": "Kinetic Molecular Theory — Explaining gases, liquids, and solids.",
+    "explanation": "Kinetic Molecular Theory - Explaining gases, liquids, and solids.",
     "subject": "chemistry",
     "topic": "States of Matter",
     "expected_keywords": [
@@ -9871,7 +9871,7 @@
     "id": "chemistry-syllabus-032-8ab4a9b8",
     "question": "What is Mole Concept?",
     "answer": "Avogadro's number, molar mass, molar volume of gases (22.4 dm³ at s.t.p.).",
-    "explanation": "Mole Concept — Avogadro's number, molar mass, molar volume of gases (22.4 dm³ at s.t.p.).",
+    "explanation": "Mole Concept - Avogadro's number, molar mass, molar volume of gases (22.4 dm³ at s.t.p.).",
     "subject": "chemistry",
     "topic": "Stoichiometry & Chemical Equations",
     "expected_keywords": [
@@ -9891,7 +9891,7 @@
     "id": "chemistry-syllabus-033-de36e1ba",
     "question": "What is Avogadro's number, molar mass, molar volume of gases?",
     "answer": "22.4 dm³ at s.t.p.",
-    "explanation": "Avogadro's number, molar mass, molar volume of gases — 22.4 dm³ at s.t.p.",
+    "explanation": "Avogadro's number, molar mass, molar volume of gases - 22.4 dm³ at s.t.p.",
     "subject": "chemistry",
     "topic": "Stoichiometry & Chemical Equations",
     "expected_keywords": [
@@ -9909,7 +9909,7 @@
     "id": "chemistry-syllabus-034-cf4cb0a3",
     "question": "What is Formulas?",
     "answer": "Empirical and molecular formulas.",
-    "explanation": "Formulas — Empirical and molecular formulas.",
+    "explanation": "Formulas - Empirical and molecular formulas.",
     "subject": "chemistry",
     "topic": "Stoichiometry & Chemical Equations",
     "expected_keywords": [
@@ -9924,7 +9924,7 @@
     "id": "chemistry-syllabus-035-8a9fb23d",
     "question": "What is Chemical Equations?",
     "answer": "Writing and balancing chemical and net ionic equations. Calculation of masses, moles, and gas volumes involved in chemical reactions.",
-    "explanation": "Chemical Equations — Writing and balancing chemical and net ionic equations. Calculation of masses, moles, and gas volumes involved in chemical reactions.",
+    "explanation": "Chemical Equations - Writing and balancing chemical and net ionic equations. Calculation of masses, moles, and gas volumes involved in chemical reactions.",
     "subject": "chemistry",
     "topic": "Stoichiometry & Chemical Equations",
     "expected_keywords": [
@@ -9944,7 +9944,7 @@
     "id": "chemistry-textbook_1-014-cca74b8d",
     "question": "What is the formula for concentration in mol/dm³?",
     "answer": "$C = \\frac{n}{V}$.",
-    "explanation": "The formula for concentration in mol/dm³ — $C = \\frac{n}{V}$.",
+    "explanation": "The formula for concentration in mol/dm³ - $C = \\frac{n}{V}$.",
     "subject": "chemistry",
     "topic": "Stoichiometry & Chemical Equations",
     "expected_keywords": [
@@ -9959,7 +9959,7 @@
     "id": "chemistry-textbook_1-015-c8593685",
     "question": "What is Empirical formula?",
     "answer": "the simplest whole-number ratio of atoms in a compound, while molecular formula shows the actual numbers of atoms.",
-    "explanation": "Empirical formula — the simplest whole-number ratio of atoms in a compound, while molecular formula shows the actual numbers of atoms.",
+    "explanation": "Empirical formula - the simplest whole-number ratio of atoms in a compound, while molecular formula shows the actual numbers of atoms.",
     "subject": "chemistry",
     "topic": "Stoichiometry & Chemical Equations",
     "expected_keywords": [
@@ -9979,7 +9979,7 @@
     "id": "chemistry-textbook_reference-000-5f246dc3",
     "question": "What is the mole?",
     "answer": "the SI unit for the amount of substance.",
-    "explanation": "The mole — the SI unit for the amount of substance.",
+    "explanation": "The mole - the SI unit for the amount of substance.",
     "subject": "chemistry",
     "topic": "Stoichiometry & Chemical Equations",
     "expected_keywords": [
@@ -10015,7 +10015,7 @@
     "id": "chemistry-textbook_reference-002-9baa6428",
     "question": "What is the number of moles ($n$)?",
     "answer": "related to mass ($m$) and molar mass ($M$) by $n = \\frac{m}{M}$.",
-    "explanation": "The number of moles ($n$) — related to mass ($m$) and molar mass ($M$) by $n = \\frac{m}{M}$.",
+    "explanation": "The number of moles ($n$) - related to mass ($m$) and molar mass ($M$) by $n = \\frac{m}{M}$.",
     "subject": "chemistry",
     "topic": "Stoichiometry & Chemical Equations",
     "expected_keywords": [
@@ -10032,7 +10032,7 @@
     "id": "chemistry-textbook_reference-003-156fae77",
     "question": "What is For solutions, concentration in mol/dm³ ($C$)?",
     "answer": "given by $C = \\frac{n}{V}$, where $V$ is volume in dm³.",
-    "explanation": "For solutions, concentration in mol/dm³ ($C$) — given by $C = \\frac{n}{V}$, where $V$ is volume in dm³.",
+    "explanation": "For solutions, concentration in mol/dm³ ($C$) - given by $C = \\frac{n}{V}$, where $V$ is volume in dm³.",
     "subject": "chemistry",
     "topic": "Stoichiometry & Chemical Equations",
     "expected_keywords": [
@@ -10069,7 +10069,7 @@
     "id": "chemistry-textbook_reference-005-b626d29f",
     "question": "What are The two?",
     "answer": "related by: Molecular Formula = (Empirical Formula)$_n$, where $n = \\frac{\\text{Molar Mass of Compound}}{\\text{Empirical Formula Mass}}$.",
-    "explanation": "The two — related by: Molecular Formula = (Empirical Formula)$_n$, where $n = \\frac{\\text{Molar Mass of Compound}}{\\text{Empirical Formula Mass}}$.",
+    "explanation": "The two - related by: Molecular Formula = (Empirical Formula)$_n$, where $n = \\frac{\\text{Molar Mass of Compound}}{\\text{Empirical Formula Mass}}$.",
     "subject": "chemistry",
     "topic": "Stoichiometry & Chemical Equations",
     "expected_keywords": [
@@ -10201,7 +10201,7 @@
     "id": "chemistry-syllabus-027-77f79d66",
     "question": "What is Subatomic Particles?",
     "answer": "Proton, neutron, electron, their relative masses and charges.",
-    "explanation": "Subatomic Particles — Proton, neutron, electron, their relative masses and charges.",
+    "explanation": "Subatomic Particles - Proton, neutron, electron, their relative masses and charges.",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -10239,7 +10239,7 @@
     "id": "chemistry-syllabus-029-3085d1bb",
     "question": "What is Electronic Configuration?",
     "answer": "Aufbau principle, Hund's rule, Pauli exclusion principle. Shapes of s and p orbitals.",
-    "explanation": "Electronic Configuration — Aufbau principle, Hund's rule, Pauli exclusion principle. Shapes of s and p orbitals.",
+    "explanation": "Electronic Configuration - Aufbau principle, Hund's rule, Pauli exclusion principle. Shapes of s and p orbitals.",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -10279,7 +10279,7 @@
     "id": "physics-syllabus-043-cec50d89",
     "question": "What is Thermal Expansion?",
     "answer": "Linear, area, and volume expansivity of solids and liquids, anomalous expansion of water.",
-    "explanation": "Thermal Expansion — Linear, area, and volume expansivity of solids and liquids, anomalous expansion of water.",
+    "explanation": "Thermal Expansion - Linear, area, and volume expansivity of solids and liquids, anomalous expansion of water.",
     "subject": "physics",
     "topic": "Thermal Physics",
     "expected_keywords": [
@@ -10299,7 +10299,7 @@
     "id": "physics-syllabus-044-d30112f8",
     "question": "What is Gas Laws?",
     "answer": "Boyle's law, Charles's law, Pressure law, ideal gas equation ($PV = nRT$).",
-    "explanation": "Gas Laws — Boyle's law, Charles's law, Pressure law, ideal gas equation ($PV = nRT$).",
+    "explanation": "Gas Laws - Boyle's law, Charles's law, Pressure law, ideal gas equation ($PV = nRT$).",
     "subject": "physics",
     "topic": "Thermal Physics",
     "expected_keywords": [
@@ -10319,7 +10319,7 @@
     "id": "physics-syllabus-046-8bde9a82",
     "question": "What is Heat Capacity?",
     "answer": "Specific heat capacity, determination by mixture method and electrical method, latent heat of fusion and vaporization.",
-    "explanation": "Heat Capacity — Specific heat capacity, determination by mixture method and electrical method, latent heat of fusion and vaporization.",
+    "explanation": "Heat Capacity - Specific heat capacity, determination by mixture method and electrical method, latent heat of fusion and vaporization.",
     "subject": "physics",
     "topic": "Thermal Physics",
     "expected_keywords": [
@@ -10339,7 +10339,7 @@
     "id": "physics-syllabus-050-0d04d15a",
     "question": "What is Reflection of Light?",
     "answer": "Reflection at plane surfaces, spherical mirrors (concave and convex), mirror formula, magnification.",
-    "explanation": "Reflection of Light — Reflection at plane surfaces, spherical mirrors (concave and convex), mirror formula, magnification.",
+    "explanation": "Reflection of Light - Reflection at plane surfaces, spherical mirrors (concave and convex), mirror formula, magnification.",
     "subject": "physics",
     "topic": "Waves & Optics",
     "expected_keywords": [
@@ -10359,7 +10359,7 @@
     "id": "physics-syllabus-051-0d643bd9",
     "question": "What is Refraction of Light?",
     "answer": "Refractive index, Snell's law, critical angle, total internal reflection, prisms, lenses (thin converging and diverging lenses), lens formula, defects of lenses.",
-    "explanation": "Refraction of Light — Refractive index, Snell's law, critical angle, total internal reflection, prisms, lenses (thin converging and diverging lenses), lens formula, defects of lenses.",
+    "explanation": "Refraction of Light - Refractive index, Snell's law, critical angle, total internal reflection, prisms, lenses (thin converging and diverging lenses), lens formula, defects of lenses.",
     "subject": "physics",
     "topic": "Waves & Optics",
     "expected_keywords": [
@@ -10379,7 +10379,7 @@
     "id": "physics-syllabus-052-fd5856a2",
     "question": "What is Optical Instruments?",
     "answer": "Camera, simple and compound microscopes, astronomical telescope, human eye (defects and corrections).",
-    "explanation": "Optical Instruments — Camera, simple and compound microscopes, astronomical telescope, human eye (defects and corrections).",
+    "explanation": "Optical Instruments - Camera, simple and compound microscopes, astronomical telescope, human eye (defects and corrections).",
     "subject": "physics",
     "topic": "Waves & Optics",
     "expected_keywords": [
@@ -10420,7 +10420,7 @@
     "id": "english-jeff101-1105-75e7161e",
     "question": "What is So this word?",
     "answer": "used to describe the central area of a city.",
-    "explanation": "So this word — used to describe the central area of a city.",
+    "explanation": "So this word - used to describe the central area of a city.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -10457,7 +10457,7 @@
     "id": "english-jeff101-1307-4af9852f",
     "question": "What are How?",
     "answer": "you? I’m sorry I haven’t written for a very long time.",
-    "explanation": "How — you? I’m sorry I haven’t written for a very long time.",
+    "explanation": "How - you? I’m sorry I haven’t written for a very long time.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -10520,7 +10520,7 @@
     "id": "english-jeff101-800-6bac2020",
     "question": "What are Hailstones’?",
     "answer": "small balls of ice that fall like rain.",
-    "explanation": "Hailstones’ — small balls of ice that fall like rain.",
+    "explanation": "Hailstones’ - small balls of ice that fall like rain.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -10540,7 +10540,7 @@
     "id": "english-jeff101-901-8068d0b1",
     "question": "What is Mumbai?",
     "answer": "the commercial capital of India.",
-    "explanation": "Mumbai — the commercial capital of India.",
+    "explanation": "Mumbai - the commercial capital of India.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -10557,7 +10557,7 @@
     "id": "english-jeff101-902-3bb21847",
     "question": "What is My mother?",
     "answer": "going to host a TV show on cooking.",
-    "explanation": "My mother — going to host a TV show on cooking.",
+    "explanation": "My mother - going to host a TV show on cooking.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -10574,7 +10574,7 @@
     "id": "english-jeff102-1013-b719d1f6",
     "question": "What are Here?",
     "answer": "some more examples of ‘the’ used with proper names.",
-    "explanation": "Here — some more examples of ‘the’ used with proper names.",
+    "explanation": "Here - some more examples of ‘the’ used with proper names.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -10615,7 +10615,7 @@
     "id": "english-jeff102-1215-686dc1b4",
     "question": "What are Given below?",
     "answer": "sentences carrying one part of the contrast.",
-    "explanation": "Given below — sentences carrying one part of the contrast.",
+    "explanation": "Given below - sentences carrying one part of the contrast.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -10633,7 +10633,7 @@
     "id": "english-jeff102-210-b7f89d47",
     "question": "What are In Column A?",
     "answer": "some expressions you will find in the text.",
-    "explanation": "In Column A — some expressions you will find in the text.",
+    "explanation": "In Column A - some expressions you will find in the text.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -10674,7 +10674,7 @@
     "id": "english-jeff103-1023-6838429d",
     "question": "What are Children?",
     "answer": "flying kites.",
-    "explanation": "Children — flying kites.",
+    "explanation": "Children - flying kites.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -10708,7 +10708,7 @@
     "id": "english-jeff103-118-7fe6100c",
     "question": "What is A pilot?",
     "answer": "lost in storm clouds.",
-    "explanation": "A pilot — lost in storm clouds.",
+    "explanation": "A pilot - lost in storm clouds.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -10881,7 +10881,7 @@
     "id": "english-jeff104-1133-d5b5c32c",
     "question": "What is Here?",
     "answer": "an extract adapted from a one-act play.",
-    "explanation": "Here — an extract adapted from a one-act play.",
+    "explanation": "Here - an extract adapted from a one-act play.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -10899,7 +10899,7 @@
     "id": "english-jeff104-1134-ce98caaa",
     "question": "What is The door?",
     "answer": "flung open, and several men tramp in.",
-    "explanation": "The door — flung open, and several men tramp in.",
+    "explanation": "The door - flung open, and several men tramp in.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -10918,7 +10918,7 @@
     "id": "english-jeff104-1235-141baa85",
     "question": "What is Neighbours, he?",
     "answer": "a sick man and almost a cripple.",
-    "explanation": "Neighbours, he — a sick man and almost a cripple.",
+    "explanation": "Neighbours, he - a sick man and almost a cripple.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -10996,7 +10996,7 @@
     "id": "english-jeff104-1439-bfdd6607",
     "question": "What is The silence?",
     "answer": "golden, the freedom is sweet.",
-    "explanation": "The silence — golden, the freedom is sweet.",
+    "explanation": "The silence - golden, the freedom is sweet.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -11070,7 +11070,7 @@
     "id": "english-jeff104-830-dd96433b",
     "question": "What is Its meaning?",
     "answer": "often different from the meanings of its parts.",
-    "explanation": "Its meaning — often different from the meanings of its parts.",
+    "explanation": "Its meaning - often different from the meanings of its parts.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -11110,7 +11110,7 @@
     "id": "english-jeff105-1149-9715dc84",
     "question": "What is Oh, this?",
     "answer": "tea country now,” he said.",
-    "explanation": "Oh, this — tea country now,” he said.",
+    "explanation": "Oh, this - tea country now,” he said.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -11127,7 +11127,7 @@
     "id": "english-jeff105-1350-a8bbf1a5",
     "question": "What is Chess?",
     "answer": "an interesting game.",
-    "explanation": "Chess — an interesting game.",
+    "explanation": "Chess - an interesting game.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -11205,7 +11205,7 @@
     "id": "english-jeff105-642-5a0d29c2",
     "question": "What is Coorg?",
     "answer": "coffee country, famous for its rainforests and spices.",
-    "explanation": "Coorg — coffee country, famous for its rainforests and spices.",
+    "explanation": "Coorg - coffee country, famous for its rainforests and spices.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -11284,7 +11284,7 @@
     "id": "english-jeff105-846-4d5ab704",
     "question": "What are By Road: There?",
     "answer": "two routes to Coorg from Bangalore.",
-    "explanation": "By Road: There — two routes to Coorg from Bangalore.",
+    "explanation": "By Road: There - two routes to Coorg from Bangalore.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -11320,7 +11320,7 @@
     "id": "english-jeff106-1055-b5f362ba",
     "question": "What is Mij?",
     "answer": "a very ordinary otter.",
-    "explanation": "Mij — a very ordinary otter.",
+    "explanation": "Mij - a very ordinary otter.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -11357,7 +11357,7 @@
     "id": "english-jeff106-1457-2c6db37b",
     "question": "What is The first?",
     "answer": "done for you.",
-    "explanation": "The first — done for you.",
+    "explanation": "The first - done for you.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -11373,7 +11373,7 @@
     "id": "english-jeff106-252-d0489701",
     "question": "What are Otters?",
     "answer": "found in large numbers in the marshes (i.",
-    "explanation": "Otters — found in large numbers in the marshes (i.",
+    "explanation": "Otters - found in large numbers in the marshes (i.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -11391,7 +11391,7 @@
     "id": "english-jeff106-253-afa65e15",
     "question": "What is February?",
     "answer": "the driest month.",
-    "explanation": "February — the driest month.",
+    "explanation": "February - the driest month.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -11407,7 +11407,7 @@
     "id": "english-jeff106-254-8b3c6cb6",
     "question": "What is Snow?",
     "answer": "not very common in London.",
-    "explanation": "Snow — not very common in London.",
+    "explanation": "Snow - not very common in London.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -11469,7 +11469,7 @@
     "id": "english-jeff107-1763-da5e4bef",
     "question": "What are Who?",
     "answer": "the characters in this poem? List them with their pet names.",
-    "explanation": "Who — the characters in this poem? List them with their pet names.",
+    "explanation": "Who - the characters in this poem? List them with their pet names.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -11605,7 +11605,7 @@
     "id": "english-jeff109-1171-7b1d38e0",
     "question": "What are My eyebrows?",
     "answer": "both twitching.",
-    "explanation": "My eyebrows — both twitching.",
+    "explanation": "My eyebrows - both twitching.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -11621,7 +11621,7 @@
     "id": "english-jeff109-1172-bcd1ef07",
     "question": "What are The Meadows?",
     "answer": "yours, yes, yours.",
-    "explanation": "The Meadows — yours, yes, yours.",
+    "explanation": "The Meadows - yours, yes, yours.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -11680,7 +11680,7 @@
     "id": "english-jeff109-1375-069607ee",
     "question": "What is My heart?",
     "answer": "going to pieces.",
-    "explanation": "My heart — going to pieces.",
+    "explanation": "My heart - going to pieces.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -11696,7 +11696,7 @@
     "id": "english-jeff109-1476-650ed09d",
     "question": "What is Where?",
     "answer": "my shoulder? I die.",
-    "explanation": "Where — my shoulder? I die.",
+    "explanation": "Where - my shoulder? I die.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -11883,7 +11883,7 @@
     "id": "english-jefp102-385-16fcf6de",
     "question": "What is And that?",
     "answer": "why it was so difficult to rob him.",
-    "explanation": "And that — why it was so difficult to rob him.",
+    "explanation": "And that - why it was so difficult to rob him.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -11899,7 +11899,7 @@
     "id": "english-jefp103-186-1599ad7f",
     "question": "What are You?",
     "answer": "disappointed,” Ausable said wheezily over his shoulder.",
-    "explanation": "You — disappointed,” Ausable said wheezily over his shoulder.",
+    "explanation": "You - disappointed,” Ausable said wheezily over his shoulder.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -11957,7 +11957,7 @@
     "id": "english-jefp104-589-ca87e8d5",
     "question": "What is Horace?",
     "answer": "now the assistant librarian in the prison.",
-    "explanation": "Horace — now the assistant librarian in the prison.",
+    "explanation": "Horace - now the assistant librarian in the prison.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -11975,7 +11975,7 @@
     "id": "english-jefp105-390-5c976f6c",
     "question": "What is Iping?",
     "answer": "a desire for solitude.",
-    "explanation": "Iping — a desire for solitude.",
+    "explanation": "Iping - a desire for solitude.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12028,7 +12028,7 @@
     "id": "english-jefp107-193-9a9b4740",
     "question": "What is Here,” he said, “here?",
     "answer": "something for you.",
-    "explanation": "Here,” he said, “here — something for you.",
+    "explanation": "Here,” he said, “here - something for you.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12045,7 +12045,7 @@
     "id": "english-jefp107-194-e15b4010",
     "question": "What is Matilda?",
     "answer": "invited to a grand party.",
-    "explanation": "Matilda — invited to a grand party.",
+    "explanation": "Matilda - invited to a grand party.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12062,7 +12062,7 @@
     "id": "english-jefp107-796-1579d678",
     "question": "What is But it?",
     "answer": "finished and I am decently content.",
-    "explanation": "But it — finished and I am decently content.",
+    "explanation": "But it - finished and I am decently content.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12079,7 +12079,7 @@
     "id": "english-jefp107-897-a5486c10",
     "question": "What is Honesty?",
     "answer": "the best policy.",
-    "explanation": "Honesty — the best policy.",
+    "explanation": "Honesty - the best policy.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12154,7 +12154,7 @@
     "id": "english-jefp108-701-f60b0a34",
     "question": "What are So what? You?",
     "answer": "not young either.",
-    "explanation": "So what? You — not young either.",
+    "explanation": "So what? You - not young either.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12171,7 +12171,7 @@
     "id": "english-jefp108-902-d61251dd",
     "question": "What are Bholi,?",
     "answer": "you crazy?” shouted Ramlal.",
-    "explanation": "Bholi, — you crazy?” shouted Ramlal.",
+    "explanation": "Bholi, - you crazy?” shouted Ramlal.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12189,7 +12189,7 @@
     "id": "english-jefp109-1006-390a4dd6",
     "question": "What is Stop! This?",
     "answer": "no time for levity.",
-    "explanation": "Stop! This — no time for levity.",
+    "explanation": "Stop! This - no time for levity.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12227,7 +12227,7 @@
     "id": "english-jefp109-1408-eb05b9c4",
     "question": "What is Our DNA?",
     "answer": "inherited from our parents.",
-    "explanation": "Our DNA — inherited from our parents.",
+    "explanation": "Our DNA - inherited from our parents.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12264,7 +12264,7 @@
     "id": "english-jefp109-605-d0c7a1fa",
     "question": "What are Sandwiches?",
     "answer": "the main staple of Earth diet.",
-    "explanation": "Sandwiches — the main staple of Earth diet.",
+    "explanation": "Sandwiches - the main staple of Earth diet.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12321,7 +12321,7 @@
     "id": "english-jewe201-1212-71000b7b",
     "question": "What is God’,?",
     "answer": "naive and simple.",
-    "explanation": "God’, — naive and simple.",
+    "explanation": "God’, - naive and simple.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12356,7 +12356,7 @@
     "id": "english-jewe203-1317-24df1c13",
     "question": "What are Rules?",
     "answer": "meant to be observed in spirit not only in letter’.",
-    "explanation": "Rules — meant to be observed in spirit not only in letter’.",
+    "explanation": "Rules - meant to be observed in spirit not only in letter’.",
     "subject": "english",
     "topic": "Composition & Essay Writing",
     "expected_keywords": [
@@ -12376,7 +12376,7 @@
     "id": "english-jewe203-415-17e97894",
     "question": "What is The story?",
     "answer": "written by A.",
-    "explanation": "The story — written by A.",
+    "explanation": "The story - written by A.",
     "subject": "english",
     "topic": "Comprehension & Summary",
     "expected_keywords": [
@@ -12449,7 +12449,7 @@
     "id": "english-jewe206-320-e9b51bea",
     "question": "What is Mijbil?",
     "answer": "an active animal who shows many emotions.",
-    "explanation": "Mijbil — an active animal who shows many emotions.",
+    "explanation": "Mijbil - an active animal who shows many emotions.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12508,7 +12508,7 @@
     "id": "english-jewe207-923-98c0d1a1",
     "question": "What is Following?",
     "answer": "a passage on Mizoram and its people.",
-    "explanation": "Following — a passage on Mizoram and its people.",
+    "explanation": "Following - a passage on Mizoram and its people.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12524,7 +12524,7 @@
     "id": "english-jewe208-224-1e425063",
     "question": "What is Death?",
     "answer": "nothing at all.",
-    "explanation": "Death — nothing at all.",
+    "explanation": "Death - nothing at all.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12558,7 +12558,7 @@
     "id": "english-jewe208-326-f2eccfc0",
     "question": "What is Nothing?",
     "answer": "hurt; nothing is lost.",
-    "explanation": "Nothing — hurt; nothing is lost.",
+    "explanation": "Nothing - hurt; nothing is lost.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12574,7 +12574,7 @@
     "id": "english-jewe208-627-8a3feb50",
     "question": "What is And?",
     "answer": "the poor man dead?” he cried.",
-    "explanation": "And — the poor man dead?” he cried.",
+    "explanation": "And - the poor man dead?” he cried.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12669,7 +12669,7 @@
     "id": "english-jewe2ps-1140-361d52ed",
     "question": "What is Gratitude?",
     "answer": "expressed to the Publication Division, NCERT, for their support.",
-    "explanation": "Gratitude — expressed to the Publication Division, NCERT, for their support.",
+    "explanation": "Gratitude - expressed to the Publication Division, NCERT, for their support.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12765,7 +12765,7 @@
     "id": "english-jewe2ps-936-419d8a78",
     "question": "What is The workbook?",
     "answer": "a self-study material for the students.",
-    "explanation": "The workbook — a self-study material for the students.",
+    "explanation": "The workbook - a self-study material for the students.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12782,7 +12782,7 @@
     "id": "english-jewe2ps-937-2ff6d6f8",
     "question": "What are The learners?",
     "answer": "encouraged to use the dictionary as often as required.",
-    "explanation": "The learners — encouraged to use the dictionary as often as required.",
+    "explanation": "The learners - encouraged to use the dictionary as often as required.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12800,7 +12800,7 @@
     "id": "english-jewe2ps-938-1ed87893",
     "question": "What is The intention?",
     "answer": "to help them learn new words and their usages in different contexts.",
-    "explanation": "The intention — to help them learn new words and their usages in different contexts.",
+    "explanation": "The intention - to help them learn new words and their usages in different contexts.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12839,7 +12839,7 @@
     "id": "english-kehb101-1242-86375eaf",
     "question": "What is What?",
     "answer": "the meaning of the line “Both wry with the laboured ease of loss.",
-    "explanation": "What — the meaning of the line “Both wry with the laboured ease of loss.",
+    "explanation": "What - the meaning of the line “Both wry with the laboured ease of loss.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12859,7 +12859,7 @@
     "id": "english-kehb102-343-c2938ef1",
     "question": "What are The decks?",
     "answer": "smashed; we’re full of water.",
-    "explanation": "The decks — smashed; we’re full of water.",
+    "explanation": "The decks - smashed; we’re full of water.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12876,7 +12876,7 @@
     "id": "english-kehb102-644-973982d0",
     "question": "What is So this card?",
     "answer": "to say thank you and let’s hope for the best.",
-    "explanation": "So this card — to say thank you and let’s hope for the best.",
+    "explanation": "So this card - to say thank you and let’s hope for the best.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12896,7 +12896,7 @@
     "id": "english-kehb102-745-432f0e74",
     "question": "What is Catamaran’?",
     "answer": "a kind of a boat.",
-    "explanation": "Catamaran’ — a kind of a boat.",
+    "explanation": "Catamaran’ - a kind of a boat.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -12931,7 +12931,7 @@
     "id": "english-kehb103-1249-0f945dd4",
     "question": "What is What laburnum?",
     "answer": "called in your language.",
-    "explanation": "What laburnum — called in your language.",
+    "explanation": "What laburnum - called in your language.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -13028,7 +13028,7 @@
     "id": "english-textbook_2-013-5f520afe",
     "question": "What is Narrative Essay?",
     "answer": "Telling stories with chronological order, sensory details, and clear climaxes.",
-    "explanation": "Narrative Essay — Telling stories with chronological order, sensory details, and clear climaxes.",
+    "explanation": "Narrative Essay - Telling stories with chronological order, sensory details, and clear climaxes.",
     "subject": "english",
     "topic": "Composition & Essay Writing",
     "expected_keywords": [
@@ -13048,7 +13048,7 @@
     "id": "english-textbook_2-014-c6510c47",
     "question": "What is Descriptive Essay?",
     "answer": "Creating vivid mental pictures of people, places, or events.",
-    "explanation": "Descriptive Essay — Creating vivid mental pictures of people, places, or events.",
+    "explanation": "Descriptive Essay - Creating vivid mental pictures of people, places, or events.",
     "subject": "english",
     "topic": "Composition & Essay Writing",
     "expected_keywords": [
@@ -13068,7 +13068,7 @@
     "id": "english-textbook_2-015-2338bd87",
     "question": "What is Argumentative Essay / Debate?",
     "answer": "Presenting balanced arguments, refuting opposing points.",
-    "explanation": "Argumentative Essay / Debate — Presenting balanced arguments, refuting opposing points.",
+    "explanation": "Argumentative Essay / Debate - Presenting balanced arguments, refuting opposing points.",
     "subject": "english",
     "topic": "Composition & Essay Writing",
     "expected_keywords": [
@@ -13088,7 +13088,7 @@
     "id": "english-textbook_2-016-7218e1e8",
     "question": "What is Letters?",
     "answer": "Formal, informal, and semi-formal letters. Formal letters require two addresses (writer's and recipient's), a formal date, formal salutation, a bold capitalized title, a formal body, and a formal closing ('Yours faithfully' followed by signature and full name).",
-    "explanation": "Letters — Formal, informal, and semi-formal letters. Formal letters require two addresses (writer's and recipient's), a formal date, formal salutation, a bold capitalized title, a formal body, and a formal closing ('Yours faithfully' followed by signature and full name).",
+    "explanation": "Letters - Formal, informal, and semi-formal letters. Formal letters require two addresses (writer's and recipient's), a formal date, formal salutation, a bold capitalized title, a formal body, and a formal closing ('Yours faithfully' followed by signature and full name).",
     "subject": "english",
     "topic": "Composition & Essay Writing",
     "expected_keywords": [
@@ -13429,7 +13429,7 @@
     "id": "english-syllabus-030-767a183e",
     "question": "What is Speech Writing?",
     "answer": "Addressing specific audiences (e.g., principal, students) using appropriate salutations, rhetorical questions, and call to action.",
-    "explanation": "Speech Writing — Addressing specific audiences (e.g., principal, students) using appropriate salutations, rhetorical questions, and call to action.",
+    "explanation": "Speech Writing - Addressing specific audiences (e.g., principal, students) using appropriate salutations, rhetorical questions, and call to action.",
     "subject": "english",
     "topic": "Composition & Essay Writing",
     "expected_keywords": [
@@ -13449,7 +13449,7 @@
     "id": "english-syllabus-031-7c13af9d",
     "question": "What is Article Writing?",
     "answer": "Writing for newspaper or school magazines with catchy headlines and cohesive paragraphs.",
-    "explanation": "Article Writing — Writing for newspaper or school magazines with catchy headlines and cohesive paragraphs.",
+    "explanation": "Article Writing - Writing for newspaper or school magazines with catchy headlines and cohesive paragraphs.",
     "subject": "english",
     "topic": "Composition & Essay Writing",
     "expected_keywords": [
@@ -13502,7 +13502,7 @@
     "id": "english-textbook_reference-000-61110bce",
     "question": "What is A clause?",
     "answer": "a group of words containing a subject and a finite verb.",
-    "explanation": "A clause — a group of words containing a subject and a finite verb.",
+    "explanation": "A clause - a group of words containing a subject and a finite verb.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -13581,7 +13581,7 @@
     "id": "english-textbook_reference-004-dc6e8d9b",
     "question": "What is Summary writing in the WASSCE English examination?",
     "answer": "designed to test your ability to extract main ideas and present them concisely.",
-    "explanation": "Summary writing in the WASSCE English examination — designed to test your ability to extract main ideas and present them concisely.",
+    "explanation": "Summary writing in the WASSCE English examination - designed to test your ability to extract main ideas and present them concisely.",
     "subject": "english",
     "topic": "Comprehension & Summary",
     "expected_keywords": [
@@ -13661,7 +13661,7 @@
     "id": "english-syllabus-025-8c9eadb8",
     "question": "What is Concord?",
     "answer": "Subject-verb agreement, pronoun-antecedent agreement, proximity concord, and collective nouns.",
-    "explanation": "Concord — Subject-verb agreement, pronoun-antecedent agreement, proximity concord, and collective nouns.",
+    "explanation": "Concord - Subject-verb agreement, pronoun-antecedent agreement, proximity concord, and collective nouns.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -13680,7 +13680,7 @@
     "id": "english-syllabus-026-dcfca187",
     "question": "What is Word Classes?",
     "answer": "Nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions, and interjections.",
-    "explanation": "Word Classes — Nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions, and interjections.",
+    "explanation": "Word Classes - Nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions, and interjections.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -13700,7 +13700,7 @@
     "id": "english-syllabus-027-ece2c382",
     "question": "What is Verb Tenses and Aspect?",
     "answer": "Simple present, present continuous, past perfect, future tenses, active and passive voices.",
-    "explanation": "Verb Tenses and Aspect — Simple present, present continuous, past perfect, future tenses, active and passive voices.",
+    "explanation": "Verb Tenses and Aspect - Simple present, present continuous, past perfect, future tenses, active and passive voices.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -13778,7 +13778,7 @@
     "id": "english-syllabus-033-bc5d7e35",
     "question": "What is Consonant Clusters?",
     "answer": "Initial and final clusters (e.g., \"str-\", \"-pts\", \"-sps\").",
-    "explanation": "Consonant Clusters — Initial and final clusters (e.g., \"str-\", \"-pts\", \"-sps\").",
+    "explanation": "Consonant Clusters - Initial and final clusters (e.g., \"str-\", \"-pts\", \"-sps\").",
     "subject": "english",
     "topic": "Oral English",
     "expected_keywords": [
@@ -13797,7 +13797,7 @@
     "id": "english-syllabus-034-37543de5",
     "question": "What is Initial and final clusters?",
     "answer": "e.g., \"str-\", \"-pts\", \"-sps\"",
-    "explanation": "Initial and final clusters — e.g., \"str-\", \"-pts\", \"-sps\".",
+    "explanation": "Initial and final clusters - e.g., \"str-\", \"-pts\", \"-sps\".",
     "subject": "english",
     "topic": "Oral English",
     "expected_keywords": [
@@ -13815,7 +13815,7 @@
     "id": "english-syllabus-035-ab035821",
     "question": "What is Silent Letters?",
     "answer": "Identification of unpronounced letters in words (e.g., debt, comb, hour, receipt).",
-    "explanation": "Silent Letters — Identification of unpronounced letters in words (e.g., debt, comb, hour, receipt).",
+    "explanation": "Silent Letters - Identification of unpronounced letters in words (e.g., debt, comb, hour, receipt).",
     "subject": "english",
     "topic": "Oral English",
     "expected_keywords": [
@@ -13835,7 +13835,7 @@
     "id": "english-syllabus-036-71ca4e94",
     "question": "What is Identification of unpronounced letters in words?",
     "answer": "e.g., debt, comb, hour, receipt",
-    "explanation": "Identification of unpronounced letters in words — e.g., debt, comb, hour, receipt.",
+    "explanation": "Identification of unpronounced letters in words - e.g., debt, comb, hour, receipt.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -13855,7 +13855,7 @@
     "id": "english-syllabus-037-4e3349d9",
     "question": "What is Rhyming Words?",
     "answer": "Matching words with identical ending vowel and consonant sounds (e.g., \"gate\" and \"wait\").",
-    "explanation": "Rhyming Words — Matching words with identical ending vowel and consonant sounds (e.g., \"gate\" and \"wait\").",
+    "explanation": "Rhyming Words - Matching words with identical ending vowel and consonant sounds (e.g., \"gate\" and \"wait\").",
     "subject": "english",
     "topic": "Oral English",
     "expected_keywords": [
@@ -13875,7 +13875,7 @@
     "id": "english-textbook_2-017-857a8118",
     "question": "What is Vowels?",
     "answer": "12 monophthongs and 8 diphthongs.",
-    "explanation": "Vowels — 12 monophthongs and 8 diphthongs.",
+    "explanation": "Vowels - 12 monophthongs and 8 diphthongs.",
     "subject": "english",
     "topic": "Oral English",
     "expected_keywords": [
@@ -13890,7 +13890,7 @@
     "id": "english-textbook_2-018-e1fd0f44",
     "question": "What is Consonants?",
     "answer": "24 consonant sounds including voiced and voiceless pairs.",
-    "explanation": "Consonants — 24 consonant sounds including voiced and voiceless pairs.",
+    "explanation": "Consonants - 24 consonant sounds including voiced and voiceless pairs.",
     "subject": "english",
     "topic": "Oral English",
     "expected_keywords": [
@@ -13909,7 +13909,7 @@
     "id": "english-textbook_2-019-b6051018",
     "question": "What is Word Stress?",
     "answer": "Stressed syllables in multi-syllable words. Nouns and adjectives usually have the stress on the first syllable, while verbs and prepositions have the stress on the second syllable.",
-    "explanation": "Word Stress — Stressed syllables in multi-syllable words. Nouns and adjectives usually have the stress on the first syllable, while verbs and prepositions have the stress on the second syllable.",
+    "explanation": "Word Stress - Stressed syllables in multi-syllable words. Nouns and adjectives usually have the stress on the first syllable, while verbs and prepositions have the stress on the second syllable.",
     "subject": "english",
     "topic": "Oral English",
     "expected_keywords": [
@@ -13929,7 +13929,7 @@
     "id": "english-textbook_reference-005-37291c60",
     "question": "What is English?",
     "answer": "a stress-timed language, where certain syllables are pronounced louder and longer than others.",
-    "explanation": "English — a stress-timed language, where certain syllables are pronounced louder and longer than others.",
+    "explanation": "English - a stress-timed language, where certain syllables are pronounced louder and longer than others.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -13949,7 +13949,7 @@
     "id": "english-textbook_reference-006-ed9daf5d",
     "question": "What is In multi-syllable words, primary stress?",
     "answer": "marked by a vertical superscript stroke (').",
-    "explanation": "In multi-syllable words, primary stress — marked by a vertical superscript stroke (').",
+    "explanation": "In multi-syllable words, primary stress - marked by a vertical superscript stroke (').",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -13969,7 +13969,7 @@
     "id": "english-textbook_reference-007-edcad1c6",
     "question": "What is Emphatic stress?",
     "answer": "used to highlight a specific word in a sentence to signal contrast.",
-    "explanation": "Emphatic stress — used to highlight a specific word in a sentence to signal contrast.",
+    "explanation": "Emphatic stress - used to highlight a specific word in a sentence to signal contrast.",
     "subject": "english",
     "topic": "Oral English",
     "expected_keywords": [
@@ -13989,7 +13989,7 @@
     "id": "english-textbook_reference-008-625cec93",
     "question": "What is If the sentence?",
     "answer": "'Tunde bought a NEW car', the stress implies that Tunde did not buy an old or used car.",
-    "explanation": "If the sentence — 'Tunde bought a NEW car', the stress implies that Tunde did not buy an old or used car.",
+    "explanation": "If the sentence - 'Tunde bought a NEW car', the stress implies that Tunde did not buy an old or used car.",
     "subject": "english",
     "topic": "Oral English",
     "expected_keywords": [
@@ -14217,7 +14217,7 @@
     "id": "mathematics-syllabus-049-dfac9ccc",
     "question": "What is Algebraic Expressions?",
     "answer": "Factorization, expanding brackets, algebraic fractions.",
-    "explanation": "Algebraic Expressions — Factorization, expanding brackets, algebraic fractions.",
+    "explanation": "Algebraic Expressions - Factorization, expanding brackets, algebraic fractions.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -14235,7 +14235,7 @@
     "id": "mathematics-syllabus-050-f9be3563",
     "question": "What is Linear Equations and Inequalities?",
     "answer": "Solving linear equations, simultaneous linear equations (graphical and algebraic methods), linear inequalities and graphs.",
-    "explanation": "Linear Equations and Inequalities — Solving linear equations, simultaneous linear equations (graphical and algebraic methods), linear inequalities and graphs.",
+    "explanation": "Linear Equations and Inequalities - Solving linear equations, simultaneous linear equations (graphical and algebraic methods), linear inequalities and graphs.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -14255,7 +14255,7 @@
     "id": "mathematics-syllabus-051-98a38a17",
     "question": "What is Quadratic Equations?",
     "answer": "Solving by factorization, completing the square, quadratic formula, and graphing. Roots of quadratic equations.",
-    "explanation": "Quadratic Equations — Solving by factorization, completing the square, quadratic formula, and graphing. Roots of quadratic equations.",
+    "explanation": "Quadratic Equations - Solving by factorization, completing the square, quadratic formula, and graphing. Roots of quadratic equations.",
     "subject": "mathematics",
     "topic": "Quadratic Equations",
     "expected_keywords": [
@@ -14275,7 +14275,7 @@
     "id": "mathematics-syllabus-052-442dbadc",
     "question": "What is Simultaneous Linear & Quadratic Equations?",
     "answer": "Solution methods and graphical representation.",
-    "explanation": "Simultaneous Linear & Quadratic Equations — Solution methods and graphical representation.",
+    "explanation": "Simultaneous Linear & Quadratic Equations - Solution methods and graphical representation.",
     "subject": "mathematics",
     "topic": "Quadratic Equations",
     "expected_keywords": [
@@ -14295,7 +14295,7 @@
     "id": "mathematics-syllabus-053-3b2f3325",
     "question": "What is Variation?",
     "answer": "Direct, inverse, joint, and partial variation, word problems.",
-    "explanation": "Variation — Direct, inverse, joint, and partial variation, word problems.",
+    "explanation": "Variation - Direct, inverse, joint, and partial variation, word problems.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -14314,7 +14314,7 @@
     "id": "mathematics-syllabus-054-f2a5a419",
     "question": "What is Matrices and Determinants?",
     "answer": "Addition, subtraction, scalar multiplication, matrix multiplication, determinant and inverse of 2x2 matrices, Cramer's rule.",
-    "explanation": "Matrices and Determinants — Addition, subtraction, scalar multiplication, matrix multiplication, determinant and inverse of 2x2 matrices, Cramer's rule.",
+    "explanation": "Matrices and Determinants - Addition, subtraction, scalar multiplication, matrix multiplication, determinant and inverse of 2x2 matrices, Cramer's rule.",
     "subject": "mathematics",
     "topic": "Matrices and Determinants",
     "expected_keywords": [
@@ -14374,7 +14374,7 @@
     "id": "mathematics-textbook_1-016-c39f4cce",
     "question": "What is formula or rule 3 under Circle Geometry Theorems?",
     "answer": "The angle in a semi-circle is a right angle ($90^\\circ$).",
-    "explanation": "Formula or rule 3 under Circle Geometry Theorems — The angle in a semi-circle is a right angle ($90^\\circ$).",
+    "explanation": "Formula or rule 3 under Circle Geometry Theorems - The angle in a semi-circle is a right angle ($90^\\circ$).",
     "subject": "mathematics",
     "topic": "Circle Geometry Theorems",
     "expected_keywords": [
@@ -14394,7 +14394,7 @@
     "id": "mathematics-textbook_1-017-adee65f8",
     "question": "What is formula or rule 4 under Circle Geometry Theorems?",
     "answer": "The opposite angles of a cyclic quadrilateral sum up to $180^\\circ$ (supplementary).",
-    "explanation": "Formula or rule 4 under Circle Geometry Theorems — The opposite angles of a cyclic quadrilateral sum up to $180^\\circ$ (supplementary).",
+    "explanation": "Formula or rule 4 under Circle Geometry Theorems - The opposite angles of a cyclic quadrilateral sum up to $180^\\circ$ (supplementary).",
     "subject": "mathematics",
     "topic": "Circle Geometry Theorems",
     "expected_keywords": [
@@ -14454,7 +14454,7 @@
     "id": "mathematics-textbook_2-038-aa68b05d",
     "question": "What is Distance between $(x_1, y_1)$ and $(x_2, y_2)$?",
     "answer": "$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.",
-    "explanation": "Distance between $(x_1, y_1)$ and $(x_2, y_2)$ — $d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.",
+    "explanation": "Distance between $(x_1, y_1)$ and $(x_2, y_2)$ - $d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -14484,7 +14484,7 @@
     "id": "mathematics-textbook_2-040-e7cfa280",
     "question": "What is Equation of a line?",
     "answer": "$y - y_1 = m(x - x_1)$. Parallel lines have equal gradients ($m_1 = m_2$), and perpendicular lines satisfy $m_1 m_2 = -1$.",
-    "explanation": "Equation of a line — $y - y_1 = m(x - x_1)$. Parallel lines have equal gradients ($m_1 = m_2$), and perpendicular lines satisfy $m_1 m_2 = -1$.",
+    "explanation": "Equation of a line - $y - y_1 = m(x - x_1)$. Parallel lines have equal gradients ($m_1 = m_2$), and perpendicular lines satisfy $m_1 m_2 = -1$.",
     "subject": "mathematics",
     "topic": "Coordinate Geometry",
     "expected_keywords": [
@@ -14534,7 +14534,7 @@
     "id": "mathematics-textbook_2-043-1152d764",
     "question": "What is the integral of $x^n$?",
     "answer": "$\\int x^n dx = \\frac{x^{n+1}}{n+1} + C$ ($n \\neq -1$).",
-    "explanation": "The integral of $x^n$ — $\\int x^n dx = \\frac{x^{n+1}}{n+1} + C$ ($n \\neq -1$).",
+    "explanation": "The integral of $x^n$ - $\\int x^n dx = \\frac{x^{n+1}}{n+1} + C$ ($n \\neq -1$).",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -14607,7 +14607,7 @@
     "id": "mathematics-syllabus-055-62948423",
     "question": "What is Plane Geometry?",
     "answer": "Angles at a point, parallel lines, properties of triangles and polygons, congruent and similar triangles.",
-    "explanation": "Plane Geometry — Angles at a point, parallel lines, properties of triangles and polygons, congruent and similar triangles.",
+    "explanation": "Plane Geometry - Angles at a point, parallel lines, properties of triangles and polygons, congruent and similar triangles.",
     "subject": "mathematics",
     "topic": "Geometry",
     "expected_keywords": [
@@ -14627,7 +14627,7 @@
     "id": "mathematics-syllabus-056-00d9ac09",
     "question": "What is Circle Geometry?",
     "answer": "Circle theorems (angle at center, angles in same segment, angles in alternate segment, cyclic quadrilaterals, tangents to a circle).",
-    "explanation": "Circle Geometry — Circle theorems (angle at center, angles in same segment, angles in alternate segment, cyclic quadrilaterals, tangents to a circle).",
+    "explanation": "Circle Geometry - Circle theorems (angle at center, angles in same segment, angles in alternate segment, cyclic quadrilaterals, tangents to a circle).",
     "subject": "mathematics",
     "topic": "Geometry",
     "expected_keywords": [
@@ -14647,7 +14647,7 @@
     "id": "mathematics-syllabus-057-e1faa745",
     "question": "What is Trigonometry?",
     "answer": "Sine, cosine, tangent of angles, angles of elevation and depression, sine and cosine rules, graphs of trigonometric functions.",
-    "explanation": "Trigonometry — Sine, cosine, tangent of angles, angles of elevation and depression, sine and cosine rules, graphs of trigonometric functions.",
+    "explanation": "Trigonometry - Sine, cosine, tangent of angles, angles of elevation and depression, sine and cosine rules, graphs of trigonometric functions.",
     "subject": "mathematics",
     "topic": "Trigonometry",
     "expected_keywords": [
@@ -14667,7 +14667,7 @@
     "id": "mathematics-syllabus-058-62d26cbe",
     "question": "What is Latitude and Longitude?",
     "answer": "Great and small circles, distance along great circles, distance along small circles, speed in knots.",
-    "explanation": "Latitude and Longitude — Great and small circles, distance along great circles, distance along small circles, speed in knots.",
+    "explanation": "Latitude and Longitude - Great and small circles, distance along great circles, distance along small circles, speed in knots.",
     "subject": "mathematics",
     "topic": "Latitude and Longitude",
     "expected_keywords": [
@@ -14707,7 +14707,7 @@
     "id": "mathematics-textbook_1-020-b8e1f9d7",
     "question": "What is the Earth?",
     "answer": "modeled as a sphere.",
-    "explanation": "The Earth — modeled as a sphere.",
+    "explanation": "The Earth - modeled as a sphere.",
     "subject": "mathematics",
     "topic": "Mensuration",
     "expected_keywords": [
@@ -14722,7 +14722,7 @@
     "id": "mathematics-textbook_1-021-7fec521f",
     "question": "What is the Equator?",
     "answer": "a Great Circle, and lines of longitude (meridians) are also Great Circles.",
-    "explanation": "The Equator — a Great Circle, and lines of longitude (meridians) are also Great Circles.",
+    "explanation": "The Equator - a Great Circle, and lines of longitude (meridians) are also Great Circles.",
     "subject": "mathematics",
     "topic": "Latitude and Longitude",
     "expected_keywords": [
@@ -14741,7 +14741,7 @@
     "id": "mathematics-textbook_1-022-ae09245c",
     "question": "What are Lines of latitude (except the Equator)?",
     "answer": "Small Circles.",
-    "explanation": "Lines of latitude (except the Equator) — Small Circles.",
+    "explanation": "Lines of latitude (except the Equator) - Small Circles.",
     "subject": "mathematics",
     "topic": "Latitude and Longitude",
     "expected_keywords": [
@@ -14759,7 +14759,7 @@
     "id": "mathematics-textbook_1-023-68c413f4",
     "question": "What is the radius of a parallel of latitude $\\theta$?",
     "answer": "$r = R \\cos \\theta$, where $R$ is the Earth's radius (approximately $6400\\text{ km}$ or $3437\\text{ nautical miles}$).",
-    "explanation": "The radius of a parallel of latitude $\\theta$ — $r = R \\cos \\theta$, where $R$ is the Earth's radius (approximately $6400\\text{ km}$ or $3437\\text{ nautical miles}$).",
+    "explanation": "The radius of a parallel of latitude $\\theta$ - $r = R \\cos \\theta$, where $R$ is the Earth's radius (approximately $6400\\text{ km}$ or $3437\\text{ nautical miles}$).",
     "subject": "mathematics",
     "topic": "Latitude and Longitude",
     "expected_keywords": [
@@ -14778,7 +14778,7 @@
     "id": "mathematics-textbook_1-024-7a4ac1a5",
     "question": "What is Distance along a Great Circle (along longitude)?",
     "answer": "$d = \\frac{\\alpha}{360} \\times 2\\pi R$, where $\\alpha$ is the angular difference.",
-    "explanation": "Distance along a Great Circle (along longitude) — $d = \\frac{\\alpha}{360} \\times 2\\pi R$, where $\\alpha$ is the angular difference.",
+    "explanation": "Distance along a Great Circle (along longitude) - $d = \\frac{\\alpha}{360} \\times 2\\pi R$, where $\\alpha$ is the angular difference.",
     "subject": "mathematics",
     "topic": "Latitude and Longitude",
     "expected_keywords": [
@@ -14797,7 +14797,7 @@
     "id": "mathematics-textbook_1-025-059ea543",
     "question": "What is Distance along a Small Circle (along latitude)?",
     "answer": "$d = \\frac{\\theta_{diff}}{360} \\times 2\\pi r = \\frac{\\theta_{diff}}{360} \\times 2\\pi R \\cos \\theta$.",
-    "explanation": "Distance along a Small Circle (along latitude) — $d = \\frac{\\theta_{diff}}{360} \\times 2\\pi r = \\frac{\\theta_{diff}}{360} \\times 2\\pi R \\cos \\theta$.",
+    "explanation": "Distance along a Small Circle (along latitude) - $d = \\frac{\\theta_{diff}}{360} \\times 2\\pi r = \\frac{\\theta_{diff}}{360} \\times 2\\pi R \\cos \\theta$.",
     "subject": "mathematics",
     "topic": "Latitude and Longitude",
     "expected_keywords": [
@@ -14814,7 +14814,7 @@
     "id": "mathematics-textbook_1-formula-026-5a5727b6",
     "question": "What is the expression or formula for n-th term ($T_n$)?",
     "answer": "$T_n = a + (n-1)d$",
-    "explanation": "The expression or formula for n-th term ($T_n$) — $T_n = a + (n-1)d$.",
+    "explanation": "The expression or formula for n-th term ($T_n$) - $T_n = a + (n-1)d$.",
     "subject": "mathematics",
     "topic": "Latitude and Longitude",
     "expected_keywords": [
@@ -14830,7 +14830,7 @@
     "id": "mathematics-textbook_2-027-47727f02",
     "question": "What are Logarithms?",
     "answer": "the inverse of indices.",
-    "explanation": "Logarithms — the inverse of indices.",
+    "explanation": "Logarithms - the inverse of indices.",
     "subject": "mathematics",
     "topic": "Logarithms",
     "expected_keywords": [
@@ -14913,7 +14913,7 @@
     "id": "mathematics-textbook_2-032-921b85d0",
     "question": "What is A set?",
     "answer": "a well-defined collection of distinct objects.",
-    "explanation": "A set — a well-defined collection of distinct objects.",
+    "explanation": "A set - a well-defined collection of distinct objects.",
     "subject": "mathematics",
     "topic": "Sets",
     "expected_keywords": [
@@ -16337,7 +16337,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-10483-ad888941",
     "question": "What is The sum of 27 and 12?",
     "answer": "equal to 73 more than an unknown number.",
-    "explanation": "The sum of 27 and 12 — equal to 73 more than an unknown number.",
+    "explanation": "The sum of 27 and 12 - equal to 73 more than an unknown number.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -16467,7 +16467,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-10590-bd76ee8b",
     "question": "What is Masindi?",
     "answer": "21 years older than her daughter, Mulivhu.",
-    "explanation": "Masindi — 21 years older than her daughter, Mulivhu.",
+    "explanation": "Masindi - 21 years older than her daughter, Mulivhu.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -16486,7 +16486,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-10591-38033a20",
     "question": "What is Tshamano?",
     "answer": "now five times as old as his son Murunwa.",
-    "explanation": "Tshamano — now five times as old as his son Murunwa.",
+    "explanation": "Tshamano - now five times as old as his son Murunwa.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -16569,7 +16569,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-10795-f92d0cca",
     "question": "What is C +32°?",
     "answer": "the formula for converting temperature in degrees Celsius to degrees Fahrenheit.",
-    "explanation": "C +32° — the formula for converting temperature in degrees Celsius to degrees Fahrenheit.",
+    "explanation": "C +32° - the formula for converting temperature in degrees Celsius to degrees Fahrenheit.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -16609,7 +16609,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-10797-bae7af69",
     "question": "What are The following?",
     "answer": "examples of linear inequalities.",
-    "explanation": "The following — examples of linear inequalities.",
+    "explanation": "The following - examples of linear inequalities.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -16665,7 +16665,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-1703-5e07ebdd",
     "question": "What is Remember, there?",
     "answer": "no such thing as a “maths person” or “not a maths person”.",
-    "explanation": "Remember, there — no such thing as a “maths person” or “not a maths person”.",
+    "explanation": "Remember, there - no such thing as a “maths person” or “not a maths person”.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -16718,7 +16718,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-1806-8e35ff2d",
     "question": "What are For example √−1, √−28 and √−5?",
     "answer": "all non-real numbers.",
-    "explanation": "For example √−1, √−28 and √−5 — all non-real numbers.",
+    "explanation": "For example √−1, √−28 and √−5 - all non-real numbers.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -16774,7 +16774,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-1909-6e163030",
     "question": "What are If you?",
     "answer": "asked to identify whether a number is rational or irrational, first write the number in decimal form.",
-    "explanation": "If you — asked to identify whether a number is rational or irrational, first write the number in decimal form.",
+    "explanation": "If you - asked to identify whether a number is rational or irrational, first write the number in decimal form.",
     "subject": "mathematics",
     "topic": "Number and Numeration",
     "expected_keywords": [
@@ -16795,7 +16795,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-1910-5ded3e97",
     "question": "What is However, this?",
     "answer": "not convenient and it is often necessary to round off.",
-    "explanation": "However, this — not convenient and it is often necessary to round off.",
+    "explanation": "However, this - not convenient and it is often necessary to round off.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -16836,7 +16836,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-2212-984a74fd",
     "question": "What are In the following list, there?",
     "answer": "two false statements and one true statement.",
-    "explanation": "In the following list, there — two false statements and one true statement.",
+    "explanation": "In the following list, there - two false statements and one true statement.",
     "subject": "mathematics",
     "topic": "Number Bases and Indices",
     "expected_keywords": [
@@ -16927,7 +16927,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-2417-3fafdc30",
     "question": "What is If the number?",
     "answer": "not a decimal you first need to write the number as a decimal.",
-    "explanation": "If the number — not a decimal you first need to write the number as a decimal.",
+    "explanation": "If the number - not a decimal you first need to write the number as a decimal.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -16946,7 +16946,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-2418-909aa81d",
     "question": "What is Since this?",
     "answer": "a 9 we replace it with a 0 and round up the second last digit.",
-    "explanation": "Since this — a 9 we replace it with a 0 and round up the second last digit.",
+    "explanation": "Since this - a 9 we replace it with a 0 and round up the second last digit.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -17026,7 +17026,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-2722-ad2343e1",
     "question": "What is A monomial?",
     "answer": "an expression with one term, for example, 3x or y2.",
-    "explanation": "A monomial — an expression with one term, for example, 3x or y2.",
+    "explanation": "A monomial - an expression with one term, for example, 3x or y2.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -17042,7 +17042,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-2823-85bc8730",
     "question": "What is A trinomial?",
     "answer": "an expression with three terms, for example, ax2 + bx + c.",
-    "explanation": "A trinomial — an expression with three terms, for example, ax2 + bx + c.",
+    "explanation": "A trinomial - an expression with three terms, for example, ax2 + bx + c.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -17078,7 +17078,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-3124-6782e1b2",
     "question": "What is Factorisation?",
     "answer": "the opposite process of expanding brackets.",
-    "explanation": "Factorisation — the opposite process of expanding brackets.",
+    "explanation": "Factorisation - the opposite process of expanding brackets.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -17208,7 +17208,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-3631-7fd83c76",
     "question": "What is Factorising?",
     "answer": "the reverse of calculating the product of factors.",
-    "explanation": "Factorising — the reverse of calculating the product of factors.",
+    "explanation": "Factorising - the reverse of calculating the product of factors.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -17226,7 +17226,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-3632-cccf5c91",
     "question": "What is We see here that x?",
     "answer": "a common factor in both terms.",
-    "explanation": "We see here that x — a common factor in both terms.",
+    "explanation": "We see here that x - a common factor in both terms.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -17321,7 +17321,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-3738-7f6918bc",
     "question": "What is If c?",
     "answer": "positive, then the factors of c must be either both positive or both negative.",
-    "explanation": "If c — positive, then the factors of c must be either both positive or both negative.",
+    "explanation": "If c - positive, then the factors of c must be either both positive or both negative.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -17377,7 +17377,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-4741-848b9b47",
     "question": "What is A binomial?",
     "answer": "an expression with two terms.",
-    "explanation": "A binomial — an expression with two terms.",
+    "explanation": "A binomial - an expression with two terms.",
     "subject": "mathematics",
     "topic": "Number Bases and Indices",
     "expected_keywords": [
@@ -17530,7 +17530,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-5549-fb4b3d70",
     "question": "What is The telescope?",
     "answer": "called the square kilometre array, or SKA.",
-    "explanation": "The telescope — called the square kilometre array, or SKA.",
+    "explanation": "The telescope - called the square kilometre array, or SKA.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -17549,7 +17549,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-5550-7bfd9fab",
     "question": "What are Exponents?",
     "answer": "also very useful to describe very large and very small numbers.",
-    "explanation": "Exponents — also very useful to describe very large and very small numbers.",
+    "explanation": "Exponents - also very useful to describe very large and very small numbers.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -17610,7 +17610,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-601-41939941",
     "question": "What is Mathematics?",
     "answer": "the language that nature speaks to us in.",
-    "explanation": "Mathematics — the language that nature speaks to us in.",
+    "explanation": "Mathematics - the language that nature speaks to us in.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -17668,7 +17668,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-7154-a2c1f4b5",
     "question": "What is A sequence?",
     "answer": "an ordered list of items, usually numbers.",
-    "explanation": "A sequence — an ordered list of items, usually numbers.",
+    "explanation": "A sequence - an ordered list of items, usually numbers.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -17686,7 +17686,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-7255-c78eb29e",
     "question": "What is The pattern?",
     "answer": "continued by adding 3 to the previous term.",
-    "explanation": "The pattern — continued by adding 3 to the previous term.",
+    "explanation": "The pattern - continued by adding 3 to the previous term.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -17940,7 +17940,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-7868-5fd010b0",
     "question": "What is If the answer?",
     "answer": "a non-integer, write the answer as a simplified fraction.",
-    "explanation": "If the answer — a non-integer, write the answer as a simplified fraction.",
+    "explanation": "If the answer - a non-integer, write the answer as a simplified fraction.",
     "subject": "mathematics",
     "topic": "Number and Numeration",
     "expected_keywords": [
@@ -17956,7 +17956,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-7969-b4a7ddfc",
     "question": "What is If the pattern?",
     "answer": "not linear, write “no common difference”.",
-    "explanation": "If the pattern — not linear, write “no common difference”.",
+    "explanation": "If the pattern - not linear, write “no common difference”.",
     "subject": "mathematics",
     "topic": "Sequences and Series",
     "expected_keywords": [
@@ -18028,7 +18028,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-8573-3af5b6d0",
     "question": "What are Equations?",
     "answer": "widely used to describe the world around us.",
-    "explanation": "Equations — widely used to describe the world around us.",
+    "explanation": "Equations - widely used to describe the world around us.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -18124,7 +18124,7 @@
     "id": "mathematics-mathematics_ss1_siyavula_learner-9278-9473c50b",
     "question": "What are The solutions?",
     "answer": "the values of the unknown variables which satisfy both equations simultaneously.",
-    "explanation": "The solutions — the values of the unknown variables which satisfy both equations simultaneously.",
+    "explanation": "The solutions - the values of the unknown variables which satisfy both equations simultaneously.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -18355,7 +18355,7 @@
     "id": "mathematics-syllabus-059-888ca40a",
     "question": "What is Lengths, Areas, and Volumes?",
     "answer": "Perimeter and area of plane shapes (triangles, quadrilaterals, sectors, segments), surface area and volume of solids (prisms, cylinders, cones, spheres, pyramids).",
-    "explanation": "Lengths, Areas, and Volumes — Perimeter and area of plane shapes (triangles, quadrilaterals, sectors, segments), surface area and volume of solids (prisms, cylinders, cones, spheres, pyramids).",
+    "explanation": "Lengths, Areas, and Volumes - Perimeter and area of plane shapes (triangles, quadrilaterals, sectors, segments), surface area and volume of solids (prisms, cylinders, cones, spheres, pyramids).",
     "subject": "mathematics",
     "topic": "Mensuration",
     "expected_keywords": [
@@ -18375,7 +18375,7 @@
     "id": "mathematics-syllabus-060-d45f4c83",
     "question": "What is Introductory Calculus?",
     "answer": "Differentiation of polynomials ($y = ax^n$), rate of change, tangents and normals, maximum and minimum points. Integration of simple algebraic functions ($y = ax^n$, $n \\neq -1$), area under a curve.",
-    "explanation": "Introductory Calculus — Differentiation of polynomials ($y = ax^n$), rate of change, tangents and normals, maximum and minimum points. Integration of simple algebraic functions ($y = ax^n$, $n \\neq -1$), area under a curve.",
+    "explanation": "Introductory Calculus - Differentiation of polynomials ($y = ax^n$), rate of change, tangents and normals, maximum and minimum points. Integration of simple algebraic functions ($y = ax^n$, $n \\neq -1$), area under a curve.",
     "subject": "mathematics",
     "topic": "Calculus",
     "expected_keywords": [
@@ -18395,7 +18395,7 @@
     "id": "mathematics-syllabus-061-5027dfe7",
     "question": "What is Coordinate Geometry?",
     "answer": "Distance between two points, midpoint, gradient, equation of a straight line, parallel and perpendicular lines.",
-    "explanation": "Coordinate Geometry — Distance between two points, midpoint, gradient, equation of a straight line, parallel and perpendicular lines.",
+    "explanation": "Coordinate Geometry - Distance between two points, midpoint, gradient, equation of a straight line, parallel and perpendicular lines.",
     "subject": "mathematics",
     "topic": "Geometry",
     "expected_keywords": [
@@ -18415,7 +18415,7 @@
     "id": "mathematics-textbook_1-000-773a0ab9",
     "question": "What is Thus, 25 in base 10?",
     "answer": "equal to 11001 in base 2.",
-    "explanation": "Thus, 25 in base 10 — equal to 11001 in base 2.",
+    "explanation": "Thus, 25 in base 10 - equal to 11001 in base 2.",
     "subject": "mathematics",
     "topic": "Number Bases and Indices",
     "expected_keywords": [
@@ -18746,7 +18746,7 @@
     "id": "mathematics-syllabus-044-56e740e8",
     "question": "What is Number Bases?",
     "answer": "Conversion from one base to another (bases 2 to 10), addition, subtraction, multiplication, and division in different bases.",
-    "explanation": "Number Bases — Conversion from one base to another (bases 2 to 10), addition, subtraction, multiplication, and division in different bases.",
+    "explanation": "Number Bases - Conversion from one base to another (bases 2 to 10), addition, subtraction, multiplication, and division in different bases.",
     "subject": "mathematics",
     "topic": "Number Bases and Indices",
     "expected_keywords": [
@@ -18766,7 +18766,7 @@
     "id": "mathematics-syllabus-045-f1f2e0ec",
     "question": "What is Modular Arithmetic?",
     "answer": "Concept, addition, subtraction, multiplication tables, and applications.",
-    "explanation": "Modular Arithmetic — Concept, addition, subtraction, multiplication tables, and applications.",
+    "explanation": "Modular Arithmetic - Concept, addition, subtraction, multiplication tables, and applications.",
     "subject": "mathematics",
     "topic": "Number and Numeration",
     "expected_keywords": [
@@ -18786,7 +18786,7 @@
     "id": "mathematics-syllabus-046-1f95acb3",
     "question": "What is Indices and Logarithms?",
     "answer": "Laws of indices, standard forms, base 10 and natural logarithms, logarithmic equations.",
-    "explanation": "Indices and Logarithms — Laws of indices, standard forms, base 10 and natural logarithms, logarithmic equations.",
+    "explanation": "Indices and Logarithms - Laws of indices, standard forms, base 10 and natural logarithms, logarithmic equations.",
     "subject": "mathematics",
     "topic": "Logarithms",
     "expected_keywords": [
@@ -18806,7 +18806,7 @@
     "id": "mathematics-syllabus-047-75352eae",
     "question": "What is Sets?",
     "answer": "Concepts, union, intersection, complement, Venn diagrams (2 and 3 sets) and applications.",
-    "explanation": "Sets — Concepts, union, intersection, complement, Venn diagrams (2 and 3 sets) and applications.",
+    "explanation": "Sets - Concepts, union, intersection, complement, Venn diagrams (2 and 3 sets) and applications.",
     "subject": "mathematics",
     "topic": "Sets",
     "expected_keywords": [
@@ -18826,7 +18826,7 @@
     "id": "mathematics-syllabus-048-2c6dd4c3",
     "question": "What is Sequences and Series?",
     "answer": "Arithmetic Progressions (AP) and Geometric Progressions (GP), n-th term, sum of terms, arithmetic and geometric means.",
-    "explanation": "Sequences and Series — Arithmetic Progressions (AP) and Geometric Progressions (GP), n-th term, sum of terms, arithmetic and geometric means.",
+    "explanation": "Sequences and Series - Arithmetic Progressions (AP) and Geometric Progressions (GP), n-th term, sum of terms, arithmetic and geometric means.",
     "subject": "mathematics",
     "topic": "Sequences and Series",
     "expected_keywords": [
@@ -18846,7 +18846,7 @@
     "id": "mathematics-textbook_1-007-efd219c7",
     "question": "What is A quadratic equation?",
     "answer": "of the form $ax^2 + bx + c = 0$, where $a, b, c$ are constants and $a \\neq 0$.",
-    "explanation": "A quadratic equation — of the form $ax^2 + bx + c = 0$, where $a, b, c$ are constants and $a \\neq 0$.",
+    "explanation": "A quadratic equation - of the form $ax^2 + bx + c = 0$, where $a, b, c$ are constants and $a \\neq 0$.",
     "subject": "mathematics",
     "topic": "Quadratic Equations",
     "expected_keywords": [
@@ -18862,7 +18862,7 @@
     "id": "mathematics-textbook_1-008-0e0f61f1",
     "question": "What are If $D > 0$, the roots?",
     "answer": "real and distinct.",
-    "explanation": "If $D > 0$, the roots — real and distinct.",
+    "explanation": "If $D > 0$, the roots - real and distinct.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -18877,7 +18877,7 @@
     "id": "mathematics-textbook_1-009-dd77bfe2",
     "question": "What are If $D = 0$, the roots?",
     "answer": "real and equal.",
-    "explanation": "If $D = 0$, the roots — real and equal.",
+    "explanation": "If $D = 0$, the roots - real and equal.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -18892,7 +18892,7 @@
     "id": "mathematics-textbook_1-010-d813778b",
     "question": "What are If $D < 0$, the roots?",
     "answer": "complex/imaginary.",
-    "explanation": "If $D < 0$, the roots — complex/imaginary.",
+    "explanation": "If $D < 0$, the roots - complex/imaginary.",
     "subject": "mathematics",
     "topic": "Algebra",
     "expected_keywords": [
@@ -18907,7 +18907,7 @@
     "id": "mathematics-textbook_1-011-27b6879d",
     "question": "What is An Arithmetic Progression (AP)?",
     "answer": "a sequence where each term differs from the preceding one by a constant common difference ($d$).",
-    "explanation": "An Arithmetic Progression (AP) — a sequence where each term differs from the preceding one by a constant common difference ($d$).",
+    "explanation": "An Arithmetic Progression (AP) - a sequence where each term differs from the preceding one by a constant common difference ($d$).",
     "subject": "mathematics",
     "topic": "Sequences and Series",
     "expected_keywords": [
@@ -18927,7 +18927,7 @@
     "id": "mathematics-textbook_1-012-3bc6726f",
     "question": "What is the n-th term ($T_n$)?",
     "answer": "given by $T_n = a + (n-1)d$, and the sum of the first n terms ($S_n$) is $S_n = \\frac{n}{2}[2a + (n-1)d]$.",
-    "explanation": "The n-th term ($T_n$) — given by $T_n = a + (n-1)d$, and the sum of the first n terms ($S_n$) is $S_n = \\frac{n}{2}[2a + (n-1)d]$.",
+    "explanation": "The n-th term ($T_n$) - given by $T_n = a + (n-1)d$, and the sum of the first n terms ($S_n$) is $S_n = \\frac{n}{2}[2a + (n-1)d]$.",
     "subject": "mathematics",
     "topic": "Sequences and Series",
     "expected_keywords": [
@@ -18945,7 +18945,7 @@
     "id": "mathematics-textbook_1-013-ac6a0d09",
     "question": "What is the n-th term?",
     "answer": "$T_n = a r^{n-1}$, and the sum of the first n terms is $S_n = \\frac{a(r^n - 1)}{r - 1}$ for $r > 1$, or $S_n = \\frac{a(1 - r^n)}{1 - r}$ for $r < 1$.",
-    "explanation": "The n-th term — $T_n = a r^{n-1}$, and the sum of the first n terms is $S_n = \\frac{a(r^n - 1)}{r - 1}$ for $r > 1$, or $S_n = \\frac{a(1 - r^n)}{1 - r}$ for $r < 1$.",
+    "explanation": "The n-th term - $T_n = a r^{n-1}$, and the sum of the first n terms is $S_n = \\frac{a(r^n - 1)}{r - 1}$ for $r > 1$, or $S_n = \\frac{a(1 - r^n)}{1 - r}$ for $r < 1$.",
     "subject": "mathematics",
     "topic": "Sequences and Series",
     "expected_keywords": [
@@ -19196,7 +19196,7 @@
     "id": "mathematics-syllabus-062-310de294",
     "question": "What is Data Representation?",
     "answer": "Frequency tables, bar charts, histograms, pie charts, cumulative frequency curves (ogive).",
-    "explanation": "Data Representation — Frequency tables, bar charts, histograms, pie charts, cumulative frequency curves (ogive).",
+    "explanation": "Data Representation - Frequency tables, bar charts, histograms, pie charts, cumulative frequency curves (ogive).",
     "subject": "mathematics",
     "topic": "Statistics and Probability",
     "expected_keywords": [
@@ -19216,7 +19216,7 @@
     "id": "mathematics-syllabus-063-a8eb835f",
     "question": "What is Measures of Central Tendency and Dispersion?",
     "answer": "Mean, median, mode, range, variance, standard deviation, mean deviation (grouped and ungrouped data).",
-    "explanation": "Measures of Central Tendency and Dispersion — Mean, median, mode, range, variance, standard deviation, mean deviation (grouped and ungrouped data).",
+    "explanation": "Measures of Central Tendency and Dispersion - Mean, median, mode, range, variance, standard deviation, mean deviation (grouped and ungrouped data).",
     "subject": "mathematics",
     "topic": "Statistics and Probability",
     "expected_keywords": [
@@ -19236,7 +19236,7 @@
     "id": "mathematics-syllabus-064-2e84711a",
     "question": "What is Probability?",
     "answer": "Experimental and theoretical probability, mutually exclusive and independent events, addition and multiplication rules.",
-    "explanation": "Probability — Experimental and theoretical probability, mutually exclusive and independent events, addition and multiplication rules.",
+    "explanation": "Probability - Experimental and theoretical probability, mutually exclusive and independent events, addition and multiplication rules.",
     "subject": "mathematics",
     "topic": "Statistics and Probability",
     "expected_keywords": [
@@ -19256,7 +19256,7 @@
     "id": "mathematics-textbook_2-033-d8904e80",
     "question": "What is Sine Rule?",
     "answer": "$\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$",
-    "explanation": "Sine Rule — $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$.",
+    "explanation": "Sine Rule - $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$.",
     "subject": "mathematics",
     "topic": "Trigonometry",
     "expected_keywords": [
@@ -19270,7 +19270,7 @@
     "id": "mathematics-textbook_2-034-a4addb08",
     "question": "What is Cosine Rule?",
     "answer": "$a^2 = b^2 + c^2 - 2bc \\cos A$",
-    "explanation": "Cosine Rule — $a^2 = b^2 + c^2 - 2bc \\cos A$.",
+    "explanation": "Cosine Rule - $a^2 = b^2 + c^2 - 2bc \\cos A$.",
     "subject": "mathematics",
     "topic": "Trigonometry",
     "expected_keywords": [
@@ -19284,7 +19284,7 @@
     "id": "mathematics-textbook_2-035-8b3a1abb",
     "question": "What is A matrix?",
     "answer": "a rectangular array of numbers.",
-    "explanation": "A matrix — a rectangular array of numbers.",
+    "explanation": "A matrix - a rectangular array of numbers.",
     "subject": "mathematics",
     "topic": "Matrices and Determinants",
     "expected_keywords": [
@@ -19334,7 +19334,7 @@
     "id": "physics-textbook_1-027-a2f0608f",
     "question": "What is the Electromotive Force ($E$) of a cell?",
     "answer": "the total work done in driving a unit charge round a complete circuit.",
-    "explanation": "The Electromotive Force ($E$) of a cell — the total work done in driving a unit charge round a complete circuit.",
+    "explanation": "The Electromotive Force ($E$) of a cell - the total work done in driving a unit charge round a complete circuit.",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -19473,7 +19473,7 @@
     "id": "physics-syllabus-054-49257832",
     "question": "What is Current Electricity?",
     "answer": "Ohm's law, electromotive force (e.m.f.), internal resistance of a cell, resistivity, electrical energy and power, series-parallel combination of resistors, Kirchhoff's laws.",
-    "explanation": "Current Electricity — Ohm's law, electromotive force (e.m.f.), internal resistance of a cell, resistivity, electrical energy and power, series-parallel combination of resistors, Kirchhoff's laws.",
+    "explanation": "Current Electricity - Ohm's law, electromotive force (e.m.f.), internal resistance of a cell, resistivity, electrical energy and power, series-parallel combination of resistors, Kirchhoff's laws.",
     "subject": "physics",
     "topic": "Electricity & Magnetism",
     "expected_keywords": [
@@ -19493,7 +19493,7 @@
     "id": "physics-syllabus-055-56813aad",
     "question": "What is Magnetic Fields?",
     "answer": "Permanent and electromagnetism, magnetic field around current-carrying conductors, force on a current-carrying conductor in a magnetic field.",
-    "explanation": "Magnetic Fields — Permanent and electromagnetism, magnetic field around current-carrying conductors, force on a current-carrying conductor in a magnetic field.",
+    "explanation": "Magnetic Fields - Permanent and electromagnetism, magnetic field around current-carrying conductors, force on a current-carrying conductor in a magnetic field.",
     "subject": "physics",
     "topic": "Electricity & Magnetism",
     "expected_keywords": [
@@ -19513,7 +19513,7 @@
     "id": "physics-syllabus-056-19c34bc2",
     "question": "What is Electromagnetic Induction?",
     "answer": "Faraday's laws, Lenz's law, self and mutual induction, generator, transformer.",
-    "explanation": "Electromagnetic Induction — Faraday's laws, Lenz's law, self and mutual induction, generator, transformer.",
+    "explanation": "Electromagnetic Induction - Faraday's laws, Lenz's law, self and mutual induction, generator, transformer.",
     "subject": "physics",
     "topic": "Electricity & Magnetism",
     "expected_keywords": [
@@ -19533,7 +19533,7 @@
     "id": "physics-syllabus-057-6069a15b",
     "question": "What is AC Circuits?",
     "answer": "Alternating current, peak and r.m.s. values, reactance (inductive and capacitive), impedance, resonance in R-L-C circuits, power factor.",
-    "explanation": "AC Circuits — Alternating current, peak and r.m.s. values, reactance (inductive and capacitive), impedance, resonance in R-L-C circuits, power factor.",
+    "explanation": "AC Circuits - Alternating current, peak and r.m.s. values, reactance (inductive and capacitive), impedance, resonance in R-L-C circuits, power factor.",
     "subject": "physics",
     "topic": "Electricity & Magnetism",
     "expected_keywords": [
@@ -19553,7 +19553,7 @@
     "id": "physics-textbook_1-019-fba66b73",
     "question": "What is Kinematics?",
     "answer": "the study of motion without considering its causes.",
-    "explanation": "Kinematics — the study of motion without considering its causes.",
+    "explanation": "Kinematics - the study of motion without considering its causes.",
     "subject": "physics",
     "topic": "Kinematics & Projectile Motion",
     "expected_keywords": [
@@ -19571,7 +19571,7 @@
     "id": "physics-textbook_1-020-28e69b58",
     "question": "What is formula or rule 1 under Kinematics and Projectiles?",
     "answer": "$v = u + at$",
-    "explanation": "Formula or rule 1 under Kinematics and Projectiles — $v = u + at$.",
+    "explanation": "Formula or rule 1 under Kinematics and Projectiles - $v = u + at$.",
     "subject": "physics",
     "topic": "Kinematics & Projectile Motion",
     "expected_keywords": [
@@ -19587,7 +19587,7 @@
     "id": "physics-textbook_1-021-dccdd259",
     "question": "What is formula or rule 2 under Kinematics and Projectiles?",
     "answer": "$s = ut + \\frac{1}{2}at^2$",
-    "explanation": "Formula or rule 2 under Kinematics and Projectiles — $s = ut + \\frac{1}{2}at^2$.",
+    "explanation": "Formula or rule 2 under Kinematics and Projectiles - $s = ut + \\frac{1}{2}at^2$.",
     "subject": "physics",
     "topic": "Kinematics & Projectile Motion",
     "expected_keywords": [
@@ -19603,7 +19603,7 @@
     "id": "physics-textbook_1-022-3b4808a0",
     "question": "What is formula or rule 3 under Kinematics and Projectiles?",
     "answer": "$v^2 = u^2 + 2as$",
-    "explanation": "Formula or rule 3 under Kinematics and Projectiles — $v^2 = u^2 + 2as$.",
+    "explanation": "Formula or rule 3 under Kinematics and Projectiles - $v^2 = u^2 + 2as$.",
     "subject": "physics",
     "topic": "Kinematics & Projectile Motion",
     "expected_keywords": [
@@ -19619,7 +19619,7 @@
     "id": "physics-textbook_1-023-820a19a9",
     "question": "What is Projectile motion?",
     "answer": "a two-dimensional motion under the influence of gravity.",
-    "explanation": "Projectile motion — a two-dimensional motion under the influence of gravity.",
+    "explanation": "Projectile motion - a two-dimensional motion under the influence of gravity.",
     "subject": "physics",
     "topic": "Kinematics & Projectile Motion",
     "expected_keywords": [
@@ -19636,7 +19636,7 @@
     "id": "physics-textbook_1-024-fb120060",
     "question": "What is Time of flight?",
     "answer": "$T = \\frac{2u \\sin \\theta}{g}$",
-    "explanation": "Time of flight — $T = \\frac{2u \\sin \\theta}{g}$.",
+    "explanation": "Time of flight - $T = \\frac{2u \\sin \\theta}{g}$.",
     "subject": "physics",
     "topic": "Kinematics & Projectile Motion",
     "expected_keywords": [
@@ -19650,7 +19650,7 @@
     "id": "physics-textbook_1-025-e3402a40",
     "question": "What is Maximum height?",
     "answer": "$H = \\frac{u^2 \\sin^2 \\theta}{2g}$",
-    "explanation": "Maximum height — $H = \\frac{u^2 \\sin^2 \\theta}{2g}$.",
+    "explanation": "Maximum height - $H = \\frac{u^2 \\sin^2 \\theta}{2g}$.",
     "subject": "physics",
     "topic": "Kinematics & Projectile Motion",
     "expected_keywords": [
@@ -19664,7 +19664,7 @@
     "id": "physics-textbook_1-026-28c72a77",
     "question": "What is Horizontal Range?",
     "answer": "$R = \\frac{u^2 \\sin 2\\theta}{g}$",
-    "explanation": "Horizontal Range — $R = \\frac{u^2 \\sin 2\\theta}{g}$.",
+    "explanation": "Horizontal Range - $R = \\frac{u^2 \\sin 2\\theta}{g}$.",
     "subject": "physics",
     "topic": "Kinematics & Projectile Motion",
     "expected_keywords": [
@@ -19678,7 +19678,7 @@
     "id": "physics-textbook_reference-000-874ee831",
     "question": "What is A projectile?",
     "answer": "any object thrown or projected into the air that is subject only to the acceleration of gravity.",
-    "explanation": "A projectile — any object thrown or projected into the air that is subject only to the acceleration of gravity.",
+    "explanation": "A projectile - any object thrown or projected into the air that is subject only to the acceleration of gravity.",
     "subject": "physics",
     "topic": "Kinematics & Projectile Motion",
     "expected_keywords": [
@@ -19698,7 +19698,7 @@
     "id": "physics-textbook_reference-001-76de2538",
     "question": "What are In projectile motion, the horizontal and vertical motions?",
     "answer": "independent.",
-    "explanation": "In projectile motion, the horizontal and vertical motions — independent.",
+    "explanation": "In projectile motion, the horizontal and vertical motions - independent.",
     "subject": "physics",
     "topic": "Kinematics & Projectile Motion",
     "expected_keywords": [
@@ -19716,7 +19716,7 @@
     "id": "physics-textbook_reference-002-5d54b3a5",
     "question": "What is the vertical motion?",
     "answer": "subject to a constant downward acceleration due to gravity ($a_y = -g$).",
-    "explanation": "The vertical motion — subject to a constant downward acceleration due to gravity ($a_y = -g$).",
+    "explanation": "The vertical motion - subject to a constant downward acceleration due to gravity ($a_y = -g$).",
     "subject": "physics",
     "topic": "Kinematics & Projectile Motion",
     "expected_keywords": [
@@ -19736,7 +19736,7 @@
     "id": "physics-textbook_reference-003-8c7e2fc8",
     "question": "What is the vertical velocity at any time $t$?",
     "answer": "given by $u_y = u \\sin heta - gt$.",
-    "explanation": "The vertical velocity at any time $t$ — given by $u_y = u \\sin heta - gt$.",
+    "explanation": "The vertical velocity at any time $t$ - given by $u_y = u \\sin heta - gt$.",
     "subject": "physics",
     "topic": "Kinematics & Projectile Motion",
     "expected_keywords": [
@@ -19753,7 +19753,7 @@
     "id": "physics-textbook_reference-004-7a7e96d2",
     "question": "What is formula or rule 1 under Kinematics: Projectile Motion?",
     "answer": "Time of flight ($T$): The total time the projectile spends in the air, given by $T = \\frac{2u \\sin heta}{g}$.",
-    "explanation": "Formula or rule 1 under Kinematics: Projectile Motion — Time of flight ($T$): The total time the projectile spends in the air, given by $T = \\frac{2u \\sin heta}{g}$.",
+    "explanation": "Formula or rule 1 under Kinematics: Projectile Motion - Time of flight ($T$): The total time the projectile spends in the air, given by $T = \\frac{2u \\sin heta}{g}$.",
     "subject": "physics",
     "topic": "Kinematics & Projectile Motion",
     "expected_keywords": [
@@ -19773,7 +19773,7 @@
     "id": "physics-textbook_reference-005-9147c048",
     "question": "What is formula or rule 2 under Kinematics: Projectile Motion?",
     "answer": "Maximum height ($H$): The maximum vertical displacement achieved, given by $H = \\frac{u^2 \\sin^2 heta}{2g}$.",
-    "explanation": "Formula or rule 2 under Kinematics: Projectile Motion — Maximum height ($H$): The maximum vertical displacement achieved, given by $H = \\frac{u^2 \\sin^2 heta}{2g}$.",
+    "explanation": "Formula or rule 2 under Kinematics: Projectile Motion - Maximum height ($H$): The maximum vertical displacement achieved, given by $H = \\frac{u^2 \\sin^2 heta}{2g}$.",
     "subject": "physics",
     "topic": "Kinematics & Projectile Motion",
     "expected_keywords": [
@@ -19793,7 +19793,7 @@
     "id": "physics-textbook_reference-006-cd8f3024",
     "question": "What is formula or rule 3 under Kinematics: Projectile Motion?",
     "answer": "Horizontal Range ($R$): The total horizontal distance traveled, given by $R = \\frac{u^2 \\sin 2 heta}{g}$. The range is maximum when $ heta = 45^\\circ$.",
-    "explanation": "Formula or rule 3 under Kinematics: Projectile Motion — Horizontal Range ($R$): The total horizontal distance traveled, given by $R = \\frac{u^2 \\sin 2 heta}{g}$. The range is maximum when $ heta = 45^\\circ$.",
+    "explanation": "Formula or rule 3 under Kinematics: Projectile Motion - Horizontal Range ($R$): The total horizontal distance traveled, given by $R = \\frac{u^2 \\sin 2 heta}{g}$. The range is maximum when $ heta = 45^\\circ$.",
     "subject": "physics",
     "topic": "Kinematics & Projectile Motion",
     "expected_keywords": [
@@ -19947,7 +19947,7 @@
     "id": "physics-syllabus-035-6e45949d",
     "question": "What is Units and Dimensions?",
     "answer": "Fundamental and derived units, dimensional analysis and applications.",
-    "explanation": "Units and Dimensions — Fundamental and derived units, dimensional analysis and applications.",
+    "explanation": "Units and Dimensions - Fundamental and derived units, dimensional analysis and applications.",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -19966,7 +19966,7 @@
     "id": "physics-syllabus-036-947b965e",
     "question": "What is Dynamics?",
     "answer": "Newton's laws of motion, inertia, momentum, impulse, conservation of linear momentum, elastic and inelastic collisions.",
-    "explanation": "Dynamics — Newton's laws of motion, inertia, momentum, impulse, conservation of linear momentum, elastic and inelastic collisions.",
+    "explanation": "Dynamics - Newton's laws of motion, inertia, momentum, impulse, conservation of linear momentum, elastic and inelastic collisions.",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -19986,7 +19986,7 @@
     "id": "physics-syllabus-037-188957c6",
     "question": "What is Statics?",
     "answer": "Forces, coplanar forces, moment of a force, couples, conditions of equilibrium, center of gravity.",
-    "explanation": "Statics — Forces, coplanar forces, moment of a force, couples, conditions of equilibrium, center of gravity.",
+    "explanation": "Statics - Forces, coplanar forces, moment of a force, couples, conditions of equilibrium, center of gravity.",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -20006,7 +20006,7 @@
     "id": "physics-syllabus-038-1c0c1ec0",
     "question": "What is Work, Energy, and Power?",
     "answer": "Work done by constant and variable forces, kinetic and potential energy, conservation of energy, power.",
-    "explanation": "Work, Energy, and Power — Work done by constant and variable forces, kinetic and potential energy, conservation of energy, power.",
+    "explanation": "Work, Energy, and Power - Work done by constant and variable forces, kinetic and potential energy, conservation of energy, power.",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -20026,7 +20026,7 @@
     "id": "physics-syllabus-039-8920b454",
     "question": "What is Circular Motion?",
     "answer": "Angular velocity, centripetal acceleration and force, applications (banking of roads, centrifuge).",
-    "explanation": "Circular Motion — Angular velocity, centripetal acceleration and force, applications (banking of roads, centrifuge).",
+    "explanation": "Circular Motion - Angular velocity, centripetal acceleration and force, applications (banking of roads, centrifuge).",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -20046,7 +20046,7 @@
     "id": "physics-syllabus-040-db493539",
     "question": "What is Simple Harmonic Motion (SHM)?",
     "answer": "Period, frequency, amplitude, equations of SHM, simple pendulum, mass-spring system, energy transformations in SHM.",
-    "explanation": "Simple Harmonic Motion (SHM) — Period, frequency, amplitude, equations of SHM, simple pendulum, mass-spring system, energy transformations in SHM.",
+    "explanation": "Simple Harmonic Motion (SHM) - Period, frequency, amplitude, equations of SHM, simple pendulum, mass-spring system, energy transformations in SHM.",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -20066,7 +20066,7 @@
     "id": "physics-syllabus-041-c850fa5e",
     "question": "What is Hydrostatics and Properties of Matter?",
     "answer": "Density, relative density, pressure in liquids, Archimedes' principle, law of floatation, elasticity, Hooke's law, Young's modulus.",
-    "explanation": "Hydrostatics and Properties of Matter — Density, relative density, pressure in liquids, Archimedes' principle, law of floatation, elasticity, Hooke's law, Young's modulus.",
+    "explanation": "Hydrostatics and Properties of Matter - Density, relative density, pressure in liquids, Archimedes' principle, law of floatation, elasticity, Hooke's law, Young's modulus.",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -20086,7 +20086,7 @@
     "id": "physics-syllabus-059-a530ced3",
     "question": "What is Wave-particle Duality?",
     "answer": "Photoelectric effect, Einstein's photoelectric equation, work function, de Broglie wavelength.",
-    "explanation": "Wave-particle Duality — Photoelectric effect, Einstein's photoelectric equation, work function, de Broglie wavelength.",
+    "explanation": "Wave-particle Duality - Photoelectric effect, Einstein's photoelectric equation, work function, de Broglie wavelength.",
     "subject": "physics",
     "topic": "Waves & Optics",
     "expected_keywords": [
@@ -20106,7 +20106,7 @@
     "id": "physics-textbook_2-033-e0acae15",
     "question": "What is the exponential decay law?",
     "answer": "$N(t) = N_0 e^{-\\lambda t}$.",
-    "explanation": "The exponential decay law — $N(t) = N_0 e^{-\\lambda t}$.",
+    "explanation": "The exponential decay law - $N(t) = N_0 e^{-\\lambda t}$.",
     "subject": "physics",
     "topic": "Modern Physics & Radioactivity",
     "expected_keywords": [
@@ -20121,7 +20121,7 @@
     "id": "physics-textbook_2-034-42773ca0",
     "question": "What is the half-life?",
     "answer": "$T_{1/2} = \\frac{\\ln 2}{\\lambda} \\approx \\frac{0.693}{\\lambda}$.",
-    "explanation": "The half-life — $T_{1/2} = \\frac{\\ln 2}{\\lambda} \\approx \\frac{0.693}{\\lambda}$.",
+    "explanation": "The half-life - $T_{1/2} = \\frac{\\ln 2}{\\lambda} \\approx \\frac{0.693}{\\lambda}$.",
     "subject": "physics",
     "topic": "Modern Physics & Radioactivity",
     "expected_keywords": [
@@ -20134,7 +20134,7 @@
     "id": "physics-textbook_reference-007-49c3807e",
     "question": "What does Ohm's law state?",
     "answer": "the current ($I$) flowing through a metallic conductor is directly proportional to the potential difference ($V$) across its ends, provided temperature and other physical conditions remain constant ($V = IR$).",
-    "explanation": "Ohm's law state — the current ($I$) flowing through a metallic conductor is directly proportional to the potential difference ($V$) across its ends, provided temperature and other physical conditions remain constant ($V = IR$).",
+    "explanation": "Ohm's law state - the current ($I$) flowing through a metallic conductor is directly proportional to the potential difference ($V$) across its ends, provided temperature and other physical conditions remain constant ($V = IR$).",
     "subject": "physics",
     "topic": "Electricity & Magnetism",
     "expected_keywords": [
@@ -20174,7 +20174,7 @@
     "id": "physics-textbook_reference-009-dfb36e4e",
     "question": "What is the potential difference across the external circuit?",
     "answer": "the terminal voltage ($V$).",
-    "explanation": "The potential difference across the external circuit — the terminal voltage ($V$).",
+    "explanation": "The potential difference across the external circuit - the terminal voltage ($V$).",
     "subject": "physics",
     "topic": "Electricity & Magnetism",
     "expected_keywords": [
@@ -20193,7 +20193,7 @@
     "id": "physics-textbook_reference-010-dd1fac76",
     "question": "What is $E$ and internal resistance $r$?",
     "answer": "connected to an external resistor $R$, the current flowing in the circuit is $I = \\frac{E}{R + r}$.",
-    "explanation": "$E$ and internal resistance $r$ — connected to an external resistor $R$, the current flowing in the circuit is $I = \\frac{E}{R + r}$.",
+    "explanation": "$E$ and internal resistance $r$ - connected to an external resistor $R$, the current flowing in the circuit is $I = \\frac{E}{R + r}$.",
     "subject": "physics",
     "topic": "Electricity & Magnetism",
     "expected_keywords": [
@@ -20393,7 +20393,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-16735-3a505d02",
     "question": "What is The wavelength?",
     "answer": "not in SI units and should be converted.",
-    "explanation": "The wavelength — not in SI units and should be converted.",
+    "explanation": "The wavelength - not in SI units and should be converted.",
     "subject": "physics",
     "topic": "Waves & Optics",
     "expected_keywords": [
@@ -20789,7 +20789,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-19655-542866b4",
     "question": "What is The tone?",
     "answer": "a measure of the quality of a sound wave.",
-    "explanation": "The tone — a measure of the quality of a sound wave.",
+    "explanation": "The tone - a measure of the quality of a sound wave.",
     "subject": "physics",
     "topic": "Waves & Optics",
     "expected_keywords": [
@@ -20827,7 +20827,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-19757-f1f0a964",
     "question": "What are X and Y?",
     "answer": "different wave motions.",
-    "explanation": "X and Y — different wave motions.",
+    "explanation": "X and Y - different wave motions.",
     "subject": "physics",
     "topic": "Waves & Optics",
     "expected_keywords": [
@@ -20904,7 +20904,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-20361-dae7abf6",
     "question": "What is A photon?",
     "answer": "a quantum (energy packet) of light.",
-    "explanation": "A photon — a quantum (energy packet) of light.",
+    "explanation": "A photon - a quantum (energy packet) of light.",
     "subject": "physics",
     "topic": "Waves & Optics",
     "expected_keywords": [
@@ -20980,7 +20980,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-21365-8bf42493",
     "question": "What is Hz) and λ?",
     "answer": "the wavelength in metres (m).",
-    "explanation": "Hz) and λ — the wavelength in metres (m).",
+    "explanation": "Hz) and λ - the wavelength in metres (m).",
     "subject": "physics",
     "topic": "Waves & Optics",
     "expected_keywords": [
@@ -21016,7 +21016,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-23166-224a40b1",
     "question": "What is The reaction?",
     "answer": "exothermic and produces heats.",
-    "explanation": "The reaction — exothermic and produces heats.",
+    "explanation": "The reaction - exothermic and produces heats.",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -21199,7 +21199,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-27376-b5d696af",
     "question": "What are The Aurorae?",
     "answer": "an effect of the Earth’s magnetic ﬁeld.",
-    "explanation": "The Aurorae — an effect of the Earth’s magnetic ﬁeld.",
+    "explanation": "The Aurorae - an effect of the Earth’s magnetic ﬁeld.",
     "subject": "physics",
     "topic": "Electricity & Magnetism",
     "expected_keywords": [
@@ -21217,7 +21217,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-27377-fc28be67",
     "question": "What is Describe what?",
     "answer": "meant by the term magnetic ﬁeld.",
-    "explanation": "Describe what — meant by the term magnetic ﬁeld.",
+    "explanation": "Describe what - meant by the term magnetic ﬁeld.",
     "subject": "physics",
     "topic": "Electricity & Magnetism",
     "expected_keywords": [
@@ -21254,7 +21254,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-2901-e0fd18af",
     "question": "What is E is the energy, h?",
     "answer": "Planck’s constant, c is the speed of light and λ is the wavelength.",
-    "explanation": "E is the energy, h — Planck’s constant, c is the speed of light and λ is the wavelength.",
+    "explanation": "E is the energy, h - Planck’s constant, c is the speed of light and λ is the wavelength.",
     "subject": "physics",
     "topic": "Waves & Optics",
     "expected_keywords": [
@@ -21273,7 +21273,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-29680-bbc18fda",
     "question": "What is The force?",
     "answer": "provided by the battery in the circuit.",
-    "explanation": "The force — provided by the battery in the circuit.",
+    "explanation": "The force - provided by the battery in the circuit.",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -21309,7 +21309,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-29882-03dd3316",
     "question": "What is Current?",
     "answer": "the rate at which charges moves past a ﬁxed point in a circuit.",
-    "explanation": "Current — the rate at which charges moves past a ﬁxed point in a circuit.",
+    "explanation": "Current - the rate at which charges moves past a ﬁxed point in a circuit.",
     "subject": "physics",
     "topic": "Electricity & Magnetism",
     "expected_keywords": [
@@ -21347,7 +21347,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-30384-487e403a",
     "question": "What is The current?",
     "answer": "1, 52 × 10−16 A.",
-    "explanation": "The current — 1, 52 × 10−16 A.",
+    "explanation": "The current - 1, 52 × 10−16 A.",
     "subject": "physics",
     "topic": "Electricity & Magnetism",
     "expected_keywords": [
@@ -21402,7 +21402,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-30688-93c29bab",
     "question": "What is The voltage?",
     "answer": "divided across the resistors.",
-    "explanation": "The voltage — divided across the resistors.",
+    "explanation": "The voltage - divided across the resistors.",
     "subject": "physics",
     "topic": "Electricity & Magnetism",
     "expected_keywords": [
@@ -21459,7 +21459,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-34591-1b5b625a",
     "question": "What is Conductivity?",
     "answer": "a measure of a solution’s ability to conduct an electric current.",
-    "explanation": "Conductivity — a measure of a solution’s ability to conduct an electric current.",
+    "explanation": "Conductivity - a measure of a solution’s ability to conduct an electric current.",
     "subject": "physics",
     "topic": "Electricity & Magnetism",
     "expected_keywords": [
@@ -21556,7 +21556,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-3902-53c77fd7",
     "question": "What is Density?",
     "answer": "the mass per unit volume.",
-    "explanation": "Density — the mass per unit volume.",
+    "explanation": "Density - the mass per unit volume.",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -21614,7 +21614,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-6405-e39fd163",
     "question": "What is An insulator?",
     "answer": "a material that does not allow a transfer of electricity or energy.",
-    "explanation": "An insulator — a material that does not allow a transfer of electricity or energy.",
+    "explanation": "An insulator - a material that does not allow a transfer of electricity or energy.",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -21698,7 +21698,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-7109-59bc42aa",
     "question": "What is Diffusion?",
     "answer": "a result of the constant thermal motion of particles.",
-    "explanation": "Diffusion — a result of the constant thermal motion of particles.",
+    "explanation": "Diffusion - a result of the constant thermal motion of particles.",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -21717,7 +21717,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-7511-0fca7d77",
     "question": "What is If the liquid?",
     "answer": "heated further, it will become a gas.",
-    "explanation": "If the liquid — heated further, it will become a gas.",
+    "explanation": "If the liquid - heated further, it will become a gas.",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -21755,7 +21755,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-8717-e2905989",
     "question": "What is The neutron?",
     "answer": "electrically neutral i.",
-    "explanation": "The neutron — electrically neutral i.",
+    "explanation": "The neutron - electrically neutral i.",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -21771,7 +21771,7 @@
     "id": "physics-physical_sciences_ss1_siyavula_learner-9619-68eb4760",
     "question": "What is But the situation?",
     "answer": "slightly more complicated than this.",
-    "explanation": "But the situation — slightly more complicated than this.",
+    "explanation": "But the situation - slightly more complicated than this.",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -32153,7 +32153,7 @@
       "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p9-i1.png"
     ],
     "images_reviewed": true,
-    "review_reason": "Original JAMB answer key marks this question 'NO ANSWER' (none of the 4 options is numerically correct) — confirmed by independent calculation (correct ratio ≈2:9, not matching any option).",
+    "review_reason": "Original JAMB answer key marks this question 'NO ANSWER' (none of the 4 options is numerically correct) - confirmed by independent calculation (correct ratio ≈2:9, not matching any option).",
     "repaired": true
   },
   {
@@ -32870,7 +32870,7 @@
       "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p11-i0.png"
     ],
     "images_reviewed": true,
-    "review_reason": "Original JAMB answer key marks this question 'NO OPTION' (none of the 4 options is numerically correct) — confirmed by independent calculation.",
+    "review_reason": "Original JAMB answer key marks this question 'NO OPTION' (none of the 4 options is numerically correct) - confirmed by independent calculation.",
     "repaired": true
   },
   {
@@ -33011,7 +33011,7 @@
     "id": "physics-textbook_reference-013-cffc405c",
     "question": "What is the rate of decay?",
     "answer": "proportional to the number of unstable nuclei ($N$) present at that instant: $-\\frac{dN}{dt} = \\lambda N$, where $\\lambda$ is the decay constant.",
-    "explanation": "The rate of decay — proportional to the number of unstable nuclei ($N$) present at that instant: $-\\frac{dN}{dt} = \\lambda N$, where $\\lambda$ is the decay constant.",
+    "explanation": "The rate of decay - proportional to the number of unstable nuclei ($N$) present at that instant: $-\\frac{dN}{dt} = \\lambda N$, where $\\lambda$ is the decay constant.",
     "subject": "physics",
     "topic": "Modern Physics & Radioactivity",
     "expected_keywords": [
@@ -33031,7 +33031,7 @@
     "id": "physics-textbook_reference-014-c1c57510",
     "question": "What is the half-life ($T_{1/2}$)?",
     "answer": "the time taken for half of the radioactive nuclei in a sample to decay.",
-    "explanation": "The half-life ($T_{1/2}$) — the time taken for half of the radioactive nuclei in a sample to decay.",
+    "explanation": "The half-life ($T_{1/2}$) - the time taken for half of the radioactive nuclei in a sample to decay.",
     "subject": "physics",
     "topic": "Modern Physics & Radioactivity",
     "expected_keywords": [
@@ -33169,7 +33169,7 @@
     "id": "physics-syllabus-042-1ac91713",
     "question": "What is Temperature and its Measurement?",
     "answer": "Thermometric properties, temperature scales (Celsius, Kelvin, Fahrenheit), liquid-in-glass, gas, resistance thermometers.",
-    "explanation": "Temperature and its Measurement — Thermometric properties, temperature scales (Celsius, Kelvin, Fahrenheit), liquid-in-glass, gas, resistance thermometers.",
+    "explanation": "Temperature and its Measurement - Thermometric properties, temperature scales (Celsius, Kelvin, Fahrenheit), liquid-in-glass, gas, resistance thermometers.",
     "subject": "physics",
     "topic": "Thermal Physics",
     "expected_keywords": [
@@ -33189,7 +33189,7 @@
     "id": "physics-syllabus-047-f05cd57d",
     "question": "What is Heat Transfer?",
     "answer": "Conduction, convection, and radiation. Stefan-Boltzmann law.",
-    "explanation": "Heat Transfer — Conduction, convection, and radiation. Stefan-Boltzmann law.",
+    "explanation": "Heat Transfer - Conduction, convection, and radiation. Stefan-Boltzmann law.",
     "subject": "physics",
     "topic": "Thermal Physics",
     "expected_keywords": [
@@ -33248,7 +33248,7 @@
     "id": "physics-syllabus-048-0174d752",
     "question": "What is Wave Motion?",
     "answer": "Transverse and longitudinal waves, mathematical wave equation ($y = A \\sin(\\omega t - kx)$), reflection, refraction, diffraction, interference, and polarization.",
-    "explanation": "Wave Motion — Transverse and longitudinal waves, mathematical wave equation ($y = A \\sin(\\omega t - kx)$), reflection, refraction, diffraction, interference, and polarization.",
+    "explanation": "Wave Motion - Transverse and longitudinal waves, mathematical wave equation ($y = A \\sin(\\omega t - kx)$), reflection, refraction, diffraction, interference, and polarization.",
     "subject": "physics",
     "topic": "Waves & Optics",
     "expected_keywords": [
@@ -33268,7 +33268,7 @@
     "id": "physics-syllabus-049-ce4f484c",
     "question": "What is Sound Waves?",
     "answer": "Speed of sound, pitch, loudness, quality/timbre, resonance, vibration in pipes (open and closed) and stretched strings.",
-    "explanation": "Sound Waves — Speed of sound, pitch, loudness, quality/timbre, resonance, vibration in pipes (open and closed) and stretched strings.",
+    "explanation": "Sound Waves - Speed of sound, pitch, loudness, quality/timbre, resonance, vibration in pipes (open and closed) and stretched strings.",
     "subject": "physics",
     "topic": "Waves & Optics",
     "expected_keywords": [
@@ -33288,7 +33288,7 @@
     "id": "physics-textbook_2-029-bed1d2ff",
     "question": "What are Waves?",
     "answer": "classified as mechanical (requiring a medium) or electromagnetic (not requiring a medium).",
-    "explanation": "Waves — classified as mechanical (requiring a medium) or electromagnetic (not requiring a medium).",
+    "explanation": "Waves - classified as mechanical (requiring a medium) or electromagnetic (not requiring a medium).",
     "subject": "physics",
     "topic": "Waves & Optics",
     "expected_keywords": [
@@ -33307,7 +33307,7 @@
     "id": "physics-textbook_2-030-588f9d4a",
     "question": "What is the wave equation?",
     "answer": "$v = f \\lambda$, where $v$ is velocity, $f$ is frequency, and $\\lambda$ is wavelength.",
-    "explanation": "The wave equation — $v = f \\lambda$, where $v$ is velocity, $f$ is frequency, and $\\lambda$ is wavelength.",
+    "explanation": "The wave equation - $v = f \\lambda$, where $v$ is velocity, $f$ is frequency, and $\\lambda$ is wavelength.",
     "subject": "physics",
     "topic": "Waves & Optics",
     "expected_keywords": [

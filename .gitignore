@@ -1,4 +1,4 @@
-# Model weights — never commit these to git (ADTC 2026)
+# Model weights - never commit these to git (ADTC 2026)
 model/*.gguf
 model/*.bin
 model/*.safetensors

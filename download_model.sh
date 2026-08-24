@@ -3,7 +3,7 @@
 #
 # Rules:
 #   - Idempotent (safe to run multiple times).
-#   - No credentials — public URL only.
+#   - No credentials - public URL only.
 #   - Output path must match `_runtime.model_path` in metadata.json.
 #
 # Production Naza demo still defaults to models/*.gguf via MODEL_PATH.
@@ -22,7 +22,7 @@ MODEL_URL="https://huggingface.co/lmstudio-community/gemma-4-E4B-it-GGUF/resolve
 mkdir -p "$MODEL_DIR"
 
 if [[ -f "$MODEL_FILE" ]]; then
-  echo "model already present at $MODEL_FILE — skipping download"
+  echo "model already present at $MODEL_FILE - skipping download"
   exit 0
 fi
 

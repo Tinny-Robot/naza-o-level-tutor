@@ -80,7 +80,7 @@ See `data/schema.md` for field definitions (English + Hausa-targeted columns).
    ```
 
 2. Place a Gemma-class instruct base checkpoint (Hugging Face format for PEFT
-   training — not the production GGUF) where the config points.
+   training - not the production GGUF) where the config points.
 3. Export the full JSONL as above; run human Hausa review on `output_ha` where
    needed.
 4. Edit `configs/lora_hausa_curriculum.yaml` paths and hyperparameters.

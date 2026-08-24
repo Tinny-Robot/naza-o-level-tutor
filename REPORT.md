@@ -1,4 +1,4 @@
-# Technical Report — Naza: Offline Nigerian O-Level STEM Tutor
+# Technical Report - Naza: Offline Nigerian O-Level STEM Tutor
 
 **Team ID:** REPLACE_WITH_YOUR_ADTC_TEAM_ID  
 **Domain:** math_scientific_reasoning  
@@ -25,7 +25,7 @@ inference time.
 
 - **Base model:** Google **Gemma 4 E4B-it** (edge-scale instruct model, ~4B
   effective parameters), run through **llama.cpp** only (ADTC requirement).
-- **Quantization:** **GGUF Q4_K_M** — balances answer quality against the
+- **Quantization:** **GGUF Q4_K_M** - balances answer quality against the
   **8 GB RAM** laptop profile. Heavier quants (Q5/Q6/Q8) risk memory pressure
   once the OS and optional retrieval stack share RAM; lighter quants degrade
   STEM step quality too aggressively for exam tutoring.
@@ -58,7 +58,7 @@ and prompt templates live in `finetune/configs/lora_hausa_curriculum.yaml`.
 Dataset export and training entrypoints are under `finetune/scripts/`.
 
 **Scope:** Fine-tuning improves language fluency and curriculum alignment.
-**RAG still grounds study answers** in FAISS-retrieved chunks at runtime — it
+**RAG still grounds study answers** in FAISS-retrieved chunks at runtime - it
 does not replace retrieval.
 
 **ADTC submission:** The GGUF judges download via `download_model.sh` is the
@@ -73,7 +73,7 @@ documented under `finetune/` for inspection.
   inference via llama.cpp for evaluation.
 - **Offline evaluation:** Zero outbound network during profiling. Weights are
   fetched only by `bash download_model.sh` before the run.
-- **Connectivity reality:** Students may have intermittent data — the product
+- **Connectivity reality:** Students may have intermittent data - the product
   design keeps corpus, embeddings, and GGUF on disk.
 - **Data:** Local textbooks, syllabi, and past-question style items; no cloud
   LLM calls in the demo path (`HF_HUB_OFFLINE=1` / `TRANSFORMERS_OFFLINE=1`).
@@ -91,7 +91,7 @@ Self-reported on the development machine (not official ADTC profiler scores):
 | Quantization | GGUF Q4_K_M |
 | Runtime | llama.cpp (Python bindings in app; ADTC uses llama.cpp) |
 | Typical tutor reply | Study-mode RAG + generation (app); profiler uses bare GGUF |
-| Thermal throttling | Not profiled on ADTC official laptop — run `adtc-profiler` locally |
+| Thermal throttling | Not profiled on ADTC official laptop - run `adtc-profiler` locally |
 
 Re-measure on your 8 GB laptop before submit:
 
@@ -118,7 +118,7 @@ adtc-profiler run --submission . --mode participant --output submission.json --s
 
 ## African use-case claim
 
-`african_alpha_claim: true` — the load-bearing pairing is **education** for
+`african_alpha_claim: true` - the load-bearing pairing is **education** for
 Nigerian WAEC/NECO students, with **Hausa** in `language_scope`, offline
 operation for low-connectivity contexts, and syllabus-grounded STEM tutoring
 rather than a generic coding assistant.
