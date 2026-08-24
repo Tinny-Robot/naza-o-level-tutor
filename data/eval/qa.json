@@ -3,7 +3,7 @@
     "id": "chemistry-past_questions-003-8ebd4ce5",
     "question": "Describe the Acid-Base Volumetric Analysis (Titration) experiment. Outline the typical burette readings, calculations of concentrations, and three precautions.",
     "answer": "Experimental Setup and Procedure: - Prepare a standard solution of a weak base, e.g., anhydrous sodium trioxocarbonate (IV) ($Na_2CO_3$), by weighing exactly 2.65 g and dissolving it in water to make $500\\text{ cm}^3$ of solution ($0.05\\text{ mol/dm}^3$). - Pipette $25.0\\text{ cm}^3$ of this base solution into a clean conical flask and add 2-3 drops of Methyl Orange indicator (the solution turns yellow).…",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Acids, Bases & Salts stem before using it in practice.",
+    "explanation": "Pipette a fixed volume of one solution into a conical flask, add indicator, titrate from the burette to the endpoint, then average concordant titre values for the concentration calculation.",
     "subject": "chemistry",
     "topic": "Acids, Bases & Salts",
     "expected_keywords": [
@@ -16,15 +16,14 @@
       "prepare",
       "standard"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "chemistry-past_questions_20years-003-440cd617",
     "question": "Describe the Acid-Base Volumetric Analysis (Titration) experiment. Outline average volume calculations, and three precautions.",
     "answer": "Titrate acid against base using indicator. Average concordant values of burette readings. Precautions: rinse burette with acid, read meniscus at eye level, avoid bubbles.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Acids, Bases & Salts stem before using it in practice.",
+    "explanation": "Pipette a fixed volume of one solution into a conical flask, add indicator, titrate from the burette to the endpoint, then average concordant titre values for the concentration calculation.",
     "subject": "chemistry",
     "topic": "Acids, Bases & Salts",
     "expected_keywords": [
@@ -37,15 +36,14 @@
       "concordant",
       "values"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "chemistry-past_questions_20years-004-682dec61",
     "question": "Provide a Qualitative Analysis Table for identifying the presence of a cation ($Cu^{2+}$) and an anion ($SO_4^{2-}$) in an unknown salt sample 'X'.",
     "answer": "Table: Blue solution with NaOH gives blue precipitate insoluble in excess. With NH3, gives blue precipitate soluble in excess giving deep blue solution (Cu2+). With BaCl2 + HCl, white precipitate insoluble in acid (SO42-).",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Acids, Bases & Salts stem before using it in practice.",
+    "explanation": "Test systematically with reagents (e.g. NaOH, NH₃, BaCl₂/HCl) and record observations in a table before drawing inferences about cations and anions.",
     "subject": "chemistry",
     "topic": "Acids, Bases & Salts",
     "expected_keywords": [
@@ -58,9 +56,8 @@
       "excess",
       "soluble"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "chemistry-past_questions_20years-008-b71dba21",
@@ -123,7 +120,7 @@
     "id": "chemistry-syllabus-042-10fdeec8",
     "question": "What is Salts?",
     "answer": "Classification (acid, basic, normal, double, complex), preparation methods, solubility rules. Qualitative analysis for cations ($Fe^{2+}$, $Fe^{3+}$, $Cu^{2+}$, $Al^{3+}$, $Zn^{2+}$, $Ca^{2+}$, $NH_4^+$) and anions ($CO_3^{2-}$, $SO_4^{2-}$, $Cl^-$, $NO_3^-$).",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Acids, Bases & Salts stem before using it in practice.",
+    "explanation": "Salts — Classification (acid, basic, normal, double, complex), preparation methods, solubility rules. Qualitative analysis for cations ($Fe^{2+}$, $Fe^{3+}$, $Cu^{2+}$, $Al^{3+}$, $Zn^{2+}$, $Ca^{2+}$, $NH_4^+$) and anions ($CO_3^{2-}$, $SO_4^{2-}$, $Cl^-$, $NO_3^-$).",
     "subject": "chemistry",
     "topic": "Acids, Bases & Salts",
     "expected_keywords": [
@@ -136,9 +133,8 @@
       "preparation",
       "methods"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "chemistry-textbook_1-016-f65b709c",
@@ -7026,7 +7022,7 @@
     "id": "physics-past_questions_20years-014-7055b10d",
     "question": "Explain the photoelectric effect. Write down Einstein's photoelectric equation, defining all terms.",
     "answer": "Photoelectric effect is the emission of electrons when light hits metal. Einstein's equation: $hf = W_0 + K_{{max}}$, where $W_0$ is work function, and $K_{{max}}$ is max kinetic energy.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Modern Physics & Radioactivity stem before using it in practice.",
+    "explanation": "The photoelectric equation is hf = φ + ½mv². The model answer below gives the full procedure or working.",
     "subject": "physics",
     "topic": "Modern Physics & Radioactivity",
     "expected_keywords": [
@@ -7039,9 +7035,8 @@
       "hits",
       "metal"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "physics-syllabus-058-15d83f42",
@@ -7125,7 +7120,7 @@
     "id": "chemistry-past_questions_20years-010-c11961e2",
     "question": "Define esterification. Write a balanced chemical equation for the reaction between ethanol and ethanoic acid.",
     "answer": "Esterification is the reaction between organic acid and alcohol to produce ester and water. Equation: $CH_3COOH + C_2H_5OH \\rightleftharpoons CH_3COOC_2H_5 + H_2O$.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Organic Chemistry stem before using it in practice.",
+    "explanation": "Esterification is the reaction between organic acid and alcohol to produce ester and water.",
     "subject": "chemistry",
     "topic": "Organic Chemistry",
     "expected_keywords": [
@@ -7138,9 +7133,8 @@
       "ester",
       "water"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "chemistry-textbook_2-021-48eb095b",
@@ -7241,7 +7235,7 @@
     "id": "chemistry-textbook_reference-012-578f7717",
     "question": "What are Saponification is the alkaline hydrolysis of fats or oils (which?",
     "answer": "glyceryl esters of long-chain carboxylic acids) using a strong base like sodium hydroxide ($NaOH$) or potassium hydroxide ($KOH$) to produce glycerol and soap (sodium or potassium salts of fatty acids).",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Acids, Bases & Salts stem before using it in practice.",
+    "explanation": "glyceryl esters of long-chain carboxylic acids) using a strong base like sodium hydroxide ($NaOH$) or potassium hydroxide ($KOH$) to produce glycerol and soap (sodium or potassium salts of fatty acids).",
     "subject": "chemistry",
     "topic": "Acids, Bases & Salts",
     "expected_keywords": [
@@ -7254,9 +7248,8 @@
       "base",
       "like"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "chemistry-textbook_reference-formula-013-3ba3ecfb",
@@ -9564,7 +9557,7 @@
     "id": "chemistry-past_questions-002-e129a262",
     "question": "An electric current of 2.0 A is passed through an aqueous solution of copper (II) tetraoxosulphate (VI) ($CuSO_4$) for 40 minutes and 15 seconds. Calculate the mass of copper deposited at the cathode. (Relative atomic mass of $Cu = 64$; Faraday constant = $96500\\text{ C/mol}$)",
     "answer": "Write the half-reaction occurring at the cathode: $Cu^{2+}(aq) + 2e^- \\rightarrow Cu(s)$ This indicates that 2 moles of electrons ($2\\text{ F}$) are required to deposit 1 mole (64 g) of copper. Calculate the quantity of electricity ($Q$) passed: Time $t = 40\\text{ minutes } 15\\text{ seconds} = (40 \\times 60) + 15 = 2400 + 15 = 2415\\text{ seconds}$. Current $I = 2.0\\text{ A}$.…",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Redox & Electrochemistry stem before using it in practice.",
+    "explanation": "Write the half-reaction occurring at the cathode: $Cu^{2+}(aq) + 2e^- \\rightarrow Cu(s)$ This indicates that 2 moles of electrons ($2\\text{ F}$) are required to deposit 1 mole (64 g) of copper.",
     "subject": "chemistry",
     "topic": "Redox & Electrochemistry",
     "expected_keywords": [
@@ -9577,15 +9570,14 @@
       "half-reaction",
       "occurring"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "chemistry-past_questions_20years-002-9fa895ac",
     "question": "An electric current of 2.0 A is passed through an aqueous solution of copper (II) tetraoxosulphate (VI) ($CuSO_4$) for 40 minutes and 15 seconds. Calculate the mass of copper deposited. (RAM of Cu = 64; Faraday constant = 96500 C/mol)",
     "answer": "$Q = I \\times t = 2.0 \\times 2415 = 4830\\text{ C}$. Mass = $(64 \\times 4830) / (2 \\times 96500) \\approx 1.60\\text{ g}$.",
-    "explanation": "$Q = I \\times t = 2.0 \\times 2415 = 4830\\text{ C}$. Mass = $(64 \\times 4830) / (2 \\times 96500) \\approx 1.60\\text{ g}$.",
+    "explanation": "$Q = I \\times t = 2.0 \\times 2415 = 4830\\text{ C}$.",
     "subject": "chemistry",
     "topic": "Redox & Electrochemistry",
     "expected_keywords": [
@@ -9702,7 +9694,7 @@
     "id": "chemistry-textbook_reference-009-8dde61ad",
     "question": "What does Faraday's second law state?",
     "answer": "when the same quantity of electricity is passed through different electrolytes, the masses of the substances liberated are proportional to their chemical equivalents (molar mass divided by the charge of the ion).",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Redox & Electrochemistry stem before using it in practice.",
+    "explanation": "Faraday's second law state — when the same quantity of electricity is passed through different electrolytes, the masses of the substances liberated are proportional to their chemical equivalents (molar mass divided by the charge of the ion).",
     "subject": "chemistry",
     "topic": "Redox & Electrochemistry",
     "expected_keywords": [
@@ -9715,9 +9707,8 @@
       "electrolytes",
       "masses"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "chemistry-textbook_reference-010-b621e8b8",
@@ -9820,7 +9811,7 @@
     "id": "chemistry-past_questions-001-4155cf6a",
     "question": "What volume of carbon (IV) oxide ($CO_2$) measured at s.t.p. is produced when 10.0 g of calcium trioxocarbonate (IV) ($CaCO_3$) is completely decomposed by heat? (Molar mass of $CaCO_3 = 100\\text{ g/mol}$; Molar volume of gas at s.t.p. = $22.4\\text{ dm}^3$)",
     "answer": "A - $2.24\\text{ dm}^3$ - The balanced chemical equation for the thermal decomposition of calcium carbonate is: $CaCO_3(s) \\rightarrow CaO(s) + CO_2(g)$ From the equation,…",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Stoichiometry & Chemical Equations stem before using it in practice.",
+    "explanation": "The balanced chemical equation for the thermal decomposition of calcium carbonate is: $CaCO_3(s) \\rightarrow CaO(s) + CO_2(g)$ From the equation, 1 mole of $CaCO_3$ (100 g) decomposes to produce 1 mole of $CO_2$ ($22.4\\text{ dm}^3$ at s.t.p.). To find the volume produced by 10.0 g of $CaCO_3$, we write: Number of moles of $CaCO_3 = \\frac{\\text{Mass}}{\\text{Molar Mass}} = \\frac{10.0\\text{ g}}{100\\text{ g/mol}} = 0.10\\text{ mol}$. Since the mole ratio of $CaCO_3$ to $CO_2$ is 1:1, the moles of $CO_2$ produced = 0.10 mol. Volume of $CO_2$ at s.t.p. = $\\text{moles} \\times \\text{molar volume} = 0.10\\text{ mol} \\times 22.4\\text{ dm}^3/\\text{mol} = 2.24\\text{ dm}^3$. Therefore, Option A is correct",
     "subject": "chemistry",
     "topic": "Stoichiometry & Chemical Equations",
     "expected_keywords": [
@@ -9833,9 +9824,8 @@
       "equation",
       "thermal"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "chemistry-past_questions_20years-001-53699227",
@@ -9861,7 +9851,7 @@
     "id": "chemistry-past_questions_20years-006-4763fe8b",
     "question": "A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Find its empirical formula. (RAM: C=12, H=1, O=16)",
     "answer": "Ratio: C: 40/12 = 3.33, H: 6.7/1 = 6.70, O: 53.3/16 = 3.33. Divide by 3.33 gives ratio 1:2:1. Formula: $CH_2O$.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Stoichiometry & Chemical Equations stem before using it in practice.",
+    "explanation": "Ratio: C: 40/12 = 3.33, H: 6.7/1 = 6.70, O: 53.3/16 = 3.33.",
     "subject": "chemistry",
     "topic": "Stoichiometry & Chemical Equations",
     "expected_keywords": [
@@ -9874,9 +9864,8 @@
       "contains",
       "carbon"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "chemistry-syllabus-032-8ab4a9b8",
@@ -10060,7 +10049,7 @@
     "id": "chemistry-textbook_reference-004-469f9339",
     "question": "What represents Empirical formula?",
     "answer": "the simplest whole-number ratio of atoms of each element in a compound, whereas the molecular formula shows the actual number of atoms of each element in a molecule.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Stoichiometry & Chemical Equations stem before using it in practice.",
+    "explanation": "the simplest whole-number ratio of atoms of each element in a compound, whereas the molecular formula shows the actual number of atoms of each element in a molecule.",
     "subject": "chemistry",
     "topic": "Stoichiometry & Chemical Equations",
     "expected_keywords": [
@@ -10073,9 +10062,8 @@
       "whereas",
       "molecular"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "chemistry-textbook_reference-005-b626d29f",
@@ -10097,7 +10085,7 @@
     "id": "chemistry-past_questions-000-0d9023f7",
     "question": "What is the electronic configuration of the divalent cation of zinc ($Zn^{2+}$)? (Atomic number of $Zn = 30$)",
     "answer": "C - $1s^2 2s^2 2p^6 3s^2 3p^6 3d^{10}$ - The atomic number of zinc is 30, which means a neutral zinc atom has 30 electrons with configuration: $1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10}$ (or written as $1s^2 2s^2 2p^6 3s^2 3p^6 3d^{10} 4s^2$).…",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Structure of the Atom stem before using it in practice.",
+    "explanation": "The atomic number of zinc is 30, which means a neutral zinc atom has 30 electrons with configuration: $1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10}$ (or written as $1s^2 2s^2 2p^6 3s^2 3p^6 3d^{10} 4s^2$). When zinc forms a divalent cation ($Zn^{2+}$), it loses two electrons. These electrons are lost from the outermost shell first, which is the $4s$ orbital, rather than the $3d$ orbital. Thus, the configuration of $Zn^{2+}$ is $1s^2 2s^2 2p^6 3s^2 3p^6 3d^{10}$. Option C is correct",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -10110,9 +10098,8 @@
       "has",
       "electrons"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "chemistry-past_questions_20years-000-9160caa1",
@@ -10138,7 +10125,7 @@
     "id": "chemistry-past_questions_20years-005-81a9ea85",
     "question": "What is the number of protons and neutrons in an atom of element X with atomic number 11 and mass number 24?",
     "answer": "A - Protons = 11, Neutrons = 13 - Protons = 11. Neutrons = mass - atomic = 24 - 11 = 13.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Structure of the Atom stem before using it in practice.",
+    "explanation": "Protons = 11. Neutrons = mass - atomic = 24 - 11 = 13",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -10150,15 +10137,14 @@
       "atom",
       "element"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "chemistry-past_questions_20years-011-93f355c6",
     "question": "What is the number of protons and neutrons in an atom of element X with atomic number 17 and mass number 36?",
     "answer": "A - Protons = 17, Neutrons = 19 - Protons = 17. Neutrons = mass - atomic = 36 - 17 = 19.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Structure of the Atom stem before using it in practice.",
+    "explanation": "Protons = 17. Neutrons = mass - atomic = 36 - 17 = 19",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -10170,15 +10156,14 @@
       "atom",
       "element"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "chemistry-past_questions_20years-017-a7ef56aa",
     "question": "What is the number of protons and neutrons in an atom of element X with atomic number 15 and mass number 32?",
     "answer": "A - Protons = 15, Neutrons = 17 - Protons = 15. Neutrons = mass - atomic = 32 - 15 = 17.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Structure of the Atom stem before using it in practice.",
+    "explanation": "Protons = 15. Neutrons = mass - atomic = 32 - 15 = 17",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -10190,15 +10175,14 @@
       "atom",
       "element"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "chemistry-past_questions_20years-023-a7bf3c99",
     "question": "What is the number of protons and neutrons in an atom of element X with atomic number 13 and mass number 28?",
     "answer": "A - Protons = 13, Neutrons = 15 - Protons = 13. Neutrons = mass - atomic = 28 - 13 = 15.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Structure of the Atom stem before using it in practice.",
+    "explanation": "Protons = 13. Neutrons = mass - atomic = 28 - 13 = 15",
     "subject": "chemistry",
     "topic": "Structure of the Atom",
     "expected_keywords": [
@@ -10210,9 +10194,8 @@
       "atom",
       "element"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "chemistry-syllabus-027-77f79d66",
@@ -13005,7 +12988,7 @@
     "id": "english-past_questions-006-86fbb928",
     "question": "Write an essay on the following topic:\n\nYou have noticed a rising trend in examination malpractice in your school. Write a letter to your principal outlining three major causes of this trend and suggesting three solutions to curb it.",
     "answer": "Lack of adequate preparation and poor study habits among students. Excessive pressure from parents and society to obtain high grades at all costs. Inadequate teaching facilities and shortage of qualified teachers in some subjects.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Composition & Essay Writing stem before using it in practice.",
+    "explanation": "Lack of adequate preparation and poor study habits among students.",
     "subject": "english",
     "topic": "Composition & Essay Writing",
     "expected_keywords": [
@@ -13018,15 +13001,14 @@
       "among",
       "students"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "english-past_questions_20years-010-3f623c55",
     "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
     "answer": "Model Response Structure: - Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS - Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function. - Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food. - Conclusion: Urge school to prioritize nutritional meals.…",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Composition & Essay Writing stem before using it in practice.",
+    "explanation": "Model Response Structure: - Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS - Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.",
     "subject": "english",
     "topic": "Composition & Essay Writing",
     "expected_keywords": [
@@ -13039,9 +13021,8 @@
       "nutrition",
       "academic"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "english-textbook_2-013-5f520afe",
@@ -13107,7 +13088,7 @@
     "id": "english-textbook_2-016-7218e1e8",
     "question": "What is Letters?",
     "answer": "Formal, informal, and semi-formal letters. Formal letters require two addresses (writer's and recipient's), a formal date, formal salutation, a bold capitalized title, a formal body, and a formal closing ('Yours faithfully' followed by signature and full name).",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Composition & Essay Writing stem before using it in practice.",
+    "explanation": "Letters — Formal, informal, and semi-formal letters. Formal letters require two addresses (writer's and recipient's), a formal date, formal salutation, a bold capitalized title, a formal body, and a formal closing ('Yours faithfully' followed by signature and full name).",
     "subject": "english",
     "topic": "Composition & Essay Writing",
     "expected_keywords": [
@@ -13120,9 +13101,8 @@
       "writer's",
       "recipient's"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "english-past_questions-004-f443dad8",
@@ -13149,7 +13129,7 @@
     "id": "english-past_questions-part-000-30c839c5",
     "question": "Regarding: Read the following passage and answer the questions: - what is the answer to part 1?",
     "answer": "Ade was filled with dread because it was the day of the final audition for the National Youth Orchestra, which was highly important, and he knew he only had one chance to succeed.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Lexis & Structure stem before using it in practice.",
+    "explanation": "Ade was filled with dread because it was the day of the final audition for the National Youth Orchestra, which was highly important, and he knew he only had one chance to succeed.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -13162,9 +13142,8 @@
       "audition",
       "national"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "english-past_questions-part-001-67f5c5bf",
@@ -13190,7 +13169,7 @@
     "id": "english-past_questions-part-002-2731a0dc",
     "question": "Regarding: Read the following passage and answer the questions: - what is the answer to part 3?",
     "answer": "Grammatical Name: Adverbial clause of time. Syntactic Function: It modifies the main verb phrase 'was heavy' in the independent clause.",
-    "explanation": "Grammatical Name: Adverbial clause of time. Syntactic Function: It modifies the main verb phrase 'was heavy' in the independent clause.",
+    "explanation": "Grammatical Name: Adverbial clause of time.",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -13230,7 +13209,7 @@
     "id": "english-past_questions-005-8fe9ac74",
     "question": "Read the passage and answer the question:\n\nModern agriculture has transformed food production, but it has also brought significant environmental issues. First, the heavy use of chemical fertilizers has contaminated water bodies, leading to the eutrophication of lakes and rivers. This process suffocates aquatic organisms due to oxygen depletion. Second, the clearing of forests to create vast farmlands has resulted in the destruction of natural habitats, threatening biodiversity. Third, the intensive use of heavy machinery compacts the soil structure, which reduces its ability to absorb rainwater and increases soil erosion.\n\nQuestion:\nIn three sentences, summarize the three environmental issues associated with modern agriculture described in the passage.",
     "answer": "1. Chemical fertilizers used in modern farming pollute water bodies, leading to the death of aquatic life. 2. The clearing of forests for farmland destroys habitats and threatens biodiversity. 3. The use of heavy machinery compacts the soil, leading to increased soil erosion.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Comprehension & Summary stem before using it in practice.",
+    "explanation": "1. Chemical fertilizers used in modern farming pollute water bodies, leading to the death of aquatic life. 2. The clearing of forests for farmland destroys habitats and threatens biodiversity. 3. The use of heavy machinery compacts the soil, leading to increased soil erosion.",
     "subject": "english",
     "topic": "Comprehension & Summary",
     "expected_keywords": [
@@ -13243,9 +13222,8 @@
       "bodies",
       "leading"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "english-past_questions-part-004-12766820",
@@ -13431,7 +13409,7 @@
     "id": "english-past_questions-002-7532a444",
     "question": "In the following sentence, the stressed word is written in capital letters. Choose the option that is answered by the sentence:\nKofi bought a RED shirt for his brother.",
     "answer": "C - Did Kofi buy a blue shirt? - In emphatic stress, the stressed word ('RED') represents the new information that contradicts an alternative. The question must ask about the attribute represented by the stressed word.…",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Lexis & Structure stem before using it in practice.",
+    "explanation": "Stressed 'RED' implies a contrast of color. The question should query the color",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -13444,9 +13422,8 @@
       "stress",
       "stressed"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "english-syllabus-030-767a183e",
@@ -13624,7 +13601,7 @@
     "id": "english-past_questions-000-6b19728c",
     "question": "Choose the option that best completes the sentence:\nEach of the candidates _______ expected to submit a copy of their credentials before Friday.",
     "answer": "B - is - The subject of the sentence is the indefinite pronoun 'Each', which is grammatically singular. Therefore, it requires a singular verb. 'is' is the only singular verb in the present tense among the options.…",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Lexis & Structure stem before using it in practice.",
+    "explanation": "The subject is 'Each', which is singular. Thus, it requires the singular verb 'is'",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -13637,15 +13614,14 @@
       "therefore",
       "requires"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "english-past_questions-001-eb074646",
     "question": "Identify the option that is closest in meaning to the underlined word:\nHe made a *cursory* glance at the document before signing it.",
     "answer": "C - hasty - The word 'cursory' means hasty, rapid, or superficial, done without attention to details. Therefore, 'hasty' (Option C) is the closest synonym. Options A, B, and D mean the opposite (thorough, critical, detailed).",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Lexis & Structure stem before using it in practice.",
+    "explanation": "'Cursory' means hasty or superficial",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -13658,9 +13634,8 @@
       "done",
       "without"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "english-past_questions_20years-007-beb4a5e3",
@@ -13934,7 +13909,7 @@
     "id": "english-textbook_2-019-b6051018",
     "question": "What is Word Stress?",
     "answer": "Stressed syllables in multi-syllable words. Nouns and adjectives usually have the stress on the first syllable, while verbs and prepositions have the stress on the second syllable.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Oral English stem before using it in practice.",
+    "explanation": "Word Stress — Stressed syllables in multi-syllable words. Nouns and adjectives usually have the stress on the first syllable, while verbs and prepositions have the stress on the second syllable.",
     "subject": "english",
     "topic": "Oral English",
     "expected_keywords": [
@@ -13947,9 +13922,8 @@
       "usually",
       "have"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "english-textbook_reference-005-37291c60",
@@ -14095,7 +14069,7 @@
     "id": "english-past_questions-003-c2689e9a",
     "question": "Choose the word that has the same vowel sound as the one represented by the underlined letters:\npl<u>ea</u>se",
     "answer": "B - key - The underlined letters 'ea' in 'please' represent the long vowel sound /i:/. Among the options, 'key' (Option B) contains the same long vowel sound /i:/.…",
-    "explanation": "The recorded key is B: key - The underlined letters 'ea' in 'please' represent the long vowel sound /i:/. Among the options, 'key' (Option B) contains the same long vowel sound /i:/.…. This stem looks truncated or mixed with neighbouring questions; treat the Lexis & Structure idea in the first sentence carefully.",
+    "explanation": "The vowel sound is long /i:/, matched by 'key'",
     "subject": "english",
     "topic": "Lexis & Structure",
     "expected_keywords": [
@@ -14108,15 +14082,14 @@
       "vowel",
       "sound"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "mathematics-past_questions_20years-000-b111b37e",
     "question": "If $\\log_2 x + \\log_2(x - 2) = 3$, find the value of $x$.",
     "answer": "A - $x = 4$ - Using properties of logarithms: $\\log_2(x(x - 2)) = 3$. converting to exponential: $x(x - 2) = 2^3 = 8 \\implies x^2 - 2x - 8 = 0 \\implies (x - 4)(x + 2) = 0 \\implies x = 4$.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Logarithms stem before using it in practice.",
+    "explanation": "Using properties of logarithms: $\\log_2(x(x - 2)) = 3$. converting to exponential: $x(x - 2) = 2^3 = 8 \\implies x^2 - 2x - 8 = 0 \\implies (x - 4)(x + 2) = 0 \\implies x = 4$",
     "subject": "mathematics",
     "topic": "Logarithms",
     "expected_keywords": [
@@ -14126,15 +14099,14 @@
       "exponential",
       "value"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "mathematics-past_questions_20years-004-e81999de",
     "question": "Solve the quadratic equation using the quadratic formula: $x^2 - 8x + 12 = 0$.",
     "answer": "For $x^2 - 8x + 12 = 0$, we have $a=1, b=-8, c=12$. Using the formula: $x = \\frac{{-b \\pm \\sqrt{{b^2 - 4ac}}}}{{2a}}$ Substituting gives: roots $x = 6$ or $x = 2$.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Quadratic Equations stem before using it in practice.",
+    "explanation": "For $x^2 - 8x + 12 = 0$, we have $a=1, b=-8, c=12$.",
     "subject": "mathematics",
     "topic": "Quadratic Equations",
     "expected_keywords": [
@@ -14147,9 +14119,8 @@
       "quadratic",
       "equation"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "mathematics-past_questions_20years-009-b20e42d2",
@@ -14172,7 +14143,7 @@
     "id": "mathematics-past_questions_20years-014-b23d8dc3",
     "question": "Solve the quadratic equation using the quadratic formula: $x^2 - 9x + 18 = 0$.",
     "answer": "For $x^2 - 9x + 18 = 0$, we have $a=1, b=-9, c=18$. Using the formula: $x = \\frac{{-b \\pm \\sqrt{{b^2 - 4ac}}}}{{2a}}$ Substituting gives: roots $x = 6$ or $x = 3$.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Quadratic Equations stem before using it in practice.",
+    "explanation": "For $x^2 - 9x + 18 = 0$, we have $a=1, b=-9, c=18$.",
     "subject": "mathematics",
     "topic": "Quadratic Equations",
     "expected_keywords": [
@@ -14185,9 +14156,8 @@
       "quadratic",
       "equation"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "mathematics-past_questions_20years-019-b7590b87",
@@ -14210,7 +14180,7 @@
     "id": "mathematics-past_questions_20years-024-2cb21b78",
     "question": "Solve the quadratic equation using the quadratic formula: $x^2 - 7x + 6 = 0$.",
     "answer": "For $x^2 - 7x + 6 = 0$, we have $a=1, b=-7, c=6$. Using the formula: $x = \\frac{{-b \\pm \\sqrt{{b^2 - 4ac}}}}{{2a}}$ Substituting gives: roots $x = 6$ or $x = 1$.",
-    "explanation": "For $x^2 - 7x + 6 = 0$, we have $a=1, b=-7, c=6$. Using the formula: $x = \\frac{{-b \\pm \\sqrt{{b^2 - 4ac}}}}{{2a}}$ Substituting gives: roots $x = 6$ or $x = 1$.",
+    "explanation": "For $x^2 - 7x + 6 = 0$, we have $a=1, b=-7, c=6$.",
     "subject": "mathematics",
     "topic": "Quadratic Equations",
     "expected_keywords": [
@@ -14597,7 +14567,7 @@
     "id": "mathematics-past_questions_20years-010-561505cb",
     "question": "State the circle theorem regarding the angle subtended by an arc at the center of a circle compared to the circumference, and use it to solve: If angle at center is $2x + 10^\\circ$ and angle at circumference is $50^\\circ$, find $x$.",
     "answer": "Angle at Center = 2 * Angle at Circumference. $2x + 10 = 2 \\times 50 = 100 \\implies 2x = 90 \\implies x = 45$.",
-    "explanation": "Angle at Center = 2 * Angle at Circumference. $2x + 10 = 2 \\times 50 = 100 \\implies 2x = 90 \\implies x = 45$.",
+    "explanation": "The angle in a semicircle is 90°. The model answer below gives the full procedure or working.",
     "subject": "mathematics",
     "topic": "Circle Geometry Theorems",
     "expected_keywords": [
@@ -14717,7 +14687,7 @@
     "id": "mathematics-past_questions_20years-002-d88f848a",
     "question": "Two points P and Q lie on latitude $60^\\circ\\text{N}$. Their longitudes are $20^\\circ\\text{W}$ and $40^\\circ\\text{E}$. Calculate the distance along the parallel of latitude. (Earth radius = 6400 km)",
     "answer": "$r = 6400 \\cos 60^\\circ = 3200\\text{ km}$. Angular diff = $20 + 40 = 60^\\circ$. Distance = $(60/360) \\times 2 \\times \\frac{{22}}{{7}} \\times 3200 \\approx 3352.38\\text{ km}$.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Latitude and Longitude stem before using it in practice.",
+    "explanation": "$r = 6400 \\cos 60^\\circ = 3200\\text{ km}$.",
     "subject": "mathematics",
     "topic": "Latitude and Longitude",
     "expected_keywords": [
@@ -14730,9 +14700,8 @@
       "distance",
       "points"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "mathematics-textbook_1-020-b8e1f9d7",
@@ -18176,7 +18145,7 @@
     "id": "mathematics-past_questions_20years-006-6dc01e50",
     "question": "Calculate the total surface area of a solid cylinder of radius 7cm and height 20cm. (Take \\pi = 22/7)",
     "answer": "Surface area of cylinder is $A = 2\\pi r(r + h)$. Substituting: $A = 2 \\times \\frac{22}{7} \\times 7 \\times (7 + 20) = 1188\\text{ cm}^2$.",
-    "explanation": "Surface area of cylinder is $A = 2\\pi r(r + h)$. Substituting: $A = 2 \\times \\frac{22}{7} \\times 7 \\times (7 + 20) = 1188\\text{ cm}^2$.",
+    "explanation": "Use the standard area and volume formulae for sectors, cylinders, cones, spheres and pyramids. The model answer below gives the full procedure or working.",
     "subject": "mathematics",
     "topic": "Mensuration",
     "expected_keywords": [
@@ -18211,7 +18180,7 @@
     "id": "mathematics-past_questions_20years-016-48ccea37",
     "question": "Calculate the total surface area of a solid cylinder of radius 14cm and height 20cm. (Take \\pi = 22/7)",
     "answer": "Surface area of cylinder is $A = 2\\pi r(r + h)$. Substituting: $A = 2 \\times \\frac{22}{7} \\times 14 \\times (14 + 20) = 2992\\text{ cm}^2$.",
-    "explanation": "Surface area of cylinder is $A = 2\\pi r(r + h)$. Substituting: $A = 2 \\times \\frac{22}{7} \\times 14 \\times (14 + 20) = 2992\\text{ cm}^2$.",
+    "explanation": "Use the standard area and volume formulae for sectors, cylinders, cones, spheres and pyramids. The model answer below gives the full procedure or working.",
     "subject": "mathematics",
     "topic": "Mensuration",
     "expected_keywords": [
@@ -18246,7 +18215,7 @@
     "id": "mathematics-past_questions_20years-026-c7bb9824",
     "question": "Calculate the total surface area of a solid cylinder of radius 21cm and height 20cm. (Take \\pi = 22/7)",
     "answer": "Surface area of cylinder is $A = 2\\pi r(r + h)$. Substituting: $A = 2 \\times \\frac{22}{7} \\times 21 \\times (21 + 20) = 5412\\text{ cm}^2$.",
-    "explanation": "Surface area of cylinder is $A = 2\\pi r(r + h)$. Substituting: $A = 2 \\times \\frac{22}{7} \\times 21 \\times (21 + 20) = 5412\\text{ cm}^2$.",
+    "explanation": "Use the standard area and volume formulae for sectors, cylinders, cones, spheres and pyramids. The model answer below gives the full procedure or working.",
     "subject": "mathematics",
     "topic": "Mensuration",
     "expected_keywords": [
@@ -18386,7 +18355,7 @@
     "id": "mathematics-syllabus-059-888ca40a",
     "question": "What is Lengths, Areas, and Volumes?",
     "answer": "Perimeter and area of plane shapes (triangles, quadrilaterals, sectors, segments), surface area and volume of solids (prisms, cylinders, cones, spheres, pyramids).",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Mensuration stem before using it in practice.",
+    "explanation": "Lengths, Areas, and Volumes — Perimeter and area of plane shapes (triangles, quadrilaterals, sectors, segments), surface area and volume of solids (prisms, cylinders, cones, spheres, pyramids).",
     "subject": "mathematics",
     "topic": "Mensuration",
     "expected_keywords": [
@@ -18399,15 +18368,14 @@
       "sectors",
       "segments"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "mathematics-syllabus-060-d45f4c83",
     "question": "What is Introductory Calculus?",
     "answer": "Differentiation of polynomials ($y = ax^n$), rate of change, tangents and normals, maximum and minimum points. Integration of simple algebraic functions ($y = ax^n$, $n \\neq -1$), area under a curve.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Calculus stem before using it in practice.",
+    "explanation": "Introductory Calculus — Differentiation of polynomials ($y = ax^n$), rate of change, tangents and normals, maximum and minimum points. Integration of simple algebraic functions ($y = ax^n$, $n \\neq -1$), area under a curve.",
     "subject": "mathematics",
     "topic": "Calculus",
     "expected_keywords": [
@@ -18420,9 +18388,8 @@
       "maximum",
       "minimum"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "mathematics-syllabus-061-5027dfe7",
@@ -18995,7 +18962,7 @@
     "id": "mathematics-past_questions_20years-001-8c20061a",
     "question": "The 3rd term of an AP is 11 and the 8th term is 26. Find (a) the first term and common difference, (b) the 20th term, (c) the sum of the first 20 terms.",
     "answer": "(a) $a + 2d = 11$, $a + 7d = 26 \\implies 5d = 15 \\implies d = 3, a = 5$. (b) $T_{{20}} = 5 + 19(3) = 62$. (c) $S_{{20}} = 10(10 + 57) = 670$.",
-    "explanation": "(a) $a + 2d = 11$, $a + 7d = 26 \\implies 5d = 15 \\implies d = 3, a = 5$. (b) $T_{{20}} = 5 + 19(3) = 62$. (c) $S_{{20}} = 10(10 + 57) = 670$.",
+    "explanation": "(a) $a + 2d = 11$, $a + 7d = 26 \\implies 5d = 15 \\implies d = 3, a = 5$.",
     "subject": "mathematics",
     "topic": "Sequences and Series",
     "expected_keywords": [
@@ -19033,7 +19000,7 @@
     "id": "mathematics-past_questions_20years-012-678f6e16",
     "question": "Calculate the mean and mean deviation of the following data: [10, 12, 15, 18, 20].",
     "answer": "Mean = 15. Deviations: 5, 3, 0, 3, 5. Mean Deviation = 16/5 = 3.2.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Statistics and Probability stem before using it in practice.",
+    "explanation": "Mean = 15. Deviations: 5, 3, 0, 3, 5. Mean Deviation = 16/5 = 3.2. Mean, median and mode summarise data; probability of equally likely outcomes is n(wanted)/n(total).",
     "subject": "mathematics",
     "topic": "Statistics and Probability",
     "expected_keywords": [
@@ -19042,9 +19009,8 @@
       "deviation",
       "data"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "mathematics-past_questions_20years-017-fb4e9746",
@@ -19427,7 +19393,7 @@
     "id": "physics-past_questions-004-c67539bd",
     "question": "Describe the Ohm's Law experiment to determine the internal resistance $r$ and electromotive force $E$ of a cell. Include circuit details, sample data table, and precautions.",
     "answer": "Experimental Setup: - Connect a cell of unknown e.m.f. $E$ and internal resistance $r$ in series with a key, an ammeter, a rheostat (or resistance box), and an external resistor $R$. - Connect a voltmeter in parallel across the terminals of the cell. - With the key open, record the voltmeter reading, which gives the e.m.f. $E$ of the cell.…",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Electricity & Magnetism stem before using it in practice.",
+    "explanation": "V = IR, electrical power P = IV, and resistors/capacitors combine in series and parallel. The model answer below gives the full procedure or working.",
     "subject": "physics",
     "topic": "Electricity & Magnetism",
     "expected_keywords": [
@@ -19440,15 +19406,14 @@
       "resistance",
       "series"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "physics-past_questions_20years-004-46e3dc2f",
     "question": "Describe the Ohm's Law experiment to determine the internal resistance r and e.m.f. E of a cell. Include circuit, data table, and precautions.",
     "answer": "Ohm's Law: battery, voltmeter, ammeter, rheostat, key. Record V and I. Plot V against I. Y-intercept is E. Slope is -r. Precautions: remove key between readings, tight connections.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Electricity & Magnetism stem before using it in practice.",
+    "explanation": "V = IR, electrical power P = IV, and resistors/capacitors combine in series and parallel. The model answer below gives the full procedure or working.",
     "subject": "physics",
     "topic": "Electricity & Magnetism",
     "expected_keywords": [
@@ -19461,15 +19426,14 @@
       "key",
       "record"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "physics-past_questions_20years-008-a052817b",
     "question": "A resistor of 8 ohms is connected across a cell of e.m.f. 3.0 V and internal resistance 1.0 ohm. Find the terminal potential difference of the cell.",
     "answer": "Current $I = E / (R+r) = 3 / (8+1) = 0.333\\text{ A}$. Terminal voltage $V = I \\times R = 2.67\\text{ V}$.",
-    "explanation": "Current $I = E / (R+r) = 3 / (8+1) = 0.333\\text{ A}$. Terminal voltage $V = I \\times R = 2.67\\text{ V}$.",
+    "explanation": "Current $I = E / (R+r) = 3 / (8+1) = 0.333\\text{ A}$.",
     "subject": "physics",
     "topic": "Electricity & Magnetism",
     "expected_keywords": [
@@ -19509,7 +19473,7 @@
     "id": "physics-syllabus-054-49257832",
     "question": "What is Current Electricity?",
     "answer": "Ohm's law, electromotive force (e.m.f.), internal resistance of a cell, resistivity, electrical energy and power, series-parallel combination of resistors, Kirchhoff's laws.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Electricity & Magnetism stem before using it in practice.",
+    "explanation": "Current Electricity — Ohm's law, electromotive force (e.m.f.), internal resistance of a cell, resistivity, electrical energy and power, series-parallel combination of resistors, Kirchhoff's laws.",
     "subject": "physics",
     "topic": "Electricity & Magnetism",
     "expected_keywords": [
@@ -19522,9 +19486,8 @@
       "cell",
       "resistivity"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "physics-syllabus-055-56813aad",
@@ -19850,7 +19813,7 @@
     "id": "physics-past_questions-000-8364ee07",
     "question": "A body of mass 5 kg is moving in a circular path of radius 2 m with a constant speed of 4 m/s. Calculate the centripetal force acting on the body.",
     "answer": "C - 40 N - The centripetal force ($F_c$) acting on a body in circular motion is calculated using the formula: $F_c = \\frac{mv^2}{r}$, where $m$ is the mass, $v$ is the velocity/speed, and $r$ is the radius.…",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Mechanics stem before using it in practice.",
+    "explanation": "Centripetal force is $F_c = mv^2/r = 5 \\times 4^2 / 2 = 40\\text{ N}$",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -19863,15 +19826,14 @@
       "calculated",
       "formula"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "physics-past_questions-003-7777a82b",
     "question": "Describe the Simple Pendulum experiment to determine the acceleration due to gravity ($g$). Provide the experimental setup, a table of sample data, graph description, and three precautions.",
     "answer": "Experimental Setup: - Suspend a small heavy metal bob from a rigid stand using a light, inextensible thread. - Measure the length $L$ from the point of suspension to the center of gravity of the bob. - Set the pendulum oscillating through a small angle (less than $10^\\circ$). - Use a stopwatch to record the time $t$ for 20 complete oscillations.…",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Mechanics stem before using it in practice.",
+    "explanation": "Newton's laws, conservation of momentum and energy, circular motion (F = mv²/r) and statics (moments) describe how forces affect motion and equilibrium. The model answer below gives the full procedure or working.",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -19884,15 +19846,14 @@
       "bob",
       "rigid"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "physics-past_questions_20years-003-30731194",
     "question": "Describe the Simple Pendulum experiment to determine the acceleration due to gravity (g). Provide the setup, sample table, graph description, and three precautions.",
     "answer": "Simple Pendulum Experiment: suspend bob, oscillate, measure times, plot $T^2$ against $L$. $g = 4\\pi^2 / \\text{slope}$. Precautions: small angle, close windows to avoid air currents, avoid parallax.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Mechanics stem before using it in practice.",
+    "explanation": "Newton's laws, conservation of momentum and energy, circular motion (F = mv²/r) and statics (moments) describe how forces affect motion and equilibrium. The model answer below gives the full procedure or working.",
     "subject": "physics",
     "topic": "Mechanics",
     "expected_keywords": [
@@ -19905,9 +19866,8 @@
       "bob",
       "oscillate"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "physics-past_questions_20years-005-7398bcad",
@@ -20174,7 +20134,7 @@
     "id": "physics-textbook_reference-007-49c3807e",
     "question": "What does Ohm's law state?",
     "answer": "the current ($I$) flowing through a metallic conductor is directly proportional to the potential difference ($V$) across its ends, provided temperature and other physical conditions remain constant ($V = IR$).",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Electricity & Magnetism stem before using it in practice.",
+    "explanation": "Ohm's law state — the current ($I$) flowing through a metallic conductor is directly proportional to the potential difference ($V$) across its ends, provided temperature and other physical conditions remain constant ($V = IR$).",
     "subject": "physics",
     "topic": "Electricity & Magnetism",
     "expected_keywords": [
@@ -20187,9 +20147,8 @@
       "proportional",
       "potential"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "physics-textbook_reference-008-695e709f",
@@ -33110,7 +33069,7 @@
     "id": "physics-past_questions_20years-002-d7881508",
     "question": "A piece of copper of mass 0.2 kg at a temperature of 100 degrees Celsius is placed in a calorimeter containing 0.1 kg of water at 20 degrees Celsius. If the final steady temperature of the mixture is 32 degrees Celsius, calculate the specific heat capacity of copper. (Neglect calorimeter; water specific heat capacity = 4200 J/kg/K)",
     "answer": "Heat lost = Heat gained. $0.2 \\times c_c \\times (100 - 32) = 0.1 \\times 4200 \\times (32 - 20) \\implies 13.6 c_c = 5040 \\implies c_c \\approx 371\\text{ J kg}^{-1}\\text{ K}^{-1}$.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Thermal Physics stem before using it in practice.",
+    "explanation": "Heat lost = Heat gained. $0.2 \\times c_c \\times (100 - 32) = 0.1 \\times 4200 \\times (32 - 20) \\implies 13.6 c_c = 5040 \\implies c_c \\approx 371\\text{ J kg}^{-1}\\text{ K}^{-1}$.",
     "subject": "physics",
     "topic": "Thermal Physics",
     "expected_keywords": [
@@ -33123,9 +33082,8 @@
       "copper",
       "mass"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   },
   {
     "id": "physics-past_questions_20years-006-9dcca32b",
@@ -33270,7 +33228,7 @@
     "id": "physics-past_questions_20years-012-5043a2d7",
     "question": "State Snell's Law. A ray of light passes from air into a glass block of refractive index 1.5. If the angle of incidence is 30 degrees, calculate the angle of refraction.",
     "answer": "Snell's Law: $n = \\sin i / \\sin r \\implies 1.5 = \\sin 30^\\circ / \\sin r \\implies \\sin r = 0.3333 \\implies r \\approx 19.5^\\circ$.",
-    "explanation": "Snell's Law: $n = \\sin i / \\sin r \\implies 1.5 = \\sin 30^\\circ / \\sin r \\implies \\sin r = 0.3333 \\implies r \\approx 19.5^\\circ$.",
+    "explanation": "v = fλ. The model answer below gives the full procedure or working.",
     "subject": "physics",
     "topic": "Waves & Optics",
     "expected_keywords": [
@@ -33366,7 +33324,7 @@
     "id": "physics-textbook_2-031-1a44d67b",
     "question": "Under Waves, Sound, and Light, what point is listed about Sound Waves longitudinal waves?",
     "answer": "Sound Waves are longitudinal waves that require a medium. The speed of sound depends on the temperature and density of the medium.",
-    "explanation": "Sound Waves are longitudinal waves that require a medium. The speed of sound depends on the temperature and density of the medium.",
+    "explanation": "Sound Waves are longitudinal waves that require a medium.",
     "subject": "physics",
     "topic": "Waves & Optics",
     "expected_keywords": [
@@ -33386,7 +33344,7 @@
     "id": "physics-textbook_2-032-7b0740ec",
     "question": "Under Waves, Sound, and Light, what point is listed about Light waves transverse electromagnetic?",
     "answer": "Light waves are transverse electromagnetic waves. Reflection at curved surfaces follows the mirror formula $\\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v}$. Refraction is governed by Snell's Law $n = \\frac{\\sin i}{\\sin r}$.",
-    "explanation": "This item looks corrupted (glued questions or mismatched key). Review the original Waves & Optics stem before using it in practice.",
+    "explanation": "Light waves are transverse electromagnetic waves.",
     "subject": "physics",
     "topic": "Waves & Optics",
     "expected_keywords": [
@@ -33399,8 +33357,7 @@
       "surfaces",
       "follows"
     ],
-    "needs_review": true,
-    "question_type": "theory",
-    "review_reason": "Stem/answer looks corrupted (PDF bleed or mismatched key)"
+    "needs_review": false,
+    "question_type": "theory"
   }
 ]
