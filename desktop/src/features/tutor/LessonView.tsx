@@ -14,6 +14,7 @@ import { Badge } from "../../components/ui/Badge";
 import { Button } from "../../components/ui/Button";
 import { Card } from "../../components/ui/Card";
 import { Input, TextArea } from "../../components/ui/Input";
+import { MarkdownMessage } from "../../components/ui/MarkdownMessage";
 import { sendLessonFeedback } from "../../services/chat";
 import { saveRevisionCard } from "../../services/revisionCards";
 import { useLanguage } from "../../i18n/LanguageProvider";
@@ -134,32 +135,13 @@ function sanitizeLessonBody(body: string): string {
   return "";
 }
 
-function splitSectionParagraphs(body: string): string[] {
-  return body
-    .split(/\n\s*\n/)
-    .map((part) => part.trim())
-    .filter(Boolean);
-}
-
 function SectionBody({ body }: { body: string }) {
   const { t } = useLanguage();
   const text = sanitizeLessonBody(body);
   if (!text) {
     return <p className={styles.muted}>{t("lesson.bodySoon")}</p>;
   }
-  const paragraphs = splitSectionParagraphs(text);
-  if (paragraphs.length <= 1) {
-    return <p className={styles.sectionBody}>{text}</p>;
-  }
-  return (
-    <div className={styles.sectionBodyStack}>
-      {paragraphs.map((para, i) => (
-        <p key={i} className={styles.sectionBody}>
-          {para}
-        </p>
-      ))}
-    </div>
-  );
+  return <MarkdownMessage className={styles.sectionBody}>{text}</MarkdownMessage>;
 }
 
 function EmptyLine({ children }: { children: string }) {
@@ -399,7 +381,7 @@ export function LessonView({
                   <div>
                     <p className={styles.eyebrow}>{t("lesson.intro")}</p>
                 {lesson.introduction ? (
-                  <p className={styles.lessonLead}>{lesson.introduction}</p>
+                  <MarkdownMessage className={styles.lessonLead}>{lesson.introduction}</MarkdownMessage>
                 ) : (
                   <EmptyLine>{t("lesson.introEmpty")}</EmptyLine>
                 )}
@@ -415,7 +397,9 @@ export function LessonView({
                 {lesson.objectives.length ? (
                   <ul className={styles.lessonList}>
                     {lesson.objectives.map((o) => (
-                      <li key={o}>{o}</li>
+                      <li key={o}>
+                        <MarkdownMessage inline>{o}</MarkdownMessage>
+                      </li>
                     ))}
                   </ul>
                 ) : (
@@ -432,9 +416,9 @@ export function LessonView({
                     total: lesson.sections.length,
                   })}
                 </p>
-                <h3 className={styles.sectionTitle}>
+                <MarkdownMessage className={styles.sectionTitle} inline>
                   {currentSection.heading || t("lesson.conceptN", { n: sectionIdx + 1 })}
-                </h3>
+                </MarkdownMessage>
                 <SectionBody body={currentSection.body || ""} />
                 <SectionDiagram
                   section={currentSection}
@@ -454,9 +438,9 @@ export function LessonView({
                       transition={reduceMotion ? { duration: 0 } : { delay: i * 0.06 }}
                     >
                       <Card>
-                        <h3 className={styles.sectionTitle}>
+                        <MarkdownMessage className={styles.sectionTitle} inline>
                           {section.heading || t("lesson.conceptN", { n: i + 1 })}
-                        </h3>
+                        </MarkdownMessage>
                         <SectionBody body={section.body || ""} />
                         <SectionDiagram
                           section={section}
@@ -477,13 +461,15 @@ export function LessonView({
             {step === "worked" && (
               <Card lift={false}>
                 <p className={styles.eyebrow}>{t("lesson.worked")}</p>
-                <h3 className={styles.sectionTitle}>
+                <MarkdownMessage className={styles.sectionTitle} inline>
                   {lesson.worked_example.problem || t("lesson.worked")}
-                </h3>
+                </MarkdownMessage>
                 {lesson.worked_example.steps.length ? (
                   <ol className={styles.lessonList}>
                     {lesson.worked_example.steps.map((s) => (
-                      <li key={s}>{s}</li>
+                      <li key={s}>
+                        <MarkdownMessage inline>{s}</MarkdownMessage>
+                      </li>
                     ))}
                   </ol>
                 ) : (
@@ -491,7 +477,8 @@ export function LessonView({
                 )}
                 {lesson.worked_example.answer ? (
                   <div className={styles.lessonAnswerBox}>
-                    <strong>{t("lesson.answer")}</strong> {lesson.worked_example.answer}
+                    <strong>{t("lesson.answer")}</strong>{" "}
+                    <MarkdownMessage inline>{lesson.worked_example.answer}</MarkdownMessage>
                   </div>
                 ) : null}
               </Card>
@@ -501,9 +488,9 @@ export function LessonView({
               <Card lift={false}>
                 <Naza pose="look" size={56} speech={t("lesson.nazaCheck")} />
                 <p className={styles.eyebrow}>{t("lesson.check")}</p>
-                <h3 className={styles.sectionTitle}>
+                <MarkdownMessage className={styles.sectionTitle} inline>
                   {lesson.check_understanding.question || t("lesson.checkFallback")}
-                </h3>
+                </MarkdownMessage>
                 <TextArea
                   rows={3}
                   placeholder={t("lesson.checkPh")}
@@ -535,9 +522,9 @@ export function LessonView({
                   </Button>
                 </div>
                 {showHint && (
-                  <p className={`${styles.muted} ${styles.lessonHint}`}>
+                  <MarkdownMessage className={`${styles.muted} ${styles.lessonHint}`}>
                     {lesson.check_understanding.hint || t("lesson.hintFallback")}
-                  </p>
+                  </MarkdownMessage>
                 )}
               </Card>
             )}
@@ -546,9 +533,9 @@ export function LessonView({
               <Card lift={false}>
                 <p className={styles.eyebrow}>{t("lesson.practiceEyebrow")}</p>
                 <ExamStemNote />
-                <h3 className={styles.sectionTitle}>
+                <MarkdownMessage className={styles.sectionTitle} inline>
                   {lesson.practice.question || t("lesson.practiceQ")}
-                </h3>
+                </MarkdownMessage>
                 {lesson.practice.options?.length ? (
                   <div className={styles.answerGrid} role="radiogroup" aria-label={t("lesson.practiceOpts")}>
                     {lesson.practice.options.map((opt) => {
@@ -562,7 +549,7 @@ export function LessonView({
                           className={`${styles.answerCard} ${selected ? styles.answerSelected : ""}`}
                           onClick={() => setPracticeAnswer(opt)}
                         >
-                          {opt}
+                          <MarkdownMessage inline>{opt}</MarkdownMessage>
                         </button>
                       );
                     })}
@@ -607,10 +594,12 @@ export function LessonView({
                     <Badge tone={feedback.correct ? "success" : "general"}>
                       {feedback.correct ? t("lesson.onTrack") : t("lesson.almost")}
                     </Badge>
-                    <p className={styles.lessonFeedbackText}>{feedback.feedback}</p>
-                    <p className={`${styles.muted} ${styles.lessonHint}`}>
+                    <MarkdownMessage className={styles.lessonFeedbackText}>
+                      {feedback.feedback}
+                    </MarkdownMessage>
+                    <MarkdownMessage className={`${styles.muted} ${styles.lessonHint}`} inline>
                       {feedback.encouragement}
-                    </p>
+                    </MarkdownMessage>
                     {gradeError ? (
                       <p className={`${styles.muted} ${styles.localNote}`}>
                         {gradeError}
@@ -631,7 +620,9 @@ export function LessonView({
                 {lesson.summary.length ? (
                   <ul className={styles.lessonList}>
                     {lesson.summary.map((line) => (
-                      <li key={line}>{line}</li>
+                      <li key={line}>
+                        <MarkdownMessage inline>{line}</MarkdownMessage>
+                      </li>
                     ))}
                   </ul>
                 ) : (
@@ -651,9 +642,15 @@ export function LessonView({
                   <span className={`${styles.muted} ${styles.flashMeta}`}>
                     {flipped ? t("lesson.back") : t("lesson.front")} · {t("lesson.tapFlip")}
                   </span>
-                  {flipped
-                    ? lesson.revision_card.back || t("lesson.answerSide")
-                    : lesson.revision_card.front || t("lesson.promptSide")}
+                  {flipped ? (
+                    <MarkdownMessage inline>
+                      {lesson.revision_card.back || t("lesson.answerSide")}
+                    </MarkdownMessage>
+                  ) : (
+                    <MarkdownMessage inline>
+                      {lesson.revision_card.front || t("lesson.promptSide")}
+                    </MarkdownMessage>
+                  )}
                 </button>
                 <div className={styles.pillRow}>
                   <Button

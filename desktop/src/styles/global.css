@@ -8,6 +8,7 @@
 
 html {
   color-scheme: light;
+  zoom: var(--ui-scale);
 }
 
 html,

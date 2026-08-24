@@ -7,6 +7,7 @@ import { Badge } from "../../components/ui/Badge";
 import { Button, ButtonLink } from "../../components/ui/Button";
 import { Card } from "../../components/ui/Card";
 import { MarkdownMessage } from "../../components/ui/MarkdownMessage";
+import { stripChunkCitations } from "../../utils/stripChunkCitations";
 import { TextArea } from "../../components/ui/Input";
 import { ApiError } from "../../services/api";
 import { looksLikeLessonIntent, sendChat } from "../../services/chat";
@@ -127,14 +128,15 @@ export function TutorPage() {
   }
 
   function revealAnswer(full: string, meta: ChatResponse) {
+    const cleaned = stripChunkCitations(full);
     if (reduceMotion) {
-      setMessages((m) => [...m, { role: "assistant", text: full, full, meta }]);
+      setMessages((m) => [...m, { role: "assistant", text: cleaned, full: cleaned, meta }]);
       return;
     }
     const placeholder: Msg = {
       role: "assistant",
       text: "",
-      full,
+      full: cleaned,
       meta,
       typing: true,
     };
@@ -143,7 +145,7 @@ export function TutorPage() {
     if (typingTimer.current != null) window.clearInterval(typingTimer.current);
     typingTimer.current = window.setInterval(() => {
       i += 1;
-      const slice = full.slice(0, i);
+      const slice = cleaned.slice(0, i);
       setMessages((m) => {
         const copy = [...m];
         const idx = copy.length - 1;
@@ -151,12 +153,12 @@ export function TutorPage() {
           copy[idx] = {
             ...copy[idx],
             text: slice,
-            typing: i < full.length,
+            typing: i < cleaned.length,
           };
         }
         return copy;
       });
-      if (i >= full.length && typingTimer.current != null) {
+      if (i >= cleaned.length && typingTimer.current != null) {
         window.clearInterval(typingTimer.current);
         typingTimer.current = null;
       }

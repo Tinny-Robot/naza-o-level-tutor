@@ -967,7 +967,13 @@
   margin-top: 12px;
   font-size: 1.02rem;
   line-height: 1.8;
-  white-space: pre-wrap;
+}
+
+.sectionBody :global(.katex-display),
+.practiceStem :global(.katex-display),
+.lessonFeedbackText :global(.katex-display) {
+  overflow-x: auto;
+  max-width: 100%;
 }
 
 .sectionBodyStack .sectionBody {

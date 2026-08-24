@@ -5,6 +5,7 @@ import { Check, Clock, Flame, Trophy, X, Zap } from "lucide-react";
 import { Naza } from "../../components/naza/Naza";
 import { Button } from "../../components/ui/Button";
 import { Card } from "../../components/ui/Card";
+import { MarkdownMessage } from "../../components/ui/MarkdownMessage";
 import { useMotionVariants } from "../../motion/variants";
 import {
   fetchNextPractice,
@@ -467,7 +468,9 @@ export function PracticePage() {
               </span>
               <ExamStemNote />
             </div>
-            <p className={styles.practiceStem}>{itemQ.question}</p>
+            <MarkdownMessage className={styles.practiceStem}>
+              {itemQ.question}
+            </MarkdownMessage>
             {(itemQ.images || []).length > 0 ? (
               <div className={styles.practiceFigures}>
                 {(itemQ.images || []).map((img) => {
@@ -510,7 +513,7 @@ export function PracticePage() {
                     onClick={() => setChoice(letter.match(/[A-D]/) ? letter : opt)}
                     disabled={!!feedback || loading || checking}
                   >
-                    {opt}
+                    <MarkdownMessage inline>{opt}</MarkdownMessage>
                   </button>
                 );
               })}
@@ -591,7 +594,7 @@ export function PracticePage() {
                 </p>
               ) : null}
               <p className={styles.practiceMotivate}>{motivationalText()}</p>
-              <p className={styles.muted}>{lastResult.feedback}</p>
+              <MarkdownMessage className={styles.muted}>{lastResult.feedback}</MarkdownMessage>
             </div>
             <div className={layout.modalActions}>
               <Button variant="ghost" onClick={() => setShowModal(false)}>

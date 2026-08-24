@@ -59,4 +59,7 @@
 
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --dur: 220ms;
+
+  /* Default UI scale (~Chrome zoom 125%). Adjust here if needed. */
+  --ui-scale: 1.25;
 }
