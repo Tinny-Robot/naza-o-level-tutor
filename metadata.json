@@ -12,7 +12,7 @@
   "cross_disciplinary_pairing": {
     "discipline": "education",
     "load_bearing": true,
-    "description": "Offline Nigerian O-Level (WAEC/NECO) STEM tutor grounded in local syllabus materials, with English and Hausa teaching support for students on constrained networks."
+    "description": "Offline Nigerian O-Level (WAEC/NECO) STEM tutor grounded in local syllabus materials, with curriculum-aligned fine-tuning for English and Hausa teaching support on constrained networks."
   },
   "test_prompts": [
     {

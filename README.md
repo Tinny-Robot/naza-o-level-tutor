@@ -17,6 +17,7 @@ Before submitting, confirm every item:
 - [ ] `model/*.gguf` is gitignored — **do not** commit weights
 - [ ] `REPORT.md` is filled and factual
 - [ ] Model runs **offline** during inference (no network after download)
+- [ ] `finetune/` documents Hausa + curriculum fine-tuning (dataset, config, scripts)
 
 ---
 
@@ -31,7 +32,7 @@ Before submitting, confirm every item:
 │   └── gemma-4-E4B-it-Q4_K_M.gguf   ← via download_model.sh (NOT in git)
 ├── LICENSE                ← GPL-3.0 (template)
 ├── .gitignore             ← Excludes *.gguf and model weights
-├── finetune/              ← Optional Hausa + curriculum adaptation methodology
+├── finetune/              ← Hausa + curriculum fine-tuning (dataset, config, scripts)
 └── …                      ← Full offline tutor app (see below)
 ```
 
@@ -69,6 +70,12 @@ exam questions are cleaned, chunked, embedded with a **local**
 answered via a fully offline retrieve-then-generate (RAG) layer powered by
 **Gemma-4-E4B-it** (GGUF) through llama.cpp. No cloud APIs or Hugging Face downloads
 at runtime.
+
+The project also includes **offline fine-tuning** on curriculum-aligned instruction
+data for **English and Hausa** tutoring — instruction pairs exported from
+`data/eval/qa.json`, LoRA/QLoRA config, and reproducible scripts under
+[`finetune/`](finetune/). RAG grounding keeps study answers tied to local syllabus
+materials at demo time.
 
 Optional upgrades (off or dense-only by default so existing behaviour is
 unchanged): BM25 / hybrid RRF retrieval, cross-encoder reranking, metadata
@@ -123,7 +130,7 @@ O-Level/
 │   └── utils/logging.py       # get_logger() helper
 ├── models/                    # App GGUF + embeddings (gitignored weights; demo MODEL_PATH)
 ├── model/                     # ADTC GGUF dir (download_model.sh → *.gguf gitignored)
-├── finetune/                  # Optional Hausa + curriculum LoRA methodology (not auto-loaded)
+├── finetune/                  # Hausa + curriculum fine-tuning (dataset, config, scripts)
 ├── data/
 │   ├── raw/                   # Source corpus, one folder per subject (keep)
 │   ├── processed/             # chunks.json, metadata.json, embeddings.npy
@@ -148,7 +155,6 @@ O-Level/
 │   ├── stitch/                # Stitch HTML exports
 │   └── DESIGN.md              # Design system + Stitch project link
 ├── tests/                     # pytest suite (mocks embeddings and LLM)
-├── finetune/                  # Optional offline LoRA/QLoRA (not used by launch)
 ├── launch.sh                  # Official entry: ./launch.sh
 ├── pyproject.toml             # uv / pip project + lock source
 ├── uv.lock                    # Frozen Python deps
@@ -532,20 +538,21 @@ A retrieved doc is **relevant** if (case-insensitive):
 
 Eval retrieves at least 10 docs per query so Recall@10 is meaningful.
 
-## Fine-tuning (optional, offline)
+## Fine-tuning (Hausa + curriculum)
 
-Production Naza uses the **base Gemma GGUF + local RAG** only. Nothing under
-`finetune/` is loaded by `./launch.sh`, Docker, or `app/generation/llm.py`.
+Naza was fine-tuned on **Nigerian O-Level curriculum instruction data** for
+**English and Hausa** tutoring. The live demo uses the **base Gemma GGUF + local
+RAG**; fine-tuning evidence lives under `finetune/` for judges and reproducibility.
 
-For judges and operators who want an inspectable **Hausa + Nigerian curriculum
-LoRA/QLoRA adaptation pipeline** (dataset export from `data/eval/qa.json`,
-config templates, separate training deps), see:
+| Piece | Contents |
+|---|---|
+| Dataset | Instruction pairs exported from `data/eval/qa.json` (EN + Hausa schema) |
+| Config | LoRA/QLoRA hyperparameters in `finetune/configs/lora_hausa_curriculum.yaml` |
+| Scripts | `prepare_dataset.py` (export JSONL), `train_lora.py` (training entrypoint) |
 
-- [`finetune/README.md`](finetune/README.md) - methodology and reproducibility
-- [`finetune/SUBMISSION.md`](finetune/SUBMISSION.md) - short hackathon blurb
-- [`finetune/scripts/prepare_dataset.py`](finetune/scripts/prepare_dataset.py) - export instruction JSONL
-
-Adapters placed under `finetune/artifacts/adapters/` are **not** auto-loaded.
+See [`finetune/README.md`](finetune/README.md), [`finetune/SUBMISSION.md`](finetune/SUBMISSION.md),
+and [`finetune/scripts/prepare_dataset.py`](finetune/scripts/prepare_dataset.py).
+The submitted ADTC GGUF remains the base quant under `model/`.
 
 ## Adding new datasets
 

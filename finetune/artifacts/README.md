@@ -1,9 +1,8 @@
-# Training artifacts (gitignored weights)
+# Training artifacts (gitignored)
 
-Runs and checkpoints belong here when an operator actually trains.
+Local training run outputs belong here when an operator re-runs fine-tuning.
+Run directories, checkpoints, and logs stay gitignored.
 
-- `adapters/` - PEFT adapter slot (see README there). **Not** loaded by production.
-- Other run dirs / optimizer states / logs should stay local (gitignored).
+Do not commit fabricated metrics or placeholder weight files.
 
-Do not commit fabricated metrics, wandb export zips, or placeholder `.safetensors`
-files that pretend a full train completed.
+See [`../README.md`](../README.md) for the fine-tuning methodology.

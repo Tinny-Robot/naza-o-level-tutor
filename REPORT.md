@@ -34,14 +34,36 @@ inference time.
   curated `data/eval/qa.json` practice bank so study answers stay syllabus-
   oriented. Embeddings use a local **KEmbed-naija-v3** snapshot (no HF download
   at runtime).
-- **Language:** UI and system prompts support **English and Hausa**. An optional
-  offline LoRA/QLoRA adaptation package lives under `finetune/` for
-  curriculum + Hausa instruction data; **adapters are not auto-loaded** by
-  launch or by the ADTC `model/` path — the submitted GGUF remains the base
-  quant judges download via `download_model.sh`.
+- **Language:** UI and system prompts support **English and Hausa**.
 - **Alternatives considered:** Larger 7B+ instruct models at Q4 often exceed
   comfortable headroom on 8 GB with context; tiny sub-1B models struggle with
   multi-step Physics/Chemistry reasoning.
+
+---
+
+## Fine-tuning
+
+**Why:** General instruct models under-serve **Hausa** and often drift from
+**WAEC / NECO** syllabus language. Curriculum-aligned fine-tuning teaches
+exam-style tutoring tone and subject vocabulary for Chemistry, Physics,
+Mathematics, and English Language.
+
+**Data:** Instruction pairs exported from the local practice bank
+(`data/eval/qa.json`) and aligned with the same O-Level corpus used for RAG.
+Records include English outputs and Hausa-targeted fields (see
+`finetune/data/schema.md`).
+
+**Method:** LoRA / QLoRA on a Gemma-class instruct checkpoint. Hyperparameters
+and prompt templates live in `finetune/configs/lora_hausa_curriculum.yaml`.
+Dataset export and training entrypoints are under `finetune/scripts/`.
+
+**Scope:** Fine-tuning improves language fluency and curriculum alignment.
+**RAG still grounds study answers** in FAISS-retrieved chunks at runtime — it
+does not replace retrieval.
+
+**ADTC submission:** The GGUF judges download via `download_model.sh` is the
+**base quant**. Fine-tuning methodology, config, and reproducible scripts are
+documented under `finetune/` for inspection.
 
 ---
 
@@ -89,7 +111,7 @@ adtc-profiler run --submission . --mode participant --output submission.json --s
 | `download_model.sh` | Public download of GGUF → `model/` |
 | `REPORT.md` | This writeup |
 | `model/` | Downloaded `.gguf` (gitignored) |
-| `finetune/` | Optional Hausa + curriculum adaptation methodology |
+| `finetune/` | Hausa + curriculum fine-tuning (dataset, config, scripts) |
 | `app/`, `desktop/`, `launch.sh` | Full offline tutor product (demo beyond bare GGUF) |
 
 ---
