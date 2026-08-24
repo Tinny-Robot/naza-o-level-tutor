@@ -42,6 +42,21 @@ data/index/*.faiss
 ecosystem.config.cjs.bak
 .DS_Store
 
+# Editors, IDEs, and local agent tooling (never commit)
+.cursor/
+.cursorrules
+.vscode/
+.idea/
+*.iml
+.claude/
+.aider*
+.continue/
+.windsurf/
+*.code-workspace
+*.swp
+*.swo
+*~
+
 # Optional offline fine-tune exports / weights (keep READMEs and .gitkeep)
 finetune/data/exports/*.jsonl
 !finetune/data/exports/sample_instruction_pairs.jsonl
