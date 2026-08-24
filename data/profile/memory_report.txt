@@ -1,0 +1,87 @@
+\Gemma-4-E4B-it memory regression report
+=======================================
+Host: Linux, CPU-only llama-cpp-python, n_gpu_layers=0
+GGUF: models/gemma-4-E4B-it-Q4_K_M.gguf (4.635 GiB, file_type=15 Q4_K_M)
+Architecture: gemma4  n_params=7,518,069,290  n_embd=2560  n_layer=42
+n_ctx_train=131072  sliding_window=512  rope.freq_base=1e6 / swa=1e4
+
+STEP 1 - Staged RSS (legacy baseline A, FA off / SWA full / n_ctx=4096)
+-----------------------------------------------------------------------
+stage                        RSS_MB  DELTA_MB
+1_process_start                  57         0
+2_prompt_manager                 57         0
+3_embedding_model               804       747
+4_gguf_loaded                  8087      7283
+5_kv_cache_init                8087         0
+6_faiss_index                  8090         3
+7_generation_pipeline          8090         0   ← Ready RSS
+8_first_inference_general      8147        56
+9_first_study_query            8825       678   ← Peak ≈ 8824
+
+STEP 2 - Model verification
+---------------------------
+basename_ok: True (gemma-4-E4B-it-Q4_K_M.gguf)
+quantization: Q4_K_M (general.file_type=15)
+flash_attn_type (legacy): 0 (disabled)
+swa_full (legacy): True
+type_k / type_v: F16 (1)
+active n_ctx: 4096
+
+STEP 3 - Ablation matrix (Ready RSS after stage 7)
+--------------------------------------------------
+A legacy defaults          Ready 8090  Peak 8824
+B flash_attn=True          Ready 8011  (Δ -79)
+C swa_full=False           Ready 7910  (Δ -180)
+D n_ctx=2048 only          Ready 7934  (Δ -156)
+embedder-only process      Ready  801
+llm-only process           Ready 7371  ← already > 7000 without embedder
+combo FA+swa_full=False    Ready 7889  (Δ -201)
+
+smaps (Ready, top mappings):
+  4732 MB  gemma-4-E4B-it-Q4_K_M.gguf   (single mapping - no duplicate load)
+  2166 MB  [anon]                      (KV / llama scratch / buffers)
+   522 MB  [heap]                      (embedder / Python / torch tensors)
+    ~50 MB torch lib + small maps
+
+Classification
+--------------
+1. Implementation bug: NO
+   - One GGUF mmap, one embedder singleton, FAISS ~3 MB.
+2. Configuration issue: PARTIAL / MINOR
+   - FA off + full SWA waste ~200 MB; fixed in production defaults.
+   - n_ctx and FA/SWA are NOT the dominant 2.7 GB Qwen→Gemma delta.
+3. Unavoidable Gemma property: YES (dominant)
+   - E4B reports ~7.52B parameters; Q4_K_M weights alone ~4.7 GB RSS.
+   - llm-only Ready RSS 7371 MB already exceeds the 7 GB full-stack budget.
+   - Plus ~0.75 GB KEmbed → full-stack Ready floor ≈ 7.9 GB even after FA/SWA.
+
+Historical Qwen3-4B Ready ~5.4 GB with ~2.5 GB GGUF is consistent with a
+smaller true-4B model; the ~2.7 GB regression is mostly larger Gemma weights
+(+~2.2 GB file) plus Gemma runtime/KV anon overhead, not a double-load bug.
+
+STEP 4 - Applied optimization
+-----------------------------
+Production Llama() now uses FLASH_ATTN=true, SWA_FULL=false (env-overridable).
+Measured Ready ≈ 7889 MB (still above 7 GB target).
+Did NOT cut n_ctx below 4096 (would break MAX_CONTEXT_TOKENS=3000 + MAX_TOKENS=512).
+Did NOT replace Gemma / revert to Qwen.
+
+STEP 5 - Before / after benchmark
+---------------------------------
+Metric                          BEFORE (legacy)     AFTER (prod knobs)
+Ready RSS                       8090 MB             7889 MB
+Peak RSS                        8824 MB             8599 MB
+RSS after asks                  ~8825 MB            8600 MB
+Study avg latency               (ablation path)     76.67 s (2 q, clean)
+General avg latency             ~7-10 s (ask.py)    28.14 s (2 q; one long tip answer)
+General hello latency           9.67 s / 1.1 t/s    8.87 s / 2.3 t/s
+Avg tokens/sec (single-pass)    n/a                 2.5
+Answer quality                  coherent            coherent (Study + General OK)
+
+Note: BEFORE Ready/Peak from staged profile ablation A (FA off, SWA full).
+AFTER from `scripts/benchmark.py --single-pass` with FLASH_ATTN=true SWA_FULL=false.
+
+Verdict: <7 GB Ready RSS is not achievable for this offline stack with
+Gemma-4-E4B-it-Q4_K_M + KEmbed without changing the model or dropping the
+embedder. The increase vs Qwen is an unavoidable property of Gemma-4-E4B.
+Config knobs reclaim ~200 MB only.

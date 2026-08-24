@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-08-12T17:44:52Z",
+  "evaluation_scope": "pilot",
+  "config": {
+    "name": "mmap_kv_q4",
+    "description": "Mmap with aggressive Q4_0 K/V cache",
+    "n_ctx": 4096,
+    "use_mmap": true,
+    "use_mlock": false,
+    "type_k": "Q4_0",
+    "type_v": "Q4_0",
+    "n_batch": 512,
+    "n_ubatch": 512
+  },
+  "controls": {
+    "model": "models/gemma-4-E4B-it-Q4_K_M.gguf",
+    "model_size_bytes": 4977171584,
+    "quantization": "Q4_K_M (GGUF general.file_type=15)",
+    "n_gpu_layers": 0,
+    "threads": 7,
+    "flash_attention": true,
+    "swa_full": false,
+    "max_tokens": 512,
+    "temperature": 0.1,
+    "top_p": 0.95,
+    "top_k_sampling": 40,
+    "min_p": 0.05,
+    "seed": 2026,
+    "rag_top_k": 5,
+    "rag_context_budget": 3000,
+    "retrieval_mode": "production default"
+  },
+  "hardware": {
+    "cpu_model": "Intel(R) Xeon(R) Platinum 8175M CPU @ 2.50GHz",
+    "logical_cpus": 8,
+    "benchmark_threads": 7,
+    "ram_total_gib": 30.97933578491211,
+    "platform": "Linux-6.14.0-1018-aws-x86_64-with-glibc2.39"
+  },
+  "llama": {
+    "llama_cpp_python_version": "0.3.34",
+    "llama_cpp_commit": "e3546c794",
+    "llama_system_info": "CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | "
+  },
+  "dataset": {
+    "dataset_path": "data/eval/qa.json",
+    "dataset_sha256": "cdf14f31fa37b1d3ef3f28cbf1eeef2ea2062cbd6262a78a6a5cb8706cdd810c",
+    "dataset_total_questions": 1681,
+    "questions_evaluated": 1,
+    "selection_method": "first_item",
+    "selected_ids": [
+      "chemistry-past_questions-003-8ebd4ce5"
+    ]
+  },
+  "load_times_seconds": {
+    "embedding": 11.288793973624706,
+    "model": 5.21421479806304,
+    "retriever": 0.2999800704419613
+  },
+  "memory": {
+    "competition_limit_mib": 7168,
+    "peak_rss_mib": 8619.80078125,
+    "peak_rss_gib": 8.417774200439453,
+    "ram_headroom_mib": -1451.80078125,
+    "ram_headroom_gib": -1.4177742004394531,
+    "status": "FAIL \u2014 ABOVE COMPETITION LIMIT",
+    "stages": {
+      "process_start": {
+        "vmhwm_mib": 58.63671875,
+        "vmrss_mib": 53.22265625
+      },
+      "embedding_loaded": {
+        "vmhwm_mib": 853.4296875,
+        "vmrss_mib": 805.24609375
+      },
+      "model_loaded": {
+        "vmhwm_mib": 7806.56640625,
+        "vmrss_mib": 7806.56640625
+      },
+      "retriever_loaded": {
+        "vmhwm_mib": 8007.49609375,
+        "vmrss_mib": 7905.77734375
+      },
+      "evaluation_finished": {
+        "vmhwm_mib": 8619.8046875,
+        "vmrss_mib": 8619.8046875
+      }
+    },
+    "average_rss_mib": 8101.4297086148645,
+    "sampled_peak_rss_mib": 8619.8046875
+  },
+  "quality": {
+    "accuracy_metric": "mean expected-keyword recall",
+    "accuracy": 0.125,
+    "exact_match": 0.0,
+    "retrieval_hit_rate": 1.0,
+    "failures": 0
+  },
+  "performance": {
+    "generation_tokens_per_second": {
+      "average": 5.290605672186045,
+      "median": 5.290605672186045,
+      "minimum": 5.290605672186045,
+      "maximum": 5.290605672186045
+    },
+    "prompt_tokens_per_second": {
+      "average": 24.69259088984922,
+      "median": 24.69259088984922,
+      "minimum": 24.69259088984922,
+      "maximum": 24.69259088984922
+    },
+    "time_to_first_token_seconds": {
+      "average": 100.77383365109563,
+      "median": 100.77383365109563,
+      "minimum": 100.77383365109563,
+      "maximum": 100.77383365109563
+    },
+    "total_latency_seconds": {
+      "average": 128.48085508868098,
+      "median": 128.48085508868098,
+      "minimum": 128.48085508868098,
+      "maximum": 128.48085508868098
+    },
+    "prompt_tokens": {
+      "average": 2488.0,
+      "median": 2488.0,
+      "minimum": 2488.0,
+      "maximum": 2488.0
+    },
+    "generated_tokens": {
+      "average": 145.0,
+      "median": 145.0,
+      "minimum": 145.0,
+      "maximum": 145.0
+    }
+  },
+  "questions": [
+    {
+      "index": 0,
+      "id": "chemistry-past_questions-003-8ebd4ce5",
+      "subject": "chemistry",
+      "topic": "Acids, Bases & Salts",
+      "question": "Describe the Acid-Base Volumetric Analysis (Titration) experiment. Outline the typical burette readings, calculations of concentrations, and three precautions.",
+      "answer": "Hello there! I see you're working on a question about Acid-Base Volumetric Analysis, also known as Titration. This is a very important practical skill in Chemistry, especially for WAEC and NECO exams. I'm here to help you understand it clearly, step-by-step, using the material we have.\n\nSince you are looking for a detailed description, including the procedure, readings, calculations, and precautions, I think a worked example approach will be best for you.\n\nBefore I give you the full answer, can you tell me, in your own words, what you think the main goal of a titration experiment is? What are we trying to find out when we perform this analysis?",
+      "reference_answer": "Experimental Setup and Procedure: - Prepare a standard solution of a weak base, e.g., anhydrous sodium trioxocarbonate (IV) ($Na_2CO_3$), by weighing exactly 2.65 g and dissolving it in water to make $500\\text{ cm}^3$ of solution ($0.05\\text{ mol/dm}^3$). - Pipette $25.0\\text{ cm}^3$ of this base solution into a clean conical flask and add 2-3 drops of Methyl Orange indicator (the solution turns yellow).\u2026",
+      "exact_match": false,
+      "keyword_score": 0.125,
+      "retrieval_hit": true,
+      "citation_count": 5,
+      "retrieved_chunk_count": 5,
+      "refused": false,
+      "error": null,
+      "prompt_tokens": 2488,
+      "generated_tokens": 145,
+      "prompt_seconds": 100.758969,
+      "generation_seconds": 27.40707,
+      "prompt_tokens_per_second": 24.69259088984922,
+      "generation_tokens_per_second": 5.290605672186045,
+      "time_to_first_token_seconds": 100.77383365109563,
+      "total_latency_seconds": 128.48085508868098,
+      "perf_reused_graphs": 143,
+      "rss_after_mib": 8619.8046875,
+      "hwm_after_mib": 8619.8046875
+    }
+  ]
+}

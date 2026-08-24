@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>StudyPro AI - Quiz Mode</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;family=Sora:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Config -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-error": "#690005",
+                        "surface-container-highest": "#313540",
+                        "secondary-fixed": "#eaddff",
+                        "on-error-container": "#ffdad6",
+                        "on-tertiary-fixed": "#311400",
+                        "surface-variant": "#313540",
+                        "on-background": "#dfe2f1",
+                        "on-secondary-container": "#c9aeff",
+                        "secondary-container": "#6001d1",
+                        "tertiary-container": "#df7412",
+                        "surface-container-high": "#262a35",
+                        "on-secondary-fixed-variant": "#5a00c6",
+                        "outline-variant": "#424754",
+                        "on-tertiary-container": "#461f00",
+                        "on-secondary-fixed": "#25005a",
+                        "on-primary-fixed-variant": "#004395",
+                        "secondary": "#d2bbff",
+                        "primary-fixed": "#d8e2ff",
+                        "on-primary-container": "#00285d",
+                        "on-surface": "#dfe2f1",
+                        "surface-container-low": "#171b26",
+                        "tertiary-fixed-dim": "#ffb786",
+                        "surface-dim": "#0f131d",
+                        "error": "#ffb4ab",
+                        "secondary-fixed-dim": "#d2bbff",
+                        "surface-bright": "#353944",
+                        "surface": "#0f131d",
+                        "surface-container": "#1c1f2a",
+                        "background": "#0f131d",
+                        "primary-fixed-dim": "#adc6ff",
+                        "on-primary-fixed": "#001a42",
+                        "tertiary-fixed": "#ffdcc6",
+                        "surface-container-lowest": "#0a0e18",
+                        "inverse-surface": "#dfe2f1",
+                        "tertiary": "#ffb786",
+                        "inverse-primary": "#005ac2",
+                        "on-tertiary": "#502400",
+                        "on-primary": "#002e6a",
+                        "inverse-on-surface": "#2c303b",
+                        "primary": "#adc6ff",
+                        "surface-tint": "#adc6ff",
+                        "error-container": "#93000a",
+                        "outline": "#8c909f",
+                        "on-tertiary-fixed-variant": "#723600",
+                        "on-surface-variant": "#c2c6d6",
+                        "primary-container": "#4d8eff",
+                        "on-secondary": "#3f008e"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "xs": "8px",
+                        "sm": "12px",
+                        "lg": "24px",
+                        "2xl": "48px",
+                        "md": "16px",
+                        "3xl": "64px",
+                        "xl": "32px",
+                        "base": "4px"
+                    },
+                    "fontFamily": {
+                        "display": ["Sora"],
+                        "code": ["JetBrains Mono"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "h1": ["Sora"],
+                        "body-md": ["Hanken Grotesk"],
+                        "h2": ["Sora"],
+                        "h1-mobile": ["Sora"],
+                        "caption": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "display": ["40px", { "lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "code": ["14px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "h1": ["32px", { "lineHeight": "1.25", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "h2": ["24px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "h1-mobile": ["28px", { "lineHeight": "1.25", "fontWeight": "600" }],
+                        "caption": ["13px", { "lineHeight": "1.4", "letterSpacing": "0.01em", "fontWeight": "500" }]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background font-body-md text-body-md antialiased h-screen overflow-hidden flex selection:bg-primary selection:text-on-primary">
+<!-- Ambient Background Glows for Luminous Depth -->
+<div class="absolute inset-0 pointer-events-none z-0 overflow-hidden">
+<div class="absolute top-[-10%] right-[-5%] w-[800px] h-[800px] rounded-full bg-primary/10 blur-[120px] opacity-60"></div>
+<div class="absolute bottom-[-10%] left-[-5%] w-[600px] h-[600px] rounded-full bg-secondary-container/10 blur-[100px] opacity-50"></div>
+</div>
+<!-- JSON Component: SideNavBar -->
+<!-- Executing style_component_shape, style_separation_logic, style_shadows_and_elevation -->
+<nav class="h-screen w-[280px] fixed left-0 top-0 bg-surface-container-high border-r border-white/5 shadow-xl z-20 hidden md:flex flex-col">
+<!-- Executing style_shell_layout -->
+<div class="flex flex-col h-full py-xl px-md">
+<!-- Brand -->
+<div class="flex items-center gap-sm mb-2xl px-sm">
+<div class="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary-container flex items-center justify-center shadow-[0_0_15px_rgba(173,198,255,0.3)]">
+<span class="material-symbols-outlined text-on-primary" style="font-variation-settings: 'FILL' 1;">bolt</span>
+</div>
+<div>
+<!-- Executing style_brand_logo -->
+<h1 class="font-display text-h2 font-bold text-primary">StudyPro AI</h1>
+<p class="font-caption text-caption text-on-surface-variant">Level 12 Scholar</p>
+</div>
+</div>
+<!-- Navigation Links -->
+<!-- Determining Active State: Context is Quiz Mode, nearest logical fit is "Practice" -->
+<ul class="flex flex-col gap-xs flex-1">
+<li>
+<!-- Executing style_inactive_navigation, style_universal_hover, style_interactions -->
+<a class="flex items-center gap-md px-md py-sm text-on-surface-variant hover:bg-surface-container-highest transition-colors duration-200 rounded-lg active:scale-95 transition-transform" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="font-body-md text-body-md">Dashboard</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-md px-md py-sm text-on-surface-variant hover:bg-surface-container-highest transition-colors duration-200 rounded-lg active:scale-95 transition-transform" href="#">
+<span class="material-symbols-outlined">auto_stories</span>
+<span class="font-body-md text-body-md">Subjects</span>
+</a>
+</li>
+<li>
+<!-- Executing style_active_navigation -->
+<a class="flex items-center gap-md px-md py-sm bg-secondary-container text-on-secondary-container rounded-lg font-bold shadow-[0_0_20px_rgba(96,1,209,0.2)] active:scale-95 transition-transform" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">edit_square</span>
+<span class="font-body-md text-body-md">Practice</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-md px-md py-sm text-on-surface-variant hover:bg-surface-container-highest transition-colors duration-200 rounded-lg active:scale-95 transition-transform" href="#">
+<span class="material-symbols-outlined">smart_toy</span>
+<span class="font-body-md text-body-md">AI Tutor</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-md px-md py-sm text-on-surface-variant hover:bg-surface-container-highest transition-colors duration-200 rounded-lg active:scale-95 transition-transform" href="#">
+<span class="material-symbols-outlined">query_stats</span>
+<span class="font-body-md text-body-md">Progress</span>
+</a>
+</li>
+</ul>
+<!-- Footer Area -->
+<div class="mt-auto flex flex-col gap-md">
+<div class="bg-surface-container rounded-xl p-md border border-white/5 relative overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent pointer-events-none"></div>
+<p class="font-caption text-caption text-on-surface mb-sm">Unlock full mock exams</p>
+<button class="w-full bg-gradient-to-r from-primary-container to-secondary-container text-white font-body-md text-body-md py-sm rounded-lg shadow-[0_0_15px_rgba(77,142,255,0.3)] hover:shadow-[0_0_25px_rgba(77,142,255,0.5)] transition-shadow duration-300">
+                        Upgrade to Premium
+                    </button>
+</div>
+<ul class="flex flex-col gap-xs border-t border-white/5 pt-md">
+<li>
+<a class="flex items-center gap-md px-md py-sm text-on-surface-variant hover:bg-surface-container-highest transition-colors duration-200 rounded-lg" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span class="font-body-md text-body-md">Settings</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-md px-md py-sm text-on-surface-variant hover:bg-surface-container-highest transition-colors duration-200 rounded-lg" href="#">
+<span class="material-symbols-outlined">help_center</span>
+<span class="font-body-md text-body-md">Support</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="flex-1 ml-0 md:ml-[280px] flex flex-col relative z-10 h-screen overflow-hidden">
+<!-- Top Progress Header -->
+<header class="w-full h-16 flex items-center justify-between px-lg lg:px-2xl border-b border-white/5 bg-surface/50 backdrop-blur-md flex-shrink-0">
+<button class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-xs">
+<span class="material-symbols-outlined">arrow_back</span>
+<span class="font-body-md text-body-md hidden sm:inline">Exit Quiz</span>
+</button>
+<div class="flex-1 max-w-lg mx-auto flex items-center gap-md">
+<span class="font-code text-code text-on-surface-variant whitespace-nowrap">03 / 10</span>
+<div class="h-2 w-full bg-surface-container-highest rounded-full overflow-hidden shadow-inner">
+<div class="h-full bg-gradient-to-r from-primary to-primary-container w-[30%] rounded-full shadow-[0_0_10px_rgba(173,198,255,0.6)] relative">
+<!-- Inner light reflection for depth -->
+<div class="absolute inset-0 border-t border-white/30 rounded-full"></div>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-sm">
+<span class="font-caption text-caption text-on-surface-variant border border-white/10 px-sm py-xs rounded-full bg-surface-container flex items-center gap-xs">
+<span class="material-symbols-outlined text-[16px] text-tertiary">timer</span>
+                    12:45
+                </span>
+</div>
+</header>
+<!-- Quiz Interface Focus Area -->
+<div class="flex-1 overflow-y-auto px-lg py-2xl flex flex-col items-center justify-center">
+<!-- Question Card -->
+<div class="w-full max-w-3xl mb-xl">
+<div class="inline-flex items-center gap-xs bg-primary/10 border border-primary/20 text-primary font-caption text-caption px-md py-xs rounded-full mb-lg backdrop-blur-sm shadow-[0_0_15px_rgba(173,198,255,0.15)]">
+<span class="material-symbols-outlined text-[16px]">psychology</span>
+                    Physics · Dynamics
+                </div>
+<h2 class="font-h1 text-h1-mobile md:text-h1 text-on-surface leading-tight drop-shadow-md">
+                    Calculate the acceleration of a 5kg mass when a net force of 20N is applied.
+                </h2>
+</div>
+<!-- Bento Grid Options Area -->
+<div class="w-full max-w-3xl grid grid-cols-1 sm:grid-cols-2 gap-md">
+<!-- Option A -->
+<label class="group relative bg-surface-container rounded-xl p-lg border border-white/5 cursor-pointer hover:bg-surface-container-high hover:border-primary/40 hover:shadow-[0_4px_20px_rgba(173,198,255,0.1)] transition-all duration-300 flex items-center">
+<input class="peer sr-only" name="quiz-option" type="radio"/>
+<!-- Selected State Glow Indicator -->
+<div class="absolute inset-0 rounded-xl border border-primary opacity-0 peer-checked:opacity-100 shadow-[inset_0_0_20px_rgba(173,198,255,0.1),0_0_15px_rgba(173,198,255,0.2)] transition-opacity duration-300 pointer-events-none"></div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest border border-white/10 text-on-surface-variant font-code text-body-md flex items-center justify-center flex-shrink-0 mr-lg group-hover:bg-primary/10 group-hover:text-primary group-hover:border-primary/30 peer-checked:bg-primary peer-checked:text-on-primary peer-checked:border-primary transition-colors">
+                        A
+                    </div>
+<span class="font-body-lg text-body-lg text-on-surface peer-checked:text-primary transition-colors">
+                        4 m/s²
+                    </span>
+</label>
+<!-- Option B -->
+<label class="group relative bg-surface-container rounded-xl p-lg border border-white/5 cursor-pointer hover:bg-surface-container-high hover:border-primary/40 hover:shadow-[0_4px_20px_rgba(173,198,255,0.1)] transition-all duration-300 flex items-center">
+<input class="peer sr-only" name="quiz-option" type="radio"/>
+<div class="absolute inset-0 rounded-xl border border-primary opacity-0 peer-checked:opacity-100 shadow-[inset_0_0_20px_rgba(173,198,255,0.1),0_0_15px_rgba(173,198,255,0.2)] transition-opacity duration-300 pointer-events-none"></div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest border border-white/10 text-on-surface-variant font-code text-body-md flex items-center justify-center flex-shrink-0 mr-lg group-hover:bg-primary/10 group-hover:text-primary group-hover:border-primary/30 peer-checked:bg-primary peer-checked:text-on-primary peer-checked:border-primary transition-colors">
+                        B
+                    </div>
+<span class="font-body-lg text-body-lg text-on-surface peer-checked:text-primary transition-colors">
+                        100 m/s²
+                    </span>
+</label>
+<!-- Option C -->
+<label class="group relative bg-surface-container rounded-xl p-lg border border-white/5 cursor-pointer hover:bg-surface-container-high hover:border-primary/40 hover:shadow-[0_4px_20px_rgba(173,198,255,0.1)] transition-all duration-300 flex items-center">
+<input class="peer sr-only" name="quiz-option" type="radio"/>
+<div class="absolute inset-0 rounded-xl border border-primary opacity-0 peer-checked:opacity-100 shadow-[inset_0_0_20px_rgba(173,198,255,0.1),0_0_15px_rgba(173,198,255,0.2)] transition-opacity duration-300 pointer-events-none"></div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest border border-white/10 text-on-surface-variant font-code text-body-md flex items-center justify-center flex-shrink-0 mr-lg group-hover:bg-primary/10 group-hover:text-primary group-hover:border-primary/30 peer-checked:bg-primary peer-checked:text-on-primary peer-checked:border-primary transition-colors">
+                        C
+                    </div>
+<span class="font-body-lg text-body-lg text-on-surface peer-checked:text-primary transition-colors">
+                        0.25 m/s²
+                    </span>
+</label>
+<!-- Option D -->
+<label class="group relative bg-surface-container rounded-xl p-lg border border-white/5 cursor-pointer hover:bg-surface-container-high hover:border-primary/40 hover:shadow-[0_4px_20px_rgba(173,198,255,0.1)] transition-all duration-300 flex items-center">
+<input class="peer sr-only" name="quiz-option" type="radio"/>
+<div class="absolute inset-0 rounded-xl border border-primary opacity-0 peer-checked:opacity-100 shadow-[inset_0_0_20px_rgba(173,198,255,0.1),0_0_15px_rgba(173,198,255,0.2)] transition-opacity duration-300 pointer-events-none"></div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest border border-white/10 text-on-surface-variant font-code text-body-md flex items-center justify-center flex-shrink-0 mr-lg group-hover:bg-primary/10 group-hover:text-primary group-hover:border-primary/30 peer-checked:bg-primary peer-checked:text-on-primary peer-checked:border-primary transition-colors">
+                        D
+                    </div>
+<span class="font-body-lg text-body-lg text-on-surface peer-checked:text-primary transition-colors">
+                        15 m/s²
+                    </span>
+</label>
+</div>
+<!-- Action Area -->
+<div class="w-full max-w-3xl mt-2xl flex justify-end">
+<button class="bg-surface-container-high text-on-surface-variant border border-white/5 font-body-md text-body-md py-sm px-xl rounded-lg flex items-center gap-xs hover:bg-surface-container-highest hover:text-on-surface transition-colors">
+                    Skip Question
+                </button>
+</div>
+</div>
+</main>
+<!-- BottomNavBar for Mobile (Not fully populated as it's secondary to the core intent, but structural frame included per design constraints for responsiveness) -->
+<div class="fixed bottom-0 left-0 w-full bg-surface/90 backdrop-blur-md flex md:hidden justify-around items-center h-16 border-t border-white/5 z-30 pb-safe">
+<a class="flex flex-col items-center gap-1 p-2 text-on-surface-variant" href="#">
+<span class="material-symbols-outlined text-[20px]">dashboard</span>
+</a>
+<a class="flex flex-col items-center gap-1 p-2 text-on-surface-variant" href="#">
+<span class="material-symbols-outlined text-[20px]">auto_stories</span>
+</a>
+<a class="flex flex-col items-center gap-1 p-2 text-on-secondary-container bg-secondary-container/20 rounded-full w-12 h-12 justify-center" href="#">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">edit_square</span>
+</a>
+<a class="flex flex-col items-center gap-1 p-2 text-on-surface-variant" href="#">
+<span class="material-symbols-outlined text-[20px]">smart_toy</span>
+</a>
+<a class="flex flex-col items-center gap-1 p-2 text-on-surface-variant" href="#">
+<span class="material-symbols-outlined text-[20px]">query_stats</span>
+</a>
+</div>
+</body></html>

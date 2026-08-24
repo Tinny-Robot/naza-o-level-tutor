@@ -1,0 +1,10 @@
+# Mastering English Language for WASSCE (SS1-SS3)
+## Chapter 1: Grammatical Clauses and Concord
+A clause is a group of words containing a subject and a finite verb. A Noun Clause acts as a noun: it can be the subject of a verb ('What he said was true'), the object of a transitive verb ('She believes that we will pass'), or the object of a preposition ('Pay attention to what I am saying'). An Adjectival Clause (or relative clause) modifies a noun or pronoun and is introduced by relative pronouns. For example: 'The student who won the prize is diligent'.
+Concord represents subject-verb agreement. A singular subject takes a singular verb, while a plural subject takes a plural verb. Indefinite pronouns like everyone, someone, nobody, and each always take singular verbs (e.g., 'Each of the girls has a textbook').
+
+## Chapter 2: Summary and Comprehension Skills
+Summary writing tests your ability to extract main ideas and present them concisely. A good summary must satisfy three rules:
+1. Accuracy: The summarized points must correspond exactly to the facts in the passage without external opinions.
+2. Brevity: Do not write unnecessary details, examples, or redundant illustrations.
+3. Sentence Structure: Every point must be written in a complete grammatical sentence.

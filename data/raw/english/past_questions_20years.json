@@ -1,0 +1,1236 @@
+[
+  {
+    "year": "2020",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nEach of the candidates _______ expected to submit a copy of their credentials before Friday.",
+    "options": [
+      "A. are",
+      "B. is",
+      "C. were",
+      "D. have been"
+    ],
+    "answer": "B",
+    "explanation": "The subject is 'Each', which is singular. Thus, it requires the singular verb 'is'."
+  },
+  {
+    "year": "2021",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Identify the option that is closest in meaning to the underlined word:\nHe made a *cursory* glance at the document before signing it.",
+    "options": [
+      "A. thorough",
+      "B. critical",
+      "C. hasty",
+      "D. detailed"
+    ],
+    "answer": "C",
+    "explanation": "'Cursory' means hasty or superficial."
+  },
+  {
+    "year": "2019",
+    "exam_board": "WAEC",
+    "paper_type": "Oral English",
+    "topic": "Emphatic Stress",
+    "question": "In the following sentence, the stressed word is written in capital letters. Choose the option that is answered by the sentence:\nKofi bought a RED shirt for his brother.",
+    "options": [
+      "A. Who bought a red shirt?",
+      "B. Did Kofi sell a red shirt?",
+      "C. Did Kofi buy a blue shirt?",
+      "D. Did Kofi buy a red cap?"
+    ],
+    "answer": "C",
+    "explanation": "Stressed 'RED' implies a contrast of color. The question should query the color."
+  },
+  {
+    "year": "2018",
+    "exam_board": "WAEC",
+    "paper_type": "Oral English",
+    "topic": "Vowel Sounds",
+    "question": "Choose the word that has the same vowel sound as the one represented by the underlined letters:\npl<u>ea</u>se",
+    "options": [
+      "A. head",
+      "B. key",
+      "C. weight",
+      "D. threat"
+    ],
+    "answer": "B",
+    "explanation": "The vowel sound is long /i:/, matched by 'key'."
+  },
+  {
+    "year": "2022",
+    "exam_board": "WAEC",
+    "paper_type": "Comprehension",
+    "topic": "Comprehension & Grammar",
+    "question": "Read the following passage and answer the questions:\n\nWhen Ade woke up that morning, his heart was heavy with dread. Today was the final audition for the National Youth Orchestra, and he knew he had only one chance to prove himself. For months, he had practiced his cello until his fingers were raw. As he entered the grand hall, the sheer size of the building made him feel insignificant. The examiners sat at a long table, their expressions unreadable. When his name was called, Ade stepped forward, closed his eyes, and began to play. The music flowed out of him, carrying all his anxiety, hopes, and dreams. When he finished, there was a moment of absolute silence before the hall erupted in applause. The chief examiner smiled and nodded.\n\nQuestions:\n1. Why was Ade filled with dread at the beginning of the day?\n2. What evidence from the passage shows that Ade prepared extensively for the audition?\n3. Identify the grammatical name and function of the underlined clause in: 'When Ade woke up that morning, his heart was heavy with dread.'\n4. What figure of speech is contained in: 'the hall erupted in applause'?",
+    "answer": "1. Day of orchestra audition.\n2. Practiced cello for months until fingers raw.\n3. Adverbial clause of time modifying 'was heavy'.\n4. Synecdoche / Metonymy."
+  },
+  {
+    "year": "2017",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the passage and answer the question:\n\nModern agriculture has transformed food production, but it has also brought significant environmental issues. First, the heavy use of chemical fertilizers has contaminated water bodies, leading to the eutrophication of lakes and rivers. This process suffocates aquatic organisms due to oxygen depletion. Second, the clearing of forests to create vast farmlands has resulted in the destruction of natural habitats, threatening biodiversity. Third, the intensive use of heavy machinery compacts the soil structure, which reduces its ability to absorb rainwater and increases soil erosion.\n\nQuestion:\nIn three sentences, summarize the three environmental issues associated with modern agriculture described in the passage.",
+    "answer": "1. Chemical fertilizers pollute water, killing aquatic life.\n2. Forest clearing destroys natural habitats.\n3. Heavy machinery causes soil compaction and erosion."
+  },
+  {
+    "year": "2023",
+    "exam_board": "WAEC",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an essay on the following topic:\n\nYou have noticed a rising trend in examination malpractice in your school. Write a letter to your principal outlining three major causes of this trend and suggesting three solutions to curb it.",
+    "answer": "Model formal letter format: principal address, title, body with 3 causes and 3 solutions. Closing: Yours faithfully. Marking scheme breakdown: Content 10, Organisation 10, Expression 20, Mechanical Accuracy 10."
+  },
+  {
+    "year": "2004",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2005",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2006",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2007",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2008",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2009",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2010",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2011",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2012",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2013",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2014",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2015",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2016",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2017",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2018",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2019",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2020",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2021",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2022",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2023",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2024",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2004",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2005",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2006",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2007",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2008",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2009",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2010",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2011",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2012",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2013",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2014",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2015",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2016",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2017",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2018",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2019",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2020",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2021",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2022",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2023",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2024",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2004",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2005",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2006",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2007",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2008",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2009",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2010",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2011",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2012",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2013",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2014",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2015",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2016",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2017",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2018",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2019",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2020",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2021",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2022",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2023",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2024",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2004",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2005",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2006",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2007",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2008",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2009",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2010",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2011",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2012",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2013",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2014",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2015",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2016",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2017",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2018",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2019",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2020",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2021",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2022",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2023",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2024",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2004",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2005",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2006",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2007",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2008",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2009",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2010",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2011",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2012",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2013",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2014",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2015",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  },
+  {
+    "year": "2016",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nNeither the teacher nor the students _______ present at the meeting.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "B",
+    "explanation": "Subject closest to verb is plural 'students', which takes the plural verb 'were'."
+  },
+  {
+    "year": "2017",
+    "exam_board": "NECO",
+    "paper_type": "Objective",
+    "topic": "Oral English",
+    "question": "Choose the option that represents the emphatic stress answer for:\nWe should travel to Abuja by AIR.",
+    "options": [
+      "A. Should we travel to Lagos by air?",
+      "B. Should we travel to Abuja by train?",
+      "C. Who should travel to Abuja by air?",
+      "D. Should they travel to Abuja by air?"
+    ],
+    "answer": "B",
+    "explanation": "Emphatic stress on 'AIR' contrasts mode of transport, matched by 'by train?'."
+  },
+  {
+    "year": "2018",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the short passage and summarize the main point of view of the author in one sentence:\n\nTechnological development has revolutionized modern classrooms, providing students with access to global research databases. However, this has also led to a massive increase in classroom distraction, as students spend school hours browsing social media instead of listening to lectures.",
+    "answer": "While technology provides classroom benefits, it has also introduced significant distractions like social media use during school hours."
+  },
+  {
+    "year": "2019",
+    "exam_board": "NECO",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an article for publication in your school magazine on the topic: 'The Importance of a Balanced Diet in Student Academic Performance'.",
+    "answer": "Model Response Structure:\n- Title: THE ROLE OF BALANCED NUTRITION IN ACADEMIC SUCCESS\n- Introduction: Define balanced diet and state the thesis that nutrition directly affects brain function.\n- Body Paragraphs: Carbohydrates for steady glucose, proteins for memory, negative effects of junk food.\n- Conclusion: Urge school to prioritize nutritional meals.\n- Marking Rubrics: Content (10 Marks), Organisation (10 Marks), Expression (20 Marks), Mechanical Accuracy (10 Marks)."
+  }
+]

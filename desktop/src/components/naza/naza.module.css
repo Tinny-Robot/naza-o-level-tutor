@@ -1,0 +1,103 @@
+.wrap {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: 0;
+  padding: 0;
+  color: inherit;
+  cursor: inherit;
+}
+
+button.wrap {
+  cursor: pointer;
+}
+
+.img {
+  display: block;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+.speech {
+  max-width: 240px;
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: 12px 12px 12px 4px;
+  padding: 8px 12px;
+  font-size: 0.88rem;
+  color: var(--color-text);
+  box-shadow: var(--shadow-sm);
+}
+
+.bob {
+  animation: nazaBob 1.6s var(--ease) infinite;
+}
+
+@keyframes nazaBob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  background: var(--color-scrim);
+  display: grid;
+  place-items: center;
+  padding: 16px;
+}
+
+.overlayCard {
+  width: min(400px, 100%);
+  background: var(--color-card);
+  border: 2px solid var(--color-primary);
+  border-radius: var(--radius-xl);
+  padding: clamp(16px, 3vw, 22px);
+  text-align: center;
+  box-shadow: var(--shadow-md);
+}
+
+.overlayTitle {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  margin: 12px 0 8px;
+}
+
+.overlayLead {
+  color: var(--color-text-muted);
+}
+
+.shimmer {
+  height: 3px;
+  margin-top: 20px;
+  border-radius: 999px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-primary) 0 12px,
+    transparent 12px 20px
+  );
+  background-size: 32px 3px;
+  animation: dash 0.8s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    background-position: 32px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bob,
+  .shimmer {
+    animation: none;
+  }
+}

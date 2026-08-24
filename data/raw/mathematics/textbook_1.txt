@@ -1,0 +1,31 @@
+# Comprehensive Secondary Mathematics (SS1-SS3)
+## Chapter 1: Number Bases and Indices
+In standard arithmetic, we count in base ten. However, computing devices use base two (binary), octal (base eight), and hexadecimal (base sixteen). Converting a number from base ten to another base requires successive division by the target base, noting the remainders from bottom to top. For example, to convert 25 to base two: 25/2 = 12 R 1, 12/2 = 6 R 0, 6/2 = 3 R 0, 3/2 = 1 R 1, 1/2 = 0 R 1. Thus, 25 in base 10 is equal to 11001 in base 2.
+Indices describe repeated multiplication: $a^n = a \times a \times \dots \times a$ (n times). The laws of indices are:
+1. $a^x \times a^y = a^{x+y}$
+2. $a^x / a^y = a^{x-y}$
+3. $(a^x)^y = a^{xy}$
+4. $a^0 = 1$ (for $a \neq 0$)
+5. $a^{-x} = \frac{1}{a^x}$
+6. $a^{1/n} = \sqrt[n]{a}$
+
+## Chapter 2: Quadratic Equations and Progressions
+A quadratic equation is of the form $ax^2 + bx + c = 0$, where $a, b, c$ are constants and $a \neq 0$. The roots of the equation can be found using the quadratic formula:
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+The term $b^2 - 4ac$ is the discriminant ($D$). If $D > 0$, the roots are real and distinct. If $D = 0$, the roots are real and equal. If $D < 0$, the roots are complex/imaginary.
+An Arithmetic Progression (AP) is a sequence where each term differs from the preceding one by a constant common difference ($d$). The n-th term ($T_n$) is given by $T_n = a + (n-1)d$, and the sum of the first n terms ($S_n$) is $S_n = \frac{n}{2}[2a + (n-1)d]$. A Geometric Progression (GP) has a common ratio ($r$). The n-th term is $T_n = a r^{n-1}$, and the sum of the first n terms is $S_n = \frac{a(r^n - 1)}{r - 1}$ for $r > 1$, or $S_n = \frac{a(1 - r^n)}{1 - r}$ for $r < 1$.
+
+## Chapter 3: Circle Geometry Theorems
+Circle geometry forms a core part of the WASSCE curriculum. The major theorems are:
+1. The angle subtended by an arc at the center of a circle is twice the angle subtended at any point on the remaining part of the circumference.
+2. Angles in the same segment of a circle are equal.
+3. The angle in a semi-circle is a right angle ($90^\circ$).
+4. The opposite angles of a cyclic quadrilateral sum up to $180^\circ$ (supplementary).
+5. The tangent to a circle is perpendicular to the radius at the point of contact.
+6. The angle between a tangent and a chord through the point of contact is equal to the angle in the alternate segment.
+
+## Chapter 4: Latitude and Longitude
+The Earth is modeled as a sphere. The Equator is a Great Circle, and lines of longitude (meridians) are also Great Circles. Lines of latitude (except the Equator) are Small Circles.
+The radius of a parallel of latitude $\theta$ is $r = R \cos \theta$, where $R$ is the Earth's radius (approximately $6400\text{ km}$ or $3437\text{ nautical miles}$).
+- Distance along a Great Circle (along longitude): $d = \frac{\alpha}{360} \times 2\pi R$, where $\alpha$ is the angular difference.
+- Distance along a Small Circle (along latitude): $d = \frac{\theta_{diff}}{360} \times 2\pi r = \frac{\theta_{diff}}{360} \times 2\pi R \cos \theta$.

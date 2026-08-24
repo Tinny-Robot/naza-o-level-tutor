@@ -1,0 +1,482 @@
+.shell {
+  display: grid;
+  grid-template-columns: var(--sidebar-w) minmax(0, 1fr);
+  grid-template-rows: var(--topbar-h) minmax(0, 1fr);
+  grid-template-areas:
+    "sidebar topbar"
+    "sidebar main";
+  height: 100%;
+  min-height: 100dvh;
+  max-width: 100%;
+  overflow: hidden;
+  background:
+    repeating-linear-gradient(
+      transparent,
+      transparent 27px,
+      rgba(194, 59, 46, 0.05) 28px
+    ),
+    var(--color-bg);
+}
+
+.sidebar {
+  grid-area: sidebar;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: 12px 10px;
+  background: var(--color-panel);
+  border-right: 1px solid var(--color-border);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 4px 8px;
+}
+
+.logoMark {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  display: grid;
+  place-items: center;
+}
+
+.brandText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.brandTitle {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.brandSub {
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: var(--radius-md);
+  color: var(--color-text-muted);
+  font-size: 13px;
+  transition: background var(--dur) var(--ease), color var(--dur) var(--ease);
+}
+
+.navItem svg {
+  flex-shrink: 0;
+}
+
+.navItem:hover {
+  background: rgba(255, 248, 232, 0.55);
+  color: var(--color-text);
+}
+
+.navItemActive {
+  background: var(--color-card);
+  color: var(--color-text);
+  box-shadow: inset 0 -2px 0 var(--color-primary);
+}
+
+.sidebarFoot {
+  border-top: 1px solid var(--color-border);
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sidebarExams {
+  margin: 0;
+  font-size: 12px;
+  color: var(--color-text-dim);
+  overflow-wrap: anywhere;
+}
+
+.topbar {
+  grid-area: topbar;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding: 0 var(--main-pad);
+  border-bottom: 1px solid var(--color-border);
+  background: rgba(255, 248, 232, 0.82);
+  backdrop-filter: blur(12px);
+}
+
+.searchPill {
+  flex: 1;
+  min-width: 0;
+  max-width: 420px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px;
+  border-radius: var(--radius-full);
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: border-color var(--dur) var(--ease);
+}
+
+.searchPill span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.searchPill:hover {
+  border-color: var(--color-primary);
+}
+
+.topMeta {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 10px;
+}
+
+.main {
+  grid-area: main;
+  overflow: auto;
+  padding: var(--main-pad);
+  min-width: 0;
+  min-height: 0;
+  box-shadow: inset 4px 0 0 var(--color-margin);
+}
+
+.pageSlot {
+  width: 100%;
+  min-width: 0;
+  height: 100%;
+  min-height: 100%;
+}
+
+.kbd {
+  flex-shrink: 0;
+  overflow: visible;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 6px;
+  background: var(--color-panel-low);
+  border: 1px solid var(--color-border);
+}
+
+.iconBtn {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+  background: var(--color-card);
+  color: var(--color-text-muted);
+  cursor: pointer;
+}
+
+.iconBtn:hover {
+  color: var(--color-text);
+  border-color: var(--color-primary);
+}
+
+.modalBackdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  background: var(--color-scrim);
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.modal {
+  width: min(440px, 100%);
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  box-shadow: var(--shadow-md);
+}
+
+.modalHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.modalHead h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+}
+
+.modalLead {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  margin: 0 0 16px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.field input,
+.field select {
+  background: var(--color-panel-low);
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+  border-radius: 10px;
+  padding: 10px 12px;
+  font: inherit;
+}
+
+.commandList {
+  display: grid;
+  gap: 4px;
+  margin-top: 4px;
+  max-height: min(40vh, 280px);
+  overflow: auto;
+}
+
+.commandItem {
+  text-align: left;
+  background: var(--color-panel-low);
+  border: 1px solid transparent;
+  color: var(--color-text);
+  border-radius: 10px;
+  padding: 10px 12px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.commandItem:hover,
+.commandItem:focus-visible,
+.commandItemActive {
+  border-color: var(--color-primary);
+  background: rgba(211, 146, 18, 0.14);
+}
+
+.commandEmpty {
+  margin: 8px 0 0;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.modalSection {
+  margin: 16px 0 4px;
+}
+
+.modalSection h3 {
+  margin: 0 0 8px;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.onboardHero {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.crashScreen {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: var(--color-scrim);
+}
+
+.crashTitle {
+  margin: 0 0 8px;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+}
+
+.fallbackBtn,
+.fallbackBtnPrimary {
+  font: inherit;
+  border-radius: 10px;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.fallbackBtn {
+  background: transparent;
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+}
+
+.fallbackBtnPrimary {
+  background: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  color: var(--color-on-primary);
+}
+
+.modalMeta {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  margin: 12px 0;
+  display: grid;
+  gap: 4px;
+}
+
+.modalError {
+  color: var(--color-error);
+  font-size: 0.85rem;
+}
+
+.modalActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+@media (max-width: 1024px) and (min-width: 721px) {
+  .shell {
+    grid-template-columns: 72px minmax(0, 1fr);
+  }
+
+  .brand {
+    justify-content: center;
+    padding: 0 0 8px;
+  }
+
+  .brandText,
+  .sidebarFoot,
+  .navItem span {
+    display: none;
+  }
+
+  .logoMark {
+    width: 36px;
+    height: 36px;
+  }
+
+  .navItem {
+    justify-content: center;
+    padding: 10px 8px;
+  }
+}
+
+@media (max-width: 720px) {
+  .shell {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: var(--topbar-h) minmax(0, 1fr) var(--bottom-nav-h);
+    grid-template-areas:
+      "topbar"
+      "main"
+      "sidebar";
+  }
+
+  .sidebar {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 0;
+    padding: 4px 6px;
+    padding-bottom: max(4px, env(safe-area-inset-bottom));
+    overflow: hidden;
+    border-right: none;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .brand,
+  .sidebarFoot {
+    display: none;
+  }
+
+  .nav {
+    flex-direction: row;
+    flex: 1;
+    overflow: hidden;
+    gap: 2px;
+  }
+
+  .navItem {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    min-width: 0;
+    padding: 6px 2px;
+    font-size: 10px;
+    line-height: 1.15;
+    white-space: normal;
+    text-align: center;
+    overflow-wrap: anywhere;
+  }
+
+  .navItem span {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .navItemActive {
+    box-shadow: inset 0 2px 0 var(--color-primary);
+  }
+
+  .topbar {
+    padding: 0 var(--main-pad);
+  }
+
+  .searchPill {
+    max-width: none;
+  }
+
+  .main {
+    box-shadow: none;
+    padding: var(--main-pad);
+  }
+
+  .kbd {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .navItem span {
+    display: none;
+  }
+
+  .navItem {
+    padding: 8px 2px;
+  }
+}

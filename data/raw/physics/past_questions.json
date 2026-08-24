@@ -1,0 +1,56 @@
+[
+  {
+    "year": "2018",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mechanics",
+    "question": "A body of mass 5 kg is moving in a circular path of radius 2 m with a constant speed of 4 m/s. Calculate the centripetal force acting on the body.",
+    "options": [
+      "A. 10 N",
+      "B. 20 N",
+      "C. 40 N",
+      "D. 80 N"
+    ],
+    "answer": "C",
+    "explanation": "The centripetal force ($F_c$) acting on a body in circular motion is calculated using the formula: $F_c = \\frac{mv^2}{r}$, where $m$ is the mass, $v$ is the velocity/speed, and $r$ is the radius. Given $m = 5\\text{ kg}$, $v = 4\\text{ m/s}$, and $r = 2\\text{ m}$, we substitute: $F_c = \\frac{5 \\times 4^2}{2} = \\frac{5 \\times 16}{2} = \\frac{80}{2} = 40\\text{ N}$. Thus, Option C is correct."
+  },
+  {
+    "year": "2019",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Electricity & Magnetism",
+    "question": "A transformer has 500 turns in the primary coil and 100 turns in the secondary coil. If the primary voltage is 240 V, what is the secondary voltage, assuming 100% efficiency?",
+    "options": [
+      "A. 1200 V",
+      "B. 240 V",
+      "C. 48 V",
+      "D. 12 V"
+    ],
+    "answer": "C",
+    "explanation": "For an ideal transformer, the ratio of the voltages is equal to the ratio of the number of turns: $\\frac{V_s}{V_p} = \\frac{N_s}{N_p}$. Given $N_p = 500$, $N_s = 100$, and $V_p = 240\\text{ V}$, we solve for $V_s$: $V_s = V_p \\times \\frac{N_s}{N_p} = 240 \\times \\frac{100}{500} = 240 \\times 0.2 = 48\\text{ V}$. Therefore, the secondary voltage is 48 V. Option C is correct."
+  },
+  {
+    "year": "2021",
+    "exam_board": "WAEC",
+    "paper_type": "Theory",
+    "topic": "Thermal Physics",
+    "question": "A piece of copper of mass 0.2 kg at a temperature of $100^\\circ\\text{C}$ is placed in a calorimeter containing 0.1 kg of water at $20^\\circ\\text{C}$. If the final steady temperature of the mixture is $32^\\circ\\text{C}$, calculate the specific heat capacity of copper. (Neglect heat capacity of the calorimeter; specific heat capacity of water = $4200\\text{ J kg}^{-1}\\text{ K}^{-1}$)",
+    "answer": "Using the principle of conservation of energy (Heat lost by hot substance = Heat gained by cold substance):\n\nHeat lost by copper = $m_c \\times c_c \\times (\\theta_c - \\theta_f)$\nHeat gained by water = $m_w \\times c_w \\times (\\theta_f - \\theta_w)$\n\nWhere:\n$m_c = 0.2\\text{ kg}$\n$\\theta_c = 100^\\circ\\text{C}$\n$m_w = 0.1\\text{ kg}$\n$\\theta_w = 20^\\circ\\text{C}$\n$\\theta_f = 32^\\circ\\text{C}$\n$c_w = 4200\\text{ J kg}^{-1}\\text{ K}^{-1}$\n$c_c$ = specific heat capacity of copper\n\nSubstitute the values:\n$0.2 \\times c_c \\times (100 - 32) = 0.1 \\times 4200 \\times (32 - 20)$\n$0.2 \\times c_c \\times 68 = 420 \\times 12$\n$13.6 \\times c_c = 5040$\n$c_c = \\frac{5040}{13.6} \\approx 370.59\\text{ J kg}^{-1}\\text{ K}^{-1}$.\n\nTherefore, the specific heat capacity of copper is approximately $371\\text{ J kg}^{-1}\\text{ K}^{-1}$."
+  },
+  {
+    "year": "2020",
+    "exam_board": "WAEC",
+    "paper_type": "Practical",
+    "topic": "Mechanics",
+    "question": "Describe the Simple Pendulum experiment to determine the acceleration due to gravity ($g$). Provide the experimental setup, a table of sample data, graph description, and three precautions.",
+    "answer": "Simple Pendulum Experiment:\n\n1. Experimental Setup:\n- Suspend a small heavy metal bob from a rigid stand using a light, inextensible thread.\n- Measure the length $L$ from the point of suspension to the center of gravity of the bob.\n- Set the pendulum oscillating through a small angle (less than $10^\\circ$).\n- Use a stopwatch to record the time $t$ for 20 complete oscillations. Repeat to obtain $t_1$ and $t_2$, then calculate the average time $t_{avg}$.\n- Determine the period $T = \\frac{t_{avg}}{20}$ and calculate $T^2$.\n- Repeat the procedure for at least five different lengths $L$ (e.g., 0.4 m, 0.6 m, 0.8 m, 1.0 m, 1.2 m).\n\n2. Sample Data Table:\n| Length $L$ (m) | Time $t_1$ (s) | Time $t_2$ (s) | Avg Time $t$ (s) | Period $T$ (s) | $T^2$ ($\\text{s}^2$) |\n|---|---|---|---|---|---|\n| 0.40 | 25.4 | 25.6 | 25.5 | 1.28 | 1.64 |\n| 0.60 | 31.0 | 31.2 | 31.1 | 1.56 | 2.43 |\n| 0.80 | 35.8 | 36.0 | 35.9 | 1.80 | 3.24 |\n| 1.00 | 40.0 | 40.2 | 40.1 | 2.01 | 4.04 |\n| 1.20 | 43.8 | 44.0 | 43.9 | 2.20 | 4.84 |\n\n3. Graph and Calculations:\n- Plot a graph of $T^2$ on the vertical axis against $L$ on the horizontal axis. A straight line passing through the origin is obtained.\n- Calculate the slope ($S$) of the graph: $S = \\frac{\\Delta (T^2)}{\\Delta L}$.\n- Since the formula for the period is $T = 2\\pi \\sqrt{\\frac{L}{g}}$, squaring both sides gives $T^2 = \\frac{4\\pi^2}{g} L$. Thus, the slope $S = \\frac{4\\pi^2}{g}$.\n- Calculate $g$ using: $g = \\frac{4\\pi^2}{S}$.\n\n4. Precautions:\n- Ensure the angle of oscillation is small (less than $10^\\circ$) so that simple harmonic motion approximation holds.\n- Turn off the ceiling fan and close windows to prevent wind/draughts from affecting the oscillations.\n- Avoid parallax error when reading the metre rule by keeping the eye level perpendicular to the scale."
+  },
+  {
+    "year": "2022",
+    "exam_board": "WAEC",
+    "paper_type": "Practical",
+    "topic": "Electricity & Magnetism",
+    "question": "Describe the Ohm's Law experiment to determine the internal resistance $r$ and electromotive force $E$ of a cell. Include circuit details, sample data table, and precautions.",
+    "answer": "Ohm's Law Circuit Experiment:\n\n1. Experimental Setup:\n- Connect a cell of unknown e.m.f. $E$ and internal resistance $r$ in series with a key, an ammeter, a rheostat (or resistance box), and an external resistor $R$.\n- Connect a voltmeter in parallel across the terminals of the cell.\n- With the key open, record the voltmeter reading, which gives the e.m.f. $E$ of the cell.\n- Close the key and adjust the rheostat to vary the current $I$ flowing through the circuit. Record the corresponding values of current $I$ from the ammeter and terminal potential difference $V$ from the voltmeter.\n- Repeat this for five different settings of the rheostat.\n\n2. Sample Data Table:\n| Current $I$ (A) | Voltage $V$ (V) |\n|---|---|\n| 0.20 | 2.70 |\n| 0.40 | 2.40 |\n| 0.60 | 2.10 |\n| 0.80 | 1.80 |\n| 1.00 | 1.50 |\n\n3. Graph and Calculations:\n- Plot a graph of $V$ (vertical axis) against $I$ (horizontal axis). A straight line with a negative slope is obtained.\n- The intercept on the vertical axis (where $I = 0$) gives the electromotive force $E$ (e.m.f.) of the cell ($E = 3.0\\text{ V}$ in this sample data).\n- Calculate the slope of the line, which is equal to negative internal resistance (Slope = $-r$). In this case, Slope = $\\frac{1.5 - 2.7}{1.0 - 0.2} = \\frac{-1.2}{0.8} = -1.5$. Thus, internal resistance $r = 1.5\\text{ }\\Omega$.\n- Formula: $V = E - Ir$.\n\n4. Precautions:\n- Remove the key when readings are not being taken to prevent the cell from running down and to avoid heating the resistors, which would alter their resistance.\n- Ensure all wire connections are tight to prevent fluctuating currents.\n- Check and correct for zero error on the ammeter and voltmeter before starting the experiment."
+  }
+]

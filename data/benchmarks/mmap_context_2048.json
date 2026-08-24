@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-08-12T17:52:53Z",
+  "evaluation_scope": "pilot",
+  "config": {
+    "name": "mmap_context_2048",
+    "description": "Mmap with F16 KV and controlled 2048 context",
+    "n_ctx": 2048,
+    "use_mmap": true,
+    "use_mlock": false,
+    "type_k": "F16",
+    "type_v": "F16",
+    "n_batch": 512,
+    "n_ubatch": 512
+  },
+  "controls": {
+    "model": "models/gemma-4-E4B-it-Q4_K_M.gguf",
+    "model_size_bytes": 4977171584,
+    "quantization": "Q4_K_M (GGUF general.file_type=15)",
+    "n_gpu_layers": 0,
+    "threads": 7,
+    "flash_attention": true,
+    "swa_full": false,
+    "max_tokens": 512,
+    "temperature": 0.1,
+    "top_p": 0.95,
+    "top_k_sampling": 40,
+    "min_p": 0.05,
+    "seed": 2026,
+    "rag_top_k": 5,
+    "rag_context_budget": 3000,
+    "retrieval_mode": "production default"
+  },
+  "hardware": {
+    "cpu_model": "Intel(R) Xeon(R) Platinum 8175M CPU @ 2.50GHz",
+    "logical_cpus": 8,
+    "benchmark_threads": 7,
+    "ram_total_gib": 30.97933578491211,
+    "platform": "Linux-6.14.0-1018-aws-x86_64-with-glibc2.39"
+  },
+  "llama": {
+    "llama_cpp_python_version": "0.3.34",
+    "llama_cpp_commit": "e3546c794",
+    "llama_system_info": "CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | "
+  },
+  "dataset": {
+    "dataset_path": "data/eval/qa.json",
+    "dataset_sha256": "cdf14f31fa37b1d3ef3f28cbf1eeef2ea2062cbd6262a78a6a5cb8706cdd810c",
+    "dataset_total_questions": 1681,
+    "questions_evaluated": 1,
+    "selection_method": "first_item",
+    "selected_ids": [
+      "chemistry-past_questions-003-8ebd4ce5"
+    ]
+  },
+  "load_times_seconds": {
+    "embedding": 16.862528011202812,
+    "model": 5.183450039476156,
+    "retriever": 0.2985667735338211
+  },
+  "memory": {
+    "competition_limit_mib": 7168,
+    "peak_rss_mib": 8545.7421875,
+    "peak_rss_gib": 8.345451354980469,
+    "ram_headroom_mib": -1377.7421875,
+    "ram_headroom_gib": -1.3454513549804688,
+    "status": "FAIL \u2014 ABOVE COMPETITION LIMIT",
+    "stages": {
+      "process_start": {
+        "vmhwm_mib": 58.78515625,
+        "vmrss_mib": 53.3828125
+      },
+      "embedding_loaded": {
+        "vmhwm_mib": 853.5703125,
+        "vmrss_mib": 806.25
+      },
+      "model_loaded": {
+        "vmhwm_mib": 7855.53515625,
+        "vmrss_mib": 7855.53515625
+      },
+      "retriever_loaded": {
+        "vmhwm_mib": 8056.0390625,
+        "vmrss_mib": 7951.58203125
+      },
+      "evaluation_finished": {
+        "vmhwm_mib": 8545.74609375,
+        "vmrss_mib": 8545.74609375
+      }
+    },
+    "average_rss_mib": 2465.912875441696,
+    "sampled_peak_rss_mib": 8539.3984375
+  },
+  "quality": {
+    "accuracy_metric": "mean expected-keyword recall",
+    "accuracy": 0.0,
+    "exact_match": 0.0,
+    "retrieval_hit_rate": 0.0,
+    "failures": 1
+  },
+  "performance": {
+    "generation_tokens_per_second": {
+      "average": null,
+      "median": null,
+      "minimum": null,
+      "maximum": null
+    },
+    "prompt_tokens_per_second": {
+      "average": null,
+      "median": null,
+      "minimum": null,
+      "maximum": null
+    },
+    "time_to_first_token_seconds": {
+      "average": null,
+      "median": null,
+      "minimum": null,
+      "maximum": null
+    },
+    "total_latency_seconds": {
+      "average": 0.6507771126925945,
+      "median": 0.6507771126925945,
+      "minimum": 0.6507771126925945,
+      "maximum": 0.6507771126925945
+    },
+    "prompt_tokens": {
+      "average": 0.0,
+      "median": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    "generated_tokens": {
+      "average": 0.0,
+      "median": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    }
+  },
+  "questions": [
+    {
+      "index": 0,
+      "id": "chemistry-past_questions-003-8ebd4ce5",
+      "subject": "chemistry",
+      "topic": "Acids, Bases & Salts",
+      "question": "Describe the Acid-Base Volumetric Analysis (Titration) experiment. Outline the typical burette readings, calculations of concentrations, and three precautions.",
+      "answer": "",
+      "reference_answer": "Experimental Setup and Procedure: - Prepare a standard solution of a weak base, e.g., anhydrous sodium trioxocarbonate (IV) ($Na_2CO_3$), by weighing exactly 2.65 g and dissolving it in water to make $500\\text{ cm}^3$ of solution ($0.05\\text{ mol/dm}^3$). - Pipette $25.0\\text{ cm}^3$ of this base solution into a clean conical flask and add 2-3 drops of Methyl Orange indicator (the solution turns yellow).\u2026",
+      "exact_match": false,
+      "keyword_score": 0.0,
+      "retrieval_hit": false,
+      "citation_count": 0,
+      "retrieved_chunk_count": 0,
+      "refused": true,
+      "error": "ValueError: Requested tokens (2488) exceed context window of 2048",
+      "prompt_tokens": 0,
+      "generated_tokens": 0,
+      "prompt_seconds": null,
+      "generation_seconds": null,
+      "prompt_tokens_per_second": null,
+      "generation_tokens_per_second": null,
+      "time_to_first_token_seconds": null,
+      "total_latency_seconds": 0.6507771126925945,
+      "rss_after_mib": 8545.74609375,
+      "hwm_after_mib": 8545.74609375
+    }
+  ]
+}

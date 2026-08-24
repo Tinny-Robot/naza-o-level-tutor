@@ -1,0 +1,2184 @@
+[
+  {
+    "source": "data/raw/pq-pdfs/42440_ms_Gamatrain.com_ELwFY5.pdf",
+    "page": 2,
+    "path": "data/eval/images/42440_ms_Gamatrain_com_ELwFY5/p2-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42440_ms_Gamatrain.com_ELwFY5.pdf",
+    "page": 7,
+    "path": "data/eval/images/42440_ms_Gamatrain_com_ELwFY5/p7-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42440_ms_Gamatrain.com_ELwFY5.pdf",
+    "page": 8,
+    "path": "data/eval/images/42440_ms_Gamatrain_com_ELwFY5/p8-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42440_qp_Gamatrain.com_oR5auB.pdf",
+    "page": 1,
+    "path": "data/eval/images/42440_qp_Gamatrain_com_oR5auB/p1-i1.png",
+    "index": true,
+    "qa_ids": [
+      "mathematics-42440_qp_gamatrain-com_or5aub-004-9999a00b"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42440_qp_Gamatrain.com_oR5auB.pdf",
+    "page": 1,
+    "path": "data/eval/images/42440_qp_Gamatrain_com_oR5auB/p1-i2.png",
+    "index": true,
+    "qa_ids": [
+      "mathematics-42440_qp_gamatrain-com_or5aub-002-3a9473c0"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42440_qp_Gamatrain.com_oR5auB.pdf",
+    "page": 2,
+    "path": "data/eval/images/42440_qp_Gamatrain_com_oR5auB/p2-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42440_qp_Gamatrain.com_oR5auB.pdf",
+    "page": 3,
+    "path": "data/eval/images/42440_qp_Gamatrain_com_oR5auB/p3-i1.png",
+    "index": true,
+    "qa_ids": [
+      "mathematics-42440_qp_gamatrain-com_or5aub-012-ad2bc544"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42440_qp_Gamatrain.com_oR5auB.pdf",
+    "page": 5,
+    "path": "data/eval/images/42440_qp_Gamatrain_com_oR5auB/p5-i1.png",
+    "index": true,
+    "qa_ids": [
+      "mathematics-42440_qp_gamatrain-com_or5aub-023-dbd4929a",
+      "mathematics-42440_qp_gamatrain-com_or5aub-024-4b54832f"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42440_qp_Gamatrain.com_oR5auB.pdf",
+    "page": 6,
+    "path": "data/eval/images/42440_qp_Gamatrain_com_oR5auB/p6-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42453_ms_Gamatrain.com_RBFglL.pdf",
+    "page": 11,
+    "path": "data/eval/images/42453_ms_Gamatrain_com_RBFglL/p11-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42453_ms_Gamatrain.com_RBFglL.pdf",
+    "page": 11,
+    "path": "data/eval/images/42453_ms_Gamatrain_com_RBFglL/p11-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42453_ms_Gamatrain.com_RBFglL.pdf",
+    "page": 12,
+    "path": "data/eval/images/42453_ms_Gamatrain_com_RBFglL/p12-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42453_ms_Gamatrain.com_RBFglL.pdf",
+    "page": 14,
+    "path": "data/eval/images/42453_ms_Gamatrain_com_RBFglL/p14-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42453_ms_Gamatrain.com_RBFglL.pdf",
+    "page": 3,
+    "path": "data/eval/images/42453_ms_Gamatrain_com_RBFglL/p3-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42453_ms_Gamatrain.com_RBFglL.pdf",
+    "page": 5,
+    "path": "data/eval/images/42453_ms_Gamatrain_com_RBFglL/p5-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42453_ms_Gamatrain.com_RBFglL.pdf",
+    "page": 6,
+    "path": "data/eval/images/42453_ms_Gamatrain_com_RBFglL/p6-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42453_ms_Gamatrain.com_RBFglL.pdf",
+    "page": 8,
+    "path": "data/eval/images/42453_ms_Gamatrain_com_RBFglL/p8-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42453_qp_Gamatrain.com_8G6nb2.pdf",
+    "page": 5,
+    "path": "data/eval/images/42453_qp_Gamatrain_com_8G6nb2/p5-i1.png",
+    "index": true,
+    "qa_ids": [
+      "mathematics-42453_qp_gamatrain-com_8g6nb2-017-1e736a44"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42453_qp_Gamatrain.com_8G6nb2.pdf",
+    "page": 6,
+    "path": "data/eval/images/42453_qp_Gamatrain_com_8G6nb2/p6-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42453_qp_Gamatrain.com_8G6nb2.pdf",
+    "page": 7,
+    "path": "data/eval/images/42453_qp_Gamatrain_com_8G6nb2/p7-i1.png",
+    "index": true,
+    "qa_ids": [
+      "mathematics-42453_qp_gamatrain-com_8g6nb2-027-a73faf7a"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42574_ms_Gamatrain.com_1LX7aG.pdf",
+    "page": 3,
+    "path": "data/eval/images/42574_ms_Gamatrain_com_1LX7aG/p3-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42574_ms_Gamatrain.com_1LX7aG.pdf",
+    "page": 33,
+    "path": "data/eval/images/42574_ms_Gamatrain_com_1LX7aG/p33-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42574_ms_Gamatrain.com_1LX7aG.pdf",
+    "page": 5,
+    "path": "data/eval/images/42574_ms_Gamatrain_com_1LX7aG/p5-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42574_qp_Gamatrain.com_hSoekt.pdf",
+    "page": 12,
+    "path": "data/eval/images/42574_qp_Gamatrain_com_hSoekt/p12-i1.png",
+    "index": true,
+    "qa_ids": [
+      "chemistry-42574_qp_gamatrain-com_hsoekt-050-26a5ef2f"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42574_qp_Gamatrain.com_hSoekt.pdf",
+    "page": 30,
+    "path": "data/eval/images/42574_qp_Gamatrain_com_hSoekt/p30-i1.png",
+    "index": true,
+    "qa_ids": [
+      "chemistry-42574_qp_gamatrain-com_hsoekt-130-f843ea4c"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42574_qp_Gamatrain.com_hSoekt.pdf",
+    "page": 32,
+    "path": "data/eval/images/42574_qp_Gamatrain_com_hSoekt/p32-i0.png",
+    "index": true,
+    "qa_ids": [
+      "chemistry-42574_qp_gamatrain-com_hsoekt-138-25dff5a4"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42574_qp_Gamatrain.com_hSoekt.pdf",
+    "page": 5,
+    "path": "data/eval/images/42574_qp_Gamatrain_com_hSoekt/p5-i0.png",
+    "index": true,
+    "qa_ids": [
+      "chemistry-42574_qp_gamatrain-com_hsoekt-021-efe185d4"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42574_qp_Gamatrain.com_hSoekt.pdf",
+    "page": 7,
+    "path": "data/eval/images/42574_qp_Gamatrain_com_hSoekt/p7-i1.png",
+    "index": true,
+    "qa_ids": [
+      "chemistry-42574_qp_gamatrain-com_hsoekt-028-b70944f3"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42576_ms_Gamatrain.com_IzCLNe.pdf",
+    "page": 1,
+    "path": "data/eval/images/42576_ms_Gamatrain_com_IzCLNe/p1-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42576_qp_Gamatrain.com_KC2MYu.pdf",
+    "page": 1,
+    "path": "data/eval/images/42576_qp_Gamatrain_com_KC2MYu/p1-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42578_qp_Gamatrain.com_Omn14U.pdf",
+    "page": 2,
+    "path": "data/eval/images/42578_qp_Gamatrain_com_Omn14U/p2-i1.png",
+    "index": true,
+    "qa_ids": [
+      "chemistry-42578_qp_gamatrain-com_omn14u-007-2cc18b31"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42579_qp_Gamatrain.com_HQPQex.pdf",
+    "page": 1,
+    "path": "data/eval/images/42579_qp_Gamatrain_com_HQPQex/p1-i1.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42579_qp_gamatrain-com_hqpqex-003-2f5fe31a"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42579_qp_Gamatrain.com_HQPQex.pdf",
+    "page": 11,
+    "path": "data/eval/images/42579_qp_Gamatrain_com_HQPQex/p11-i1.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42579_qp_gamatrain-com_hqpqex-062-bb019e08"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42579_qp_Gamatrain.com_HQPQex.pdf",
+    "page": 12,
+    "path": "data/eval/images/42579_qp_Gamatrain_com_HQPQex/p12-i1.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42579_qp_gamatrain-com_hqpqex-071-a28576b5"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42579_qp_Gamatrain.com_HQPQex.pdf",
+    "page": 13,
+    "path": "data/eval/images/42579_qp_Gamatrain_com_HQPQex/p13-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42579_qp_Gamatrain.com_HQPQex.pdf",
+    "page": 14,
+    "path": "data/eval/images/42579_qp_Gamatrain_com_HQPQex/p14-i0.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42579_qp_gamatrain-com_hqpqex-080-1e99443b"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42579_qp_Gamatrain.com_HQPQex.pdf",
+    "page": 17,
+    "path": "data/eval/images/42579_qp_Gamatrain_com_HQPQex/p17-i1.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42579_qp_gamatrain-com_hqpqex-096-9aac990c"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42579_qp_Gamatrain.com_HQPQex.pdf",
+    "page": 17,
+    "path": "data/eval/images/42579_qp_Gamatrain_com_HQPQex/p17-i2.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42579_qp_gamatrain-com_hqpqex-096-9aac990c"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42579_qp_Gamatrain.com_HQPQex.pdf",
+    "page": 20,
+    "path": "data/eval/images/42579_qp_Gamatrain_com_HQPQex/p20-i1.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42579_qp_gamatrain-com_hqpqex-112-d5de864a"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42579_qp_Gamatrain.com_HQPQex.pdf",
+    "page": 21,
+    "path": "data/eval/images/42579_qp_Gamatrain_com_HQPQex/p21-i1.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42579_qp_gamatrain-com_hqpqex-120-445928b6"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42579_qp_Gamatrain.com_HQPQex.pdf",
+    "page": 21,
+    "path": "data/eval/images/42579_qp_Gamatrain_com_HQPQex/p21-i2.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42579_qp_gamatrain-com_hqpqex-121-02842925"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42579_qp_Gamatrain.com_HQPQex.pdf",
+    "page": 3,
+    "path": "data/eval/images/42579_qp_Gamatrain_com_HQPQex/p3-i1.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42579_qp_gamatrain-com_hqpqex-013-7d30edbf"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42580_ms_Gamatrain.com_kHRjze.pdf",
+    "page": 1,
+    "path": "data/eval/images/42580_ms_Gamatrain_com_kHRjze/p1-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42580_ms_Gamatrain.com_kHRjze.pdf",
+    "page": 13,
+    "path": "data/eval/images/42580_ms_Gamatrain_com_kHRjze/p13-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42580_qp_Gamatrain.com_pKHa9P.pdf",
+    "page": 1,
+    "path": "data/eval/images/42580_qp_Gamatrain_com_pKHa9P/p1-i2.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42580_qp_gamatrain-com_pkha9p-003-cf91de1b"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42580_qp_Gamatrain.com_pKHa9P.pdf",
+    "page": 1,
+    "path": "data/eval/images/42580_qp_Gamatrain_com_pKHa9P/p1-i3.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42580_qp_gamatrain-com_pkha9p-001-afbd5868"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42580_qp_Gamatrain.com_pKHa9P.pdf",
+    "page": 11,
+    "path": "data/eval/images/42580_qp_Gamatrain_com_pKHa9P/p11-i1.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42580_qp_gamatrain-com_pkha9p-059-2dc8bab3",
+      "physics-42580_qp_gamatrain-com_pkha9p-060-219b2195",
+      "physics-42580_qp_gamatrain-com_pkha9p-061-32213965",
+      "physics-42580_qp_gamatrain-com_pkha9p-062-40b197ed",
+      "physics-42580_qp_gamatrain-com_pkha9p-063-1a765276",
+      "physics-42580_qp_gamatrain-com_pkha9p-064-4bd4bde7",
+      "physics-42580_qp_gamatrain-com_pkha9p-065-be7231bf"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42580_qp_Gamatrain.com_pKHa9P.pdf",
+    "page": 2,
+    "path": "data/eval/images/42580_qp_Gamatrain_com_pKHa9P/p2-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42580_qp_Gamatrain.com_pKHa9P.pdf",
+    "page": 4,
+    "path": "data/eval/images/42580_qp_Gamatrain_com_pKHa9P/p4-i1.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42580_qp_gamatrain-com_pkha9p-018-24594554"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42580_qp_Gamatrain.com_pKHa9P.pdf",
+    "page": 9,
+    "path": "data/eval/images/42580_qp_Gamatrain_com_pKHa9P/p9-i1.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42580_qp_gamatrain-com_pkha9p-046-9ae12769",
+      "physics-42580_qp_gamatrain-com_pkha9p-048-35d8b3cb",
+      "physics-42580_qp_gamatrain-com_pkha9p-049-207fdd25",
+      "physics-42580_qp_gamatrain-com_pkha9p-050-cbc08171",
+      "physics-42580_qp_gamatrain-com_pkha9p-051-8b521ffe"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42598_qp_Gamatrain.com_4jO2OT.pdf",
+    "page": 3,
+    "path": "data/eval/images/42598_qp_Gamatrain_com_4jO2OT/p3-i1.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42598_qp_gamatrain-com_4jo2ot-015-37e603e8",
+      "physics-42598_qp_gamatrain-com_4jo2ot-016-1ba256ac",
+      "physics-42598_qp_gamatrain-com_4jo2ot-017-68416e90",
+      "physics-42598_qp_gamatrain-com_4jo2ot-018-36f1043d",
+      "physics-42598_qp_gamatrain-com_4jo2ot-019-3d10dcef",
+      "physics-42598_qp_gamatrain-com_4jo2ot-020-aa2f777c"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42599_qp_Gamatrain.com_DqVNBb.pdf",
+    "page": 6,
+    "path": "data/eval/images/42599_qp_Gamatrain_com_DqVNBb/p6-i1.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42599_qp_gamatrain-com_dqvnbb-031-03763b40",
+      "physics-42599_qp_gamatrain-com_dqvnbb-033-9eb66bc7",
+      "physics-42599_qp_gamatrain-com_dqvnbb-034-af1c9327",
+      "physics-42599_qp_gamatrain-com_dqvnbb-035-9f6c91f4",
+      "physics-42599_qp_gamatrain-com_dqvnbb-036-7d432b9a"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42600_ms_Gamatrain.com_4YpVzk.pdf",
+    "page": 2,
+    "path": "data/eval/images/42600_ms_Gamatrain_com_4YpVzk/p2-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42600_ms_Gamatrain.com_4YpVzk.pdf",
+    "page": 4,
+    "path": "data/eval/images/42600_ms_Gamatrain_com_4YpVzk/p4-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/42600_qp_Gamatrain.com_qYISbe.pdf",
+    "page": 2,
+    "path": "data/eval/images/42600_qp_Gamatrain_com_qYISbe/p2-i1.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42600_qp_gamatrain-com_qyisbe-006-d4800867",
+      "physics-42600_qp_gamatrain-com_qyisbe-007-9a5f198f",
+      "physics-42600_qp_gamatrain-com_qyisbe-008-52c9d819",
+      "physics-42600_qp_gamatrain-com_qyisbe-009-ebf08c93",
+      "physics-42600_qp_gamatrain-com_qyisbe-010-74484f17",
+      "physics-42600_qp_gamatrain-com_qyisbe-011-7fa0ffa8"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42600_qp_Gamatrain.com_qYISbe.pdf",
+    "page": 4,
+    "path": "data/eval/images/42600_qp_Gamatrain_com_qYISbe/p4-i1.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42600_qp_gamatrain-com_qyisbe-019-bc883b51",
+      "physics-42600_qp_gamatrain-com_qyisbe-020-90d93fa1",
+      "physics-42600_qp_gamatrain-com_qyisbe-021-a46e149d",
+      "physics-42600_qp_gamatrain-com_qyisbe-022-045a6795",
+      "physics-42600_qp_gamatrain-com_qyisbe-023-10544e79"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42600_qp_Gamatrain.com_qYISbe.pdf",
+    "page": 4,
+    "path": "data/eval/images/42600_qp_Gamatrain_com_qYISbe/p4-i2.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42600_qp_gamatrain-com_qyisbe-019-bc883b51",
+      "physics-42600_qp_gamatrain-com_qyisbe-020-90d93fa1",
+      "physics-42600_qp_gamatrain-com_qyisbe-021-a46e149d",
+      "physics-42600_qp_gamatrain-com_qyisbe-022-045a6795",
+      "physics-42600_qp_gamatrain-com_qyisbe-023-10544e79"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42600_qp_Gamatrain.com_qYISbe.pdf",
+    "page": 6,
+    "path": "data/eval/images/42600_qp_Gamatrain_com_qYISbe/p6-i0.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42600_qp_gamatrain-com_qyisbe-029-b76799e4",
+      "physics-42600_qp_gamatrain-com_qyisbe-030-6bee7d10",
+      "physics-42600_qp_gamatrain-com_qyisbe-033-12d11910"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42600_qp_Gamatrain.com_qYISbe.pdf",
+    "page": 6,
+    "path": "data/eval/images/42600_qp_Gamatrain_com_qYISbe/p6-i2.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42600_qp_gamatrain-com_qyisbe-029-b76799e4",
+      "physics-42600_qp_gamatrain-com_qyisbe-030-6bee7d10",
+      "physics-42600_qp_gamatrain-com_qyisbe-033-12d11910"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42600_qp_Gamatrain.com_qYISbe.pdf",
+    "page": 7,
+    "path": "data/eval/images/42600_qp_Gamatrain_com_qYISbe/p7-i1.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42600_qp_gamatrain-com_qyisbe-034-064558f9",
+      "physics-42600_qp_gamatrain-com_qyisbe-036-2f826545",
+      "physics-42600_qp_gamatrain-com_qyisbe-037-b194d6af"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/42600_qp_Gamatrain.com_qYISbe.pdf",
+    "page": 7,
+    "path": "data/eval/images/42600_qp_Gamatrain_com_qYISbe/p7-i2.png",
+    "index": true,
+    "qa_ids": [
+      "physics-42600_qp_gamatrain-com_qyisbe-034-064558f9",
+      "physics-42600_qp_gamatrain-com_qyisbe-036-2f826545",
+      "physics-42600_qp_gamatrain-com_qyisbe-037-b194d6af"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 12,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p12-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 12,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p12-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 12,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p12-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 12,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p12-i3.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 12,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p12-i4.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 14,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p14-i4.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 14,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p14-i5.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 14,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p14-i6.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 14,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p14-i7.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 16,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p16-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 16,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p16-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 16,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p16-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 20,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p20-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 22,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p22-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 22,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p22-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 23,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p23-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 23,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p23-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 24,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p24-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 24,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p24-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 24,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p24-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 24,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p24-i3.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 25,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p25-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 25,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p25-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 25,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p25-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 31,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p31-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 31,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p31-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 32,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p32-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 32,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p32-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 33,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p33-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 35,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p35-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 35,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p35-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 37,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p37-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 38,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p38-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 38,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p38-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 38,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p38-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 40,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p40-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 40,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p40-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 40,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p40-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 42,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p42-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 42,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p42-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 42,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p42-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 42,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p42-i3.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 42,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p42-i4.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 42,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p42-i5.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 42,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p42-i6.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 42,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p42-i7.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 47,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p47-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 47,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p47-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 47,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p47-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 47,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p47-i3.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 48,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p48-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 52,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p52-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 52,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p52-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 54,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p54-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 54,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p54-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 54,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p54-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 56,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p56-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 56,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p56-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 58,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p58-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 58,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p58-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 58,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p58-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 58,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p58-i3.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 6,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p6-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 60,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p60-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 60,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p60-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 60,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p60-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 61,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p61-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 61,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p61-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 64,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p64-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 64,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p64-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 66,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p66-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 66,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p66-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 67,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p67-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+    "page": 67,
+    "path": "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p67-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 13,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p13-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 46,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p46-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 47,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p47-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 47,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p47-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 48,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p48-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 48,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p48-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 49,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p49-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 49,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p49-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 49,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p49-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 49,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p49-i3.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 49,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p49-i4.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 49,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p49-i5.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 50,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p50-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 50,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p50-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 51,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p51-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 51,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p51-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 52,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p52-i3.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 54,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p54-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 55,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p55-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 56,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p56-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 56,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p56-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 57,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p57-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 57,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p57-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 57,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p57-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 58,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p58-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 58,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p58-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 58,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p58-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 58,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p58-i3.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 58,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p58-i4.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 59,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p59-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 59,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p59-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 61,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p61-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 61,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p61-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 62,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p62-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 62,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p62-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 62,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p62-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 65,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p65-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 65,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p65-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 65,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p65-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 65,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p65-i3.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 66,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p66-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 66,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p66-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 66,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p66-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 67,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p67-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 67,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p67-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 68,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p68-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 69,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p69-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 69,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p69-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 72,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p72-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 73,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p73-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 73,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p73-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 73,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p73-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 74,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p74-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 74,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p74-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 74,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p74-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 75,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p75-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 75,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p75-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 75,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p75-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 76,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p76-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 76,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p76-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 76,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p76-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 80,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p80-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 81,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p81-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 81,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p81-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 82,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p82-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 82,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p82-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 82,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p82-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 83,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p83-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 83,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p83-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 83,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p83-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 84,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p84-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 87,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p87-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 87,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p87-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 88,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p88-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 88,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p88-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 88,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p88-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 88,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p88-i3.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 89,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p89-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 89,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p89-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 90,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p90-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 90,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p90-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 90,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p90-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 90,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p90-i3.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 92,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p92-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 92,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p92-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 94,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p94-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 94,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p94-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 95,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p95-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 96,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p96-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_1983-2004.pdf",
+    "page": 96,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_1983-2004/p96-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 11,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p11-i0.png",
+    "index": true,
+    "qa_ids": [
+      "physics-jamb_physics_past_questions_2010-2018-047-1c503f4d",
+      "physics-jamb_physics_past_questions_2010-2018-047-51af0104",
+      "physics-jamb_physics_past_questions_2010-2018-047-920d1ff3",
+      "physics-jamb_physics_past_questions_2010-2018-047-a0d42022",
+      "physics-jamb_physics_past_questions_2010-2018-048-06320d83",
+      "physics-jamb_physics_past_questions_2010-2018-048-48be3fef",
+      "physics-jamb_physics_past_questions_2010-2018-048-97eae912",
+      "physics-jamb_physics_past_questions_2010-2018-049-78a9ace5",
+      "physics-jamb_physics_past_questions_2010-2018-049-fc4f4636"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 12,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p12-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 13,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p13-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 18,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p18-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 2,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p2-i0.png",
+    "index": true,
+    "qa_ids": [
+      "physics-jamb_physics_past_questions_2010-2018-001-0e11a514",
+      "physics-jamb_physics_past_questions_2010-2018-001-2296afcb",
+      "physics-jamb_physics_past_questions_2010-2018-001-2573ddc0",
+      "physics-jamb_physics_past_questions_2010-2018-001-286d5ff4",
+      "physics-jamb_physics_past_questions_2010-2018-001-7741738f",
+      "physics-jamb_physics_past_questions_2010-2018-001-a6e55e2b",
+      "physics-jamb_physics_past_questions_2010-2018-001-b47cc775",
+      "physics-jamb_physics_past_questions_2010-2018-002-1d306d1e",
+      "physics-jamb_physics_past_questions_2010-2018-002-60a6deb3",
+      "physics-jamb_physics_past_questions_2010-2018-002-78f8995f",
+      "physics-jamb_physics_past_questions_2010-2018-002-834827bd",
+      "physics-jamb_physics_past_questions_2010-2018-002-b1ec8780",
+      "physics-jamb_physics_past_questions_2010-2018-002-d58ab773",
+      "physics-jamb_physics_past_questions_2010-2018-003-0d1b86d5",
+      "physics-jamb_physics_past_questions_2010-2018-003-2df90f68",
+      "physics-jamb_physics_past_questions_2010-2018-003-3dd15134",
+      "physics-jamb_physics_past_questions_2010-2018-003-67046c47",
+      "physics-jamb_physics_past_questions_2010-2018-003-9457bdc6",
+      "physics-jamb_physics_past_questions_2010-2018-003-fec592b8",
+      "physics-jamb_physics_past_questions_2010-2018-004-15b809b1",
+      "physics-jamb_physics_past_questions_2010-2018-004-26a49a84",
+      "physics-jamb_physics_past_questions_2010-2018-004-3eb76502",
+      "physics-jamb_physics_past_questions_2010-2018-004-77218d34"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 22,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p22-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 24,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p24-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 26,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p26-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 26,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p26-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 29,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p29-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 3,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p3-i0.png",
+    "index": true,
+    "qa_ids": [
+      "physics-jamb_physics_past_questions_2010-2018-005-0d20adbb",
+      "physics-jamb_physics_past_questions_2010-2018-005-1090e709",
+      "physics-jamb_physics_past_questions_2010-2018-005-43811d79",
+      "physics-jamb_physics_past_questions_2010-2018-005-56f96d63",
+      "physics-jamb_physics_past_questions_2010-2018-005-59e0c343",
+      "physics-jamb_physics_past_questions_2010-2018-006-03fee32b",
+      "physics-jamb_physics_past_questions_2010-2018-006-86980094",
+      "physics-jamb_physics_past_questions_2010-2018-006-95fbc32c",
+      "physics-jamb_physics_past_questions_2010-2018-006-96aa3ade",
+      "physics-jamb_physics_past_questions_2010-2018-006-c2260cd9",
+      "physics-jamb_physics_past_questions_2010-2018-007-35b3ca60",
+      "physics-jamb_physics_past_questions_2010-2018-007-6324b672",
+      "physics-jamb_physics_past_questions_2010-2018-007-67aaf7a8",
+      "physics-jamb_physics_past_questions_2010-2018-007-70a494fc",
+      "physics-jamb_physics_past_questions_2010-2018-007-88c72138",
+      "physics-jamb_physics_past_questions_2010-2018-007-a1d60ac9",
+      "physics-jamb_physics_past_questions_2010-2018-007-e4949ae1",
+      "physics-jamb_physics_past_questions_2010-2018-008-17a81513",
+      "physics-jamb_physics_past_questions_2010-2018-008-1a1d79a8",
+      "physics-jamb_physics_past_questions_2010-2018-008-34175e01",
+      "physics-jamb_physics_past_questions_2010-2018-008-46d2e486",
+      "physics-jamb_physics_past_questions_2010-2018-008-7112f974",
+      "physics-jamb_physics_past_questions_2010-2018-008-7bba4f25",
+      "physics-jamb_physics_past_questions_2010-2018-008-963dcc18",
+      "physics-jamb_physics_past_questions_2010-2018-009-0c943a1c",
+      "physics-jamb_physics_past_questions_2010-2018-009-246095c8",
+      "physics-jamb_physics_past_questions_2010-2018-009-3375520e",
+      "physics-jamb_physics_past_questions_2010-2018-009-38d6ae5c",
+      "physics-jamb_physics_past_questions_2010-2018-009-3a414b0d",
+      "physics-jamb_physics_past_questions_2010-2018-009-6e2f0718",
+      "physics-jamb_physics_past_questions_2010-2018-009-94dc0660",
+      "physics-jamb_physics_past_questions_2010-2018-009-a4c44dd6"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 32,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p32-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 32,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p32-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 40,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p40-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 40,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p40-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 46,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p46-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 48,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p48-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 50,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p50-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 51,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p51-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 52,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p52-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 54,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p54-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 55,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p55-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 55,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p55-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 55,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p55-i2.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 57,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p57-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 57,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p57-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 60,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p60-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 62,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p62-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 64,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p64-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 65,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p65-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 65,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p65-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 66,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p66-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 68,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p68-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 68,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p68-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 74,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p74-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 75,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p75-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 75,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p75-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 76,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p76-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 76,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p76-i1.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 77,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p77-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 78,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p78-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 8,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p8-i0.png",
+    "index": true,
+    "qa_ids": [
+      "physics-jamb_physics_past_questions_2010-2018-032-067a67d8",
+      "physics-jamb_physics_past_questions_2010-2018-032-1685b5a2",
+      "physics-jamb_physics_past_questions_2010-2018-032-3489a0ae",
+      "physics-jamb_physics_past_questions_2010-2018-032-426bffb1",
+      "physics-jamb_physics_past_questions_2010-2018-032-61f2dfef",
+      "physics-jamb_physics_past_questions_2010-2018-032-7d9dc552",
+      "physics-jamb_physics_past_questions_2010-2018-032-fcbdb9f3",
+      "physics-jamb_physics_past_questions_2010-2018-034-3098b41f",
+      "physics-jamb_physics_past_questions_2010-2018-034-440f74ea",
+      "physics-jamb_physics_past_questions_2010-2018-034-7940a89e",
+      "physics-jamb_physics_past_questions_2010-2018-034-a13350e5",
+      "physics-jamb_physics_past_questions_2010-2018-034-e5cced3c",
+      "physics-jamb_physics_past_questions_2010-2018-034-e64bd5cc",
+      "physics-jamb_physics_past_questions_2010-2018-035-42a1ac2e",
+      "physics-jamb_physics_past_questions_2010-2018-035-69ce113b",
+      "physics-jamb_physics_past_questions_2010-2018-035-6fabde1e",
+      "physics-jamb_physics_past_questions_2010-2018-035-a0802f98",
+      "physics-jamb_physics_past_questions_2010-2018-035-a54d0302",
+      "physics-jamb_physics_past_questions_2010-2018-035-ce9e7456",
+      "physics-jamb_physics_past_questions_2010-2018-035-fa9122e2",
+      "physics-jamb_physics_past_questions_2010-2018-036-1bc3d872",
+      "physics-jamb_physics_past_questions_2010-2018-036-2758051b",
+      "physics-jamb_physics_past_questions_2010-2018-036-6ab0d1f1",
+      "physics-jamb_physics_past_questions_2010-2018-036-7457415e"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 82,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p82-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 83,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p83-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 85,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p85-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 86,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p86-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 87,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p87-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 88,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p88-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 89,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p89-i0.png",
+    "index": false,
+    "qa_ids": []
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 9,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p9-i0.png",
+    "index": true,
+    "qa_ids": [
+      "physics-jamb_physics_past_questions_2010-2018-038-00af6a90",
+      "physics-jamb_physics_past_questions_2010-2018-038-4b007db1",
+      "physics-jamb_physics_past_questions_2010-2018-038-56da7bce",
+      "physics-jamb_physics_past_questions_2010-2018-038-66742b0f",
+      "physics-jamb_physics_past_questions_2010-2018-039-02e5243c",
+      "physics-jamb_physics_past_questions_2010-2018-039-0709eb21",
+      "physics-jamb_physics_past_questions_2010-2018-039-0a5195ae",
+      "physics-jamb_physics_past_questions_2010-2018-039-46c51ed4",
+      "physics-jamb_physics_past_questions_2010-2018-039-6ebcb7a6",
+      "physics-jamb_physics_past_questions_2010-2018-039-820554c0",
+      "physics-jamb_physics_past_questions_2010-2018-039-f12f44c3",
+      "physics-jamb_physics_past_questions_2010-2018-040-2d29d1a8",
+      "physics-jamb_physics_past_questions_2010-2018-040-3100093a",
+      "physics-jamb_physics_past_questions_2010-2018-040-313ff19b",
+      "physics-jamb_physics_past_questions_2010-2018-040-6aa63d43",
+      "physics-jamb_physics_past_questions_2010-2018-040-929047f3",
+      "physics-jamb_physics_past_questions_2010-2018-040-d66447bb",
+      "physics-jamb_physics_past_questions_2010-2018-040-f765836e"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 9,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p9-i1.png",
+    "index": true,
+    "qa_ids": [
+      "physics-jamb_physics_past_questions_2010-2018-038-00af6a90",
+      "physics-jamb_physics_past_questions_2010-2018-038-4b007db1",
+      "physics-jamb_physics_past_questions_2010-2018-038-56da7bce",
+      "physics-jamb_physics_past_questions_2010-2018-038-66742b0f",
+      "physics-jamb_physics_past_questions_2010-2018-039-02e5243c",
+      "physics-jamb_physics_past_questions_2010-2018-039-0709eb21",
+      "physics-jamb_physics_past_questions_2010-2018-039-0a5195ae",
+      "physics-jamb_physics_past_questions_2010-2018-039-46c51ed4",
+      "physics-jamb_physics_past_questions_2010-2018-039-6ebcb7a6",
+      "physics-jamb_physics_past_questions_2010-2018-039-820554c0",
+      "physics-jamb_physics_past_questions_2010-2018-039-f12f44c3",
+      "physics-jamb_physics_past_questions_2010-2018-040-2d29d1a8",
+      "physics-jamb_physics_past_questions_2010-2018-040-3100093a",
+      "physics-jamb_physics_past_questions_2010-2018-040-313ff19b",
+      "physics-jamb_physics_past_questions_2010-2018-040-6aa63d43",
+      "physics-jamb_physics_past_questions_2010-2018-040-929047f3",
+      "physics-jamb_physics_past_questions_2010-2018-040-d66447bb",
+      "physics-jamb_physics_past_questions_2010-2018-040-f765836e"
+    ]
+  },
+  {
+    "source": "data/raw/pq-pdfs/JAMB_Physics_Past_Questions_2010-2018.pdf",
+    "page": 90,
+    "path": "data/eval/images/JAMB_Physics_Past_Questions_2010-2018/p90-i0.png",
+    "index": false,
+    "qa_ids": []
+  }
+]

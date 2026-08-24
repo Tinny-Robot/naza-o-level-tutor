@@ -1,0 +1,94 @@
+[
+  {
+    "item": {
+      "id": "chemistry-42576_qp_gamatrain-com_kc2myu-024-18eda42d",
+      "question": "In which of the following will hydrogen form ionic compound? Options: A. HCL; B. NaH; C. NH3; D. CH4",
+      "answer": "B - NaH",
+      "subject": "chemistry",
+      "topic": "General Chemistry (Unclassified Past Questions)",
+      "expected_keywords": [
+        "nah",
+        "will",
+        "hydrogen",
+        "form",
+        "ionic",
+        "compound",
+        "hcl"
+      ],
+      "images": [
+        "data/eval/images/42576_qp_Gamatrain_com_KC2MYu/p6-i0.png",
+        "data/eval/images/42576_qp_Gamatrain_com_KC2MYu/p6-i1.png"
+      ],
+      "needs_review": false
+    },
+    "retrieved": [
+      {
+        "score": 0.752131462097168,
+        "text": "JAMB Chemistry Past Questions 2022 24- In which of the following will hydrogen form ionic compound? A. HCL B. NaH C. NH3 D. CH4 25- If the volume of a given mass of a gas at 0ºc is 29.5cm3. What will be the volume of the gas at 15ºc, given that the pressure remains constant. A. 31.6 B. 62.2 C. 32.7 D. 31.1 26- The reactions below represent neutralization reaction, in which of them is the value of ΔH highest? A. CH3CH2COOH + KOH → CH3CH2COOK + H2O B. NH4OH + HCL → NH4 + H2O C. NaOH + HCL → NaCl + H2O D. CH3COOH + NaOH → CH3COONa + H2O 27- The pollutant usually presents in a city which generates its electricity from coal? A. fog B. carbon(ii)oxide C. smog D. sulphur(iv)oxide 28- The dehydration of CH3CH2CH2CH2OH will give? A. HC≡CCH2CH3",
+        "metadata": {
+          "source": "data/raw/pq-pdfs/42576_qp_Gamatrain.com_KC2MYu.pdf",
+          "subject": "chemistry",
+          "topic": "42576_qp_Gamatrain.com_KC2MYu p6",
+          "page": 6,
+          "images": [
+            "data/eval/images/42576_qp_Gamatrain_com_KC2MYu/p6-i0.png",
+            "data/eval/images/42576_qp_Gamatrain_com_KC2MYu/p6-i1.png"
+          ],
+          "id": "d474531ffef8fbbc6f683c3ab852ee8ab37a4cdb"
+        }
+      },
+      {
+        "score": 0.7371605634689331,
+        "text": "the structures of A, B and C in the following reactions: (i) 2 NaOH Br NaCN OH 3 2 Partial hydrolysis CH CH I A B C      (ii) 3 2 NH H O/H CuCN 6 5 2 C H N Cl A B C      (iii) 4 2 LiAlH HNO KCN 3 2 0 C CH CH Br A B C     (iv) 2 2 NaNO HCl H O/H Fe/HCl 6 5 2 273 K C H NO A B C       (v) 3 2 NH NaNO /HCl NaOBr 3 CH COOH A B C     (vi) 6 5 2 C H OH HNO Fe/HCl 6 5 2 273K C H NO A B C    Reprint 2026-27",
+        "metadata": {
+          "source": "data/raw/Reference/NCERT/Class12_Chemistry_Part2/lech204.pdf",
+          "subject": "chemistry",
+          "topic": "lech204 p21",
+          "page": 21,
+          "id": "2b3bec0a8a725edf1a7165307b96ff1200e49596"
+        }
+      },
+      {
+        "score": 0.7323063015937805,
+        "text": "ion (H3O+) e) sulfur dioxide (SO2) 3. Two chemical reactions are described below. • nitrogen and hydrogen react to form NH3 • carbon and hydrogen bond to form CH4 For each reaction, give: a) the number of valence electrons for each of the atoms involved in the reac- tion b) the Lewis diagram of the product that is formed c) the name of the product 4. A chemical compound has the following Lewis diagram: X Y × • • • • • × • H a) How many valence electrons does element Y have? b) How many valence electrons does element X have? c) How many covalent bonds are in the molecule? d) Suggest a name for the elements X and Y. 147 Chapter 3. Atomic combinations",
+        "metadata": {
+          "source": "data/raw/SS2/Physical_Sciences_SS2_Siyavula_Learner.pdf",
+          "subject": "physical_sciences",
+          "topic": "Physical_Sciences_SS2_Siyavula_Learner p160",
+          "page": 160,
+          "id": "aae3c64032dea26330dd035f559f00e491f7481f"
+        }
+      },
+      {
+        "score": 0.7315568923950195,
+        "text": "CH3 45. Which of the following are isomers? A. Ethanol and dimethyl ether B. Benzene and methylbenzene C. Ethanol and propanone D. Trichloromethane and tetrachloromehane 46. The function group present in an treatment with a saturated solution of NaHCO3 is . A. hydroxyl group B. carbonalkoxyl group C. carbonyl group D. carboxy group. 47. The characteristic reaction of carbonyl compounds is. A. Substitution B. Elimination C. Addition D. Saponificatioon 48. An organic compound containing 40.1% carbon and 6.667% hydrogen has an empirical formula of . A. C2H4O2 B. C2H3O2 C. CH2O D. CH3O 49. Alkanals can be differentiated from alkanones by reaction with. A. 2,4-dinitrophenlhydrazine B. hydrogen cyanide C. sodium hydrogen sulphite D. tollen’s reagent. 50. An example of a polysaccharide is A. dextrose B. mannose C.glucose D. starch.",
+        "metadata": {
+          "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+          "subject": "chemistry",
+          "topic": "JAMB_Chemistry_Past_Questions_1983-2004 p36",
+          "page": 36,
+          "id": "291feeeef9fe3cdcd4840536f2220a8a5ad69b55"
+        }
+      },
+      {
+        "score": 0.7298253774642944,
+        "text": "CHAPTER 18. REACTIONS IN AQUEOUS SOLUTION 18.3 There are exceptions to this and some molecular substances will form ions when they dissolve. Hydrogen chloride for example can ionise to form hydrogen and chloride ions. HCl (g) + H2O(ℓ) →H3O+(aq) + Cl−(aq) You can try dissolving ionic compounds such as potassium permanganate, sodium hydrox- ide and potassium nitrate in water and observing what happens. Exercise 18 - 1 1. For each of the following, say whether the substance is ionic or molecular. a. potassium nitrate (KNO3) b. ethanol (C2H5OH) c. sucrose (a type of sugar) (C12H22O11) d. sodium bromide (NaBr) 2. Write a balanced equation to show how each of the following ionic com- pounds dissociate in water. a. sodium sulphate (Na2SO4) b. potassium bromide (KBr) c. potassium permanganate (KMnO4) d. sodium phosphate (Na3PO4) 3. Draw a diagram to show how KCl dissolves in water. More practice video solutions or help at www.everythingscience.co.za (1.) 0075 (2.) 0076 (3.) 0077 Electrolytes, ionisation and conductivity ESAFP You have learnt that water is a polar molecule and that it can dissolve ionic substances in water. When ions are present in water, the water is able to conduct electricity. The solution is known as an electrolyte. Chemistry: Chemical change 317",
+        "metadata": {
+          "source": "data/raw/SS1/Physical_Sciences_SS1_Siyavula_Learner.pdf",
+          "subject": "physical_sciences",
+          "topic": "Physical_Sciences_SS1_Siyavula_Learner p333",
+          "page": 333,
+          "id": "c0a520fae3deb02c3dbbe0370911ea959377a19a"
+        }
+      }
+    ],
+    "retrieval_hash": "c25a911e0f2b9d117b0c0f879b6348273ec3d17314d132b19756b7f030ca6f51",
+    "retrieved_ids": [
+      "d474531ffef8fbbc6f683c3ab852ee8ab37a4cdb",
+      "2b3bec0a8a725edf1a7165307b96ff1200e49596",
+      "aae3c64032dea26330dd035f559f00e491f7481f",
+      "291feeeef9fe3cdcd4840536f2220a8a5ad69b55",
+      "c0a520fae3deb02c3dbbe0370911ea959377a19a"
+    ]
+  }
+]

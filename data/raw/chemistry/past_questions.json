@@ -1,0 +1,56 @@
+[
+  {
+    "year": "2019",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Structure of the Atom",
+    "question": "What is the electronic configuration of the divalent cation of zinc ($Zn^{2+}$)? (Atomic number of $Zn = 30$)",
+    "options": [
+      "A. $1s^2 2s^2 2p^6 3s^2 3p^6 3d^{10} 4s^2$",
+      "B. $1s^2 2s^2 2p^6 3s^2 3p^6 3d^8 4s^2$",
+      "C. $1s^2 2s^2 2p^6 3s^2 3p^6 3d^{10}$",
+      "D. $1s^2 2s^2 2p^6 3s^2 3p^6 3d^9 4s^1$"
+    ],
+    "answer": "C",
+    "explanation": "The atomic number of zinc is 30, which means a neutral zinc atom has 30 electrons with configuration: $1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10}$ (or written as $1s^2 2s^2 2p^6 3s^2 3p^6 3d^{10} 4s^2$). When zinc forms a divalent cation ($Zn^{2+}$), it loses two electrons. These electrons are lost from the outermost shell first, which is the $4s$ orbital, rather than the $3d$ orbital. Thus, the configuration of $Zn^{2+}$ is $1s^2 2s^2 2p^6 3s^2 3p^6 3d^{10}$. Option C is correct."
+  },
+  {
+    "year": "2020",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Stoichiometry & Chemical Equations",
+    "question": "What volume of carbon (IV) oxide ($CO_2$) measured at s.t.p. is produced when 10.0 g of calcium trioxocarbonate (IV) ($CaCO_3$) is completely decomposed by heat? (Molar mass of $CaCO_3 = 100\\text{ g/mol}$; Molar volume of gas at s.t.p. = $22.4\\text{ dm}^3$)",
+    "options": [
+      "A. $2.24\\text{ dm}^3$",
+      "B. $22.4\\text{ dm}^3$",
+      "C. $1.12\\text{ dm}^3$",
+      "D. $4.48\\text{ dm}^3$"
+    ],
+    "answer": "A",
+    "explanation": "The balanced chemical equation for the thermal decomposition of calcium carbonate is:\n$CaCO_3(s) \\rightarrow CaO(s) + CO_2(g)$\nFrom the equation, 1 mole of $CaCO_3$ (100 g) decomposes to produce 1 mole of $CO_2$ ($22.4\\text{ dm}^3$ at s.t.p.).\nTo find the volume produced by 10.0 g of $CaCO_3$, we write:\nNumber of moles of $CaCO_3 = \\frac{\\text{Mass}}{\\text{Molar Mass}} = \\frac{10.0\\text{ g}}{100\\text{ g/mol}} = 0.10\\text{ mol}$.\nSince the mole ratio of $CaCO_3$ to $CO_2$ is 1:1, the moles of $CO_2$ produced = 0.10 mol.\nVolume of $CO_2$ at s.t.p. = $\\text{moles} \\times \\text{molar volume} = 0.10\\text{ mol} \\times 22.4\\text{ dm}^3/\\text{mol} = 2.24\\text{ dm}^3$.\nTherefore, Option A is correct."
+  },
+  {
+    "year": "2021",
+    "exam_board": "WAEC",
+    "paper_type": "Theory",
+    "topic": "Redox & Electrochemistry",
+    "question": "An electric current of 2.0 A is passed through an aqueous solution of copper (II) tetraoxosulphate (VI) ($CuSO_4$) for 40 minutes and 15 seconds. Calculate the mass of copper deposited at the cathode. (Relative atomic mass of $Cu = 64$; Faraday constant = $96500\\text{ C/mol}$)",
+    "answer": "1. Write the half-reaction occurring at the cathode:\n$Cu^{2+}(aq) + 2e^- \\rightarrow Cu(s)$\nThis indicates that 2 moles of electrons ($2\\text{ F}$) are required to deposit 1 mole (64 g) of copper.\n\n2. Calculate the quantity of electricity ($Q$) passed:\nTime $t = 40\\text{ minutes } 15\\text{ seconds} = (40 \\times 60) + 15 = 2400 + 15 = 2415\\text{ seconds}$.\nCurrent $I = 2.0\\text{ A}$.\n$Q = I \\times t = 2.0\\text{ A} \\times 2415\\text{ s} = 4830\\text{ C}$.\n\n3. Calculate the mass of copper deposited:\nFrom the stoichiometry, charge required to deposit 64 g of copper = $2 \\times 96500\\text{ C} = 193000\\text{ C}$.\nLet $m$ be the mass deposited by 4830 C:\n$m = \\frac{\\text{RAM} \\times Q}{n \\times F} = \\frac{64 \\times 4830}{2 \\times 96500} = \\frac{309120}{193000} \\approx 1.60\\text{ g}$.\n\nTherefore, the mass of copper deposited is 1.60 g."
+  },
+  {
+    "year": "2018",
+    "exam_board": "WAEC",
+    "paper_type": "Practical",
+    "topic": "Acids, Bases & Salts",
+    "question": "Describe the Acid-Base Volumetric Analysis (Titration) experiment. Outline the typical burette readings, calculations of concentrations, and three precautions.",
+    "answer": "Acid-Base Titration Experiment:\n\n1. Experimental Setup and Procedure:\n- Prepare a standard solution of a weak base, e.g., anhydrous sodium trioxocarbonate (IV) ($Na_2CO_3$), by weighing exactly 2.65 g and dissolving it in water to make $500\\text{ cm}^3$ of solution ($0.05\\text{ mol/dm}^3$).\n- Pipette $25.0\\text{ cm}^3$ of this base solution into a clean conical flask and add 2-3 drops of Methyl Orange indicator (the solution turns yellow).\n- Fill a clean burette with the acid solution (e.g., hydrochloric acid, $HCl$ of unknown concentration) and adjust to the zero mark.\n- Titrate the acid against the base by slowly releasing acid from the burette while swirling the conical flask, until the indicator changes color from yellow to pink/orange (the endpoint).\n- Record the final volume. Repeat the titration at least three times to obtain concordant readings (within $0.1\\text{ cm}^3$ of each other).\n\n2. Sample Titration Data Table:\n| Burette Readings | Rough ($cm^3$) | 1st Titration ($cm^3$) | 2nd Titration ($cm^3$) | 3rd Titration ($cm^3$) |\n|---|---|---|---|---|\n| Final Reading | 24.60 | 24.10 | 48.15 | 24.05 |\n| Initial Reading | 0.00 | 0.00 | 24.10 | 0.00 |\n| Volume of Acid Used ($V_A$) | 24.60 | 24.10 | 24.05 | 24.05 |\n\nAverage volume of acid used ($V_A$) = $\\frac{24.10 + 24.05 + 24.05}{3} = 24.07\\text{ cm}^3$ (concordant values only).\n\n3. Calculations:\nGiven chemical equation: $2HCl(aq) + Na_2CO_3(aq) \\rightarrow 2NaCl(aq) + H_2O(l) + CO_2(g)$\nFrom equation, mole ratio of acid to base ($n_A / n_B$) = 2 / 1.\nUsing the titration formula:\n$\\frac{C_A V_A}{C_B V_B} = \\frac{n_A}{n_B}$\nWhere:\n$C_A$ = Concentration of acid (unknown)\n$V_A = 24.07\\text{ cm}^3$\n$C_B = 0.05\\text{ mol/dm}^3$\n$V_B = 25.0\\text{ cm}^3$\n$n_A = 2$, $n_B = 1$\n\nSolve for $C_A$:\n$C_A = \\frac{C_B \\times V_B \\times n_A}{V_A \\times n_B} = \\frac{0.05 \\times 25.0 \\times 2}{24.07 \\times 1} = \\frac{2.5}{24.07} \\approx 0.104\\text{ mol/dm}^3$.\n\n4. Precautions:\n- Rinse the burette with the acid and the pipette with the base before filling them, to prevent dilution by residual water.\n- Avoid parallax error when reading the burette or pipette liquid levels by reading from the bottom of the meniscus at eye level.\n- Do not blow the last drop of liquid out of the pipette tip, as the pipette is calibrated to retain it."
+  },
+  {
+    "year": "2022",
+    "exam_board": "WAEC",
+    "paper_type": "Practical",
+    "topic": "Acids, Bases & Salts",
+    "question": "Provide a Qualitative Analysis Table for identifying the presence of a cation ($Cu^{2+}$) and an anion ($SO_4^{2-}$) in an unknown salt sample 'X'.",
+    "answer": "Qualitative Analysis Table for Salt 'X':\n\n| Test | Observation | Inference |\n|---|---|---|\n| **Part A: Identification of Cation ($Cu^{2+}$)** | | |\n| 1. Dissolve a spatula measure of salt 'X' in about $10\\text{ cm}^3$ of distilled water. Divide into three portions. | A blue solution is formed. | Transition metal ion suspected (probably $Cu^{2+}$). |\n| 2. To the first portion, add dilute sodium hydroxide ($NaOH$) solution dropwise until in excess. | A light blue gelatinous precipitate is formed, which is insoluble in excess $NaOH$. | $Cu^{2+}$ suspected. |\n| 3. To the second portion, add dilute ammonia ($NH_3$) solution dropwise until in excess. | A light blue precipitate is formed dropwise. On adding excess ammonia, the precipitate dissolves to give a deep blue solution. | $Cu^{2+}$ confirmed. |\n| **Part B: Identification of Anion ($SO_4^{2-}$)** | | |\n| 4. To the third portion, add dilute hydrochloric acid ($HCl$) followed by barium chloride ($BaCl_2$) solution. | A thick white precipitate is formed which is insoluble in the dilute $HCl$. | $SO_4^{2-}$ present. (Note: Acidification prevents trioxocarbonates ($CO_3^{2-}$) or sulphites ($SO_3^{2-}$) from precipitating)."
+  }
+]

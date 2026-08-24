@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Achievements - O-Level AI Tutor</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@400&amp;family=Sora:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-primary-fixed-variant": "#004395",
+                      "tertiary-fixed-dim": "#ffb786",
+                      "tertiary": "#ffb786",
+                      "secondary-fixed-dim": "#d2bbff",
+                      "secondary-fixed": "#eaddff",
+                      "on-tertiary-fixed-variant": "#723600",
+                      "on-error-container": "#ffdad6",
+                      "surface": "#0f131d",
+                      "on-primary-container": "#00285d",
+                      "on-primary": "#002e6a",
+                      "on-tertiary-fixed": "#311400",
+                      "surface-container": "#1c1f2a",
+                      "inverse-surface": "#dfe2f1",
+                      "surface-container-low": "#171b26",
+                      "on-secondary-fixed": "#25005a",
+                      "on-error": "#690005",
+                      "on-surface-variant": "#c2c6d6",
+                      "tertiary-fixed": "#ffdcc6",
+                      "inverse-on-surface": "#2c303b",
+                      "on-tertiary-container": "#461f00",
+                      "outline": "#8c909f",
+                      "background": "#0f131d",
+                      "inverse-primary": "#005ac2",
+                      "surface-variant": "#313540",
+                      "primary-fixed": "#d8e2ff",
+                      "error-container": "#93000a",
+                      "on-secondary-container": "#c9aeff",
+                      "tertiary-container": "#df7412",
+                      "on-surface": "#dfe2f1",
+                      "outline-variant": "#424754",
+                      "secondary-container": "#6001d1",
+                      "error": "#ffb4ab",
+                      "primary-container": "#4d8eff",
+                      "surface-container-lowest": "#0a0e18",
+                      "on-primary-fixed": "#001a42",
+                      "primary": "#adc6ff",
+                      "surface-tint": "#adc6ff",
+                      "surface-bright": "#353944",
+                      "secondary": "#d2bbff",
+                      "surface-container-high": "#262a35",
+                      "on-secondary-fixed-variant": "#5a00c6",
+                      "surface-container-highest": "#313540",
+                      "on-background": "#dfe2f1",
+                      "primary-fixed-dim": "#adc6ff",
+                      "on-tertiary": "#502400",
+                      "surface-dim": "#0f131d",
+                      "on-secondary": "#3f008e"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "sm": "12px",
+                      "md": "16px",
+                      "xl": "32px",
+                      "xs": "8px",
+                      "base": "4px",
+                      "2xl": "48px",
+                      "lg": "24px",
+                      "3xl": "64px"
+              },
+              "fontFamily": {
+                      "h1-mobile": [
+                              "Sora"
+                      ],
+                      "code": [
+                              "JetBrains Mono"
+                      ],
+                      "display": [
+                              "Sora"
+                      ],
+                      "h2": [
+                              "Sora"
+                      ],
+                      "caption": [
+                              "Hanken Grotesk"
+                      ],
+                      "body-lg": [
+                              "Hanken Grotesk"
+                      ],
+                      "h1": [
+                              "Sora"
+                      ],
+                      "body-md": [
+                              "Hanken Grotesk"
+                      ]
+              },
+              "fontSize": {
+                      "h1-mobile": [
+                              "28px",
+                              {
+                                      "lineHeight": "1.25",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "code": [
+                              "14px",
+                              {
+                                      "lineHeight": "1.5",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "display": [
+                              "40px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "h2": [
+                              "24px",
+                              {
+                                      "lineHeight": "1.3",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "caption": [
+                              "13px",
+                              {
+                                      "lineHeight": "1.4",
+                                      "letterSpacing": "0.01em",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "1.6",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "h1": [
+                              "32px",
+                              {
+                                      "lineHeight": "1.25",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "1.6",
+                                      "fontWeight": "400"
+                              }
+                      }
+              }
+            }
+          }
+    </script>
+<style>
+        .glass-panel {
+            background: rgba(28, 31, 42, 0.6);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-top: 1px solid rgba(255, 255, 255, 0.12);
+        }
+        .achievement-glow {
+            box-shadow: 0 0 24px -4px rgba(173, 198, 255, 0.25);
+            border: 1px solid rgba(173, 198, 255, 0.4);
+            background: linear-gradient(145deg, rgba(28, 31, 42, 0.8) 0%, rgba(15, 19, 29, 0.9) 100%);
+        }
+        .achievement-locked {
+            filter: grayscale(100%) opacity(0.5);
+            border: 1px dashed rgba(255, 255, 255, 0.1);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #adc6ff 0%, #d2bbff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md h-screen w-full overflow-hidden flex selection:bg-primary-container selection:text-on-primary-container">
+<!-- SideNavBar (Shared Component) -->
+<nav class="hidden md:flex bg-surface-container border-r border-white/10 h-screen w-64 flex-col py-md shrink-0">
+<!-- Brand Logo Area -->
+<div class="px-lg pb-md border-b border-white/10 mb-md">
+<div class="font-display text-h2 font-bold text-tertiary flex items-center gap-xs">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">school</span>
+                O-Level AI
+             </div>
+</div>
+<!-- Student Profile -->
+<div class="px-lg pb-md border-b border-white/10 mb-md flex items-center gap-sm">
+<img alt="Student profile photo" class="w-[40px] h-[40px] rounded-full object-cover border border-white/10" data-alt="A futuristic, high-resolution portrait of a young Nigerian student in a dark, high-tech environment. The student is lit by soft blue and purple neon lights, looking focused and intelligent. The aesthetic is clean, premium, and cyber-educational." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLxsW8XeA3BPxYwZtoEVxzO98BmTbzbYO54n1syfyq7WgZMFn6NC7wiAXANBB2nPEsd9-cO0aCQS1spguxOLm3U5K-uSAVjw-oPa1dYRhInCYzInJZIPANEmfwuZdNWcvHLf7apPZZ8md8C6mvQ8Dn3-95zKt3nbPQD5QjF8cESeNYQ0ZYuFkEB0U8pdHdhAwgE7PYWfyoh0jGIAto00m0cd4gluoqI_gla08HTZ9zc-shF7wCKiIP6JnELJ8NijO_Ry1-7EHTJg"/>
+<div>
+<div class="font-h2 text-[14px] leading-tight text-on-surface font-bold">Amina Okoro</div>
+<div class="font-caption text-caption text-on-surface-variant">JSS3 Student</div>
+</div>
+</div>
+<!-- Navigation Tabs -->
+<div class="flex-1 flex flex-col gap-base px-sm">
+<!-- Inactive -->
+<a class="flex items-center gap-sm px-md py-sm rounded-lg hover:bg-surface-variant hover:text-on-surface transition-colors text-on-surface-variant font-medium pl-4 group" href="#">
+<span class="material-symbols-outlined group-hover:text-primary transition-colors">dashboard</span>
+<span class="font-body-sm text-[14px]">Dashboard</span>
+</a>
+<a class="flex items-center gap-sm px-md py-sm rounded-lg hover:bg-surface-variant hover:text-on-surface transition-colors text-on-surface-variant font-medium pl-4 group" href="#">
+<span class="material-symbols-outlined group-hover:text-primary transition-colors">quiz</span>
+<span class="font-body-sm text-[14px]">Practice Tests</span>
+</a>
+<a class="flex items-center gap-sm px-md py-sm rounded-lg hover:bg-surface-variant hover:text-on-surface transition-colors text-on-surface-variant font-medium pl-4 group" href="#">
+<span class="material-symbols-outlined group-hover:text-primary transition-colors">style</span>
+<span class="font-body-sm text-[14px]">Flashcards</span>
+</a>
+<a class="flex items-center gap-sm px-md py-sm rounded-lg hover:bg-surface-variant hover:text-on-surface transition-colors text-on-surface-variant font-medium pl-4 group" href="#">
+<span class="material-symbols-outlined group-hover:text-primary transition-colors">group</span>
+<span class="font-body-sm text-[14px]">Study Groups</span>
+</a>
+<!-- Active State based on Leaderboard/Achievements logical grouping -->
+<a class="flex items-center gap-sm px-md py-sm rounded-lg text-primary font-bold border-l-4 border-primary pl-3 bg-surface-variant/30 transform scale-95 duration-150" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">leaderboard</span>
+<span class="font-body-sm text-[14px]">Leaderboard</span>
+</a>
+</div>
+<!-- Footer Actions -->
+<div class="px-sm mt-auto flex flex-col gap-base border-t border-white/10 pt-md">
+<button class="w-full bg-primary-container text-on-primary-container rounded-lg py-sm px-md font-caption text-caption font-semibold flex items-center justify-center gap-xs hover:bg-primary transition-colors shadow-[0_0_15px_rgba(77,142,255,0.2)]">
+<span class="material-symbols-outlined text-[18px]">workspace_premium</span>
+                 Upgrade to Premium
+            </button>
+<a class="flex items-center gap-sm px-md py-xs mt-sm rounded-lg hover:bg-surface-variant hover:text-on-surface transition-colors text-on-surface-variant font-medium pl-4" href="#">
+<span class="material-symbols-outlined text-[18px]">settings</span>
+<span class="font-body-sm text-[13px]">Settings</span>
+</a>
+<a class="flex items-center gap-sm px-md py-xs rounded-lg hover:bg-surface-variant hover:text-on-surface transition-colors text-on-surface-variant font-medium pl-4" href="#">
+<span class="material-symbols-outlined text-[18px]">help</span>
+<span class="font-body-sm text-[13px]">Support</span>
+</a>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="flex-1 overflow-y-auto bg-background relative">
+<!-- Subtle Ambient Background Glows -->
+<div class="absolute top-[-10%] left-[-10%] w-1/2 h-1/2 bg-primary/5 rounded-full blur-[120px] pointer-events-none"></div>
+<div class="absolute bottom-[-10%] right-[-10%] w-1/2 h-1/2 bg-secondary/5 rounded-full blur-[120px] pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-lg py-xl">
+<!-- Header Section -->
+<header class="mb-2xl flex flex-col md:flex-row justify-between items-start md:items-end gap-md relative z-10">
+<div>
+<h1 class="font-h1 text-h1 text-on-surface mb-xs tracking-tight">Milestones &amp; Badges</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Track your academic journey and unlock new capabilities.</p>
+</div>
+<!-- Progress Stat Card -->
+<div class="glass-panel rounded-xl p-md flex items-center gap-lg min-w-[300px]">
+<div class="flex-1">
+<div class="flex justify-between items-baseline mb-xs">
+<span class="font-caption text-caption text-primary uppercase font-bold tracking-wider">Level 12 Scholar</span>
+<span class="font-code text-code text-on-surface-variant">14,250 XP</span>
+</div>
+<!-- Progress Bar -->
+<div class="w-full bg-surface-container-high h-2 rounded-full overflow-hidden">
+<div class="bg-gradient-to-r from-primary to-secondary w-[75%] h-full shadow-[0_0_10px_rgba(173,198,255,0.5)]"></div>
+</div>
+</div>
+<div class="w-12 h-12 rounded-full bg-surface-variant flex items-center justify-center border border-white/10 relative">
+<span class="material-symbols-outlined text-tertiary" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+<!-- Notification dot -->
+<div class="absolute top-0 right-0 w-3 h-3 bg-error rounded-full border-2 border-surface shadow-[0_0_8px_rgba(255,180,171,0.6)]"></div>
+</div>
+</div>
+</header>
+<!-- Grid Layout for Badges -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-lg relative z-10">
+<!-- Unlocked Achievement: Streak -->
+<div class="glass-panel rounded-xl p-md achievement-glow flex flex-col items-center text-center group cursor-pointer transition-transform hover:scale-[1.02]">
+<div class="w-20 h-20 mb-md relative">
+<img alt="7-Day Streak Badge" class="w-full h-full object-contain drop-shadow-[0_0_15px_rgba(223,116,18,0.4)]" data-alt="A 3D rendered, highly detailed glowing medal badge indicating a '7-Day Streak'. The badge is metallic silver with intense neon orange and electric blue lighting accents, set against a dark, studio backdrop. It looks like a premium gaming achievement icon with glassmorphism elements." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwRjB9mGkJdU5QJSjemuiC64-29vR9luYOnGWHdRqSr26M9d4JuARnRsZus5fxC7ynAQDvZSwvrU21qIQvlWS2XrpoKfk58CuB-LH9IVajgPnurA4Ep9vBB0iX9Huh77dOFKa20quGMVQzLOnMSfUOtN6MwaimEnfR1J-DBHuyy1Qjs-dD1QCTEleza4GhWzhor_SxtCjbIfed4KAX_Djrfl9_BWLCNH8MUeeLNkIwtDeHh17JjOCtXfu_Mu5UkKzMylJDXDVVtA"/>
+</div>
+<h3 class="font-h2 text-[18px] text-on-surface mb-xs font-bold">7-Day Streak</h3>
+<p class="font-caption text-caption text-on-surface-variant mb-sm">Studied consistently for a full week without missing a day.</p>
+<div class="mt-auto px-sm py-xs bg-tertiary/10 text-tertiary rounded-full font-code text-[12px] border border-tertiary/20">
+                        +500 XP
+                    </div>
+</div>
+<!-- Unlocked Achievement: Physics Master -->
+<div class="glass-panel rounded-xl p-md achievement-glow flex flex-col items-center text-center group cursor-pointer transition-transform hover:scale-[1.02]">
+<div class="w-20 h-20 mb-md relative">
+<img alt="Physics Master Badge" class="w-full h-full object-contain drop-shadow-[0_0_15px_rgba(173,198,255,0.4)]" data-alt="A 3D rendered, highly detailed glowing badge representing 'Physics Master'. It features abstract atomic structures and gravity waves in electric blue and vibrant purple, set against a dark void. The materials are glossy glass and polished metal, glowing brightly." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvlBjgujmg3J23PJMErBcWLhSweXDgE4Mfh1TWn0wTdUp7-vWxmcUXI7wxNXlDcKyhcmDxPNdsRsQZOP6VknLOMJo4f1zuI08pVx1DipujNBtaHgy-yH_4iMwWjIADNJ0h6_SjVIvU-vjuWeLD3CWOJTSuPXWVFvqsJhxNcJd-H5gqMRBpY2VsV6xtdvL3Bhc5170jrA31mQp5c0UYfPL0ETiUxpiHNJfBqB_IGEr0n_fHiOk-vel6Npc8Stjr1RiHtgvAG1enkQ"/>
+</div>
+<h3 class="font-h2 text-[18px] text-on-surface mb-xs font-bold">Physics Master</h3>
+<p class="font-caption text-caption text-on-surface-variant mb-sm">Scored above 90% in 5 consecutive Physics mock exams.</p>
+<div class="mt-auto px-sm py-xs bg-primary/10 text-primary rounded-full font-code text-[12px] border border-primary/20">
+                        +1200 XP
+                    </div>
+</div>
+<!-- Unlocked Achievement: Exam Ready -->
+<div class="glass-panel rounded-xl p-md achievement-glow flex flex-col items-center text-center group cursor-pointer transition-transform hover:scale-[1.02]">
+<div class="w-20 h-20 mb-md relative">
+<img alt="Exam Ready Badge" class="w-full h-full object-contain drop-shadow-[0_0_15px_rgba(210,187,255,0.4)]" data-alt="A 3D rendered, premium badge symbolizing 'Exam Ready'. It features a stylized, glowing holographic checkmark over a futuristic open book or tablet. The colors are deep emerald and electric cyan on a dark slate background, emitting a soft, confident light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJjtUK1q1bd5zOFtOL_NLJCZ2HCXShXGSEKRkxFoaxN6HXpwW4g006rKWJCeNFSgiYMwXBowbDSr6s7c0-5w01PZwb7mijnZ6Xl7svqtdf3DKua775jPoaujowoTRJUbPOnxHVn65wNvt-lvHo_feBYwpmpv6HJwhGXzapCDgD6ZURT0aJzs-BnrPsO_5yoDNe63rztS93FUBb0Vt2pykfTS3xgaLsNFfN5fd5N10VWhdT87dQQ_Ew2DT2a-ALnZaMh0iO6bjrIw"/>
+</div>
+<h3 class="font-h2 text-[18px] text-on-surface mb-xs font-bold gradient-text">Exam Ready</h3>
+<p class="font-caption text-caption text-on-surface-variant mb-sm">Completed the entire O-Level Mathematics syllabus review.</p>
+<div class="mt-auto px-sm py-xs bg-secondary/10 text-secondary rounded-full font-code text-[12px] border border-secondary/20">
+                        Epic Reward
+                    </div>
+</div>
+<!-- Locked Achievement: Early Bird -->
+<div class="glass-panel rounded-xl p-md achievement-locked flex flex-col items-center text-center">
+<div class="w-20 h-20 mb-md relative opacity-60">
+<img alt="Early Bird Locked Badge" class="w-full h-full object-contain" data-alt="A 3D rendered badge showing a stylized rooster or sunrise clock, representing an 'Early Bird' achievement. The image is rendered entirely in subtle, low-contrast grayscale to indicate it is locked, blending into the dark slate background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuADXLv3W7YKGus5L6bgoCQzjD-U2dvzGL-I-ZJxEhyGYNV5YrPEOU4D2OCExTcYz7dGDGNxeIN8j6CumujALvkCoMi-vBNqQHK5MbmgLrwEKcjHHKm_s7kqEidtqFV_67MfH1P0pLE9d-Ww6uqQo3zXrwyOdc-g_j5lxAcCvogJbp4IgZcARhPBxFJ0RMSW69rWGBtz8JuI4oYgYqIx2cCqDm98oY7GfyY_B8q4LEXymGivUPQ1nPPgC9UD2xSFiirgzOsz-PP1MA"/>
+</div>
+<h3 class="font-h2 text-[18px] text-on-surface-variant mb-xs font-bold">Early Bird</h3>
+<p class="font-caption text-caption text-outline mb-sm">Complete a study session before 6:00 AM.</p>
+<div class="mt-auto flex items-center gap-xs font-code text-[12px] text-outline">
+<span class="material-symbols-outlined text-[14px]">lock</span>
+                        Locked
+                    </div>
+</div>
+<!-- Locked Achievement: Night Owl -->
+<div class="glass-panel rounded-xl p-md achievement-locked flex flex-col items-center text-center">
+<div class="w-20 h-20 mb-md relative opacity-60">
+<img alt="Night Owl Locked Badge" class="w-full h-full object-contain" data-alt="A 3D rendered badge of a stylized owl or crescent moon for a 'Night Owl' achievement. The design is sleek and geometric, rendered in flat, low-contrast grayscale indicating it is locked against a dark, minimalist surface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuja0cnRpRBnc9P6vHrgTiDVNnQ2nMGIjZx7W9Plh7NNeDYoN6487L5WysqCSbwUfPaLSyZTsIK1NZc3U4efuzcHtVRK-6npJZGRDVmC9rdoZ6PHwRn4gDmUxmidDDjZBaGw24ylw1Pi6gVHB4jLvNgmdSzYST-Ir8eOzQCHNS1gIwstbpqxw2jRnTD9DLlq1f_4AmeotHv10nLqrhXbxD77AkoK-4F6Sm2ve-bKA-2MgL0MkY8NExq3dhyPg8y65bbCorVMRmog"/>
+</div>
+<h3 class="font-h2 text-[18px] text-on-surface-variant mb-xs font-bold">Night Owl</h3>
+<p class="font-caption text-caption text-outline mb-sm">Study for 2 hours continuously past midnight.</p>
+<div class="mt-auto flex items-center gap-xs font-code text-[12px] text-outline">
+<span class="material-symbols-outlined text-[14px]">lock</span>
+                        Locked
+                    </div>
+</div>
+<!-- Locked Achievement: Perfectionist -->
+<div class="glass-panel rounded-xl p-md achievement-locked flex flex-col items-center text-center">
+<div class="w-20 h-20 mb-md relative opacity-60">
+<img alt="Perfectionist Locked Badge" class="w-full h-full object-contain" data-alt="A 3D rendered, intricate geometrical badge symbolizing perfection. It looks like a multi-faceted diamond or precise mathematical instrument. Rendered in grayscale to show it is locked, matching the dark tech-aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPDUgU39tcJo30a_8I1K3TuJMcJOKquU9frk91tUsKJLWe0Hq93kjJvmTAd5EIBnxXC5doTBFkTpmzAiI05G1SwOv2KFK99G-4EiFo16B8qQLmS-6EOxChxhRaCBp4BrLJfAVLSiWvLkIWk7kN7kVVJbiQFUc2l8IJNPToNFXcVE9RK0imQt98UqukRS3ROv058a8UYaznoPLyPBxBoaL6JxvTh1-uXuysrueKaqsAdFaKLxj_rsWTH0oo6QIZLcgNlYqZwcm3bA"/>
+</div>
+<h3 class="font-h2 text-[18px] text-on-surface-variant mb-xs font-bold">Perfectionist</h3>
+<p class="font-caption text-caption text-outline mb-sm">Score 100% on a comprehensive mock examination.</p>
+<div class="mt-auto flex items-center gap-xs font-code text-[12px] text-outline">
+<span class="material-symbols-outlined text-[14px]">lock</span>
+                        Locked
+                    </div>
+</div>
+</div>
+</div>
+</main>
+</body></html>

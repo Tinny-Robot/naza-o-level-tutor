@@ -1,0 +1,51 @@
+Build a structured lesson for this student request.
+
+=== Context ===
+{context}
+
+=== Student request ===
+{question}
+
+Return ONLY a JSON object with this exact shape:
+{{
+  "type": "lesson",
+  "title": "short lesson title",
+  "introduction": "2-3 warm sentences welcoming the student",
+  "objectives": ["objective 1", "objective 2", "objective 3"],
+  "sections": [
+    {{
+      "heading": "short heading",
+      "body": "clear explanation in short paragraphs",
+      "diagram_placeholder": "optional diagram description or null"
+    }}
+  ],
+  "worked_example": {{
+    "problem": "exam-style problem",
+    "steps": ["step 1", "step 2", "step 3"],
+    "answer": "final answer"
+  }},
+  "check_understanding": {{
+    "question": "one short question",
+    "expected_answer": "what a good answer looks like",
+    "hint": "gentle hint"
+  }},
+  "practice": {{
+    "question": "WAEC/NECO-style practice question",
+    "options": ["A. ...", "B. ...", "C. ...", "D. ..."],
+    "correct_answer": "A",
+    "explanation": "teaching explanation of why the answer is correct"
+  }},
+  "summary": ["bullet 1", "bullet 2", "bullet 3"],
+  "revision_card": {{
+    "front": "prompt / question side",
+    "back": "answer / key fact side"
+  }},
+  "citations": []
+}}
+
+Guidelines:
+- Prefer 2-4 short concept sections.
+- Follow the Language instruction: write every teaching string in English or Hausa as instructed.
+- Use null for diagram_placeholder when no diagram helps.
+- For theory-only topics, options may be null and correct_answer a short phrase.
+- Keep every field filled; never leave teaching fields empty.

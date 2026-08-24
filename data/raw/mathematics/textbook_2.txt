@@ -1,0 +1,26 @@
+# New General Mathematics for Senior Secondary Schools (SS1-SS3)
+## Chapter 1: Logarithms and Set Theory
+Logarithms are the inverse of indices. If $y = b^x$, then $x = \log_b(y)$. Common logarithms use base 10. The laws of logarithms are:
+1. $\log(xy) = \log(x) + \log(y)$
+2. $\log(x/y) = \log(x) - \log(y)$
+3. $\log(x^k) = k \log(x)$
+4. $\log_b(b) = 1$ and $\log_b(1) = 0$
+A set is a well-defined collection of distinct objects. Venn diagrams represent relationships between sets. For two sets A and B:
+$$n(A \cup B) = n(A) + n(B) - n(A \cap B)$$
+For three sets A, B, and C:
+$$n(A \cup B \cup C) = n(A) + n(B) + n(C) - n(A \cap B) - n(A \cap C) - n(B \cap C) + n(A \cap B \cap C)$$
+
+## Chapter 2: Trigonometry and Matrices
+In right-angled triangles, we define: $\sin \theta = \text{Opposite/Hypotenuse}$, $\cos \theta = \text{Adjacent/Hypotenuse}$, and $\tan \theta = \text{Opposite/Adjacent}$. For non-right-angled triangles, we use:
+- Sine Rule: $\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$
+- Cosine Rule: $a^2 = b^2 + c^2 - 2bc \cos A$
+A matrix is a rectangular array of numbers. For a 2x2 matrix $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$:
+- Determinant $|A| = ad - bc$
+- Inverse $A^{-1} = \frac{1}{ad - bc} \begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$ (provided $ad - bc \neq 0$).
+
+## Chapter 3: Coordinate Geometry and Calculus
+Coordinate geometry links algebra with geometry.
+- Distance between $(x_1, y_1)$ and $(x_2, y_2)$: $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.
+- Gradient $m = \frac{y_2 - y_1}{x_2 - x_1}$.
+- Equation of a line: $y - y_1 = m(x - x_1)$. Parallel lines have equal gradients ($m_1 = m_2$), and perpendicular lines satisfy $m_1 m_2 = -1$.
+Calculus deals with rates of change. The derivative of $y = x^n$ with respect to $x$ is $\frac{dy}{dx} = n x^{n-1}$. The integral of $x^n$ is $\int x^n dx = \frac{x^{n+1}}{n+1} + C$ ($n \neq -1$).

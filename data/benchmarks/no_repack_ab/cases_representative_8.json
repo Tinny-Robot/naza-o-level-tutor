@@ -1,0 +1,706 @@
+[
+  {
+    "item": {
+      "id": "chemistry-42574_qp_gamatrain-com_hsoekt-001-80543325",
+      "question": "At a given temperature and pressure, a gas X diffuses twice as fast as gas Y. It follows that Options: A. Gas Y is two times as heavy as Gas X; B. Gas Y is four times as heavy as Gas X; C. Gas Y is monoatomic; D. Gas X is diatomic",
+      "answer": "B - Gas Y is four times as heavy as Gas X",
+      "subject": "chemistry",
+      "topic": "States of Matter",
+      "expected_keywords": [
+        "gas",
+        "times",
+        "heavy",
+        "given",
+        "temperature",
+        "pressure",
+        "diffuses",
+        "twice"
+      ],
+      "images": [
+        "data/eval/images/42574_qp_Gamatrain_com_hSoekt/p1-i0.png",
+        "data/eval/images/42574_qp_Gamatrain_com_hSoekt/p1-i1.png"
+      ],
+      "needs_review": false
+    },
+    "retrieved": [
+      {
+        "score": 0.740206241607666,
+        "text": "JAMB Chemistry Past Questions 2024 1- At a given temperature and pressure, a gas X diffuses twice as fast as gas Y. It follows that A. Gas Y is two times as heavy as Gas X B. Gas Y is four times as heavy as Gas X C. Gas Y is monoatomic D. Gas X is diatomic 2- The number of molecules of helium gas contained in 11.5g of the gas is A. 1.73 x 1023 B. 1.73 x 1022 C. 1.73 x 1024 D. 1.73 x 1021 3- The constituents of Alnico are Aluminum, Nickel and A. Mg B. Co C. Mn D. Cu 4- Silver and Gold are metals found as free uncombined elements in the earth's crust, which makes them to be referred to as A. corrosive metals B. reactive metals C. natural metals D. noble metals 5- In the extraction of Aluminium, the silica impurity is removed by A. electrolysis",
+        "metadata": {
+          "source": "data/raw/pq-pdfs/42574_qp_Gamatrain.com_hSoekt.pdf",
+          "subject": "chemistry",
+          "topic": "42574_qp_Gamatrain.com_hSoekt p1",
+          "page": 1,
+          "images": [
+            "data/eval/images/42574_qp_Gamatrain_com_hSoekt/p1-i0.png",
+            "data/eval/images/42574_qp_Gamatrain_com_hSoekt/p1-i1.png"
+          ],
+          "id": "f7eeea1521a0b24f3500942c655f8a4f3b057bc5"
+        }
+      },
+      {
+        "score": 0.7160066962242126,
+        "text": "gas 7. The densities of two gases, X and Y are 0.5 g dm-3 and 2.0 g dm-3 respectively. What is the rate of diffusion of X relative to Y? A. 0.1 B. 0.5 C. 2.0 D. 4.0 8. An increase in temperature curves causes an increase in the pressure of a gas because A. it decreases the number of Collision between the molecules B. the molecules of the gas bombard the walls of the container more frequently C. it increase the number of Collision between the molecules D. it causes the molecules to combine 9. The shape of ammonia molecules is A. trigonal planar B. octahedral C. square planar D. tetrahedral. 10. The number of electrons in the valence shell of an element of atomic number 14 is A. 1 B. 2 C. 3 D. 4",
+        "metadata": {
+          "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+          "subject": "chemistry",
+          "topic": "JAMB_Chemistry_Past_Questions_1983-2004 p40",
+          "page": 40,
+          "images": [
+            "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p40-i0.png",
+            "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p40-i1.png",
+            "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p40-i2.png"
+          ],
+          "id": "86ff4bf8196eb82f078b55cfa06f4f02d1fc7d95"
+        }
+      },
+      {
+        "score": 0.6961715817451477,
+        "text": "1. 25cm3 of a gas X contains Z molecules at 15oC and 75 mm Hg. How many molecules will 25cm3 of another gas Y contain at the same temperature and pressure? A, 2Y, B. 2Z. C. Y, D. Z. 2. What mass of water is produced when 8.0g of hydrogen reacts with excess oxygen? A. 72.0g, B. 36.0g, C. 16.0g, D. 8.0g Use the graph below to answer questions 3 and 4 6. The diagram above represents the formation of A. a metallic bond, B. a covalent bond, C. an electrovalent bond. D a coordinate covalent bond 7. An element X with relative atomic mass 16.2 contains two isotopes 16 8X with relative abundance of 90% and m 8X with relative abundance of 10%. The value of m is A. 14, B. 12, C. 18, D. 16 8. Cancerous growth are cured by exposure to A. x-rays, B. betta-rays, C. alpha-rays, D. gamma-rays 9. Which of the following statement is correct about the average kinetic energy of the molecules of a gas? A. it increases with increase in pressure, B. it increases with increase in temperature, C. It increases with increase in volume, D. It increases at constant pressure. 10. Millikan’s contribution to the development of atomic theory is the determination of A. positive rays, B. cathode rays, C. charge",
+        "metadata": {
+          "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+          "subject": "chemistry",
+          "topic": "JAMB_Chemistry_Past_Questions_1983-2004 p60",
+          "page": 60,
+          "images": [
+            "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p60-i0.png",
+            "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p60-i1.png",
+            "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p60-i2.png"
+          ],
+          "id": "6acce4aeb920af2c87b1dbf0a6095dc880b1cd1e"
+        }
+      },
+      {
+        "score": 0.686759889125824,
+        "text": "of 2 × 10 cm or 2 × 10-1 m. Hence Time = -2 -1 2 10 m 500 ms × = 4 × 10-4 s ∴Rate of change of momentum = 23 1 4 5 10 kg ms 4 10 s − − − × × = 1.25 × 10-19 N The force on the side due to one third molecules and f = 1 3 × 1.25 × 10-19 × 1022 = 416.7 N pressure = Force Area = -4 2 417 N 100 10 m × = 4.2 × 10-4 N m-2 INTEXT QUESTIONS 10.1 1. (i) A gas fills a container of any size but a liquid does not. Why? (ii) Solids have more ordered structure than gases. Why? 2. What is an ideal gas? 3. How is pressure related to density of molecules?",
+        "metadata": {
+          "source": "data/raw/Reference/NIOS/NIOS_Physics_Book_1.pdf",
+          "subject": "physics",
+          "topic": "NIOS_Physics_Book_1 p314",
+          "page": 314,
+          "id": "76a6f975543fdbb4c9f601f3c7fb53157189f076"
+        }
+      },
+      {
+        "score": 0.6842750310897827,
+        "text": "melts A. over a wide range of temperature B. over a narrow range of temperature C. at a lower temperature than the impure one D. at the same temperature as the impure one. 3 At the same temperature and pressure, 50 cm3 of nitrogen gas contains the same number of molecules as A. 25 cm3 of methane B. 40 cm3 of hydrogen C. 50 cm 3 of ammonia D. 100 cm3 of chlorine 4. 8 g CH4 occupies 11.2dm3 at s.t.p. What volume would 22 g of CH3CH2CH occupy under the sme condition? A. 3.7 dm3 B. 11.2 dm3 C. 22.4 dm3 D. 33.6 dm3 [ C= 12, H =1] 5. To what temperature must a gas 273 K be heated in order to double both its volume and pressure? A. 298 K B. 546 K C. 819K D. 1092 K 6. For a gas, the relative molecular mass is equal to 2Y. What is Y? A. The mass of the gas B. The vapour density of the gas C. The volume of the gas D. The temperature of the gas 7. The densities of two gases, X and Y are 0.5 g dm-3 and 2.0 g dm-3 respectively. What is the rate of diffusion of X relative to Y? A. 0.1 B. 0.5 C. 2.0 D. 4.0 8. An",
+        "metadata": {
+          "source": "data/raw/pq-pdfs/JAMB_Chemistry_Past_Questions_1983-2004.pdf",
+          "subject": "chemistry",
+          "topic": "JAMB_Chemistry_Past_Questions_1983-2004 p40",
+          "page": 40,
+          "images": [
+            "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p40-i0.png",
+            "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p40-i1.png",
+            "data/eval/images/JAMB_Chemistry_Past_Questions_1983-2004/p40-i2.png"
+          ],
+          "id": "22d216abbf0c9c8361896eb925a001022d8bea64"
+        }
+      }
+    ],
+    "retrieval_hash": "d3c3fb1cff530fbdcad4f52be4385a5ec2eff417bf3cb6e358fd9c24a6661954",
+    "retrieved_ids": [
+      "f7eeea1521a0b24f3500942c655f8a4f3b057bc5",
+      "86ff4bf8196eb82f078b55cfa06f4f02d1fc7d95",
+      "6acce4aeb920af2c87b1dbf0a6095dc880b1cd1e",
+      "76a6f975543fdbb4c9f601f3c7fb53157189f076",
+      "22d216abbf0c9c8361896eb925a001022d8bea64"
+    ]
+  },
+  {
+    "item": {
+      "id": "chemistry-textbook_reference-formula-013-3ba3ecfb",
+      "question": "What is the expression or formula for For solutions, concentration in mol/dm³ ($C$)?",
+      "answer": "$C = \\frac{n}{V}$",
+      "subject": "chemistry",
+      "topic": "Organic Chemistry",
+      "expected_keywords": [
+        "expression",
+        "formula",
+        "solutions",
+        "concentration",
+        "mol"
+      ],
+      "needs_review": false
+    },
+    "retrieved": [
+      {
+        "score": 0.7456616163253784,
+        "text": "5 Solutions Example 1.3 Example 1.3 Example 1.3 Example 1.3 Example 1.3 Solution Solution Solution Solution Solution (vii) Molality: Molality (m) is defined as the number of moles of the solute per kilogram (kg) of the solvent and is expressed as: Molality (m) = Moles of solute Mass of solvent in kg (1.9) For example, 1.00 mol kg -1 (or 1.00 m) solution of KCl means that 1 mol (74.5 g) of KCl is dissolved in 1 kg of water. Each method of expressing concentration of the solutions has its own merits and demerits. Mass %, ppm, mole fraction and molality are independent of temperature, whereas molarity is a function of temperature. This is because volume depends on temperature and the mass does not. Solubility of a substance is its maximum amount that can be dissolved in a specified amount of solvent at a specified temperature. It depends upon the nature of solute and solvent as well as temperature and pressure. Let us consider the effect of these factors in solution of a solid or a gas in a liquid. 1.3 Solubility 1.3 Solubility 1.3 Solubility 1.3 Solubility 1.3 Solubility Calculate molality of 2.5 g of ethanoic acid (CH3COOH) in 75 g of benzene. Molar mass of C2H4O2: 12 × 2 + 1 × 4 + 16 × 2 =",
+        "metadata": {
+          "source": "data/raw/Reference/NCERT/Class12_Chemistry_Part1/lech101.pdf",
+          "subject": "chemistry",
+          "topic": "lech101 p5",
+          "page": 5,
+          "id": "09ef5fbee73c4f7719e0aa1eb9c4351f9aaaab63"
+        }
+      },
+      {
+        "score": 0.7447487115859985,
+        "text": "CHAPTER 19. QUANTITATIVE ASPECTS OF CHEMICAL CHANGE 19.3 For this equation, the units for volume are dm3 (which is equal to litres). Therefore, the unit of concentration is mol · dm−3. DEFINITION: Concentration Concentration is a measure of the amount of solute that is dissolved in a given volume of liquid. It is measured in mol · dm−3. Example 12: Concentration Calculations 1 QUESTION If 3, 5 g of sodium hydroxide (NaOH) is dissolved in 2, 5 dm3 of water, what is the concentration of the solution in mol · dm−3? SOLUTION Step 1 : Find the number of moles of sodium hydroxide n = m M = 3, 5 g 40, 01 g · mol−1 = 0, 0875 mol Step 2 : Calculate the concentration C = n V = 0, 0875 mol 2, 5 dm3 = 0, 035 mol · dm−3 The concentration of the solution is 0, 035 mol · dm−3. Chemistry: Chemical change 351",
+        "metadata": {
+          "source": "data/raw/SS1/Physical_Sciences_SS1_Siyavula_Learner.pdf",
+          "subject": "physical_sciences",
+          "topic": "Physical_Sciences_SS1_Siyavula_Learner p367",
+          "page": 367,
+          "id": "2980e5a5bb55a4d19585338b97c2e5a03c87bbf4"
+        }
+      },
+      {
+        "score": 0.7327049970626831,
+        "text": ", where C is the molar concentration, n is the number of moles and V is the volume of the solution. Calculating molar concentrations is useful to determine how much solute we need to add to a given volume of solvent in order to make a standard solution. A standard solution is a solution in which the concentration is known to a high degree of precision. When we work with standard solutions we can take the concentration to be constant. 293 Chapter 8. Quantitative aspects of chemical change",
+        "metadata": {
+          "source": "data/raw/SS2/Physical_Sciences_SS2_Siyavula_Learner.pdf",
+          "subject": "physical_sciences",
+          "topic": "Physical_Sciences_SS2_Siyavula_Learner p306",
+          "page": 306,
+          "id": "4a8adc078cc9816a18100b7e6741b9f782be17a9"
+        }
+      },
+      {
+        "score": 0.7233073711395264,
+        "text": "Step 5: Calculate the concentration of the solution C = n V = 0,0028 mol 183,7 dm3 = 0,0000152 mol.dm−3 = 1,52 × 10−5 mol.dm−3 Worked example 5: Calculating concentration QUESTION 16,4 g of KOH is added to 12,9 cm3 of water. Calculate the concentration of the solution. SOLUTION Step 1: List the information you have and the information you need V = 12,9 cm3, m = 16,4 g The volume (V) and the mass (m) are given. The number of moles (n) needs to be calculated. To do that the molar mass (M) needs to be calculated. Step 2: Make sure all given units are correct or convert them The volume needs to be converted to dm3. V = 12,9 cm3 ×0,001 dm3 1 cm3 = 0,0129 dm3 Step 3: What equations will be necessary to calculate the concentration? C (mol.dm−3) = n (mol) V (dm3) n (mol) = m (g) M (g.mol−1) Step 4: Calculate the number of moles of base in the solution M(KOH) = 39,1 + 16 + 1,01 = 56,11 g.mol−1. n = m M = 16,4 g 56,11 g.mol−1 = 0,292 mol Step 5: Calculate the concentration of the solution C = n V = 0,292 mol 0,0129 dm3 = 22,64 mol.dm−3 Exercise 9 - 2: Types of acids and bases 1. Say whether",
+        "metadata": {
+          "source": "data/raw/SS3/Physical_Sciences_SS3_Siyavula_Learner.pdf",
+          "subject": "physical_sciences",
+          "topic": "Physical_Sciences_SS3_Siyavula_Learner p355",
+          "page": 355,
+          "id": "9662aa1ef44a0756bfc3632f6664570f8f8afa2e"
+        }
+      },
+      {
+        "score": 0.7216026186943054,
+        "text": "c. 4 d. 18, 3 5. The concentration of a 150 cm3 solution, containing 5 g of NaCl is: a. 0, 09 mol · dm−3 b. 5, 7 × 10−4 mol · dm−3 c. 0, 57 mol · dm−3 d. 0, 03 mol · dm−3 6. Calculate the number of moles in: a. 5 g of methane (CH4) b. 3, 4 g of hydrochloric acid c. 6,2 g of potassium permanganate (KMnO4) d. 4 g of neon e. 9, 6 kg of titanium tetrachloride (TiCl4) 7. Calculate the mass of: a. 0, 2 mol of potassium hydroxide (KOH) b. 0, 47 mol of nitrogen dioxide Chemistry: Chemical change 361",
+        "metadata": {
+          "source": "data/raw/SS1/Physical_Sciences_SS1_Siyavula_Learner.pdf",
+          "subject": "physical_sciences",
+          "topic": "Physical_Sciences_SS1_Siyavula_Learner p377",
+          "page": 377,
+          "id": "6fb6907f18f1cac5b64b318184ea9abec27f1aa6"
+        }
+      }
+    ],
+    "retrieval_hash": "06baa57803657307c3a97c78c37cc919b325be46911880881eb3d18bc17d51a0",
+    "retrieved_ids": [
+      "09ef5fbee73c4f7719e0aa1eb9c4351f9aaaab63",
+      "2980e5a5bb55a4d19585338b97c2e5a03c87bbf4",
+      "4a8adc078cc9816a18100b7e6741b9f782be17a9",
+      "9662aa1ef44a0756bfc3632f6664570f8f8afa2e",
+      "6fb6907f18f1cac5b64b318184ea9abec27f1aa6"
+    ]
+  },
+  {
+    "item": {
+      "id": "english-past_questions-000-6b19728c",
+      "question": "Choose the option that best completes the sentence:\nEach of the candidates _______ expected to submit a copy of their credentials before Friday.",
+      "answer": "B - is - The subject of the sentence is the indefinite pronoun 'Each', which is grammatically singular. Therefore, it requires a singular verb. 'is' is the only singular verb in the present tense among the options.…",
+      "subject": "english",
+      "topic": "Lexis & Structure",
+      "expected_keywords": [
+        "subject",
+        "sentence",
+        "indefinite",
+        "pronoun",
+        "grammatically",
+        "singular",
+        "therefore",
+        "requires"
+      ],
+      "needs_review": false
+    },
+    "retrieved": [
+      {
+        "score": 0.7271654009819031,
+        "text": "Year: 2020 | Exam Board: WAEC | Paper Type: Objective | Topic: Lexis & Structure Question: Choose the option that best completes the sentence: Each of the candidates _______ expected to submit a copy of their credentials before Friday. Options: A. are B. is C. were D. have been Answer: B Explanation: The subject is 'Each', which is singular. Thus, it requires the singular verb 'is'.",
+        "metadata": {
+          "source": "data/raw/english/past_questions_20years.json",
+          "subject": "english",
+          "topic": "Lexis & Structure",
+          "id": "4e6a45c300f0f3c927c373a58185e2a4d5b73ed5"
+        }
+      },
+      {
+        "score": 0.723569393157959,
+        "text": "Year: 2020 | Exam Board: WAEC | Paper Type: Objective | Topic: Lexis & Structure Question: Choose the option that best completes the sentence: Each of the candidates _______ expected to submit a copy of their credentials before Friday. Options: A. are B. is C. were D. have been Answer: B Explanation: The subject of the sentence is the indefinite pronoun 'Each', which is grammatically singular. Therefore, it requires a singular verb. 'is' is the only singular verb in the present tense among the options. Options A, C, and D are plural verbs and are incorrect.",
+        "metadata": {
+          "source": "data/raw/english/past_questions.json",
+          "subject": "english",
+          "topic": "Lexis & Structure",
+          "id": "c3185fa4a63ab2b244eec50122540e12660497c8"
+        }
+      },
+      {
+        "score": 0.5657128691673279,
+        "text": "94 Hornbill  To end a letter, use ‘Yours sincerely’, if you have addressed the person by name; ‘Yours faithfully’, if you have begun the letter with ‘Dear Sir’ or ‘Madam’, etc. Job Application At some point of time each one of us will have to apply for a job. Job applications are usually written in response to advertisements. Let us take this sample advertisement from a daily newspaper, The Hindu dated 15 November 2005. Come…join the ADVENTURE Customer Support Executives Graduate/Diploma holders with/ without experience possessing good Customer Service skills. Excellent spoken and written communication skills in English is a must. Send in your applications with your resume and passport size photograph to: Wonderland Communications, South Street, Salem, Tamil Nadu Let us assume that you have a degree or a diploma and are applying for the job. We need to prepare a resume, which actually means a summary of particulars relating to your background, academic qualifications and experience, if any. Other terms used for ‘resume’ are ‘curriculum vitae’ and ‘biodata’. The general format of a resume or curriculum vitae is shown below. Reprint 2026-27",
+        "metadata": {
+          "source": "data/raw/Reference/NCERT/English/Class11_Hornbill/kehb115.pdf",
+          "subject": "english",
+          "topic": "kehb115 p6",
+          "page": 6,
+          "id": "3c03a7d47ffeeaa2e8cb4cb464ad6464c6ee9ab9"
+        }
+      },
+      {
+        "score": 0.5593305826187134,
+        "text": "Letter-writing 95 Curriculum Vitae Name : Address : Telephone Number : E-mail ID : Date of birth : Academic Qualifications : Examination Board/ University Subjects Year Division S.S.C Diploma in… Degree in… Experience : (Begin from present employment) Skills : Languages known : Hobbies and Interests : Achievements : References : (names of people in positions like your school Prinicipal who can certify your character and conduct) Now we need to send a covering letter along with the curriculum vitae. The following letter is an example. Reprint 2026-27",
+        "metadata": {
+          "source": "data/raw/Reference/NCERT/English/Class11_Hornbill/kehb115.pdf",
+          "subject": "english",
+          "topic": "kehb115 p7",
+          "page": 7,
+          "id": "2f59fded4428be5ca62cd9c8b1f93dc6193ebc51"
+        }
+      },
+      {
+        "score": 0.5477412343025208,
+        "text": "Year: 2021 | Exam Board: WAEC | Paper Type: Objective | Topic: Lexis & Structure Question: Identify the option that is closest in meaning to the underlined word: He made a *cursory* glance at the document before signing it. Options: A. thorough B. critical C. hasty D. detailed Answer: C Explanation: The word 'cursory' means hasty, rapid, or superficial, done without attention to details. Therefore, 'hasty' (Option C) is the closest synonym. Options A, B, and D mean the opposite (thorough, critical, detailed).",
+        "metadata": {
+          "source": "data/raw/english/past_questions.json",
+          "subject": "english",
+          "topic": "Lexis & Structure",
+          "id": "31198812b100c511b3273f1b6febea7c40f1fde5"
+        }
+      }
+    ],
+    "retrieval_hash": "40c1a6c9f04ee54f44b3cf48cfb15477f28b1e65426adcabcdaaf4f482a63d3e",
+    "retrieved_ids": [
+      "4e6a45c300f0f3c927c373a58185e2a4d5b73ed5",
+      "c3185fa4a63ab2b244eec50122540e12660497c8",
+      "3c03a7d47ffeeaa2e8cb4cb464ad6464c6ee9ab9",
+      "2f59fded4428be5ca62cd9c8b1f93dc6193ebc51",
+      "31198812b100c511b3273f1b6febea7c40f1fde5"
+    ]
+  },
+  {
+    "item": {
+      "id": "english-textbook_reference-008-625cec93",
+      "question": "What is If the sentence?",
+      "answer": "'Tunde bought a NEW car', the stress implies that Tunde did not buy an old or used car.",
+      "subject": "english",
+      "topic": "Oral English",
+      "expected_keywords": [
+        "tunde",
+        "bought",
+        "new",
+        "car",
+        "stress",
+        "implies",
+        "did",
+        "not"
+      ],
+      "needs_review": false
+    },
+    "retrieved": [
+      {
+        "score": 0.6423425674438477,
+        "text": "MATHEMATICS Notes MODULE - X Linear Programming and Mathematical Reasoning 554 Mathematical Reasoning 38.5 IMPLICATIONS In this section, we shall discuss the implication “if then”, “only if”, and “if and only if”. The statements with “if then” are very common in mathematics. For example, consider the statement. r : If you are born in some country, then you are a citizen of that country. We observed that if corresponds to two statements p and q given by p : you are born in some country q : you are citizen of that country p and q are two statements forming the implication “if p then q”, then we denoted this implication by “p ⇒ q”. then, “if p then q” is the same as the following : (i) If both p and q are true, then (ii) If p is true and q is false, then p ⇒ q is also true. p ⇒ q is false. (iii) If p is false and q is true, then (iv) If p and q both are false, then p ⇒ q is true p ⇒ q is true. Consider the following statements If a number is a multiple if 9, then it is a multiple of 3. It is an implication having antecedent(p) and consequent(q) as : p : a number is",
+        "metadata": {
+          "source": "data/raw/Reference/NIOS/NIOS_Mathematics_Book_2.pdf",
+          "subject": "mathematics",
+          "topic": "NIOS_Mathematics_Book_2 p566",
+          "page": 566,
+          "id": "b084cad6bc3c4d4f7545016a50da0e6a58c3069a"
+        }
+      },
+      {
+        "score": 0.6271274089813232,
+        "text": "it is necessary that you do all the exercises of the book. (ii) The game is cancelled only if it is raining. (iii) It never rains when it is cold. 4. Rewrite each of the following statements in the form “if and only if”. (i) If you watch television, then your mind is free and if your mind is free, then you watch television.",
+        "metadata": {
+          "source": "data/raw/Reference/NIOS/NIOS_Mathematics_Book_2.pdf",
+          "subject": "mathematics",
+          "topic": "NIOS_Mathematics_Book_2 p568",
+          "page": 568,
+          "id": "2c836d2e446ef28e71eeede2362febf390001747"
+        }
+      },
+      {
+        "score": 0.6003323793411255,
+        "text": "+ 5 = 11 is an open sentence. Its truth value cannot be confirmed unless we are given the value of x. Hence, it is not a statement. (iv) It is scientifically established natural phenomenon that cloud is formed before it rains. Therefore, this sentence is always true. Hence, it is a statement. (v) This sentence is false, because all integers are not natural numbers. So, it is a statement. (vi) This sentence is a question (or interrogative sentence). Hence, it is not statement. (vii) We can’t have a truth value for it. So it is not a statement. (viii) This sentence is false, because all roses are not white. Hence, it is a statement. CHECK YOUR PROGRESS 38.1 1. Which of the following sentences are statements? Give reasons for your answer. (i) Today is a windy day.",
+        "metadata": {
+          "source": "data/raw/Reference/NIOS/NIOS_Mathematics_Book_2.pdf",
+          "subject": "mathematics",
+          "topic": "NIOS_Mathematics_Book_2 p562",
+          "page": 562,
+          "id": "4c03b953e095d271e6c173fdb2ba693eb6932064"
+        }
+      },
+      {
+        "score": 0.5811920762062073,
+        "text": "that is, a statement which is a combination of one or more ‘simple’ statements. There are many ways of creating compound statements, but we will focus on those that are created by connecting two simple statements with the use of the words ‘if’ and ‘then’. For example, the statement ‘If it is raining, then it is difficult to go on a bicycle’, is made up of two statements: p: It is raining q: It is difficult to go on a bicycle. Using our previous notation we can say: If p, then q. We can also say ‘p implies q’, and denote it by p  q. Now, supose you have the statement ‘If the water tank is black, then it contains potable water.’ This is of the form p  q, where the hypothesis is p (the water tank is black) and the conclusion is q (the tank contains potable water). Suppose we interchange the hypothesis and the conclusion, what do we get? We get q  p, i.e., if the water in the tank is potable, then the tank must be black. This statement is called the converse of the statement p  q. Reprint 2026-27",
+        "metadata": {
+          "source": "data/raw/Reference/NCERT/Class10_Mathematics/jemh1a1.pdf",
+          "subject": "mathematics",
+          "topic": "jemh1a1 p14",
+          "page": 14,
+          "id": "5e9ad684edffbf86a47c876be6adc32ab2ed5013"
+        }
+      },
+      {
+        "score": 0.5775914192199707,
+        "text": "90 First Flight not use would with verbs like be, have, believe, etc. Look at the following sentences. (a) When we were young, we used to believe there were ghosts in school. (Note: believe shows a state of mind.) (b) Thirty years ago, more women used to be housewives than now. (Note: be here describes a situation.) From the table below, make as many correct sentences as you can using would and/or used to, as appropriate. (Hint: First decide whether the words in italics show an action, or a state or situation, in the past.) Then add two or three sentences of your own to it. Emperor Akbar be fond of musical evenings. Every evening we would take long walks on the beach. Fifty years ago, very few people own cars. Till the 1980s, Shanghai used to have very dirty streets. My uncle spend his holidays by the sea. II. Noun Modifiers To describe or give more information about a noun (or to modify a noun), we use adjectives or adjectival phrases. Look at these examples from the text: (a) An eminently suitable spot (c) Symmetrical pointed scales (b) His wide, flat belly (d) A ricocheting bullet Nouns can also be used as modifiers: (a) The dinner party (b) A designer dress (c) The car keys We can use more",
+        "metadata": {
+          "source": "data/raw/Reference/NCERT/English/Class10_First_Flight/jeff106.pdf",
+          "subject": "english",
+          "topic": "jeff106 p11",
+          "page": 11,
+          "id": "cd202c072740a530d54efcfc7d8bcd3e9ffd94dc"
+        }
+      }
+    ],
+    "retrieval_hash": "81445640482d50bcae43f89571f04001e4d93dda220b48c4d8d21230a4fa379b",
+    "retrieved_ids": [
+      "b084cad6bc3c4d4f7545016a50da0e6a58c3069a",
+      "2c836d2e446ef28e71eeede2362febf390001747",
+      "4c03b953e095d271e6c173fdb2ba693eb6932064",
+      "5e9ad684edffbf86a47c876be6adc32ab2ed5013",
+      "cd202c072740a530d54efcfc7d8bcd3e9ffd94dc"
+    ]
+  },
+  {
+    "item": {
+      "id": "mathematics-42440_qp_gamatrain-com_or5aub-001-b0d77195",
+      "question": "Find the angle subtended by an arc 33cm long of a circle of diameter 28cm. Options: A. 105°; B. 115°; C. 120°; D. 135°",
+      "answer": "D - 135°",
+      "subject": "mathematics",
+      "topic": "Circle Geometry Theorems",
+      "expected_keywords": [
+        "angle",
+        "subtended",
+        "arc",
+        "long",
+        "circle",
+        "diameter"
+      ],
+      "images": [
+        "data/eval/images/42440_qp_Gamatrain_com_oR5auB/p1-i0.png",
+        "data/eval/images/42440_qp_Gamatrain_com_oR5auB/p1-i1.png",
+        "data/eval/images/42440_qp_Gamatrain_com_oR5auB/p1-i2.png",
+        "data/eval/images/42440_qp_Gamatrain_com_oR5auB/p1-i3.png"
+      ],
+      "needs_review": false
+    },
+    "retrieved": [
+      {
+        "score": 0.7922630310058594,
+        "text": "Investigation: Angles subtended by an arc at the centre and the circumference of a circle 1. Measure angles x and y in each of the following graphs: b x1 y1 b x2 y2 b x3 y3 2. Complete the table: x y 3. Use your results to make a conjecture about the relationship between angles subtended by an arc at the centre of a circle and angles at the circumference of a circle. 4. Now draw three of your own similar diagrams and measure the angles to check your conjecture. 340 8.2. Circle geometry",
+        "metadata": {
+          "source": "data/raw/SS2/Mathematics_SS2_Siyavula_Learner.pdf",
+          "subject": "mathematics",
+          "topic": "Mathematics_SS2_Siyavula_Learner p352",
+          "page": 352,
+          "id": "959984a96fa2abddcfbbb91adc5f2446bbed884d"
+        }
+      },
+      {
+        "score": 0.7868233323097229,
+        "text": "MATHEMATICS Notes MODULE - I Sets, Relations and Functions 62 Trigonometric Functions-I 3.1.4 Relation Between Length of an Arc and Radius of the Circle An angle of 1 radian is subtended by an arc whose length is equal to the radius of the circle. An angle of 2 radians will be substened if arc is double the radius. An angle of 2½ radians willbe subtended if arc is 2½ times the radius. All this can be read from the following table : Length of the arc (l) Angle subtended at the centre of the circle θ (in radians) r 1 2r 2 (2½)r 2½ 4r 4 Therefore, r θ= l or r = θ l , where r = radius of the circle, θ = angle substended at the centre in radians, and l = length of the arc. The angle subtended by an arc of a circle at the centre of the circle is given by the ratio of the length of the arc and the radius of the circle. Note: In arriving at the above relation, we have used the radian measure of the angle and not the degree measure. Thus the relation r θ = l is valid only when the angle is measured in radians. Example 3.2 Find the angle in radians subtended by an arc",
+        "metadata": {
+          "source": "data/raw/Reference/NIOS/NIOS_Mathematics_Book_1.pdf",
+          "subject": "mathematics",
+          "topic": "NIOS_Mathematics_Book_1 p73",
+          "page": 73,
+          "id": "55b313d887465ee77bb5ef9dcce5c2ef6cad8f4e"
+        }
+      },
+      {
+        "score": 0.7786570191383362,
+        "text": "Investigation: Subtended angles in the same segment of a circle 1. Measure angles a, b, c, d and e in the diagram below: a e d b c P Q 2. Choose any two points on the circumference of the circle and label them A and B. 3. Draw AP and BP, and measure A ˆPB. 4. Draw AQ and BQ, and measure A ˆQB. 5. What do you observe? Make a conjecture about these types of angles. Theorem: Subtended angles in the same segment of a circle are equal STATEMENT If the angles subtended by a chord of the circle are on the same side of the chord, then the angles are equal. (Reason: ∠s in same seg.) Given: Circle with centre O, and points P and Q on the circumference of the circle. Arc AB subtends A ˆPB and A ˆQB in the same segment of the circle. 344 8.2. Circle geometry",
+        "metadata": {
+          "source": "data/raw/SS2/Mathematics_SS2_Siyavula_Learner.pdf",
+          "subject": "mathematics",
+          "topic": "Mathematics_SS2_Siyavula_Learner p356",
+          "page": 356,
+          "id": "9c1318bcff7417afc00ea019f8b0fc96362840db"
+        }
+      },
+      {
+        "score": 0.7573120594024658,
+        "text": "to the angle subtended by the line-segment joining the points of contact at the centre. 11. Prove that the parallelogram circumscribing a circle is a rhombus. 12. A triangle ABC is drawn to circumscribe a circle of radius 4 cm such that the segments BD and DC into which BC is divided by the point of contact D are of lengths 8 cm and 6 cm respectively (see Fig. 10.14). Find the sides AB and AC. 13. Prove that opposite sides of a quadrilateral circumscribing a circle subtend supplementary angles at the centre of the circle. Fig. 10.14 Reprint 2026-27",
+        "metadata": {
+          "source": "data/raw/Reference/NCERT/Class10_Mathematics/jemh110.pdf",
+          "subject": "mathematics",
+          "topic": "jemh110 p9",
+          "page": 9,
+          "id": "4fdf18266162ac70612a7f61242fa527a68cdfab"
+        }
+      },
+      {
+        "score": 0.7523003220558167,
+        "text": "angle of 60° at the centre. Find: (i) the length of the arc (ii) area of the sector formed by the arc (iii) area of the segment formed by the corresponding chord 6. A chord of a circle of radius 15 cm subtends an angle of 60° at the centre. Find the areas of the corresponding minor and major segments of the circle. (Use  = 3.14 and 3 = 1.73) 7. A chord of a circle of radius 12 cm subtends an angle of 120° at the centre. Find the area of the corresponding segment of the circle. (Use  = 3.14 and 3 = 1.73) 8. A horse is tied to a peg at one corner of a square shaped grass field of side 15 m by means of a 5 m long rope (see Fig. 11.8). Find Fig. 11.8 Reprint 2026-27",
+        "metadata": {
+          "source": "data/raw/Reference/NCERT/Class10_Mathematics/jemh111.pdf",
+          "subject": "mathematics",
+          "topic": "jemh111 p5",
+          "page": 5,
+          "id": "86c5fc5cd5037bae5a5855aaa53217f34ecaa716"
+        }
+      }
+    ],
+    "retrieval_hash": "7c6790727c4098ea1f081032bbd6097eb9fb659e00e19b8e94d88ba23b24b2f5",
+    "retrieved_ids": [
+      "959984a96fa2abddcfbbb91adc5f2446bbed884d",
+      "55b313d887465ee77bb5ef9dcce5c2ef6cad8f4e",
+      "9c1318bcff7417afc00ea019f8b0fc96362840db",
+      "4fdf18266162ac70612a7f61242fa527a68cdfab",
+      "86c5fc5cd5037bae5a5855aaa53217f34ecaa716"
+    ]
+  },
+  {
+    "item": {
+      "id": "mathematics-textbook_2-043-1152d764",
+      "question": "What is the integral of $x^n$?",
+      "answer": "$\\int x^n dx = \\frac{x^{n+1}}{n+1} + C$ ($n \\neq -1$).",
+      "subject": "mathematics",
+      "topic": "Coordinate Geometry and Calculus",
+      "expected_keywords": [
+        "integral"
+      ],
+      "needs_review": false
+    },
+    "retrieved": [
+      {
+        "score": 0.6145146489143372,
+        "text": "INTEGRALS 259 18. 2 2 2 2 ( 1) ( 2) ( 3) ( 4) x x x x + + + + 19. 2 2 2 ( 1) ( 3) x x x + + 20. 4 1 ( 1) x x - 21. 1 ( 1) xe - [Hint : Put ex = t] Choose the correct answer in each of the Exercises 22 and 23. 22. ( 1) ( 2) x dx x x − − ∫ equals (A) 2 ( 1) log C 2 x x − + − (B) 2 ( 2) log C 1 x x − + − (C) 2 1 log C 2 x x −   +   −   (D) log ( 1) ( 2) C x x − − + 23. 2 ( 1) dx x x + ∫ equals (A) 2 1 log log ( +1) + C 2 x x − (B) 2 1 log log ( +1) + C 2 x x + (C) 2 1 log log ( +1) + C 2 x x − + (D) 2 1 log log ( +1) + C 2 x x + 7.6 Integration by Parts In this section, we describe one more method of integration, that is found quite useful in integrating products of",
+        "metadata": {
+          "source": "data/raw/Reference/NCERT/Class12_Mathematics_Part2/lemh201.pdf",
+          "subject": "mathematics",
+          "topic": "lemh201 p35",
+          "page": 35,
+          "id": "30e3f4100acbe7a56417eeb77f66691b7cc2a83f"
+        }
+      },
+      {
+        "score": 0.6076003909111023,
+        "text": "MATHEMATICS Notes MODULE - VIII Calculus 326 Integration • evaluate integrals of the type : 2 2 x a dx, ± ∫ 2 2 a x dx, − ∫ ax e sin bx dx, ∫ ax e cos bx dx ∫ , ( ) 2 px q ax bx c dx + + + ∫ , 1 sin x dx − ∫ , 1 cos x dx − ∫ , n m sin x cos x dx ∫ , dx a b sin x + ∫ , dx a b cos x + ∫ • derive and use the result ( ) ( ) [ ] ( ) x x e f x f ' x dx e f x c + = + ∫ ; and • integrate rational expressions using partial fractions. EXPECTED BACKGROUND KNOWLEDGE • Differentiation of various functions • Basic knowledge of plane geometry • Factorization of algebraic expression • Knowledge of inverse trigonometric functions 30.1 INTEGRATION Integration literally means summation. Consider, the problem of finding area of region ALMB as shown in Fig. 30.1. A B M L Fig. 30.1 We will try to find this area by some practical method. But that may not help every time. To solve such a problem, we take the help of integration (summation) of area. For that, we",
+        "metadata": {
+          "source": "data/raw/Reference/NIOS/NIOS_Mathematics_Book_2.pdf",
+          "subject": "mathematics",
+          "topic": "NIOS_Mathematics_Book_2 p338",
+          "page": 338,
+          "id": "d13a38f090fe721229601b7ca2ff0ef0cb48d751"
+        }
+      },
+      {
+        "score": 0.6004085540771484,
+        "text": "254 MATHEMATICS Example 11 Find ( 1) ( 2) dx x x + + ∫ Solution The integrand is a proper rational function. Therefore, by using the form of partial fraction [Table 7.2 (i)], we write 1 ( 1) ( 2) x x + + = A B 1 2 x x + + + ... (1) where, real numbers A and B are to be determined suitably. This gives 1 = A (x + 2) + B (x + 1). Equating the coefficients of x and the constant term, we get A + B = 0 and 2A + B = 1 Solving these equations, we get A =1 and B = - 1. Thus, the integrand is given by 1 ( 1) ( 2) x x + + = 1 -1 1 2 x x + + + Therefore, ( 1) ( 2) dx x x + + ∫ = 1 2 dx dx - x x + + ∫ ∫ = log 1 log 2 C x x + − + + = 1 log C 2 x x + + + Remark The equation (1) above is an identity, i.e. a statement true for all (permissible) values of x. Some authors use the symbol ‘≡’ to indicate that the statement is an identity and use the",
+        "metadata": {
+          "source": "data/raw/Reference/NCERT/Class12_Mathematics_Part2/lemh201.pdf",
+          "subject": "mathematics",
+          "topic": "lemh201 p30",
+          "page": 30,
+          "id": "1d249895e9b6e314660ddd74daab80b4e2d7e43c"
+        }
+      },
+      {
+        "score": 0.597967803478241,
+        "text": "INTEGRALS 261 as sin x + k, where k is any constant, then cos x x dx ∫ = (sin ) (sin ) x x k x k dx + − + ∫ = (sin ) (sin x x k x dx k dx + − − ∫ ∫ = (sin ) cos C x x k x - kx + − + = sin cos C x x x + + This shows that adding a constant to the integral of the second function is superfluous so far as the final result is concerned while applying the method of integration by parts. (iii) Usually, if any function is a power of x or a polynomial in x, then we take it as the first function. However, in cases where other function is inverse trigonometric function or logarithmic function, then we take them as first function. Example 18 Find log x dx ∫ Solution To start with, we are unable to guess a function whose derivative is log x. We take log x as the first function and the constant function 1 as the second function. Then, the integral of the second function is x. Hence, (log .1) x dx ∫ = log 1 [ (log ) 1 ] d x dx x dx dx dx − ∫ ∫ ∫",
+        "metadata": {
+          "source": "data/raw/Reference/NCERT/Class12_Mathematics_Part2/lemh201.pdf",
+          "subject": "mathematics",
+          "topic": "lemh201 p37",
+          "page": 37,
+          "id": "c050955e8bbaa1a13f3edad78d73578b2488a515"
+        }
+      },
+      {
+        "score": 0.5960899591445923,
+        "text": "MATHEMATICS Notes MODULE - VIII Calculus 362 Integration C A 1 % + 4. ( ) 2 3 1 1 x x dx x + + − ∫ 5. (a) sin sin 4 x dx x ∫ (b) ( ) 1 cos cos 1 cos x dx x x − + ∫ LET US SUM UP • Integration is the inverse of differentiation • Standard form of some inddefinite integrals (a) n x dx ∫ ( ) 1 1 1 nx C n n + = + ≠− + (b) 1 dx x∫ log x C = + (c) sin x ax ∫ cos x C = − + (d) cos x dx ∫ sin x C = + (e) 2 sec x dx ∫ tan x C = + (f) 2 cosec x dx ∫ cot x C = − + (g) sec tan x xdx ∫ sec x C = + (h) cos cot ecx x dx ∫ cosecx C = − + (i) 2 1 1 dx x − ∫ 1 sin x C − = + (j) 2 1 1 dx x + ∫ 1 tan x C − = + (k) 2 1 1 dx x x − ∫ 1 sec x C − = + (l) xe dx ∫ xe C = + (m)",
+        "metadata": {
+          "source": "data/raw/Reference/NIOS/NIOS_Mathematics_Book_2.pdf",
+          "subject": "mathematics",
+          "topic": "NIOS_Mathematics_Book_2 p374",
+          "page": 374,
+          "id": "35c2be138e1a057a76f5293895c34373def2bee1"
+        }
+      }
+    ],
+    "retrieval_hash": "5c7afa72388a634143e0d8316d49a1d1ce3d102aab013337c9619082f0678631",
+    "retrieved_ids": [
+      "30e3f4100acbe7a56417eeb77f66691b7cc2a83f",
+      "d13a38f090fe721229601b7ca2ff0ef0cb48d751",
+      "1d249895e9b6e314660ddd74daab80b4e2d7e43c",
+      "c050955e8bbaa1a13f3edad78d73578b2488a515",
+      "35c2be138e1a057a76f5293895c34373def2bee1"
+    ]
+  },
+  {
+    "item": {
+      "id": "physics-42579_qp_gamatrain-com_hqpqex-001-40dcd10e",
+      "question": "The stress experienced by a wire of diameter 𝑦 𝜋 m loaded by a weight y2N is Options: A. πNm−2; B. 2πNm−2; C. 4πNm−2; D. 8πNm−2",
+      "answer": "C - 4πNm−2",
+      "subject": "physics",
+      "topic": "Mechanics",
+      "expected_keywords": [
+        "stress",
+        "experienced",
+        "wire",
+        "diameter",
+        "loaded",
+        "weight"
+      ],
+      "images": [
+        "data/eval/images/42579_qp_Gamatrain_com_HQPQex/p1-i0.png",
+        "data/eval/images/42579_qp_Gamatrain_com_HQPQex/p1-i1.png",
+        "data/eval/images/42579_qp_Gamatrain_com_HQPQex/p1-i2.png"
+      ],
+      "needs_review": false
+    },
+    "retrieved": [
+      {
+        "score": 0.7871009111404419,
+        "text": "Page 1 JAMB Physics Past Questions 2024 1- The stress experienced by a wire of diameter 𝑦 𝜋 m loaded by a weight y2N is A. πNm−2 B. 2πNm−2 C. 4πNm−2 D. 8πNm−2 2- Under which conditions is work done A. A man supports a heavy load on his head with hands. B. A woman holds a pot of water C. A boy climbs onto a table D. A man pushes against a stationary petrol tanker 3- The mechanical advantage of the machine shown A. 7.5 B. 15.5 C. 30.0 D. 60.0 4- Rainbow is formed when sunlight undergoes A. reflection B. refraction C. dispersion D. diffraction 5- Find the value of a capacitor with voltage 5V and 30C. A. 7f B. 6f C. 15f D. 0.17f 6- When a bus is accelerating, it must be A. changing its speed B. changing its velocity C. changing its position D. changing its direction",
+        "metadata": {
+          "source": "data/raw/pq-pdfs/42579_qp_Gamatrain.com_HQPQex.pdf",
+          "subject": "physics",
+          "topic": "42579_qp_Gamatrain.com_HQPQex p1",
+          "page": 1,
+          "images": [
+            "data/eval/images/42579_qp_Gamatrain_com_HQPQex/p1-i0.png",
+            "data/eval/images/42579_qp_Gamatrain_com_HQPQex/p1-i1.png",
+            "data/eval/images/42579_qp_Gamatrain_com_HQPQex/p1-i2.png"
+          ],
+          "id": "a4fb59b264bc071a061b2fc2bccb208ed9bffae2"
+        }
+      },
+      {
+        "score": 0.749294102191925,
+        "text": "wire of radius 0.2 mm is extended by 0.5% of its length when supported by a load of 1.5 kg. Determine the Young's modulus for the material of the wire. [Take g = 10 ms−2] A. 2.4×1010(Nm−2) B. 1.5×1010(Nm−2) C. 2.4×109(Nm−2) D. 1.3×1010(Nm−2) 17- A man swung an object of mass 2 kg in a circular path with a rope 1.2 m long. If the object was swung at 120 rev/min, find the tension in the rope. A. 400 B. 288 C. 240 D. 379",
+        "metadata": {
+          "source": "data/raw/pq-pdfs/42580_qp_Gamatrain.com_pKHa9P.pdf",
+          "subject": "physics",
+          "topic": "42580_qp_Gamatrain.com_pKHa9P p3",
+          "page": 3,
+          "images": [
+            "data/eval/images/42580_qp_Gamatrain_com_pKHa9P/p3-i0.png",
+            "data/eval/images/42580_qp_Gamatrain_com_pKHa9P/p3-i1.png"
+          ],
+          "id": "b488363bd697afb28535a84fe2049d482162377c"
+        }
+      },
+      {
+        "score": 0.739963710308075,
+        "text": "Notes 221 Elastic Properties of Solids PHYSICS MODULE - 2 Mechanics of Solids and Fluids Example 8.2 : Calculate the maximum length of a steel wire that can be suspended without breaking under its own weight, if its breaking stress = 4.0 x 108 Nm-2, density = 7.9 × 103 kg m-3 and g = 9.80 ms-2 Solution :The weight of the wire W = Alρg, where, A is area of cross section of the wire, l is the maximum length and ρ is the density of the wire. Therefore, the breaking stress developed in the wire due to its own weight W A = ρlg. We are told that breaking stress is 4.0 x 108 Nm-2. Hence l = 8 -2 3 -3 -2 4.0 × 10 Nm (7.9×10 kg m ) (9.8 ms ) = 0.05 × 105 m = 5 × 103 m = 5 km. Now it is time to take a break and check your understanding INTEXT QUESTIONS 8.1 1. What will be the nature of inter-atomic forces when deforming force applied on an object (i) increases, (ii) decreases the inter-atomic separation? 2. If we clamp a rod rigidly at one end and a force is applied normally to its cross section at the other end, name the type of stress and strain? 3. The",
+        "metadata": {
+          "source": "data/raw/Reference/NIOS/NIOS_Physics_Book_1.pdf",
+          "subject": "physics",
+          "topic": "NIOS_Physics_Book_1 p249",
+          "page": 249,
+          "id": "5c08a0c1ee8d7adbe675fba323c9da72998685f6"
+        }
+      },
+      {
+        "score": 0.7170180082321167,
+        "text": "the other end, parallel to the length of the rod. Then the stress on the rod is given by Stress F A = = F r π 2 = × ( ) × − 100 10 N 3.14 10 m 3 2 2 = 3.18 × 108 N m-2 The elongation, ( ) F/A L L Y ∆ = = ( )( ) × × 8 -2 11 -2 1m 3.18 10 N m 2 10 N m = 1.59 × 10-3 m = 1.59 mm The strain is given by Strain = ∆L/L = (1.59 × 10-3 m)/(1m) = 1.59 × 10-3 = 0.16 % ⊳ Example 8.2 A copper wire of length 2.2 m and a steel wire of length 1.6 m, both of diameter 3.0 mm, are connected end to end. When stretched by a load, the net elongation is found to be 0.70 mm. Obtain the load applied. Answer The copper and steel wires are under a tensile stress because they have the same tension (equal to the load W) and the same area of cross-section A. From Eq. (8.7) we have stress = strain × Young’s modulus. Therefore W/A = Yc × (∆Lc/Lc) = Ys × (∆Ls/Ls) where the subscripts c and s refer to copper and stainless steel respectively. Or, ∆Lc/∆Ls = (Ys/Yc) ×",
+        "metadata": {
+          "source": "data/raw/Reference/NCERT/Class11_Physics_Part2/keph2dd/keph201.pdf",
+          "subject": "physics",
+          "topic": "keph201 p5",
+          "page": 5,
+          "id": "f6ca3723567323fa563914c2753e7fc55b6bf9f4"
+        }
+      },
+      {
+        "score": 0.7124847173690796,
+        "text": "300 PHYSICS Chapter 8 8.1 1.8 8.2 (a) From the given graph for a stress of 150 × 106 N m-2 the strain is 0.002 (b) Approximate yield strength of the material is 3 × 108 N m-2 8.3 (a) Material A (b) Strength of a material is determined by the amount of stress required to cause fracture: material A is stronger than material B. 8.4 (a) False (b) True 8.5 1.5 × 10-4 m (steel); 1.3 × 10-4 m (brass) 8.6 Deflection = 4 × 10-6 m 8.7 2.8 × 10-6 8.8 0.127 8.9 7.07 × 10 4 N 8.10 Dcopper/Diron = 1.25 8.11 1.539 × 10-4 m 8.12 2.026 × 109 Pa 8.13 1.034 × 103 kg/m3 8.14 0.0027 8.15 0.058 cm3 8.16 2.2 × 106 N/m2 ANSWERS Reprint 2026-27",
+        "metadata": {
+          "source": "data/raw/Reference/NCERT/Class11_Physics_Part2/keph2dd/keph2an.pdf",
+          "subject": "physics",
+          "topic": "keph2an p1",
+          "page": 1,
+          "id": "fd929a8ceeffcabbb9747d06dd53a500b1992c98"
+        }
+      }
+    ],
+    "retrieval_hash": "80af79022385dad8023230aa6295866d720b840bd211775e83a0a3c1f96f5d4d",
+    "retrieved_ids": [
+      "a4fb59b264bc071a061b2fc2bccb208ed9bffae2",
+      "b488363bd697afb28535a84fe2049d482162377c",
+      "5c08a0c1ee8d7adbe675fba323c9da72998685f6",
+      "f6ca3723567323fa563914c2753e7fc55b6bf9f4",
+      "fd929a8ceeffcabbb9747d06dd53a500b1992c98"
+    ]
+  },
+  {
+    "item": {
+      "id": "physics-textbook_reference-formula-018-4d4fcef2",
+      "question": "What is the expression or formula for Horizontal Range ($R$): The total horizontal distance traveled,?",
+      "answer": "$R = \\frac{u^2 \\sin 2 heta}{g}$",
+      "subject": "physics",
+      "topic": "Modern Physics & Radioactivity",
+      "expected_keywords": [
+        "expression",
+        "formula",
+        "horizontal",
+        "range",
+        "total",
+        "distance",
+        "traveled"
+      ],
+      "needs_review": false
+    },
+    "retrieved": [
+      {
+        "score": 0.6906583905220032,
+        "text": "PHYSICS 40 ⊳ ⊳ ⊳ range, R. It is the distance travelled during the time of flight Tf . Therefore, the range R is R = (vo cos θo) (Tf ) =(vo cos θo) (2 vo sin θo)/g Or, R v g 0 2 = sin 2 0 θ (3.42a) Equation (3.42a) shows that for a given projection velocity vo , R is maximum when sin 2θ0 is maximum, i.e., when θ0 = 450. The maximum horizontal range is, therefore, R v g m 0 2 = (3.42b) Example 3.6 Galileo, in his book Two new sciences, stated that “for elevations which exceed or fall short of 45° by equal amounts, the ranges are equal”. Prove this statement. Answer For a projectile launched with velocity vo at an angle θo , the range is given by 0 sin2 2 0 v R g θ = Now, for angles, (45° + α) and ( 45° - α), 2θo is (90° + 2α) and ( 90° - 2α) , respectively. The values of sin (90° + 2α) and sin (90° - 2α) are the same, equal to that of cos 2α. Therefore, ranges are equal for elevations which exceed or fall short of 45° by equal amounts α. ⊳ Example 3.7 A hiker stands on the edge of a cliff 490 m",
+        "metadata": {
+          "source": "data/raw/Reference/NCERT/Class11_Physics_Part1/keph1dd/keph103.pdf",
+          "subject": "physics",
+          "topic": "keph103 p14",
+          "page": 14,
+          "id": "b93dba3ea25777e9f660dc4d93751a34ecb2ecda"
+        }
+      },
+      {
+        "score": 0.6676805019378662,
+        "text": "MOTION IN A PLANE 45 h v 2g m o o = ( ) sin 2 q The time taken to reach this height is : g v t o o m θ sin = The horizontal distance travelled by a projectile from its initial position to the position it passes y = 0 during its fall is called the range, R of the projectile. It is : 2 sin2 o o v R g θ = 17. When an object follows a circular path at constant speed, the motion of the object is called uniform circular motion. The magnitude of its acceleration is ac = v2 /R. The direction of ac is always towards the centre of the circle. The angular speed ω, is the rate of change of angular distance. It is related to velocity v by v = ω R. The acceleration is ac = ω 2R. If T is the time period of revolution of the object in circular motion and ν is its frequency, we have ω = 2π ν, v = 2πνR, ac = 4π2ν2R Reprint 2026-27",
+        "metadata": {
+          "source": "data/raw/Reference/NCERT/Class11_Physics_Part1/keph1dd/keph103.pdf",
+          "subject": "physics",
+          "topic": "keph103 p19",
+          "page": 19,
+          "id": "48e93aa4a6b0d7d657e825a1a61f45c9efbc3de2"
+        }
+      },
+      {
+        "score": 0.647369384765625,
+        "text": "Year: 2019 | Exam Board: NECO | Paper Type: Theory | Topic: Latitude and Longitude Question: Two points P and Q lie on latitude $60^\\circ\\text{N}$. Their longitudes are $20^\\circ\\text{W}$ and $40^\\circ\\text{E}$. Calculate the distance along the parallel of latitude. (Earth radius = 6400 km) Answer: $r = 6400 \\cos 60^\\circ = 3200\\text{ km}$. Angular diff = $20 + 40 = 60^\\circ$. Distance = $(60/360) \\times 2 \\times \\frac{{22}}{{7}} \\times 3200 \\approx 3352.38\\text{ km}$.",
+        "metadata": {
+          "source": "data/raw/mathematics/past_questions_20years.json",
+          "subject": "mathematics",
+          "topic": "Latitude and Longitude",
+          "id": "106cff1d5dd3c9f81f7da72bacc5303ffa08d66d"
+        }
+      },
+      {
+        "score": 0.6439995765686035,
+        "text": "Notes PHYSICS MODULE - 1 Motion in a Plane Motion, Force and Energy 92 (b) Time of flight : The time of flight of a projectile is the time interval between the instant of its launch and the instant when it hits the ground. The time t given by Eq.(4.4) is the time for half the flight of the ball. Therefore, the total time of flight is given by 0 0 2 sin 2 T t g θ = = v (4.6) Finally we calculate the distance travelled horizontally by the projectile. This is also called its range. (c) Range : The range R of a projectile is calculated simply by multiplying its time of flight and horizontal velocity. Thus using Eqns. (4.3b) and (4.4), we get R = (vox) (2 t) = (v0 cos θ0) 0 0 (2 sin ) g θ v = 2 0 v 0 0 (2sin cos ) g θ θ Since 2 sin θ cos θ = sin 2θ, the range R is given by 2 0 0 sin 2 R g θ = v (4.7) From Eqn. (4.7) you can see that the range of a projectile depends on z its initial speed v0, and z its direction given by θ0. Now can you determine the angle at which a disc, a hammer",
+        "metadata": {
+          "source": "data/raw/Reference/NIOS/NIOS_Physics_Book_1.pdf",
+          "subject": "physics",
+          "topic": "NIOS_Physics_Book_1 p120",
+          "page": 120,
+          "id": "bb00ee0678ab5ce2220a734a966597e1a35d689c"
+        }
+      },
+      {
+        "score": 0.6399904489517212,
+        "text": "Notes PHYSICS MODULE - 1 Gravitation Motion, Force and Energy 120 = 2 1 ⎛ ⎞ + ⎜ ⎟ ⎝ ⎠ g h R (5.9) where g = GM/R2 is the value of acceleration due to gravity at the surface of the earth. Therefore, h g g = 2 1 ⎛ ⎞ + ⎜ ⎟ ⎝ ⎠ h R = 1 + 2h R + 2 ⎛ ⎞ ⎜ ⎟ ⎝ ⎠ h R Since (h/R) is a small quantity, (h/R)2 will be a still smaller quantity. So it can be neglected in comparison to (h/R). Thus gh = 2 1 g h R ⎛ ⎞ + ⎜ ⎟ ⎝ ⎠ (5.10) Let us take an example to understand how we apply this concept. Example 5.2 : Modern aircrafts fly at heights upward of 10 km. Let us calculate the value of g at an altitude of 10 km. Take the radius of the earth as 6400 km and the value of g on the surface of the earth as 9.8 ms-2. Solution : From Eqn. (5.8), we have gh = 2.(10) km 1 6400 km g ⎛ ⎞ + ⎜ ⎟ ⎝ ⎠ = -2 9.8 ms 1.003 = 9.77 ms-2. 5.3.2 Variation of g with Depth Consider a point P at a depth d inside the earth (Fig.",
+        "metadata": {
+          "source": "data/raw/Reference/NIOS/NIOS_Physics_Book_1.pdf",
+          "subject": "physics",
+          "topic": "NIOS_Physics_Book_1 p148",
+          "page": 148,
+          "id": "4de111db963bff26a68546bdc4ee6d4bc44ddea6"
+        }
+      }
+    ],
+    "retrieval_hash": "f68bd05529c16bc3f1550045b8afdb3dbe698f4d799d05f64e4bc73afc1cfd2a",
+    "retrieved_ids": [
+      "b93dba3ea25777e9f660dc4d93751a34ecb2ecda",
+      "48e93aa4a6b0d7d657e825a1a61f45c9efbc3de2",
+      "106cff1d5dd3c9f81f7da72bacc5303ffa08d66d",
+      "bb00ee0678ab5ce2220a734a966597e1a35d689c",
+      "4de111db963bff26a68546bdc4ee6d4bc44ddea6"
+    ]
+  }
+]

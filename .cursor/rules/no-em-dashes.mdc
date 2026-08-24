@@ -1,0 +1,21 @@
+---
+description: Never use em dashes or en dashes in any generated text or code
+alwaysApply: true
+---
+
+# No em dashes or en dashes
+
+Never use the em dash character (Unicode U+2014) or the en dash character (Unicode U+2013).
+
+Use a regular hyphen (`-`), a colon (`:`), a comma, or rephrase the sentence instead.
+
+Applies to:
+- AI tutor replies and lesson content
+- Code, comments, docstrings, and commits
+- UI copy, markdown, JSON, and prompts
+
+Examples:
+- Bad: `Be patient` + em dash + `never overwhelming.`
+- Good: `Be patient - never overwhelming.`
+- Bad: temperature ranges written with an en dash
+- Good: `200 - 250°C`

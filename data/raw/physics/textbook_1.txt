@@ -1,0 +1,13 @@
+# Senior Secondary School Physics (SS1-SS3) by PN Okeke
+## Chapter 1: Kinematics and Projectiles
+Kinematics is the study of motion without considering its causes. The equations of linear motion under constant acceleration are:
+1. $v = u + at$
+2. $s = ut + \frac{1}{2}at^2$
+3. $v^2 = u^2 + 2as$
+Projectile motion is a two-dimensional motion under the influence of gravity. The horizontal motion has a constant velocity $u_x = u \cos \theta$ (neglecting air resistance), while the vertical motion is subject to a constant acceleration due to gravity $a_y = -g$.
+- Time of flight: $T = \frac{2u \sin \theta}{g}$
+- Maximum height: $H = \frac{u^2 \sin^2 \theta}{2g}$
+- Horizontal Range: $R = \frac{u^2 \sin 2\theta}{g}$
+
+## Chapter 2: Current Electricity and Ohm's Law
+Ohm's law states that the current ($I$) flowing through a metallic conductor is directly proportional to the potential difference ($V$) across its ends, provided temperature remains constant ($V = IR$). The Electromotive Force ($E$) of a cell is the total work done in driving a unit charge round a complete circuit. When connected to an external resistor $R$, the current is $I = \frac{E}{R + r}$, where $r$ is the internal resistance of the cell.

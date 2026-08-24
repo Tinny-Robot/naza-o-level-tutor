@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-08-12T20:18:10Z",
+  "label": "validation",
+  "config": {
+    "name": "no_repack",
+    "description": "Only use_extra_bufts=False differs from production",
+    "use_repack": false,
+    "release_embedder": false
+  },
+  "controls": {
+    "model_path": "models/gemma-4-E4B-it-Q4_K_M.gguf",
+    "model_size_bytes": 4977171584,
+    "llama_cpp_python": "0.3.34",
+    "context_length": 4096,
+    "n_batch": 512,
+    "n_ubatch": 512,
+    "threads": 7,
+    "n_gpu_layers": 0,
+    "use_mmap": true,
+    "use_mlock": false,
+    "flash_attention": true,
+    "swa_full": false,
+    "temperature": 0.1,
+    "top_p": 0.95,
+    "top_k_sampling": 40,
+    "min_p": 0.05,
+    "seed": 2026,
+    "max_tokens": 512,
+    "rag_top_k": 5,
+    "cases_path": "data/benchmarks/no_repack_ab/cases_validation_1.json"
+  },
+  "model_load_seconds": 1.7255126908421516,
+  "memory": {
+    "peak_rss_mib": 6538.171875,
+    "peak_rss_gib": 6.3849334716796875,
+    "headroom_mib": 629.828125,
+    "status": "PASS",
+    "average_rss_mib": 6532.610238813378,
+    "sampled_peak_rss_mib": 6538.1796875
+  },
+  "questions": [
+    {
+      "id": "chemistry-42576_qp_gamatrain-com_kc2myu-024-18eda42d",
+      "subject": "chemistry",
+      "topic": "General Chemistry (Unclassified Past Questions)",
+      "question": "In which of the following will hydrogen form ionic compound? Options: A. HCL; B. NaH; C. NH3; D. CH4",
+      "reference_answer": "B - NaH",
+      "expected_keywords": [
+        "nah",
+        "will",
+        "hydrogen",
+        "form",
+        "ionic",
+        "compound",
+        "hcl"
+      ],
+      "answer": "Hello! I see you're working on a chemistry question. That's great! We'll tackle this together.\n\nThe question asks: \"In which of the following will hydrogen form ionic compound? A. HCL; B. NaH; C. NH3; D. CH4\"\n\nBefore I give you the answer, let's think about what an *ionic compound* is. Do you remember what makes a compound ionic, as opposed to covalent?\n\nTake a moment to think about the difference between ionic and covalent bonding.",
+      "answer_sha256": "c0b2ebd4b14ff7a108fd191ce9eec173fe6dfa11c0a719af561b29c14001c70d",
+      "exact_match_reference": false,
+      "keyword_score": 1.0,
+      "retrieval_hit": true,
+      "retrieval_hash": "c25a911e0f2b9d117b0c0f879b6348273ec3d17314d132b19756b7f030ca6f51",
+      "expected_retrieval_hash": "c25a911e0f2b9d117b0c0f879b6348273ec3d17314d132b19756b7f030ca6f51",
+      "retrieval_match": true,
+      "retrieval_seconds": 0.6711378917098045,
+      "release": null,
+      "error": null,
+      "end_to_end_seconds": 164.3811945952475,
+      "question_memory": {
+        "average_rss_mib": 6534.448408245089,
+        "sampled_peak_rss_mib": 6538.1796875
+      },
+      "prompt_hash": "4fd77e29eb2f7100e7d9296d65ddbe25fb99c00d8865ea942479fce3cc8ba2dc",
+      "prompt_tokens": 2181,
+      "generated_tokens": 112,
+      "prompt_seconds": 145.11314800000002,
+      "generation_seconds": 19.017007000000003,
+      "prompt_tokens_per_second": 15.029651207070497,
+      "generation_tokens_per_second": 5.88946515085155,
+      "time_to_first_token_seconds": 145.12578646093607,
+      "total_latency_seconds": 164.36283487826586,
+      "finish_reason": "stop",
+      "stop_class": "eos_or_stop"
+    }
+  ],
+  "summary": {
+    "questions": 1,
+    "successful_generations": 1,
+    "failures": 0,
+    "accuracy_metric": "mean expected-keyword recall",
+    "accuracy": 1.0,
+    "exact_match_reference": 0.0,
+    "retrieval_hit_rate": 1.0,
+    "retrieval_match_rate": 1.0,
+    "generated_tokens": {
+      "average": 112.0,
+      "median": 112.0,
+      "minimum": 112.0,
+      "maximum": 112.0
+    },
+    "generation_tokens_per_second": {
+      "average": 5.88946515085155,
+      "median": 5.88946515085155,
+      "minimum": 5.88946515085155,
+      "maximum": 5.88946515085155
+    },
+    "prompt_tokens_per_second": {
+      "average": 15.029651207070497,
+      "median": 15.029651207070497,
+      "minimum": 15.029651207070497,
+      "maximum": 15.029651207070497
+    },
+    "time_to_first_token_seconds": {
+      "average": 145.12578646093607,
+      "median": 145.12578646093607,
+      "minimum": 145.12578646093607,
+      "maximum": 145.12578646093607
+    },
+    "total_latency_seconds": {
+      "average": 164.36283487826586,
+      "median": 164.36283487826586,
+      "minimum": 164.36283487826586,
+      "maximum": 164.36283487826586
+    },
+    "end_to_end_seconds": {
+      "average": 164.3811945952475,
+      "median": 164.3811945952475,
+      "minimum": 164.3811945952475,
+      "maximum": 164.3811945952475
+    },
+    "finish_reasons": {
+      "stop": 1
+    },
+    "stop_classes": {
+      "eos_or_stop": 1
+    },
+    "model_load_seconds": 1.7255126908421516,
+    "peak_rss_mib": 6538.171875,
+    "average_rss_mib": 6532.610238813378
+  }
+}

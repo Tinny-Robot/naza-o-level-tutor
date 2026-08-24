@@ -1,0 +1,8 @@
+# New School Physics for Senior Secondary Schools (SS1-SS3)
+## Chapter 1: Waves, Sound, and Light
+Waves transfer energy without transferring matter. Waves are classified as mechanical (requiring a medium) or electromagnetic (not requiring a medium). The wave equation is $v = f \lambda$, where $v$ is velocity, $f$ is frequency, and $\lambda$ is wavelength.
+- Sound Waves are longitudinal waves that require a medium. The speed of sound depends on the temperature and density of the medium.
+- Light waves are transverse electromagnetic waves. Reflection at curved surfaces follows the mirror formula $\frac{1}{f} = \frac{1}{u} + \frac{1}{v}$. Refraction is governed by Snell's Law $n = \frac{\sin i}{\sin r}$.
+
+## Chapter 2: Modern Physics and Radioactivity
+Radioactivity is the spontaneous decay of unstable nuclei with emission of $\alpha$, $\beta$, or $\gamma$ radiation. The exponential decay law is $N(t) = N_0 e^{-\lambda t}$. The half-life is $T_{1/2} = \frac{\ln 2}{\lambda} \approx \frac{0.693}{\lambda}$.

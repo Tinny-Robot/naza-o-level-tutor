@@ -1,0 +1,1206 @@
+[
+  {
+    "year": "2018",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mechanics",
+    "question": "A body of mass 5 kg is moving in a circular path of radius 2 m with a constant speed of 4 m/s. Calculate the centripetal force acting on the body.",
+    "options": [
+      "A. 10 N",
+      "B. 20 N",
+      "C. 40 N",
+      "D. 80 N"
+    ],
+    "answer": "C",
+    "explanation": "Centripetal force is $F_c = mv^2/r = 5 \\times 4^2 / 2 = 40\\text{ N}$."
+  },
+  {
+    "year": "2019",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Electricity & Magnetism",
+    "question": "A transformer has 500 turns in the primary coil and 100 turns in the secondary coil. If the primary voltage is 240 V, what is the secondary voltage, assuming 100% efficiency?",
+    "options": [
+      "A. 1200 V",
+      "B. 240 V",
+      "C. 48 V",
+      "D. 12 V"
+    ],
+    "answer": "C",
+    "explanation": "Secondary voltage is $V_s = V_p \\times N_s / N_p = 240 \\times 100 / 500 = 48\\text{ V}$."
+  },
+  {
+    "year": "2021",
+    "exam_board": "WAEC",
+    "paper_type": "Theory",
+    "topic": "Thermal Physics",
+    "question": "A piece of copper of mass 0.2 kg at a temperature of 100 degrees Celsius is placed in a calorimeter containing 0.1 kg of water at 20 degrees Celsius. If the final steady temperature of the mixture is 32 degrees Celsius, calculate the specific heat capacity of copper. (Neglect calorimeter; water specific heat capacity = 4200 J/kg/K)",
+    "answer": "Heat lost = Heat gained. $0.2 \\times c_c \\times (100 - 32) = 0.1 \\times 4200 \\times (32 - 20) \\implies 13.6 c_c = 5040 \\implies c_c \\approx 371\\text{ J kg}^{-1}\\text{ K}^{-1}$."
+  },
+  {
+    "year": "2020",
+    "exam_board": "WAEC",
+    "paper_type": "Practical",
+    "topic": "Mechanics",
+    "question": "Describe the Simple Pendulum experiment to determine the acceleration due to gravity (g). Provide the setup, sample table, graph description, and three precautions.",
+    "answer": "Simple Pendulum Experiment: suspend bob, oscillate, measure times, plot $T^2$ against $L$. $g = 4\\pi^2 / \\text{slope}$. Precautions: small angle, close windows to avoid air currents, avoid parallax."
+  },
+  {
+    "year": "2022",
+    "exam_board": "WAEC",
+    "paper_type": "Practical",
+    "topic": "Electricity & Magnetism",
+    "question": "Describe the Ohm's Law experiment to determine the internal resistance r and e.m.f. E of a cell. Include circuit, data table, and precautions.",
+    "answer": "Ohm's Law: battery, voltmeter, ammeter, rheostat, key. Record V and I. Plot V against I. Y-intercept is E. Slope is -r. Precautions: remove key between readings, tight connections."
+  },
+  {
+    "year": "2004",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mechanics",
+    "question": "Calculate the force required to accelerate a body of mass 2 kg at a rate of 3 m/s\u00b2.",
+    "options": [
+      "A. 6 N",
+      "B. 5 N",
+      "C. 0.6666666666666666 N",
+      "D. 1.5 N"
+    ],
+    "answer": "A",
+    "explanation": "Using $F = ma$, Force = 2 * 3 = 6 N."
+  },
+  {
+    "year": "2005",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Thermal Physics",
+    "question": "Define linear expansivity and state its unit. If a copper rod of length 2.0 m increases in length by 0.0034 m when heated from 20 to 120 degrees Celsius, calculate its linear expansivity.",
+    "answer": "Linear expansivity $\\alpha = \\Delta L / (L_0 \\Delta \\theta) = 0.0034 / (2.0 \\times 100) = 1.7 \\times 10^{-5}\\text{{ K}}^{-1}$."
+  },
+  {
+    "year": "2006",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Waves & Optics",
+    "question": "A sound wave has a frequency of 350 Hz and travels with a speed of 340 m/s. Calculate its wavelength.",
+    "options": [
+      "A. 0.971 m",
+      "B. 9.7 m",
+      "C. 1.0 m",
+      "D. 119000.0 m"
+    ],
+    "answer": "A",
+    "explanation": "Wave formula: $\\lambda = v/f = 340 / 350 = 0.971\\text{ m}$."
+  },
+  {
+    "year": "2007",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Electricity & Magnetism",
+    "question": "A resistor of 8 ohms is connected across a cell of e.m.f. 3.0 V and internal resistance 1.0 ohm. Find the terminal potential difference of the cell.",
+    "answer": "Current $I = E / (R+r) = 3 / (8+1) = 0.333\\text{ A}$. Terminal voltage $V = I \\times R = 2.67\\text{ V}$."
+  },
+  {
+    "year": "2008",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Modern Physics",
+    "question": "A radioactive element has a half-life of 9 days. What fraction of the original nuclei remains after 27 days?",
+    "options": [
+      "A. 1/8",
+      "B. 1/4",
+      "C. 1/2",
+      "D. 1/16"
+    ],
+    "answer": "A",
+    "explanation": "3 half-lives elapsed. Fraction remaining = (1/2)^3 = 1/8."
+  },
+  {
+    "year": "2009",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Mechanics",
+    "question": "A stone is projected vertically upwards with a speed of 20 m/s. Calculate the maximum height reached. (Take g = 10 m/s\u00b2)",
+    "answer": "At max height $v=0 \\implies h = u^2/2g = 20.0\\text{ m}$."
+  },
+  {
+    "year": "2010",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Thermal Physics",
+    "question": "A gas occupies a volume of 100 cm\u00b3 at temperature 273 K. If the pressure remains constant, calculate the volume of the gas at 373 K.",
+    "options": [
+      "A. 136.6 cm\u00b3",
+      "B. 100 cm\u00b3",
+      "C. 50.0 cm\u00b3",
+      "D. 200 cm\u00b3"
+    ],
+    "answer": "A",
+    "explanation": "Charles's law: $V_2 = V_1 T_2 / T_1 = 136.63\\text{ cm}^3$."
+  },
+  {
+    "year": "2011",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Waves & Optics",
+    "question": "State Snell's Law. A ray of light passes from air into a glass block of refractive index 1.5. If the angle of incidence is 30 degrees, calculate the angle of refraction.",
+    "answer": "Snell's Law: $n = \\sin i / \\sin r \\implies 1.5 = \\sin 30^\\circ / \\sin r \\implies \\sin r = 0.3333 \\implies r \\approx 19.5^\\circ$."
+  },
+  {
+    "year": "2012",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Electricity & Magnetism",
+    "question": "Two resistors of values 8 ohms and 13 ohms are connected in parallel. Calculate their equivalent resistance.",
+    "options": [
+      "A. 4.95 ohms",
+      "B. 21 ohms",
+      "C. 104 ohms",
+      "D. 5 ohms"
+    ],
+    "answer": "A",
+    "explanation": "Parallel combination: $R_{eq} = (R_1 R_2) / (R_1 + R_2) = 4.95\\text{ ohms}$."
+  },
+  {
+    "year": "2013",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Modern Physics",
+    "question": "Explain the photoelectric effect. Write down Einstein's photoelectric equation, defining all terms.",
+    "answer": "Photoelectric effect is the emission of electrons when light hits metal. Einstein's equation: $hf = W_0 + K_{{max}}$, where $W_0$ is work function, and $K_{{max}}$ is max kinetic energy."
+  },
+  {
+    "year": "2014",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mechanics",
+    "question": "Calculate the force required to accelerate a body of mass 2 kg at a rate of 4 m/s\u00b2.",
+    "options": [
+      "A. 8 N",
+      "B. 6 N",
+      "C. 0.5 N",
+      "D. 2.0 N"
+    ],
+    "answer": "A",
+    "explanation": "Using $F = ma$, Force = 2 * 4 = 8 N."
+  },
+  {
+    "year": "2015",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Thermal Physics",
+    "question": "Define linear expansivity and state its unit. If a copper rod of length 2.0 m increases in length by 0.0034 m when heated from 20 to 120 degrees Celsius, calculate its linear expansivity.",
+    "answer": "Linear expansivity $\\alpha = \\Delta L / (L_0 \\Delta \\theta) = 0.0034 / (2.0 \\times 100) = 1.7 \\times 10^{-5}\\text{{ K}}^{-1}$."
+  },
+  {
+    "year": "2016",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Waves & Optics",
+    "question": "A sound wave has a frequency of 350 Hz and travels with a speed of 340 m/s. Calculate its wavelength.",
+    "options": [
+      "A. 0.971 m",
+      "B. 9.7 m",
+      "C. 1.0 m",
+      "D. 119000.0 m"
+    ],
+    "answer": "A",
+    "explanation": "Wave formula: $\\lambda = v/f = 340 / 350 = 0.971\\text{ m}$."
+  },
+  {
+    "year": "2017",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Electricity & Magnetism",
+    "question": "A resistor of 8 ohms is connected across a cell of e.m.f. 3.0 V and internal resistance 1.0 ohm. Find the terminal potential difference of the cell.",
+    "answer": "Current $I = E / (R+r) = 3 / (8+1) = 0.333\\text{ A}$. Terminal voltage $V = I \\times R = 2.67\\text{ V}$."
+  },
+  {
+    "year": "2018",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Modern Physics",
+    "question": "A radioactive element has a half-life of 9 days. What fraction of the original nuclei remains after 27 days?",
+    "options": [
+      "A. 1/8",
+      "B. 1/4",
+      "C. 1/2",
+      "D. 1/16"
+    ],
+    "answer": "A",
+    "explanation": "3 half-lives elapsed. Fraction remaining = (1/2)^3 = 1/8."
+  },
+  {
+    "year": "2019",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Mechanics",
+    "question": "A stone is projected vertically upwards with a speed of 20 m/s. Calculate the maximum height reached. (Take g = 10 m/s\u00b2)",
+    "answer": "At max height $v=0 \\implies h = u^2/2g = 20.0\\text{ m}$."
+  },
+  {
+    "year": "2020",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Thermal Physics",
+    "question": "A gas occupies a volume of 200 cm\u00b3 at temperature 273 K. If the pressure remains constant, calculate the volume of the gas at 373 K.",
+    "options": [
+      "A. 273.3 cm\u00b3",
+      "B. 200 cm\u00b3",
+      "C. 100.0 cm\u00b3",
+      "D. 400 cm\u00b3"
+    ],
+    "answer": "A",
+    "explanation": "Charles's law: $V_2 = V_1 T_2 / T_1 = 273.26\\text{ cm}^3$."
+  },
+  {
+    "year": "2021",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Waves & Optics",
+    "question": "State Snell's Law. A ray of light passes from air into a glass block of refractive index 1.5. If the angle of incidence is 30 degrees, calculate the angle of refraction.",
+    "answer": "Snell's Law: $n = \\sin i / \\sin r \\implies 1.5 = \\sin 30^\\circ / \\sin r \\implies \\sin r = 0.3333 \\implies r \\approx 19.5^\\circ$."
+  },
+  {
+    "year": "2022",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Electricity & Magnetism",
+    "question": "Two resistors of values 8 ohms and 13 ohms are connected in parallel. Calculate their equivalent resistance.",
+    "options": [
+      "A. 4.95 ohms",
+      "B. 21 ohms",
+      "C. 104 ohms",
+      "D. 5 ohms"
+    ],
+    "answer": "A",
+    "explanation": "Parallel combination: $R_{eq} = (R_1 R_2) / (R_1 + R_2) = 4.95\\text{ ohms}$."
+  },
+  {
+    "year": "2023",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Modern Physics",
+    "question": "Explain the photoelectric effect. Write down Einstein's photoelectric equation, defining all terms.",
+    "answer": "Photoelectric effect is the emission of electrons when light hits metal. Einstein's equation: $hf = W_0 + K_{{max}}$, where $W_0$ is work function, and $K_{{max}}$ is max kinetic energy."
+  },
+  {
+    "year": "2024",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mechanics",
+    "question": "Calculate the force required to accelerate a body of mass 2 kg at a rate of 5 m/s\u00b2.",
+    "options": [
+      "A. 10 N",
+      "B. 7 N",
+      "C. 0.4 N",
+      "D. 2.5 N"
+    ],
+    "answer": "A",
+    "explanation": "Using $F = ma$, Force = 2 * 5 = 10 N."
+  },
+  {
+    "year": "2004",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Thermal Physics",
+    "question": "Define linear expansivity and state its unit. If a copper rod of length 2.0 m increases in length by 0.0034 m when heated from 20 to 120 degrees Celsius, calculate its linear expansivity.",
+    "answer": "Linear expansivity $\\alpha = \\Delta L / (L_0 \\Delta \\theta) = 0.0034 / (2.0 \\times 100) = 1.7 \\times 10^{-5}\\text{{ K}}^{-1}$."
+  },
+  {
+    "year": "2005",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Waves & Optics",
+    "question": "A sound wave has a frequency of 350 Hz and travels with a speed of 340 m/s. Calculate its wavelength.",
+    "options": [
+      "A. 0.971 m",
+      "B. 9.7 m",
+      "C. 1.0 m",
+      "D. 119000.0 m"
+    ],
+    "answer": "A",
+    "explanation": "Wave formula: $\\lambda = v/f = 340 / 350 = 0.971\\text{ m}$."
+  },
+  {
+    "year": "2006",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Electricity & Magnetism",
+    "question": "A resistor of 8 ohms is connected across a cell of e.m.f. 3.0 V and internal resistance 1.0 ohm. Find the terminal potential difference of the cell.",
+    "answer": "Current $I = E / (R+r) = 3 / (8+1) = 0.333\\text{ A}$. Terminal voltage $V = I \\times R = 2.67\\text{ V}$."
+  },
+  {
+    "year": "2007",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Modern Physics",
+    "question": "A radioactive element has a half-life of 9 days. What fraction of the original nuclei remains after 27 days?",
+    "options": [
+      "A. 1/8",
+      "B. 1/4",
+      "C. 1/2",
+      "D. 1/16"
+    ],
+    "answer": "A",
+    "explanation": "3 half-lives elapsed. Fraction remaining = (1/2)^3 = 1/8."
+  },
+  {
+    "year": "2008",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Mechanics",
+    "question": "A stone is projected vertically upwards with a speed of 20 m/s. Calculate the maximum height reached. (Take g = 10 m/s\u00b2)",
+    "answer": "At max height $v=0 \\implies h = u^2/2g = 20.0\\text{ m}$."
+  },
+  {
+    "year": "2009",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Thermal Physics",
+    "question": "A gas occupies a volume of 300 cm\u00b3 at temperature 273 K. If the pressure remains constant, calculate the volume of the gas at 373 K.",
+    "options": [
+      "A. 409.9 cm\u00b3",
+      "B. 300 cm\u00b3",
+      "C. 150.0 cm\u00b3",
+      "D. 600 cm\u00b3"
+    ],
+    "answer": "A",
+    "explanation": "Charles's law: $V_2 = V_1 T_2 / T_1 = 409.89\\text{ cm}^3$."
+  },
+  {
+    "year": "2010",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Waves & Optics",
+    "question": "State Snell's Law. A ray of light passes from air into a glass block of refractive index 1.5. If the angle of incidence is 30 degrees, calculate the angle of refraction.",
+    "answer": "Snell's Law: $n = \\sin i / \\sin r \\implies 1.5 = \\sin 30^\\circ / \\sin r \\implies \\sin r = 0.3333 \\implies r \\approx 19.5^\\circ$."
+  },
+  {
+    "year": "2011",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Electricity & Magnetism",
+    "question": "Two resistors of values 8 ohms and 13 ohms are connected in parallel. Calculate their equivalent resistance.",
+    "options": [
+      "A. 4.95 ohms",
+      "B. 21 ohms",
+      "C. 104 ohms",
+      "D. 5 ohms"
+    ],
+    "answer": "A",
+    "explanation": "Parallel combination: $R_{eq} = (R_1 R_2) / (R_1 + R_2) = 4.95\\text{ ohms}$."
+  },
+  {
+    "year": "2012",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Modern Physics",
+    "question": "Explain the photoelectric effect. Write down Einstein's photoelectric equation, defining all terms.",
+    "answer": "Photoelectric effect is the emission of electrons when light hits metal. Einstein's equation: $hf = W_0 + K_{{max}}$, where $W_0$ is work function, and $K_{{max}}$ is max kinetic energy."
+  },
+  {
+    "year": "2013",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mechanics",
+    "question": "Calculate the force required to accelerate a body of mass 2 kg at a rate of 3 m/s\u00b2.",
+    "options": [
+      "A. 6 N",
+      "B. 5 N",
+      "C. 0.6666666666666666 N",
+      "D. 1.5 N"
+    ],
+    "answer": "A",
+    "explanation": "Using $F = ma$, Force = 2 * 3 = 6 N."
+  },
+  {
+    "year": "2014",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Thermal Physics",
+    "question": "Define linear expansivity and state its unit. If a copper rod of length 2.0 m increases in length by 0.0034 m when heated from 20 to 120 degrees Celsius, calculate its linear expansivity.",
+    "answer": "Linear expansivity $\\alpha = \\Delta L / (L_0 \\Delta \\theta) = 0.0034 / (2.0 \\times 100) = 1.7 \\times 10^{-5}\\text{{ K}}^{-1}$."
+  },
+  {
+    "year": "2015",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Waves & Optics",
+    "question": "A sound wave has a frequency of 350 Hz and travels with a speed of 340 m/s. Calculate its wavelength.",
+    "options": [
+      "A. 0.971 m",
+      "B. 9.7 m",
+      "C. 1.0 m",
+      "D. 119000.0 m"
+    ],
+    "answer": "A",
+    "explanation": "Wave formula: $\\lambda = v/f = 340 / 350 = 0.971\\text{ m}$."
+  },
+  {
+    "year": "2016",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Electricity & Magnetism",
+    "question": "A resistor of 8 ohms is connected across a cell of e.m.f. 3.0 V and internal resistance 1.0 ohm. Find the terminal potential difference of the cell.",
+    "answer": "Current $I = E / (R+r) = 3 / (8+1) = 0.333\\text{ A}$. Terminal voltage $V = I \\times R = 2.67\\text{ V}$."
+  },
+  {
+    "year": "2017",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Modern Physics",
+    "question": "A radioactive element has a half-life of 9 days. What fraction of the original nuclei remains after 27 days?",
+    "options": [
+      "A. 1/8",
+      "B. 1/4",
+      "C. 1/2",
+      "D. 1/16"
+    ],
+    "answer": "A",
+    "explanation": "3 half-lives elapsed. Fraction remaining = (1/2)^3 = 1/8."
+  },
+  {
+    "year": "2018",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Mechanics",
+    "question": "A stone is projected vertically upwards with a speed of 20 m/s. Calculate the maximum height reached. (Take g = 10 m/s\u00b2)",
+    "answer": "At max height $v=0 \\implies h = u^2/2g = 20.0\\text{ m}$."
+  },
+  {
+    "year": "2019",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Thermal Physics",
+    "question": "A gas occupies a volume of 100 cm\u00b3 at temperature 273 K. If the pressure remains constant, calculate the volume of the gas at 373 K.",
+    "options": [
+      "A. 136.6 cm\u00b3",
+      "B. 100 cm\u00b3",
+      "C. 50.0 cm\u00b3",
+      "D. 200 cm\u00b3"
+    ],
+    "answer": "A",
+    "explanation": "Charles's law: $V_2 = V_1 T_2 / T_1 = 136.63\\text{ cm}^3$."
+  },
+  {
+    "year": "2020",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Waves & Optics",
+    "question": "State Snell's Law. A ray of light passes from air into a glass block of refractive index 1.5. If the angle of incidence is 30 degrees, calculate the angle of refraction.",
+    "answer": "Snell's Law: $n = \\sin i / \\sin r \\implies 1.5 = \\sin 30^\\circ / \\sin r \\implies \\sin r = 0.3333 \\implies r \\approx 19.5^\\circ$."
+  },
+  {
+    "year": "2021",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Electricity & Magnetism",
+    "question": "Two resistors of values 8 ohms and 13 ohms are connected in parallel. Calculate their equivalent resistance.",
+    "options": [
+      "A. 4.95 ohms",
+      "B. 21 ohms",
+      "C. 104 ohms",
+      "D. 5 ohms"
+    ],
+    "answer": "A",
+    "explanation": "Parallel combination: $R_{eq} = (R_1 R_2) / (R_1 + R_2) = 4.95\\text{ ohms}$."
+  },
+  {
+    "year": "2022",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Modern Physics",
+    "question": "Explain the photoelectric effect. Write down Einstein's photoelectric equation, defining all terms.",
+    "answer": "Photoelectric effect is the emission of electrons when light hits metal. Einstein's equation: $hf = W_0 + K_{{max}}$, where $W_0$ is work function, and $K_{{max}}$ is max kinetic energy."
+  },
+  {
+    "year": "2023",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mechanics",
+    "question": "Calculate the force required to accelerate a body of mass 2 kg at a rate of 4 m/s\u00b2.",
+    "options": [
+      "A. 8 N",
+      "B. 6 N",
+      "C. 0.5 N",
+      "D. 2.0 N"
+    ],
+    "answer": "A",
+    "explanation": "Using $F = ma$, Force = 2 * 4 = 8 N."
+  },
+  {
+    "year": "2024",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Thermal Physics",
+    "question": "Define linear expansivity and state its unit. If a copper rod of length 2.0 m increases in length by 0.0034 m when heated from 20 to 120 degrees Celsius, calculate its linear expansivity.",
+    "answer": "Linear expansivity $\\alpha = \\Delta L / (L_0 \\Delta \\theta) = 0.0034 / (2.0 \\times 100) = 1.7 \\times 10^{-5}\\text{{ K}}^{-1}$."
+  },
+  {
+    "year": "2004",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Waves & Optics",
+    "question": "A sound wave has a frequency of 350 Hz and travels with a speed of 340 m/s. Calculate its wavelength.",
+    "options": [
+      "A. 0.971 m",
+      "B. 9.7 m",
+      "C. 1.0 m",
+      "D. 119000.0 m"
+    ],
+    "answer": "A",
+    "explanation": "Wave formula: $\\lambda = v/f = 340 / 350 = 0.971\\text{ m}$."
+  },
+  {
+    "year": "2005",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Electricity & Magnetism",
+    "question": "A resistor of 8 ohms is connected across a cell of e.m.f. 3.0 V and internal resistance 1.0 ohm. Find the terminal potential difference of the cell.",
+    "answer": "Current $I = E / (R+r) = 3 / (8+1) = 0.333\\text{ A}$. Terminal voltage $V = I \\times R = 2.67\\text{ V}$."
+  },
+  {
+    "year": "2006",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Modern Physics",
+    "question": "A radioactive element has a half-life of 9 days. What fraction of the original nuclei remains after 27 days?",
+    "options": [
+      "A. 1/8",
+      "B. 1/4",
+      "C. 1/2",
+      "D. 1/16"
+    ],
+    "answer": "A",
+    "explanation": "3 half-lives elapsed. Fraction remaining = (1/2)^3 = 1/8."
+  },
+  {
+    "year": "2007",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Mechanics",
+    "question": "A stone is projected vertically upwards with a speed of 20 m/s. Calculate the maximum height reached. (Take g = 10 m/s\u00b2)",
+    "answer": "At max height $v=0 \\implies h = u^2/2g = 20.0\\text{ m}$."
+  },
+  {
+    "year": "2008",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Thermal Physics",
+    "question": "A gas occupies a volume of 200 cm\u00b3 at temperature 273 K. If the pressure remains constant, calculate the volume of the gas at 373 K.",
+    "options": [
+      "A. 273.3 cm\u00b3",
+      "B. 200 cm\u00b3",
+      "C. 100.0 cm\u00b3",
+      "D. 400 cm\u00b3"
+    ],
+    "answer": "A",
+    "explanation": "Charles's law: $V_2 = V_1 T_2 / T_1 = 273.26\\text{ cm}^3$."
+  },
+  {
+    "year": "2009",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Waves & Optics",
+    "question": "State Snell's Law. A ray of light passes from air into a glass block of refractive index 1.5. If the angle of incidence is 30 degrees, calculate the angle of refraction.",
+    "answer": "Snell's Law: $n = \\sin i / \\sin r \\implies 1.5 = \\sin 30^\\circ / \\sin r \\implies \\sin r = 0.3333 \\implies r \\approx 19.5^\\circ$."
+  },
+  {
+    "year": "2010",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Electricity & Magnetism",
+    "question": "Two resistors of values 8 ohms and 13 ohms are connected in parallel. Calculate their equivalent resistance.",
+    "options": [
+      "A. 4.95 ohms",
+      "B. 21 ohms",
+      "C. 104 ohms",
+      "D. 5 ohms"
+    ],
+    "answer": "A",
+    "explanation": "Parallel combination: $R_{eq} = (R_1 R_2) / (R_1 + R_2) = 4.95\\text{ ohms}$."
+  },
+  {
+    "year": "2011",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Modern Physics",
+    "question": "Explain the photoelectric effect. Write down Einstein's photoelectric equation, defining all terms.",
+    "answer": "Photoelectric effect is the emission of electrons when light hits metal. Einstein's equation: $hf = W_0 + K_{{max}}$, where $W_0$ is work function, and $K_{{max}}$ is max kinetic energy."
+  },
+  {
+    "year": "2012",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mechanics",
+    "question": "Calculate the force required to accelerate a body of mass 2 kg at a rate of 5 m/s\u00b2.",
+    "options": [
+      "A. 10 N",
+      "B. 7 N",
+      "C. 0.4 N",
+      "D. 2.5 N"
+    ],
+    "answer": "A",
+    "explanation": "Using $F = ma$, Force = 2 * 5 = 10 N."
+  },
+  {
+    "year": "2013",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Thermal Physics",
+    "question": "Define linear expansivity and state its unit. If a copper rod of length 2.0 m increases in length by 0.0034 m when heated from 20 to 120 degrees Celsius, calculate its linear expansivity.",
+    "answer": "Linear expansivity $\\alpha = \\Delta L / (L_0 \\Delta \\theta) = 0.0034 / (2.0 \\times 100) = 1.7 \\times 10^{-5}\\text{{ K}}^{-1}$."
+  },
+  {
+    "year": "2014",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Waves & Optics",
+    "question": "A sound wave has a frequency of 350 Hz and travels with a speed of 340 m/s. Calculate its wavelength.",
+    "options": [
+      "A. 0.971 m",
+      "B. 9.7 m",
+      "C. 1.0 m",
+      "D. 119000.0 m"
+    ],
+    "answer": "A",
+    "explanation": "Wave formula: $\\lambda = v/f = 340 / 350 = 0.971\\text{ m}$."
+  },
+  {
+    "year": "2015",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Electricity & Magnetism",
+    "question": "A resistor of 8 ohms is connected across a cell of e.m.f. 3.0 V and internal resistance 1.0 ohm. Find the terminal potential difference of the cell.",
+    "answer": "Current $I = E / (R+r) = 3 / (8+1) = 0.333\\text{ A}$. Terminal voltage $V = I \\times R = 2.67\\text{ V}$."
+  },
+  {
+    "year": "2016",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Modern Physics",
+    "question": "A radioactive element has a half-life of 9 days. What fraction of the original nuclei remains after 27 days?",
+    "options": [
+      "A. 1/8",
+      "B. 1/4",
+      "C. 1/2",
+      "D. 1/16"
+    ],
+    "answer": "A",
+    "explanation": "3 half-lives elapsed. Fraction remaining = (1/2)^3 = 1/8."
+  },
+  {
+    "year": "2017",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Mechanics",
+    "question": "A stone is projected vertically upwards with a speed of 20 m/s. Calculate the maximum height reached. (Take g = 10 m/s\u00b2)",
+    "answer": "At max height $v=0 \\implies h = u^2/2g = 20.0\\text{ m}$."
+  },
+  {
+    "year": "2018",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Thermal Physics",
+    "question": "A gas occupies a volume of 300 cm\u00b3 at temperature 273 K. If the pressure remains constant, calculate the volume of the gas at 373 K.",
+    "options": [
+      "A. 409.9 cm\u00b3",
+      "B. 300 cm\u00b3",
+      "C. 150.0 cm\u00b3",
+      "D. 600 cm\u00b3"
+    ],
+    "answer": "A",
+    "explanation": "Charles's law: $V_2 = V_1 T_2 / T_1 = 409.89\\text{ cm}^3$."
+  },
+  {
+    "year": "2019",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Waves & Optics",
+    "question": "State Snell's Law. A ray of light passes from air into a glass block of refractive index 1.5. If the angle of incidence is 30 degrees, calculate the angle of refraction.",
+    "answer": "Snell's Law: $n = \\sin i / \\sin r \\implies 1.5 = \\sin 30^\\circ / \\sin r \\implies \\sin r = 0.3333 \\implies r \\approx 19.5^\\circ$."
+  },
+  {
+    "year": "2020",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Electricity & Magnetism",
+    "question": "Two resistors of values 8 ohms and 13 ohms are connected in parallel. Calculate their equivalent resistance.",
+    "options": [
+      "A. 4.95 ohms",
+      "B. 21 ohms",
+      "C. 104 ohms",
+      "D. 5 ohms"
+    ],
+    "answer": "A",
+    "explanation": "Parallel combination: $R_{eq} = (R_1 R_2) / (R_1 + R_2) = 4.95\\text{ ohms}$."
+  },
+  {
+    "year": "2021",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Modern Physics",
+    "question": "Explain the photoelectric effect. Write down Einstein's photoelectric equation, defining all terms.",
+    "answer": "Photoelectric effect is the emission of electrons when light hits metal. Einstein's equation: $hf = W_0 + K_{{max}}$, where $W_0$ is work function, and $K_{{max}}$ is max kinetic energy."
+  },
+  {
+    "year": "2022",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mechanics",
+    "question": "Calculate the force required to accelerate a body of mass 2 kg at a rate of 3 m/s\u00b2.",
+    "options": [
+      "A. 6 N",
+      "B. 5 N",
+      "C. 0.6666666666666666 N",
+      "D. 1.5 N"
+    ],
+    "answer": "A",
+    "explanation": "Using $F = ma$, Force = 2 * 3 = 6 N."
+  },
+  {
+    "year": "2023",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Thermal Physics",
+    "question": "Define linear expansivity and state its unit. If a copper rod of length 2.0 m increases in length by 0.0034 m when heated from 20 to 120 degrees Celsius, calculate its linear expansivity.",
+    "answer": "Linear expansivity $\\alpha = \\Delta L / (L_0 \\Delta \\theta) = 0.0034 / (2.0 \\times 100) = 1.7 \\times 10^{-5}\\text{{ K}}^{-1}$."
+  },
+  {
+    "year": "2024",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Waves & Optics",
+    "question": "A sound wave has a frequency of 350 Hz and travels with a speed of 340 m/s. Calculate its wavelength.",
+    "options": [
+      "A. 0.971 m",
+      "B. 9.7 m",
+      "C. 1.0 m",
+      "D. 119000.0 m"
+    ],
+    "answer": "A",
+    "explanation": "Wave formula: $\\lambda = v/f = 340 / 350 = 0.971\\text{ m}$."
+  },
+  {
+    "year": "2004",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Electricity & Magnetism",
+    "question": "A resistor of 8 ohms is connected across a cell of e.m.f. 3.0 V and internal resistance 1.0 ohm. Find the terminal potential difference of the cell.",
+    "answer": "Current $I = E / (R+r) = 3 / (8+1) = 0.333\\text{ A}$. Terminal voltage $V = I \\times R = 2.67\\text{ V}$."
+  },
+  {
+    "year": "2005",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Modern Physics",
+    "question": "A radioactive element has a half-life of 9 days. What fraction of the original nuclei remains after 27 days?",
+    "options": [
+      "A. 1/8",
+      "B. 1/4",
+      "C. 1/2",
+      "D. 1/16"
+    ],
+    "answer": "A",
+    "explanation": "3 half-lives elapsed. Fraction remaining = (1/2)^3 = 1/8."
+  },
+  {
+    "year": "2006",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Mechanics",
+    "question": "A stone is projected vertically upwards with a speed of 20 m/s. Calculate the maximum height reached. (Take g = 10 m/s\u00b2)",
+    "answer": "At max height $v=0 \\implies h = u^2/2g = 20.0\\text{ m}$."
+  },
+  {
+    "year": "2007",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Thermal Physics",
+    "question": "A gas occupies a volume of 100 cm\u00b3 at temperature 273 K. If the pressure remains constant, calculate the volume of the gas at 373 K.",
+    "options": [
+      "A. 136.6 cm\u00b3",
+      "B. 100 cm\u00b3",
+      "C. 50.0 cm\u00b3",
+      "D. 200 cm\u00b3"
+    ],
+    "answer": "A",
+    "explanation": "Charles's law: $V_2 = V_1 T_2 / T_1 = 136.63\\text{ cm}^3$."
+  },
+  {
+    "year": "2008",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Waves & Optics",
+    "question": "State Snell's Law. A ray of light passes from air into a glass block of refractive index 1.5. If the angle of incidence is 30 degrees, calculate the angle of refraction.",
+    "answer": "Snell's Law: $n = \\sin i / \\sin r \\implies 1.5 = \\sin 30^\\circ / \\sin r \\implies \\sin r = 0.3333 \\implies r \\approx 19.5^\\circ$."
+  },
+  {
+    "year": "2009",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Electricity & Magnetism",
+    "question": "Two resistors of values 8 ohms and 13 ohms are connected in parallel. Calculate their equivalent resistance.",
+    "options": [
+      "A. 4.95 ohms",
+      "B. 21 ohms",
+      "C. 104 ohms",
+      "D. 5 ohms"
+    ],
+    "answer": "A",
+    "explanation": "Parallel combination: $R_{eq} = (R_1 R_2) / (R_1 + R_2) = 4.95\\text{ ohms}$."
+  },
+  {
+    "year": "2010",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Modern Physics",
+    "question": "Explain the photoelectric effect. Write down Einstein's photoelectric equation, defining all terms.",
+    "answer": "Photoelectric effect is the emission of electrons when light hits metal. Einstein's equation: $hf = W_0 + K_{{max}}$, where $W_0$ is work function, and $K_{{max}}$ is max kinetic energy."
+  },
+  {
+    "year": "2011",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mechanics",
+    "question": "Calculate the force required to accelerate a body of mass 2 kg at a rate of 4 m/s\u00b2.",
+    "options": [
+      "A. 8 N",
+      "B. 6 N",
+      "C. 0.5 N",
+      "D. 2.0 N"
+    ],
+    "answer": "A",
+    "explanation": "Using $F = ma$, Force = 2 * 4 = 8 N."
+  },
+  {
+    "year": "2012",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Thermal Physics",
+    "question": "Define linear expansivity and state its unit. If a copper rod of length 2.0 m increases in length by 0.0034 m when heated from 20 to 120 degrees Celsius, calculate its linear expansivity.",
+    "answer": "Linear expansivity $\\alpha = \\Delta L / (L_0 \\Delta \\theta) = 0.0034 / (2.0 \\times 100) = 1.7 \\times 10^{-5}\\text{{ K}}^{-1}$."
+  },
+  {
+    "year": "2013",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Waves & Optics",
+    "question": "A sound wave has a frequency of 350 Hz and travels with a speed of 340 m/s. Calculate its wavelength.",
+    "options": [
+      "A. 0.971 m",
+      "B. 9.7 m",
+      "C. 1.0 m",
+      "D. 119000.0 m"
+    ],
+    "answer": "A",
+    "explanation": "Wave formula: $\\lambda = v/f = 340 / 350 = 0.971\\text{ m}$."
+  },
+  {
+    "year": "2014",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Electricity & Magnetism",
+    "question": "A resistor of 8 ohms is connected across a cell of e.m.f. 3.0 V and internal resistance 1.0 ohm. Find the terminal potential difference of the cell.",
+    "answer": "Current $I = E / (R+r) = 3 / (8+1) = 0.333\\text{ A}$. Terminal voltage $V = I \\times R = 2.67\\text{ V}$."
+  },
+  {
+    "year": "2015",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Modern Physics",
+    "question": "A radioactive element has a half-life of 9 days. What fraction of the original nuclei remains after 27 days?",
+    "options": [
+      "A. 1/8",
+      "B. 1/4",
+      "C. 1/2",
+      "D. 1/16"
+    ],
+    "answer": "A",
+    "explanation": "3 half-lives elapsed. Fraction remaining = (1/2)^3 = 1/8."
+  },
+  {
+    "year": "2016",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Mechanics",
+    "question": "A stone is projected vertically upwards with a speed of 20 m/s. Calculate the maximum height reached. (Take g = 10 m/s\u00b2)",
+    "answer": "At max height $v=0 \\implies h = u^2/2g = 20.0\\text{ m}$."
+  },
+  {
+    "year": "2017",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Thermal Physics",
+    "question": "A gas occupies a volume of 200 cm\u00b3 at temperature 273 K. If the pressure remains constant, calculate the volume of the gas at 373 K.",
+    "options": [
+      "A. 273.3 cm\u00b3",
+      "B. 200 cm\u00b3",
+      "C. 100.0 cm\u00b3",
+      "D. 400 cm\u00b3"
+    ],
+    "answer": "A",
+    "explanation": "Charles's law: $V_2 = V_1 T_2 / T_1 = 273.26\\text{ cm}^3$."
+  },
+  {
+    "year": "2018",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Waves & Optics",
+    "question": "State Snell's Law. A ray of light passes from air into a glass block of refractive index 1.5. If the angle of incidence is 30 degrees, calculate the angle of refraction.",
+    "answer": "Snell's Law: $n = \\sin i / \\sin r \\implies 1.5 = \\sin 30^\\circ / \\sin r \\implies \\sin r = 0.3333 \\implies r \\approx 19.5^\\circ$."
+  },
+  {
+    "year": "2019",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Electricity & Magnetism",
+    "question": "Two resistors of values 8 ohms and 13 ohms are connected in parallel. Calculate their equivalent resistance.",
+    "options": [
+      "A. 4.95 ohms",
+      "B. 21 ohms",
+      "C. 104 ohms",
+      "D. 5 ohms"
+    ],
+    "answer": "A",
+    "explanation": "Parallel combination: $R_{eq} = (R_1 R_2) / (R_1 + R_2) = 4.95\\text{ ohms}$."
+  },
+  {
+    "year": "2020",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Modern Physics",
+    "question": "Explain the photoelectric effect. Write down Einstein's photoelectric equation, defining all terms.",
+    "answer": "Photoelectric effect is the emission of electrons when light hits metal. Einstein's equation: $hf = W_0 + K_{{max}}$, where $W_0$ is work function, and $K_{{max}}$ is max kinetic energy."
+  },
+  {
+    "year": "2021",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mechanics",
+    "question": "Calculate the force required to accelerate a body of mass 2 kg at a rate of 5 m/s\u00b2.",
+    "options": [
+      "A. 10 N",
+      "B. 7 N",
+      "C. 0.4 N",
+      "D. 2.5 N"
+    ],
+    "answer": "A",
+    "explanation": "Using $F = ma$, Force = 2 * 5 = 10 N."
+  },
+  {
+    "year": "2022",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Thermal Physics",
+    "question": "Define linear expansivity and state its unit. If a copper rod of length 2.0 m increases in length by 0.0034 m when heated from 20 to 120 degrees Celsius, calculate its linear expansivity.",
+    "answer": "Linear expansivity $\\alpha = \\Delta L / (L_0 \\Delta \\theta) = 0.0034 / (2.0 \\times 100) = 1.7 \\times 10^{-5}\\text{{ K}}^{-1}$."
+  },
+  {
+    "year": "2023",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Waves & Optics",
+    "question": "A sound wave has a frequency of 350 Hz and travels with a speed of 340 m/s. Calculate its wavelength.",
+    "options": [
+      "A. 0.971 m",
+      "B. 9.7 m",
+      "C. 1.0 m",
+      "D. 119000.0 m"
+    ],
+    "answer": "A",
+    "explanation": "Wave formula: $\\lambda = v/f = 340 / 350 = 0.971\\text{ m}$."
+  },
+  {
+    "year": "2024",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Electricity & Magnetism",
+    "question": "A resistor of 8 ohms is connected across a cell of e.m.f. 3.0 V and internal resistance 1.0 ohm. Find the terminal potential difference of the cell.",
+    "answer": "Current $I = E / (R+r) = 3 / (8+1) = 0.333\\text{ A}$. Terminal voltage $V = I \\times R = 2.67\\text{ V}$."
+  },
+  {
+    "year": "2004",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Modern Physics",
+    "question": "A radioactive element has a half-life of 9 days. What fraction of the original nuclei remains after 27 days?",
+    "options": [
+      "A. 1/8",
+      "B. 1/4",
+      "C. 1/2",
+      "D. 1/16"
+    ],
+    "answer": "A",
+    "explanation": "3 half-lives elapsed. Fraction remaining = (1/2)^3 = 1/8."
+  },
+  {
+    "year": "2005",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Mechanics",
+    "question": "A stone is projected vertically upwards with a speed of 20 m/s. Calculate the maximum height reached. (Take g = 10 m/s\u00b2)",
+    "answer": "At max height $v=0 \\implies h = u^2/2g = 20.0\\text{ m}$."
+  },
+  {
+    "year": "2006",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Thermal Physics",
+    "question": "A gas occupies a volume of 300 cm\u00b3 at temperature 273 K. If the pressure remains constant, calculate the volume of the gas at 373 K.",
+    "options": [
+      "A. 409.9 cm\u00b3",
+      "B. 300 cm\u00b3",
+      "C. 150.0 cm\u00b3",
+      "D. 600 cm\u00b3"
+    ],
+    "answer": "A",
+    "explanation": "Charles's law: $V_2 = V_1 T_2 / T_1 = 409.89\\text{ cm}^3$."
+  },
+  {
+    "year": "2007",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Waves & Optics",
+    "question": "State Snell's Law. A ray of light passes from air into a glass block of refractive index 1.5. If the angle of incidence is 30 degrees, calculate the angle of refraction.",
+    "answer": "Snell's Law: $n = \\sin i / \\sin r \\implies 1.5 = \\sin 30^\\circ / \\sin r \\implies \\sin r = 0.3333 \\implies r \\approx 19.5^\\circ$."
+  },
+  {
+    "year": "2008",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Electricity & Magnetism",
+    "question": "Two resistors of values 8 ohms and 13 ohms are connected in parallel. Calculate their equivalent resistance.",
+    "options": [
+      "A. 4.95 ohms",
+      "B. 21 ohms",
+      "C. 104 ohms",
+      "D. 5 ohms"
+    ],
+    "answer": "A",
+    "explanation": "Parallel combination: $R_{eq} = (R_1 R_2) / (R_1 + R_2) = 4.95\\text{ ohms}$."
+  },
+  {
+    "year": "2009",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Modern Physics",
+    "question": "Explain the photoelectric effect. Write down Einstein's photoelectric equation, defining all terms.",
+    "answer": "Photoelectric effect is the emission of electrons when light hits metal. Einstein's equation: $hf = W_0 + K_{{max}}$, where $W_0$ is work function, and $K_{{max}}$ is max kinetic energy."
+  },
+  {
+    "year": "2010",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mechanics",
+    "question": "Calculate the force required to accelerate a body of mass 2 kg at a rate of 3 m/s\u00b2.",
+    "options": [
+      "A. 6 N",
+      "B. 5 N",
+      "C. 0.6666666666666666 N",
+      "D. 1.5 N"
+    ],
+    "answer": "A",
+    "explanation": "Using $F = ma$, Force = 2 * 3 = 6 N."
+  },
+  {
+    "year": "2011",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Thermal Physics",
+    "question": "Define linear expansivity and state its unit. If a copper rod of length 2.0 m increases in length by 0.0034 m when heated from 20 to 120 degrees Celsius, calculate its linear expansivity.",
+    "answer": "Linear expansivity $\\alpha = \\Delta L / (L_0 \\Delta \\theta) = 0.0034 / (2.0 \\times 100) = 1.7 \\times 10^{-5}\\text{{ K}}^{-1}$."
+  },
+  {
+    "year": "2012",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Waves & Optics",
+    "question": "A sound wave has a frequency of 350 Hz and travels with a speed of 340 m/s. Calculate its wavelength.",
+    "options": [
+      "A. 0.971 m",
+      "B. 9.7 m",
+      "C. 1.0 m",
+      "D. 119000.0 m"
+    ],
+    "answer": "A",
+    "explanation": "Wave formula: $\\lambda = v/f = 340 / 350 = 0.971\\text{ m}$."
+  },
+  {
+    "year": "2013",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Electricity & Magnetism",
+    "question": "A resistor of 8 ohms is connected across a cell of e.m.f. 3.0 V and internal resistance 1.0 ohm. Find the terminal potential difference of the cell.",
+    "answer": "Current $I = E / (R+r) = 3 / (8+1) = 0.333\\text{ A}$. Terminal voltage $V = I \\times R = 2.67\\text{ V}$."
+  },
+  {
+    "year": "2014",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Modern Physics",
+    "question": "A radioactive element has a half-life of 9 days. What fraction of the original nuclei remains after 27 days?",
+    "options": [
+      "A. 1/8",
+      "B. 1/4",
+      "C. 1/2",
+      "D. 1/16"
+    ],
+    "answer": "A",
+    "explanation": "3 half-lives elapsed. Fraction remaining = (1/2)^3 = 1/8."
+  },
+  {
+    "year": "2015",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Mechanics",
+    "question": "A stone is projected vertically upwards with a speed of 20 m/s. Calculate the maximum height reached. (Take g = 10 m/s\u00b2)",
+    "answer": "At max height $v=0 \\implies h = u^2/2g = 20.0\\text{ m}$."
+  },
+  {
+    "year": "2016",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Thermal Physics",
+    "question": "A gas occupies a volume of 100 cm\u00b3 at temperature 273 K. If the pressure remains constant, calculate the volume of the gas at 373 K.",
+    "options": [
+      "A. 136.6 cm\u00b3",
+      "B. 100 cm\u00b3",
+      "C. 50.0 cm\u00b3",
+      "D. 200 cm\u00b3"
+    ],
+    "answer": "A",
+    "explanation": "Charles's law: $V_2 = V_1 T_2 / T_1 = 136.63\\text{ cm}^3$."
+  },
+  {
+    "year": "2017",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Waves & Optics",
+    "question": "State Snell's Law. A ray of light passes from air into a glass block of refractive index 1.5. If the angle of incidence is 30 degrees, calculate the angle of refraction.",
+    "answer": "Snell's Law: $n = \\sin i / \\sin r \\implies 1.5 = \\sin 30^\\circ / \\sin r \\implies \\sin r = 0.3333 \\implies r \\approx 19.5^\\circ$."
+  },
+  {
+    "year": "2018",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Electricity & Magnetism",
+    "question": "Two resistors of values 8 ohms and 13 ohms are connected in parallel. Calculate their equivalent resistance.",
+    "options": [
+      "A. 4.95 ohms",
+      "B. 21 ohms",
+      "C. 104 ohms",
+      "D. 5 ohms"
+    ],
+    "answer": "A",
+    "explanation": "Parallel combination: $R_{eq} = (R_1 R_2) / (R_1 + R_2) = 4.95\\text{ ohms}$."
+  },
+  {
+    "year": "2019",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Modern Physics",
+    "question": "Explain the photoelectric effect. Write down Einstein's photoelectric equation, defining all terms.",
+    "answer": "Photoelectric effect is the emission of electrons when light hits metal. Einstein's equation: $hf = W_0 + K_{{max}}$, where $W_0$ is work function, and $K_{{max}}$ is max kinetic energy."
+  }
+]

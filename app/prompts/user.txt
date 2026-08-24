@@ -1,0 +1,9 @@
+Use the following retrieved study passages as your primary source of truth.
+
+=== Context ===
+{context}
+
+=== Question ===
+{question}
+
+Answer the question using the context. If the context is not enough, say so clearly.

@@ -1,0 +1,11 @@
+Draw a simple educational SVG diagram for an O-Level lesson.
+
+Return ONLY an SVG element. No markdown, no commentary.
+
+Requirements:
+- Root: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+- Allowed tags: svg, g, rect, circle, ellipse, line, polyline, polygon, path, text, tspan
+- Allowed attributes: viewBox, xmlns, x, y, width, height, cx, cy, r, rx, ry, x1, y1, x2, y2, points, d, fill, stroke, stroke-width, font-size, font-family, text-anchor, transform
+- Fill background with #FFF8E8. Use ink #1C2740, gold #D39212, red #C23B2E for labels.
+- font-family="Outfit, sans-serif" font-size="14"
+- Short labels. No em dashes. No scripts. No images. No foreignObject.

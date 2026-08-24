@@ -1,0 +1,86 @@
+[
+  {
+    "year": "2020",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Choose the option that best completes the sentence:\nEach of the candidates _______ expected to submit a copy of their credentials before Friday.",
+    "options": [
+      "A. are",
+      "B. is",
+      "C. were",
+      "D. have been"
+    ],
+    "answer": "B",
+    "explanation": "The subject of the sentence is the indefinite pronoun 'Each', which is grammatically singular. Therefore, it requires a singular verb. 'is' is the only singular verb in the present tense among the options. Options A, C, and D are plural verbs and are incorrect."
+  },
+  {
+    "year": "2021",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Lexis & Structure",
+    "question": "Identify the option that is closest in meaning to the underlined word:\nHe made a *cursory* glance at the document before signing it.",
+    "options": [
+      "A. thorough",
+      "B. critical",
+      "C. hasty",
+      "D. detailed"
+    ],
+    "answer": "C",
+    "explanation": "The word 'cursory' means hasty, rapid, or superficial, done without attention to details. Therefore, 'hasty' (Option C) is the closest synonym. Options A, B, and D mean the opposite (thorough, critical, detailed)."
+  },
+  {
+    "year": "2019",
+    "exam_board": "WAEC",
+    "paper_type": "Oral English",
+    "topic": "Emphatic Stress",
+    "question": "In the following sentence, the stressed word is written in capital letters. Choose the option that is answered by the sentence:\nKofi bought a RED shirt for his brother.",
+    "options": [
+      "A. Who bought a red shirt?",
+      "B. Did Kofi sell a red shirt?",
+      "C. Did Kofi buy a blue shirt?",
+      "D. Did Kofi buy a red cap?"
+    ],
+    "answer": "C",
+    "explanation": "In emphatic stress, the stressed word ('RED') represents the new information that contradicts an alternative. The question must ask about the attribute represented by the stressed word. Therefore, 'Did Kofi buy a blue shirt?' (Option C) is correct because the response asserts that he bought a *red* shirt, not a blue one."
+  },
+  {
+    "year": "2018",
+    "exam_board": "WAEC",
+    "paper_type": "Oral English",
+    "topic": "Vowel Sounds",
+    "question": "Choose the word that has the same vowel sound as the one represented by the underlined letters:\npl<u>ea</u>se",
+    "options": [
+      "A. head",
+      "B. key",
+      "C. weight",
+      "D. threat"
+    ],
+    "answer": "B",
+    "explanation": "The underlined letters 'ea' in 'please' represent the long vowel sound /i:/. Among the options, 'key' (Option B) contains the same long vowel sound /i:/. 'head' and 'threat' contain /e/, and 'weight' contains the diphthong /e\u026a/."
+  },
+  {
+    "year": "2022",
+    "exam_board": "WAEC",
+    "paper_type": "Comprehension",
+    "topic": "Comprehension & Grammar",
+    "question": "Read the following passage and answer the questions:\n\nWhen Ade woke up that morning, his heart was heavy with dread. Today was the final audition for the National Youth Orchestra, and he knew he had only one chance to prove himself. For months, he had practiced his cello until his fingers were raw. As he entered the grand hall, the sheer size of the building made him feel insignificant. The examiners sat at a long table, their expressions unreadable. When his name was called, Ade stepped forward, closed his eyes, and began to play. The music flowed out of him, carrying all his anxiety, hopes, and dreams. When he finished, there was a moment of absolute silence before the hall erupted in applause. The chief examiner smiled and nodded.\n\nQuestions:\n1. Why was Ade filled with dread at the beginning of the day?\n2. What evidence from the passage shows that Ade prepared extensively for the audition?\n3. Identify the grammatical name and function of the underlined clause in: 'When Ade woke up that morning, his heart was heavy with dread.'\n4. What figure of speech is contained in: 'the hall erupted in applause'?",
+    "answer": "1. Ade was filled with dread because it was the day of the final audition for the National Youth Orchestra, which was highly important, and he knew he only had one chance to succeed.\n2. The evidence is that 'for months, he had practiced his cello until his fingers were raw.'\n3. Grammatical Name: Adverbial clause of time. Syntactic Function: It modifies the main verb phrase 'was heavy' in the independent clause.\n4. Figure of Speech: Synecdoche (or Metonymy), where 'the hall' represents the people inside it, or Hyperbole, describing the sudden loud applause as an eruption."
+  },
+  {
+    "year": "2017",
+    "exam_board": "WAEC",
+    "paper_type": "Summary",
+    "topic": "Comprehension & Summary",
+    "question": "Read the passage and answer the question:\n\nModern agriculture has transformed food production, but it has also brought significant environmental issues. First, the heavy use of chemical fertilizers has contaminated water bodies, leading to the eutrophication of lakes and rivers. This process suffocates aquatic organisms due to oxygen depletion. Second, the clearing of forests to create vast farmlands has resulted in the destruction of natural habitats, threatening biodiversity. Third, the intensive use of heavy machinery compacts the soil structure, which reduces its ability to absorb rainwater and increases soil erosion.\n\nQuestion:\nIn three sentences, summarize the three environmental issues associated with modern agriculture described in the passage.",
+    "answer": "1. Chemical fertilizers used in modern farming pollute water bodies, leading to the death of aquatic life.\n2. The clearing of forests for farmland destroys habitats and threatens biodiversity.\n3. The use of heavy machinery compacts the soil, leading to increased soil erosion."
+  },
+  {
+    "year": "2023",
+    "exam_board": "WAEC",
+    "paper_type": "Essay",
+    "topic": "Composition",
+    "question": "Write an essay on the following topic:\n\nYou have noticed a rising trend in examination malpractice in your school. Write a letter to your principal outlining three major causes of this trend and suggesting three solutions to curb it.",
+    "answer": "Model Response structure & Marking Criteria:\n\n[Format: Formal Letter Layout]\n- Writer's Address (top right)\n- Date\n- Principal's Address (left, below date)\n- Formal Salutation ('Dear Sir,' or 'Dear Madam,')\n- Title: 'LETTER ON RISING TREND OF EXAMINATION MALPRACTICE AND REMEDIAL MEASURES'\n- Introduction: State the purpose of the letter.\n- Body Paragraphs (Causes):\n  1. Lack of adequate preparation and poor study habits among students.\n  2. Excessive pressure from parents and society to obtain high grades at all costs.\n  3. Inadequate teaching facilities and shortage of qualified teachers in some subjects.\n- Body Paragraphs (Solutions):\n  1. Introduction of strict supervision and installation of CBT centers to minimize cheating.\n  2. Organizing regular counseling sessions to orient students on the dangers of malpractice.\n  3. Enhancing school library resources and tutoring programs for struggling students.\n- Conclusion: Reiterate commitment to academic integrity and hope for action.\n- Signing off: 'Yours faithfully,' followed by signature and full name.\n\nWAEC MARKING CRITERIA:\n- Content (10 Marks): The candidate must detail at least 3 causes and 3 solutions. Deductions apply if any element is omitted.\n- Organisation (10 Marks): Check for formal letter conventions (addresses, salutation, title, formal closing), logical paragraph division, transition words.\n- Expression (20 Marks): Grade formal tone, avoidance of slangs, clarity of syntax, rich vocabulary choice.\n- Mechanical Accuracy (10 Marks): Start at 10. Deduct 0.5 marks for every spelling mistake, grammatical error, run-on sentence, or punctuation error."
+  }
+]

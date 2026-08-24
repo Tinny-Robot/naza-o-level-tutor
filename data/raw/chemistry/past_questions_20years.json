@@ -1,0 +1,1206 @@
+[
+  {
+    "year": "2019",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Structure of the Atom",
+    "question": "What is the electronic configuration of the divalent cation of zinc ($Zn^{2+}$)? (Atomic number of Zn = 30)",
+    "options": [
+      "A. $1s^2 2s^2 2p^6 3s^2 3p^6 3d^{10} 4s^2$",
+      "B. $1s^2 2s^2 2p^6 3s^2 3p^6 3d^8 4s^2$",
+      "C. $1s^2 2s^2 2p^6 3s^2 3p^6 3d^{10}$",
+      "D. $1s^2 2s^2 2p^6 3s^2 3p^6 3d^9 4s^1$"
+    ],
+    "answer": "C",
+    "explanation": "Zinc loses two electrons from the 4s orbital first, leaving $3d^{10}$."
+  },
+  {
+    "year": "2020",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Stoichiometry & Chemical Equations",
+    "question": "What volume of carbon (IV) oxide ($CO_2$) measured at s.t.p. is produced when 10.0 g of calcium trioxocarbonate (IV) ($CaCO_3$) is completely decomposed by heat? (Molar mass of CaCO3 = 100 g/mol; Molar volume of gas at s.t.p. = 22.4 dm\u00b3)",
+    "options": [
+      "A. 2.24 dm\u00b3",
+      "B. 22.4 dm\u00b3",
+      "C. 1.12 dm\u00b3",
+      "D. 4.48 dm\u00b3"
+    ],
+    "answer": "A",
+    "explanation": "Moles of $CaCO_3 = 10 / 100 = 0.1$ mol. Volume of $CO_2 = 0.1 \\times 22.4 = 2.24\\text{ dm}^3$."
+  },
+  {
+    "year": "2021",
+    "exam_board": "WAEC",
+    "paper_type": "Theory",
+    "topic": "Redox & Electrochemistry",
+    "question": "An electric current of 2.0 A is passed through an aqueous solution of copper (II) tetraoxosulphate (VI) ($CuSO_4$) for 40 minutes and 15 seconds. Calculate the mass of copper deposited. (RAM of Cu = 64; Faraday constant = 96500 C/mol)",
+    "answer": "$Q = I \\times t = 2.0 \\times 2415 = 4830\\text{ C}$. Mass = $(64 \\times 4830) / (2 \\times 96500) \\approx 1.60\\text{ g}$."
+  },
+  {
+    "year": "2018",
+    "exam_board": "WAEC",
+    "paper_type": "Practical",
+    "topic": "Acids, Bases & Salts",
+    "question": "Describe the Acid-Base Volumetric Analysis (Titration) experiment. Outline average volume calculations, and three precautions.",
+    "answer": "Titrate acid against base using indicator. Average concordant values of burette readings. Precautions: rinse burette with acid, read meniscus at eye level, avoid bubbles."
+  },
+  {
+    "year": "2022",
+    "exam_board": "WAEC",
+    "paper_type": "Practical",
+    "topic": "Acids, Bases & Salts",
+    "question": "Provide a Qualitative Analysis Table for identifying the presence of a cation ($Cu^{2+}$) and an anion ($SO_4^{2-}$) in an unknown salt sample 'X'.",
+    "answer": "Table: Blue solution with NaOH gives blue precipitate insoluble in excess. With NH3, gives blue precipitate soluble in excess giving deep blue solution (Cu2+). With BaCl2 + HCl, white precipitate insoluble in acid (SO42-)."
+  },
+  {
+    "year": "2004",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Structure of the Atom",
+    "question": "What is the number of protons and neutrons in an atom of element X with atomic number 11 and mass number 24?",
+    "options": [
+      "A. Protons = 11, Neutrons = 13",
+      "B. Protons = 13, Neutrons = 11",
+      "C. Protons = 11, Neutrons = 24",
+      "D. Protons = 24, Neutrons = 11"
+    ],
+    "answer": "A",
+    "explanation": "Protons = 11. Neutrons = mass - atomic = 24 - 11 = 13."
+  },
+  {
+    "year": "2005",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Stoichiometry & Chemical Equations",
+    "question": "A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Find its empirical formula. (RAM: C=12, H=1, O=16)",
+    "answer": "Ratio: C: 40/12 = 3.33, H: 6.7/1 = 6.70, O: 53.3/16 = 3.33. Divide by 3.33 gives ratio 1:2:1. Formula: $CH_2O$."
+  },
+  {
+    "year": "2006",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "States of Matter",
+    "question": "A sample of gas has a volume of 400 cm\u00b3 at a pressure of 3 atm. If the temperature is constant, calculate the pressure when volume is reduced to 200.0 cm\u00b3.",
+    "options": [
+      "A. 6.0 atm",
+      "B. 3 atm",
+      "C. 1.5 atm",
+      "D. 12 atm"
+    ],
+    "answer": "A",
+    "explanation": "Boyle's law: $P_2 = P_1 V_1 / V_2 = 6.0\\text{ atm}$."
+  },
+  {
+    "year": "2007",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Acids, Bases & Salts",
+    "question": "Classify salts into five main groups, giving one chemical formula as an example for each group.",
+    "answer": "Salts: Normal ($NaCl$), Acid ($NaHCO_3$), Basic ($Zn(OH)Cl$), Double ($KAl(SO_4)_2 \\cdot 12H_2O$), and Complex ($K_4[Fe(CN)_6]$)."
+  },
+  {
+    "year": "2008",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Redox & Electrochemistry",
+    "question": "Calculate the quantity of electricity passed when a current of 3.0 A flows for 1200 s.",
+    "options": [
+      "A. 3600.0 C",
+      "B. 0.0025 C",
+      "C. 400.0 C",
+      "D. 1203.0 C"
+    ],
+    "answer": "A",
+    "explanation": "Using $Q = I \\times t$, $Q = 3.0 \\times 1200 = 3600.0\\text{ C}$."
+  },
+  {
+    "year": "2009",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Organic Chemistry",
+    "question": "Define esterification. Write a balanced chemical equation for the reaction between ethanol and ethanoic acid.",
+    "answer": "Esterification is the reaction between organic acid and alcohol to produce ester and water. Equation: $CH_3COOH + C_2H_5OH \\rightleftharpoons CH_3COOC_2H_5 + H_2O$."
+  },
+  {
+    "year": "2010",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Structure of the Atom",
+    "question": "What is the number of protons and neutrons in an atom of element X with atomic number 17 and mass number 36?",
+    "options": [
+      "A. Protons = 17, Neutrons = 19",
+      "B. Protons = 19, Neutrons = 17",
+      "C. Protons = 17, Neutrons = 36",
+      "D. Protons = 36, Neutrons = 17"
+    ],
+    "answer": "A",
+    "explanation": "Protons = 17. Neutrons = mass - atomic = 36 - 17 = 19."
+  },
+  {
+    "year": "2011",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Stoichiometry & Chemical Equations",
+    "question": "A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Find its empirical formula. (RAM: C=12, H=1, O=16)",
+    "answer": "Ratio: C: 40/12 = 3.33, H: 6.7/1 = 6.70, O: 53.3/16 = 3.33. Divide by 3.33 gives ratio 1:2:1. Formula: $CH_2O$."
+  },
+  {
+    "year": "2012",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "States of Matter",
+    "question": "A sample of gas has a volume of 400 cm\u00b3 at a pressure of 3 atm. If the temperature is constant, calculate the pressure when volume is reduced to 200.0 cm\u00b3.",
+    "options": [
+      "A. 6.0 atm",
+      "B. 3 atm",
+      "C. 1.5 atm",
+      "D. 12 atm"
+    ],
+    "answer": "A",
+    "explanation": "Boyle's law: $P_2 = P_1 V_1 / V_2 = 6.0\\text{ atm}$."
+  },
+  {
+    "year": "2013",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Acids, Bases & Salts",
+    "question": "Classify salts into five main groups, giving one chemical formula as an example for each group.",
+    "answer": "Salts: Normal ($NaCl$), Acid ($NaHCO_3$), Basic ($Zn(OH)Cl$), Double ($KAl(SO_4)_2 \\cdot 12H_2O$), and Complex ($K_4[Fe(CN)_6]$)."
+  },
+  {
+    "year": "2014",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Redox & Electrochemistry",
+    "question": "Calculate the quantity of electricity passed when a current of 3.0 A flows for 1200 s.",
+    "options": [
+      "A. 3600.0 C",
+      "B. 0.0025 C",
+      "C. 400.0 C",
+      "D. 1203.0 C"
+    ],
+    "answer": "A",
+    "explanation": "Using $Q = I \\times t$, $Q = 3.0 \\times 1200 = 3600.0\\text{ C}$."
+  },
+  {
+    "year": "2015",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Organic Chemistry",
+    "question": "Define esterification. Write a balanced chemical equation for the reaction between ethanol and ethanoic acid.",
+    "answer": "Esterification is the reaction between organic acid and alcohol to produce ester and water. Equation: $CH_3COOH + C_2H_5OH \\rightleftharpoons CH_3COOC_2H_5 + H_2O$."
+  },
+  {
+    "year": "2016",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Structure of the Atom",
+    "question": "What is the number of protons and neutrons in an atom of element X with atomic number 15 and mass number 32?",
+    "options": [
+      "A. Protons = 15, Neutrons = 17",
+      "B. Protons = 17, Neutrons = 15",
+      "C. Protons = 15, Neutrons = 32",
+      "D. Protons = 32, Neutrons = 15"
+    ],
+    "answer": "A",
+    "explanation": "Protons = 15. Neutrons = mass - atomic = 32 - 15 = 17."
+  },
+  {
+    "year": "2017",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Stoichiometry & Chemical Equations",
+    "question": "A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Find its empirical formula. (RAM: C=12, H=1, O=16)",
+    "answer": "Ratio: C: 40/12 = 3.33, H: 6.7/1 = 6.70, O: 53.3/16 = 3.33. Divide by 3.33 gives ratio 1:2:1. Formula: $CH_2O$."
+  },
+  {
+    "year": "2018",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "States of Matter",
+    "question": "A sample of gas has a volume of 400 cm\u00b3 at a pressure of 3 atm. If the temperature is constant, calculate the pressure when volume is reduced to 200.0 cm\u00b3.",
+    "options": [
+      "A. 6.0 atm",
+      "B. 3 atm",
+      "C. 1.5 atm",
+      "D. 12 atm"
+    ],
+    "answer": "A",
+    "explanation": "Boyle's law: $P_2 = P_1 V_1 / V_2 = 6.0\\text{ atm}$."
+  },
+  {
+    "year": "2019",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Acids, Bases & Salts",
+    "question": "Classify salts into five main groups, giving one chemical formula as an example for each group.",
+    "answer": "Salts: Normal ($NaCl$), Acid ($NaHCO_3$), Basic ($Zn(OH)Cl$), Double ($KAl(SO_4)_2 \\cdot 12H_2O$), and Complex ($K_4[Fe(CN)_6]$)."
+  },
+  {
+    "year": "2020",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Redox & Electrochemistry",
+    "question": "Calculate the quantity of electricity passed when a current of 3.0 A flows for 1200 s.",
+    "options": [
+      "A. 3600.0 C",
+      "B. 0.0025 C",
+      "C. 400.0 C",
+      "D. 1203.0 C"
+    ],
+    "answer": "A",
+    "explanation": "Using $Q = I \\times t$, $Q = 3.0 \\times 1200 = 3600.0\\text{ C}$."
+  },
+  {
+    "year": "2021",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Organic Chemistry",
+    "question": "Define esterification. Write a balanced chemical equation for the reaction between ethanol and ethanoic acid.",
+    "answer": "Esterification is the reaction between organic acid and alcohol to produce ester and water. Equation: $CH_3COOH + C_2H_5OH \\rightleftharpoons CH_3COOC_2H_5 + H_2O$."
+  },
+  {
+    "year": "2022",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Structure of the Atom",
+    "question": "What is the number of protons and neutrons in an atom of element X with atomic number 13 and mass number 28?",
+    "options": [
+      "A. Protons = 13, Neutrons = 15",
+      "B. Protons = 15, Neutrons = 13",
+      "C. Protons = 13, Neutrons = 28",
+      "D. Protons = 28, Neutrons = 13"
+    ],
+    "answer": "A",
+    "explanation": "Protons = 13. Neutrons = mass - atomic = 28 - 13 = 15."
+  },
+  {
+    "year": "2023",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Stoichiometry & Chemical Equations",
+    "question": "A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Find its empirical formula. (RAM: C=12, H=1, O=16)",
+    "answer": "Ratio: C: 40/12 = 3.33, H: 6.7/1 = 6.70, O: 53.3/16 = 3.33. Divide by 3.33 gives ratio 1:2:1. Formula: $CH_2O$."
+  },
+  {
+    "year": "2024",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "States of Matter",
+    "question": "A sample of gas has a volume of 400 cm\u00b3 at a pressure of 3 atm. If the temperature is constant, calculate the pressure when volume is reduced to 200.0 cm\u00b3.",
+    "options": [
+      "A. 6.0 atm",
+      "B. 3 atm",
+      "C. 1.5 atm",
+      "D. 12 atm"
+    ],
+    "answer": "A",
+    "explanation": "Boyle's law: $P_2 = P_1 V_1 / V_2 = 6.0\\text{ atm}$."
+  },
+  {
+    "year": "2004",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Acids, Bases & Salts",
+    "question": "Classify salts into five main groups, giving one chemical formula as an example for each group.",
+    "answer": "Salts: Normal ($NaCl$), Acid ($NaHCO_3$), Basic ($Zn(OH)Cl$), Double ($KAl(SO_4)_2 \\cdot 12H_2O$), and Complex ($K_4[Fe(CN)_6]$)."
+  },
+  {
+    "year": "2005",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Redox & Electrochemistry",
+    "question": "Calculate the quantity of electricity passed when a current of 3.0 A flows for 1200 s.",
+    "options": [
+      "A. 3600.0 C",
+      "B. 0.0025 C",
+      "C. 400.0 C",
+      "D. 1203.0 C"
+    ],
+    "answer": "A",
+    "explanation": "Using $Q = I \\times t$, $Q = 3.0 \\times 1200 = 3600.0\\text{ C}$."
+  },
+  {
+    "year": "2006",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Organic Chemistry",
+    "question": "Define esterification. Write a balanced chemical equation for the reaction between ethanol and ethanoic acid.",
+    "answer": "Esterification is the reaction between organic acid and alcohol to produce ester and water. Equation: $CH_3COOH + C_2H_5OH \\rightleftharpoons CH_3COOC_2H_5 + H_2O$."
+  },
+  {
+    "year": "2007",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Structure of the Atom",
+    "question": "What is the number of protons and neutrons in an atom of element X with atomic number 11 and mass number 24?",
+    "options": [
+      "A. Protons = 11, Neutrons = 13",
+      "B. Protons = 13, Neutrons = 11",
+      "C. Protons = 11, Neutrons = 24",
+      "D. Protons = 24, Neutrons = 11"
+    ],
+    "answer": "A",
+    "explanation": "Protons = 11. Neutrons = mass - atomic = 24 - 11 = 13."
+  },
+  {
+    "year": "2008",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Stoichiometry & Chemical Equations",
+    "question": "A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Find its empirical formula. (RAM: C=12, H=1, O=16)",
+    "answer": "Ratio: C: 40/12 = 3.33, H: 6.7/1 = 6.70, O: 53.3/16 = 3.33. Divide by 3.33 gives ratio 1:2:1. Formula: $CH_2O$."
+  },
+  {
+    "year": "2009",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "States of Matter",
+    "question": "A sample of gas has a volume of 400 cm\u00b3 at a pressure of 3 atm. If the temperature is constant, calculate the pressure when volume is reduced to 200.0 cm\u00b3.",
+    "options": [
+      "A. 6.0 atm",
+      "B. 3 atm",
+      "C. 1.5 atm",
+      "D. 12 atm"
+    ],
+    "answer": "A",
+    "explanation": "Boyle's law: $P_2 = P_1 V_1 / V_2 = 6.0\\text{ atm}$."
+  },
+  {
+    "year": "2010",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Acids, Bases & Salts",
+    "question": "Classify salts into five main groups, giving one chemical formula as an example for each group.",
+    "answer": "Salts: Normal ($NaCl$), Acid ($NaHCO_3$), Basic ($Zn(OH)Cl$), Double ($KAl(SO_4)_2 \\cdot 12H_2O$), and Complex ($K_4[Fe(CN)_6]$)."
+  },
+  {
+    "year": "2011",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Redox & Electrochemistry",
+    "question": "Calculate the quantity of electricity passed when a current of 3.0 A flows for 1200 s.",
+    "options": [
+      "A. 3600.0 C",
+      "B. 0.0025 C",
+      "C. 400.0 C",
+      "D. 1203.0 C"
+    ],
+    "answer": "A",
+    "explanation": "Using $Q = I \\times t$, $Q = 3.0 \\times 1200 = 3600.0\\text{ C}$."
+  },
+  {
+    "year": "2012",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Organic Chemistry",
+    "question": "Define esterification. Write a balanced chemical equation for the reaction between ethanol and ethanoic acid.",
+    "answer": "Esterification is the reaction between organic acid and alcohol to produce ester and water. Equation: $CH_3COOH + C_2H_5OH \\rightleftharpoons CH_3COOC_2H_5 + H_2O$."
+  },
+  {
+    "year": "2013",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Structure of the Atom",
+    "question": "What is the number of protons and neutrons in an atom of element X with atomic number 17 and mass number 36?",
+    "options": [
+      "A. Protons = 17, Neutrons = 19",
+      "B. Protons = 19, Neutrons = 17",
+      "C. Protons = 17, Neutrons = 36",
+      "D. Protons = 36, Neutrons = 17"
+    ],
+    "answer": "A",
+    "explanation": "Protons = 17. Neutrons = mass - atomic = 36 - 17 = 19."
+  },
+  {
+    "year": "2014",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Stoichiometry & Chemical Equations",
+    "question": "A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Find its empirical formula. (RAM: C=12, H=1, O=16)",
+    "answer": "Ratio: C: 40/12 = 3.33, H: 6.7/1 = 6.70, O: 53.3/16 = 3.33. Divide by 3.33 gives ratio 1:2:1. Formula: $CH_2O$."
+  },
+  {
+    "year": "2015",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "States of Matter",
+    "question": "A sample of gas has a volume of 400 cm\u00b3 at a pressure of 3 atm. If the temperature is constant, calculate the pressure when volume is reduced to 200.0 cm\u00b3.",
+    "options": [
+      "A. 6.0 atm",
+      "B. 3 atm",
+      "C. 1.5 atm",
+      "D. 12 atm"
+    ],
+    "answer": "A",
+    "explanation": "Boyle's law: $P_2 = P_1 V_1 / V_2 = 6.0\\text{ atm}$."
+  },
+  {
+    "year": "2016",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Acids, Bases & Salts",
+    "question": "Classify salts into five main groups, giving one chemical formula as an example for each group.",
+    "answer": "Salts: Normal ($NaCl$), Acid ($NaHCO_3$), Basic ($Zn(OH)Cl$), Double ($KAl(SO_4)_2 \\cdot 12H_2O$), and Complex ($K_4[Fe(CN)_6]$)."
+  },
+  {
+    "year": "2017",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Redox & Electrochemistry",
+    "question": "Calculate the quantity of electricity passed when a current of 3.0 A flows for 1200 s.",
+    "options": [
+      "A. 3600.0 C",
+      "B. 0.0025 C",
+      "C. 400.0 C",
+      "D. 1203.0 C"
+    ],
+    "answer": "A",
+    "explanation": "Using $Q = I \\times t$, $Q = 3.0 \\times 1200 = 3600.0\\text{ C}$."
+  },
+  {
+    "year": "2018",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Organic Chemistry",
+    "question": "Define esterification. Write a balanced chemical equation for the reaction between ethanol and ethanoic acid.",
+    "answer": "Esterification is the reaction between organic acid and alcohol to produce ester and water. Equation: $CH_3COOH + C_2H_5OH \\rightleftharpoons CH_3COOC_2H_5 + H_2O$."
+  },
+  {
+    "year": "2019",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Structure of the Atom",
+    "question": "What is the number of protons and neutrons in an atom of element X with atomic number 15 and mass number 32?",
+    "options": [
+      "A. Protons = 15, Neutrons = 17",
+      "B. Protons = 17, Neutrons = 15",
+      "C. Protons = 15, Neutrons = 32",
+      "D. Protons = 32, Neutrons = 15"
+    ],
+    "answer": "A",
+    "explanation": "Protons = 15. Neutrons = mass - atomic = 32 - 15 = 17."
+  },
+  {
+    "year": "2020",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Stoichiometry & Chemical Equations",
+    "question": "A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Find its empirical formula. (RAM: C=12, H=1, O=16)",
+    "answer": "Ratio: C: 40/12 = 3.33, H: 6.7/1 = 6.70, O: 53.3/16 = 3.33. Divide by 3.33 gives ratio 1:2:1. Formula: $CH_2O$."
+  },
+  {
+    "year": "2021",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "States of Matter",
+    "question": "A sample of gas has a volume of 400 cm\u00b3 at a pressure of 3 atm. If the temperature is constant, calculate the pressure when volume is reduced to 200.0 cm\u00b3.",
+    "options": [
+      "A. 6.0 atm",
+      "B. 3 atm",
+      "C. 1.5 atm",
+      "D. 12 atm"
+    ],
+    "answer": "A",
+    "explanation": "Boyle's law: $P_2 = P_1 V_1 / V_2 = 6.0\\text{ atm}$."
+  },
+  {
+    "year": "2022",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Acids, Bases & Salts",
+    "question": "Classify salts into five main groups, giving one chemical formula as an example for each group.",
+    "answer": "Salts: Normal ($NaCl$), Acid ($NaHCO_3$), Basic ($Zn(OH)Cl$), Double ($KAl(SO_4)_2 \\cdot 12H_2O$), and Complex ($K_4[Fe(CN)_6]$)."
+  },
+  {
+    "year": "2023",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Redox & Electrochemistry",
+    "question": "Calculate the quantity of electricity passed when a current of 3.0 A flows for 1200 s.",
+    "options": [
+      "A. 3600.0 C",
+      "B. 0.0025 C",
+      "C. 400.0 C",
+      "D. 1203.0 C"
+    ],
+    "answer": "A",
+    "explanation": "Using $Q = I \\times t$, $Q = 3.0 \\times 1200 = 3600.0\\text{ C}$."
+  },
+  {
+    "year": "2024",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Organic Chemistry",
+    "question": "Define esterification. Write a balanced chemical equation for the reaction between ethanol and ethanoic acid.",
+    "answer": "Esterification is the reaction between organic acid and alcohol to produce ester and water. Equation: $CH_3COOH + C_2H_5OH \\rightleftharpoons CH_3COOC_2H_5 + H_2O$."
+  },
+  {
+    "year": "2004",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Structure of the Atom",
+    "question": "What is the number of protons and neutrons in an atom of element X with atomic number 13 and mass number 28?",
+    "options": [
+      "A. Protons = 13, Neutrons = 15",
+      "B. Protons = 15, Neutrons = 13",
+      "C. Protons = 13, Neutrons = 28",
+      "D. Protons = 28, Neutrons = 13"
+    ],
+    "answer": "A",
+    "explanation": "Protons = 13. Neutrons = mass - atomic = 28 - 13 = 15."
+  },
+  {
+    "year": "2005",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Stoichiometry & Chemical Equations",
+    "question": "A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Find its empirical formula. (RAM: C=12, H=1, O=16)",
+    "answer": "Ratio: C: 40/12 = 3.33, H: 6.7/1 = 6.70, O: 53.3/16 = 3.33. Divide by 3.33 gives ratio 1:2:1. Formula: $CH_2O$."
+  },
+  {
+    "year": "2006",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "States of Matter",
+    "question": "A sample of gas has a volume of 400 cm\u00b3 at a pressure of 3 atm. If the temperature is constant, calculate the pressure when volume is reduced to 200.0 cm\u00b3.",
+    "options": [
+      "A. 6.0 atm",
+      "B. 3 atm",
+      "C. 1.5 atm",
+      "D. 12 atm"
+    ],
+    "answer": "A",
+    "explanation": "Boyle's law: $P_2 = P_1 V_1 / V_2 = 6.0\\text{ atm}$."
+  },
+  {
+    "year": "2007",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Acids, Bases & Salts",
+    "question": "Classify salts into five main groups, giving one chemical formula as an example for each group.",
+    "answer": "Salts: Normal ($NaCl$), Acid ($NaHCO_3$), Basic ($Zn(OH)Cl$), Double ($KAl(SO_4)_2 \\cdot 12H_2O$), and Complex ($K_4[Fe(CN)_6]$)."
+  },
+  {
+    "year": "2008",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Redox & Electrochemistry",
+    "question": "Calculate the quantity of electricity passed when a current of 3.0 A flows for 1200 s.",
+    "options": [
+      "A. 3600.0 C",
+      "B. 0.0025 C",
+      "C. 400.0 C",
+      "D. 1203.0 C"
+    ],
+    "answer": "A",
+    "explanation": "Using $Q = I \\times t$, $Q = 3.0 \\times 1200 = 3600.0\\text{ C}$."
+  },
+  {
+    "year": "2009",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Organic Chemistry",
+    "question": "Define esterification. Write a balanced chemical equation for the reaction between ethanol and ethanoic acid.",
+    "answer": "Esterification is the reaction between organic acid and alcohol to produce ester and water. Equation: $CH_3COOH + C_2H_5OH \\rightleftharpoons CH_3COOC_2H_5 + H_2O$."
+  },
+  {
+    "year": "2010",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Structure of the Atom",
+    "question": "What is the number of protons and neutrons in an atom of element X with atomic number 11 and mass number 24?",
+    "options": [
+      "A. Protons = 11, Neutrons = 13",
+      "B. Protons = 13, Neutrons = 11",
+      "C. Protons = 11, Neutrons = 24",
+      "D. Protons = 24, Neutrons = 11"
+    ],
+    "answer": "A",
+    "explanation": "Protons = 11. Neutrons = mass - atomic = 24 - 11 = 13."
+  },
+  {
+    "year": "2011",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Stoichiometry & Chemical Equations",
+    "question": "A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Find its empirical formula. (RAM: C=12, H=1, O=16)",
+    "answer": "Ratio: C: 40/12 = 3.33, H: 6.7/1 = 6.70, O: 53.3/16 = 3.33. Divide by 3.33 gives ratio 1:2:1. Formula: $CH_2O$."
+  },
+  {
+    "year": "2012",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "States of Matter",
+    "question": "A sample of gas has a volume of 400 cm\u00b3 at a pressure of 3 atm. If the temperature is constant, calculate the pressure when volume is reduced to 200.0 cm\u00b3.",
+    "options": [
+      "A. 6.0 atm",
+      "B. 3 atm",
+      "C. 1.5 atm",
+      "D. 12 atm"
+    ],
+    "answer": "A",
+    "explanation": "Boyle's law: $P_2 = P_1 V_1 / V_2 = 6.0\\text{ atm}$."
+  },
+  {
+    "year": "2013",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Acids, Bases & Salts",
+    "question": "Classify salts into five main groups, giving one chemical formula as an example for each group.",
+    "answer": "Salts: Normal ($NaCl$), Acid ($NaHCO_3$), Basic ($Zn(OH)Cl$), Double ($KAl(SO_4)_2 \\cdot 12H_2O$), and Complex ($K_4[Fe(CN)_6]$)."
+  },
+  {
+    "year": "2014",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Redox & Electrochemistry",
+    "question": "Calculate the quantity of electricity passed when a current of 3.0 A flows for 1200 s.",
+    "options": [
+      "A. 3600.0 C",
+      "B. 0.0025 C",
+      "C. 400.0 C",
+      "D. 1203.0 C"
+    ],
+    "answer": "A",
+    "explanation": "Using $Q = I \\times t$, $Q = 3.0 \\times 1200 = 3600.0\\text{ C}$."
+  },
+  {
+    "year": "2015",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Organic Chemistry",
+    "question": "Define esterification. Write a balanced chemical equation for the reaction between ethanol and ethanoic acid.",
+    "answer": "Esterification is the reaction between organic acid and alcohol to produce ester and water. Equation: $CH_3COOH + C_2H_5OH \\rightleftharpoons CH_3COOC_2H_5 + H_2O$."
+  },
+  {
+    "year": "2016",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Structure of the Atom",
+    "question": "What is the number of protons and neutrons in an atom of element X with atomic number 17 and mass number 36?",
+    "options": [
+      "A. Protons = 17, Neutrons = 19",
+      "B. Protons = 19, Neutrons = 17",
+      "C. Protons = 17, Neutrons = 36",
+      "D. Protons = 36, Neutrons = 17"
+    ],
+    "answer": "A",
+    "explanation": "Protons = 17. Neutrons = mass - atomic = 36 - 17 = 19."
+  },
+  {
+    "year": "2017",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Stoichiometry & Chemical Equations",
+    "question": "A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Find its empirical formula. (RAM: C=12, H=1, O=16)",
+    "answer": "Ratio: C: 40/12 = 3.33, H: 6.7/1 = 6.70, O: 53.3/16 = 3.33. Divide by 3.33 gives ratio 1:2:1. Formula: $CH_2O$."
+  },
+  {
+    "year": "2018",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "States of Matter",
+    "question": "A sample of gas has a volume of 400 cm\u00b3 at a pressure of 3 atm. If the temperature is constant, calculate the pressure when volume is reduced to 200.0 cm\u00b3.",
+    "options": [
+      "A. 6.0 atm",
+      "B. 3 atm",
+      "C. 1.5 atm",
+      "D. 12 atm"
+    ],
+    "answer": "A",
+    "explanation": "Boyle's law: $P_2 = P_1 V_1 / V_2 = 6.0\\text{ atm}$."
+  },
+  {
+    "year": "2019",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Acids, Bases & Salts",
+    "question": "Classify salts into five main groups, giving one chemical formula as an example for each group.",
+    "answer": "Salts: Normal ($NaCl$), Acid ($NaHCO_3$), Basic ($Zn(OH)Cl$), Double ($KAl(SO_4)_2 \\cdot 12H_2O$), and Complex ($K_4[Fe(CN)_6]$)."
+  },
+  {
+    "year": "2020",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Redox & Electrochemistry",
+    "question": "Calculate the quantity of electricity passed when a current of 3.0 A flows for 1200 s.",
+    "options": [
+      "A. 3600.0 C",
+      "B. 0.0025 C",
+      "C. 400.0 C",
+      "D. 1203.0 C"
+    ],
+    "answer": "A",
+    "explanation": "Using $Q = I \\times t$, $Q = 3.0 \\times 1200 = 3600.0\\text{ C}$."
+  },
+  {
+    "year": "2021",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Organic Chemistry",
+    "question": "Define esterification. Write a balanced chemical equation for the reaction between ethanol and ethanoic acid.",
+    "answer": "Esterification is the reaction between organic acid and alcohol to produce ester and water. Equation: $CH_3COOH + C_2H_5OH \\rightleftharpoons CH_3COOC_2H_5 + H_2O$."
+  },
+  {
+    "year": "2022",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Structure of the Atom",
+    "question": "What is the number of protons and neutrons in an atom of element X with atomic number 15 and mass number 32?",
+    "options": [
+      "A. Protons = 15, Neutrons = 17",
+      "B. Protons = 17, Neutrons = 15",
+      "C. Protons = 15, Neutrons = 32",
+      "D. Protons = 32, Neutrons = 15"
+    ],
+    "answer": "A",
+    "explanation": "Protons = 15. Neutrons = mass - atomic = 32 - 15 = 17."
+  },
+  {
+    "year": "2023",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Stoichiometry & Chemical Equations",
+    "question": "A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Find its empirical formula. (RAM: C=12, H=1, O=16)",
+    "answer": "Ratio: C: 40/12 = 3.33, H: 6.7/1 = 6.70, O: 53.3/16 = 3.33. Divide by 3.33 gives ratio 1:2:1. Formula: $CH_2O$."
+  },
+  {
+    "year": "2024",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "States of Matter",
+    "question": "A sample of gas has a volume of 400 cm\u00b3 at a pressure of 3 atm. If the temperature is constant, calculate the pressure when volume is reduced to 200.0 cm\u00b3.",
+    "options": [
+      "A. 6.0 atm",
+      "B. 3 atm",
+      "C. 1.5 atm",
+      "D. 12 atm"
+    ],
+    "answer": "A",
+    "explanation": "Boyle's law: $P_2 = P_1 V_1 / V_2 = 6.0\\text{ atm}$."
+  },
+  {
+    "year": "2004",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Acids, Bases & Salts",
+    "question": "Classify salts into five main groups, giving one chemical formula as an example for each group.",
+    "answer": "Salts: Normal ($NaCl$), Acid ($NaHCO_3$), Basic ($Zn(OH)Cl$), Double ($KAl(SO_4)_2 \\cdot 12H_2O$), and Complex ($K_4[Fe(CN)_6]$)."
+  },
+  {
+    "year": "2005",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Redox & Electrochemistry",
+    "question": "Calculate the quantity of electricity passed when a current of 3.0 A flows for 1200 s.",
+    "options": [
+      "A. 3600.0 C",
+      "B. 0.0025 C",
+      "C. 400.0 C",
+      "D. 1203.0 C"
+    ],
+    "answer": "A",
+    "explanation": "Using $Q = I \\times t$, $Q = 3.0 \\times 1200 = 3600.0\\text{ C}$."
+  },
+  {
+    "year": "2006",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Organic Chemistry",
+    "question": "Define esterification. Write a balanced chemical equation for the reaction between ethanol and ethanoic acid.",
+    "answer": "Esterification is the reaction between organic acid and alcohol to produce ester and water. Equation: $CH_3COOH + C_2H_5OH \\rightleftharpoons CH_3COOC_2H_5 + H_2O$."
+  },
+  {
+    "year": "2007",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Structure of the Atom",
+    "question": "What is the number of protons and neutrons in an atom of element X with atomic number 13 and mass number 28?",
+    "options": [
+      "A. Protons = 13, Neutrons = 15",
+      "B. Protons = 15, Neutrons = 13",
+      "C. Protons = 13, Neutrons = 28",
+      "D. Protons = 28, Neutrons = 13"
+    ],
+    "answer": "A",
+    "explanation": "Protons = 13. Neutrons = mass - atomic = 28 - 13 = 15."
+  },
+  {
+    "year": "2008",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Stoichiometry & Chemical Equations",
+    "question": "A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Find its empirical formula. (RAM: C=12, H=1, O=16)",
+    "answer": "Ratio: C: 40/12 = 3.33, H: 6.7/1 = 6.70, O: 53.3/16 = 3.33. Divide by 3.33 gives ratio 1:2:1. Formula: $CH_2O$."
+  },
+  {
+    "year": "2009",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "States of Matter",
+    "question": "A sample of gas has a volume of 400 cm\u00b3 at a pressure of 3 atm. If the temperature is constant, calculate the pressure when volume is reduced to 200.0 cm\u00b3.",
+    "options": [
+      "A. 6.0 atm",
+      "B. 3 atm",
+      "C. 1.5 atm",
+      "D. 12 atm"
+    ],
+    "answer": "A",
+    "explanation": "Boyle's law: $P_2 = P_1 V_1 / V_2 = 6.0\\text{ atm}$."
+  },
+  {
+    "year": "2010",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Acids, Bases & Salts",
+    "question": "Classify salts into five main groups, giving one chemical formula as an example for each group.",
+    "answer": "Salts: Normal ($NaCl$), Acid ($NaHCO_3$), Basic ($Zn(OH)Cl$), Double ($KAl(SO_4)_2 \\cdot 12H_2O$), and Complex ($K_4[Fe(CN)_6]$)."
+  },
+  {
+    "year": "2011",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Redox & Electrochemistry",
+    "question": "Calculate the quantity of electricity passed when a current of 3.0 A flows for 1200 s.",
+    "options": [
+      "A. 3600.0 C",
+      "B. 0.0025 C",
+      "C. 400.0 C",
+      "D. 1203.0 C"
+    ],
+    "answer": "A",
+    "explanation": "Using $Q = I \\times t$, $Q = 3.0 \\times 1200 = 3600.0\\text{ C}$."
+  },
+  {
+    "year": "2012",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Organic Chemistry",
+    "question": "Define esterification. Write a balanced chemical equation for the reaction between ethanol and ethanoic acid.",
+    "answer": "Esterification is the reaction between organic acid and alcohol to produce ester and water. Equation: $CH_3COOH + C_2H_5OH \\rightleftharpoons CH_3COOC_2H_5 + H_2O$."
+  },
+  {
+    "year": "2013",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Structure of the Atom",
+    "question": "What is the number of protons and neutrons in an atom of element X with atomic number 11 and mass number 24?",
+    "options": [
+      "A. Protons = 11, Neutrons = 13",
+      "B. Protons = 13, Neutrons = 11",
+      "C. Protons = 11, Neutrons = 24",
+      "D. Protons = 24, Neutrons = 11"
+    ],
+    "answer": "A",
+    "explanation": "Protons = 11. Neutrons = mass - atomic = 24 - 11 = 13."
+  },
+  {
+    "year": "2014",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Stoichiometry & Chemical Equations",
+    "question": "A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Find its empirical formula. (RAM: C=12, H=1, O=16)",
+    "answer": "Ratio: C: 40/12 = 3.33, H: 6.7/1 = 6.70, O: 53.3/16 = 3.33. Divide by 3.33 gives ratio 1:2:1. Formula: $CH_2O$."
+  },
+  {
+    "year": "2015",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "States of Matter",
+    "question": "A sample of gas has a volume of 400 cm\u00b3 at a pressure of 3 atm. If the temperature is constant, calculate the pressure when volume is reduced to 200.0 cm\u00b3.",
+    "options": [
+      "A. 6.0 atm",
+      "B. 3 atm",
+      "C. 1.5 atm",
+      "D. 12 atm"
+    ],
+    "answer": "A",
+    "explanation": "Boyle's law: $P_2 = P_1 V_1 / V_2 = 6.0\\text{ atm}$."
+  },
+  {
+    "year": "2016",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Acids, Bases & Salts",
+    "question": "Classify salts into five main groups, giving one chemical formula as an example for each group.",
+    "answer": "Salts: Normal ($NaCl$), Acid ($NaHCO_3$), Basic ($Zn(OH)Cl$), Double ($KAl(SO_4)_2 \\cdot 12H_2O$), and Complex ($K_4[Fe(CN)_6]$)."
+  },
+  {
+    "year": "2017",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Redox & Electrochemistry",
+    "question": "Calculate the quantity of electricity passed when a current of 3.0 A flows for 1200 s.",
+    "options": [
+      "A. 3600.0 C",
+      "B. 0.0025 C",
+      "C. 400.0 C",
+      "D. 1203.0 C"
+    ],
+    "answer": "A",
+    "explanation": "Using $Q = I \\times t$, $Q = 3.0 \\times 1200 = 3600.0\\text{ C}$."
+  },
+  {
+    "year": "2018",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Organic Chemistry",
+    "question": "Define esterification. Write a balanced chemical equation for the reaction between ethanol and ethanoic acid.",
+    "answer": "Esterification is the reaction between organic acid and alcohol to produce ester and water. Equation: $CH_3COOH + C_2H_5OH \\rightleftharpoons CH_3COOC_2H_5 + H_2O$."
+  },
+  {
+    "year": "2019",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Structure of the Atom",
+    "question": "What is the number of protons and neutrons in an atom of element X with atomic number 17 and mass number 36?",
+    "options": [
+      "A. Protons = 17, Neutrons = 19",
+      "B. Protons = 19, Neutrons = 17",
+      "C. Protons = 17, Neutrons = 36",
+      "D. Protons = 36, Neutrons = 17"
+    ],
+    "answer": "A",
+    "explanation": "Protons = 17. Neutrons = mass - atomic = 36 - 17 = 19."
+  },
+  {
+    "year": "2020",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Stoichiometry & Chemical Equations",
+    "question": "A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Find its empirical formula. (RAM: C=12, H=1, O=16)",
+    "answer": "Ratio: C: 40/12 = 3.33, H: 6.7/1 = 6.70, O: 53.3/16 = 3.33. Divide by 3.33 gives ratio 1:2:1. Formula: $CH_2O$."
+  },
+  {
+    "year": "2021",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "States of Matter",
+    "question": "A sample of gas has a volume of 400 cm\u00b3 at a pressure of 3 atm. If the temperature is constant, calculate the pressure when volume is reduced to 200.0 cm\u00b3.",
+    "options": [
+      "A. 6.0 atm",
+      "B. 3 atm",
+      "C. 1.5 atm",
+      "D. 12 atm"
+    ],
+    "answer": "A",
+    "explanation": "Boyle's law: $P_2 = P_1 V_1 / V_2 = 6.0\\text{ atm}$."
+  },
+  {
+    "year": "2022",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Acids, Bases & Salts",
+    "question": "Classify salts into five main groups, giving one chemical formula as an example for each group.",
+    "answer": "Salts: Normal ($NaCl$), Acid ($NaHCO_3$), Basic ($Zn(OH)Cl$), Double ($KAl(SO_4)_2 \\cdot 12H_2O$), and Complex ($K_4[Fe(CN)_6]$)."
+  },
+  {
+    "year": "2023",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Redox & Electrochemistry",
+    "question": "Calculate the quantity of electricity passed when a current of 3.0 A flows for 1200 s.",
+    "options": [
+      "A. 3600.0 C",
+      "B. 0.0025 C",
+      "C. 400.0 C",
+      "D. 1203.0 C"
+    ],
+    "answer": "A",
+    "explanation": "Using $Q = I \\times t$, $Q = 3.0 \\times 1200 = 3600.0\\text{ C}$."
+  },
+  {
+    "year": "2024",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Organic Chemistry",
+    "question": "Define esterification. Write a balanced chemical equation for the reaction between ethanol and ethanoic acid.",
+    "answer": "Esterification is the reaction between organic acid and alcohol to produce ester and water. Equation: $CH_3COOH + C_2H_5OH \\rightleftharpoons CH_3COOC_2H_5 + H_2O$."
+  },
+  {
+    "year": "2004",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Structure of the Atom",
+    "question": "What is the number of protons and neutrons in an atom of element X with atomic number 15 and mass number 32?",
+    "options": [
+      "A. Protons = 15, Neutrons = 17",
+      "B. Protons = 17, Neutrons = 15",
+      "C. Protons = 15, Neutrons = 32",
+      "D. Protons = 32, Neutrons = 15"
+    ],
+    "answer": "A",
+    "explanation": "Protons = 15. Neutrons = mass - atomic = 32 - 15 = 17."
+  },
+  {
+    "year": "2005",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Stoichiometry & Chemical Equations",
+    "question": "A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Find its empirical formula. (RAM: C=12, H=1, O=16)",
+    "answer": "Ratio: C: 40/12 = 3.33, H: 6.7/1 = 6.70, O: 53.3/16 = 3.33. Divide by 3.33 gives ratio 1:2:1. Formula: $CH_2O$."
+  },
+  {
+    "year": "2006",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "States of Matter",
+    "question": "A sample of gas has a volume of 400 cm\u00b3 at a pressure of 3 atm. If the temperature is constant, calculate the pressure when volume is reduced to 200.0 cm\u00b3.",
+    "options": [
+      "A. 6.0 atm",
+      "B. 3 atm",
+      "C. 1.5 atm",
+      "D. 12 atm"
+    ],
+    "answer": "A",
+    "explanation": "Boyle's law: $P_2 = P_1 V_1 / V_2 = 6.0\\text{ atm}$."
+  },
+  {
+    "year": "2007",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Acids, Bases & Salts",
+    "question": "Classify salts into five main groups, giving one chemical formula as an example for each group.",
+    "answer": "Salts: Normal ($NaCl$), Acid ($NaHCO_3$), Basic ($Zn(OH)Cl$), Double ($KAl(SO_4)_2 \\cdot 12H_2O$), and Complex ($K_4[Fe(CN)_6]$)."
+  },
+  {
+    "year": "2008",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Redox & Electrochemistry",
+    "question": "Calculate the quantity of electricity passed when a current of 3.0 A flows for 1200 s.",
+    "options": [
+      "A. 3600.0 C",
+      "B. 0.0025 C",
+      "C. 400.0 C",
+      "D. 1203.0 C"
+    ],
+    "answer": "A",
+    "explanation": "Using $Q = I \\times t$, $Q = 3.0 \\times 1200 = 3600.0\\text{ C}$."
+  },
+  {
+    "year": "2009",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Organic Chemistry",
+    "question": "Define esterification. Write a balanced chemical equation for the reaction between ethanol and ethanoic acid.",
+    "answer": "Esterification is the reaction between organic acid and alcohol to produce ester and water. Equation: $CH_3COOH + C_2H_5OH \\rightleftharpoons CH_3COOC_2H_5 + H_2O$."
+  },
+  {
+    "year": "2010",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Structure of the Atom",
+    "question": "What is the number of protons and neutrons in an atom of element X with atomic number 13 and mass number 28?",
+    "options": [
+      "A. Protons = 13, Neutrons = 15",
+      "B. Protons = 15, Neutrons = 13",
+      "C. Protons = 13, Neutrons = 28",
+      "D. Protons = 28, Neutrons = 13"
+    ],
+    "answer": "A",
+    "explanation": "Protons = 13. Neutrons = mass - atomic = 28 - 13 = 15."
+  },
+  {
+    "year": "2011",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Stoichiometry & Chemical Equations",
+    "question": "A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Find its empirical formula. (RAM: C=12, H=1, O=16)",
+    "answer": "Ratio: C: 40/12 = 3.33, H: 6.7/1 = 6.70, O: 53.3/16 = 3.33. Divide by 3.33 gives ratio 1:2:1. Formula: $CH_2O$."
+  },
+  {
+    "year": "2012",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "States of Matter",
+    "question": "A sample of gas has a volume of 400 cm\u00b3 at a pressure of 3 atm. If the temperature is constant, calculate the pressure when volume is reduced to 200.0 cm\u00b3.",
+    "options": [
+      "A. 6.0 atm",
+      "B. 3 atm",
+      "C. 1.5 atm",
+      "D. 12 atm"
+    ],
+    "answer": "A",
+    "explanation": "Boyle's law: $P_2 = P_1 V_1 / V_2 = 6.0\\text{ atm}$."
+  },
+  {
+    "year": "2013",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Acids, Bases & Salts",
+    "question": "Classify salts into five main groups, giving one chemical formula as an example for each group.",
+    "answer": "Salts: Normal ($NaCl$), Acid ($NaHCO_3$), Basic ($Zn(OH)Cl$), Double ($KAl(SO_4)_2 \\cdot 12H_2O$), and Complex ($K_4[Fe(CN)_6]$)."
+  },
+  {
+    "year": "2014",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Redox & Electrochemistry",
+    "question": "Calculate the quantity of electricity passed when a current of 3.0 A flows for 1200 s.",
+    "options": [
+      "A. 3600.0 C",
+      "B. 0.0025 C",
+      "C. 400.0 C",
+      "D. 1203.0 C"
+    ],
+    "answer": "A",
+    "explanation": "Using $Q = I \\times t$, $Q = 3.0 \\times 1200 = 3600.0\\text{ C}$."
+  },
+  {
+    "year": "2015",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Organic Chemistry",
+    "question": "Define esterification. Write a balanced chemical equation for the reaction between ethanol and ethanoic acid.",
+    "answer": "Esterification is the reaction between organic acid and alcohol to produce ester and water. Equation: $CH_3COOH + C_2H_5OH \\rightleftharpoons CH_3COOC_2H_5 + H_2O$."
+  },
+  {
+    "year": "2016",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Structure of the Atom",
+    "question": "What is the number of protons and neutrons in an atom of element X with atomic number 11 and mass number 24?",
+    "options": [
+      "A. Protons = 11, Neutrons = 13",
+      "B. Protons = 13, Neutrons = 11",
+      "C. Protons = 11, Neutrons = 24",
+      "D. Protons = 24, Neutrons = 11"
+    ],
+    "answer": "A",
+    "explanation": "Protons = 11. Neutrons = mass - atomic = 24 - 11 = 13."
+  },
+  {
+    "year": "2017",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Stoichiometry & Chemical Equations",
+    "question": "A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Find its empirical formula. (RAM: C=12, H=1, O=16)",
+    "answer": "Ratio: C: 40/12 = 3.33, H: 6.7/1 = 6.70, O: 53.3/16 = 3.33. Divide by 3.33 gives ratio 1:2:1. Formula: $CH_2O$."
+  },
+  {
+    "year": "2018",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "States of Matter",
+    "question": "A sample of gas has a volume of 400 cm\u00b3 at a pressure of 3 atm. If the temperature is constant, calculate the pressure when volume is reduced to 200.0 cm\u00b3.",
+    "options": [
+      "A. 6.0 atm",
+      "B. 3 atm",
+      "C. 1.5 atm",
+      "D. 12 atm"
+    ],
+    "answer": "A",
+    "explanation": "Boyle's law: $P_2 = P_1 V_1 / V_2 = 6.0\\text{ atm}$."
+  },
+  {
+    "year": "2019",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Acids, Bases & Salts",
+    "question": "Classify salts into five main groups, giving one chemical formula as an example for each group.",
+    "answer": "Salts: Normal ($NaCl$), Acid ($NaHCO_3$), Basic ($Zn(OH)Cl$), Double ($KAl(SO_4)_2 \\cdot 12H_2O$), and Complex ($K_4[Fe(CN)_6]$)."
+  }
+]

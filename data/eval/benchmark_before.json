@@ -1,0 +1,18 @@
+{
+  "label": "before",
+  "n_queries": 315,
+  "recall@5": 0.9524,
+  "recall@10": 0.9587,
+  "precision@5": 0.8463,
+  "precision@10": 0.8054,
+  "mrr": 0.9364,
+  "hit_rate": 0.9587,
+  "latency_total_s": 119.0,
+  "latency_mean_ms": 377.8,
+  "index_chunks": 474,
+  "index_docs": 452,
+  "index_faiss_bytes": 1941549,
+  "chunks_json_bytes": 335829,
+  "embeddings_npy_bytes": 1941632,
+  "context_quality_precision@5": 0.8463
+}

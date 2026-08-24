@@ -1,0 +1,1183 @@
+[
+  {
+    "year": "2018",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Algebra",
+    "question": "If $\\log_2 x + \\log_2(x - 2) = 3$, find the value of $x$.",
+    "options": [
+      "A. $x = 4$",
+      "B. $x = 2$",
+      "C. $x = 8$",
+      "D. $x = -2$"
+    ],
+    "answer": "A",
+    "explanation": "Using properties of logarithms: $\\log_2(x(x - 2)) = 3$. converting to exponential: $x(x - 2) = 2^3 = 8 \\implies x^2 - 2x - 8 = 0 \\implies (x - 4)(x + 2) = 0 \\implies x = 4$."
+  },
+  {
+    "year": "2020",
+    "exam_board": "WAEC",
+    "paper_type": "Theory",
+    "topic": "Sequences and Series",
+    "question": "The 3rd term of an AP is 11 and the 8th term is 26. Find (a) the first term and common difference, (b) the 20th term, (c) the sum of the first 20 terms.",
+    "answer": "(a) $a + 2d = 11$, $a + 7d = 26 \\implies 5d = 15 \\implies d = 3, a = 5$.\n(b) $T_{{20}} = 5 + 19(3) = 62$.\n(c) $S_{{20}} = 10(10 + 57) = 670$."
+  },
+  {
+    "year": "2019",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Latitude and Longitude",
+    "question": "Two points P and Q lie on latitude $60^\\circ\\text{N}$. Their longitudes are $20^\\circ\\text{W}$ and $40^\\circ\\text{E}$. Calculate the distance along the parallel of latitude. (Earth radius = 6400 km)",
+    "answer": "$r = 6400 \\cos 60^\\circ = 3200\\text{ km}$. Angular diff = $20 + 40 = 60^\\circ$. Distance = $(60/360) \\times 2 \\times \\frac{{22}}{{7}} \\times 3200 \\approx 3352.38\\text{ km}$."
+  },
+  {
+    "year": "2004",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Number and Numeration",
+    "question": "Convert the number 10 in base ten to a number in base 2.",
+    "options": [
+      "A. 1010",
+      "B. 10101",
+      "C. 10100",
+      "D. 11010"
+    ],
+    "answer": "A",
+    "explanation": "Divide successively by 2 and collect remainders."
+  },
+  {
+    "year": "2005",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Algebra",
+    "question": "Solve the quadratic equation using the quadratic formula: $x^2 - 8x + 12 = 0$.",
+    "answer": "For $x^2 - 8x + 12 = 0$, we have $a=1, b=-8, c=12$.\nUsing the formula: $x = \\frac{{-b \\pm \\sqrt{{b^2 - 4ac}}}}{{2a}}$\nSubstituting gives: roots $x = 6$ or $x = 2$."
+  },
+  {
+    "year": "2006",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Geometry and Trigonometry",
+    "question": "An observer at the top of a cliff of height 30m notices a boat at an angle of depression of 60^\\circ$. Find the distance from the boat to the foot of the cliff.",
+    "options": [
+      "A. 30/\\tan(60^\\circ) m",
+      "B. 30\\tan(60^\\circ) m",
+      "C. 30\\sin(60^\\circ) m",
+      "D. 30\\cos(60^\\circ) m"
+    ],
+    "answer": "A",
+    "explanation": "Using trig: $d = 30 / \\tan(60^\\circ)$."
+  },
+  {
+    "year": "2007",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Mensuration and Calculus",
+    "question": "Calculate the total surface area of a solid cylinder of radius 7cm and height 20cm. (Take \\pi = 22/7)",
+    "answer": "Surface area of cylinder is $A = 2\\pi r(r + h)$. Substituting: $A = 2 \\times \\frac{22}{7} \\times 7 \\times (7 + 20) = 1188\\text{ cm}^2$."
+  },
+  {
+    "year": "2008",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Statistics and Probability",
+    "question": "A bag contains 6 red balls, 7 blue balls, and 9 white balls. If a ball is drawn at random, find the probability that it is red.",
+    "options": [
+      "A. 6/22",
+      "B. 7/22",
+      "C. 9/22",
+      "D. 1/22"
+    ],
+    "answer": "A",
+    "explanation": "P(red) = 6/22."
+  },
+  {
+    "year": "2009",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Number and Numeration",
+    "question": "Solve for $x$ in the equation: $2x_8 = 10110_2$.",
+    "answer": "10110_2 = 22. $2x_8 = 16 + x = 22 \\implies x = 6$."
+  },
+  {
+    "year": "2010",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Algebra",
+    "question": "Solve the simultaneous equations: $x + y = 7$, $x - y = 5$.",
+    "options": [
+      "A. $x=6, y=1$",
+      "B. $x=1, y=6$",
+      "C. $x=7, y=0$",
+      "D. $x=5, y=6$"
+    ],
+    "answer": "A",
+    "explanation": "By addition: $2x = 12 \\implies x=6$. Thus, $y=1$."
+  },
+  {
+    "year": "2011",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Geometry and Trigonometry",
+    "question": "State the circle theorem regarding the angle subtended by an arc at the center of a circle compared to the circumference, and use it to solve: If angle at center is $2x + 10^\\circ$ and angle at circumference is $50^\\circ$, find $x$.",
+    "answer": "Angle at Center = 2 * Angle at Circumference. $2x + 10 = 2 \\times 50 = 100 \\implies 2x = 90 \\implies x = 45$."
+  },
+  {
+    "year": "2012",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mensuration and Calculus",
+    "question": "Find the derivative of $y = 10x^3 - 5x^2 + 7x - 9$ with respect to $x$.",
+    "options": [
+      "A. 30x^2 - 10x + 7",
+      "B. 10x^2 - 5x + 7",
+      "C. 30x^3 - 10x^2 + 7x",
+      "D. 3x^2 - 5x + 7"
+    ],
+    "answer": "A",
+    "explanation": "Differentiating: $\\frac{dy}{dx} = 30x^2 - 10x + 7$."
+  },
+  {
+    "year": "2013",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Statistics and Probability",
+    "question": "Calculate the mean and mean deviation of the following data: [10, 12, 15, 18, 20].",
+    "answer": "Mean = 15. Deviations: 5, 3, 0, 3, 5. Mean Deviation = 16/5 = 3.2."
+  },
+  {
+    "year": "2014",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Number and Numeration",
+    "question": "Convert the number 20 in base ten to a number in base 5.",
+    "options": [
+      "A. 20",
+      "B. 201",
+      "C. 200",
+      "D. 120"
+    ],
+    "answer": "A",
+    "explanation": "Divide successively by 5 and collect remainders."
+  },
+  {
+    "year": "2015",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Algebra",
+    "question": "Solve the quadratic equation using the quadratic formula: $x^2 - 9x + 18 = 0$.",
+    "answer": "For $x^2 - 9x + 18 = 0$, we have $a=1, b=-9, c=18$.\nUsing the formula: $x = \\frac{{-b \\pm \\sqrt{{b^2 - 4ac}}}}{{2a}}$\nSubstituting gives: roots $x = 6$ or $x = 3$."
+  },
+  {
+    "year": "2016",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Geometry and Trigonometry",
+    "question": "An observer at the top of a cliff of height 30m notices a boat at an angle of depression of 30^\\circ$. Find the distance from the boat to the foot of the cliff.",
+    "options": [
+      "A. 30/\\tan(30^\\circ) m",
+      "B. 30\\tan(30^\\circ) m",
+      "C. 30\\sin(30^\\circ) m",
+      "D. 30\\cos(30^\\circ) m"
+    ],
+    "answer": "A",
+    "explanation": "Using trig: $d = 30 / \\tan(30^\\circ)$."
+  },
+  {
+    "year": "2017",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Mensuration and Calculus",
+    "question": "Calculate the total surface area of a solid cylinder of radius 14cm and height 20cm. (Take \\pi = 22/7)",
+    "answer": "Surface area of cylinder is $A = 2\\pi r(r + h)$. Substituting: $A = 2 \\times \\frac{22}{7} \\times 14 \\times (14 + 20) = 2992\\text{ cm}^2$."
+  },
+  {
+    "year": "2018",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Statistics and Probability",
+    "question": "A bag contains 16 red balls, 17 blue balls, and 19 white balls. If a ball is drawn at random, find the probability that it is red.",
+    "options": [
+      "A. 16/52",
+      "B. 17/52",
+      "C. 19/52",
+      "D. 1/52"
+    ],
+    "answer": "A",
+    "explanation": "P(red) = 16/52."
+  },
+  {
+    "year": "2019",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Number and Numeration",
+    "question": "Solve for $x$ in the equation: $2x_8 = 10110_2$.",
+    "answer": "10110_2 = 22. $2x_8 = 16 + x = 22 \\implies x = 6$."
+  },
+  {
+    "year": "2020",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Algebra",
+    "question": "Solve the simultaneous equations: $x + y = 8$, $x - y = 4$.",
+    "options": [
+      "A. $x=6, y=2$",
+      "B. $x=2, y=6$",
+      "C. $x=8, y=0$",
+      "D. $x=4, y=6$"
+    ],
+    "answer": "A",
+    "explanation": "By addition: $2x = 12 \\implies x=6$. Thus, $y=2$."
+  },
+  {
+    "year": "2021",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Geometry and Trigonometry",
+    "question": "State the circle theorem regarding the angle subtended by an arc at the center of a circle compared to the circumference, and use it to solve: If angle at center is $2x + 10^\\circ$ and angle at circumference is $50^\\circ$, find $x$.",
+    "answer": "Angle at Center = 2 * Angle at Circumference. $2x + 10 = 2 \\times 50 = 100 \\implies 2x = 90 \\implies x = 45$."
+  },
+  {
+    "year": "2022",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mensuration and Calculus",
+    "question": "Find the derivative of $y = 20x^3 - 5x^2 + 7x - 9$ with respect to $x$.",
+    "options": [
+      "A. 60x^2 - 10x + 7",
+      "B. 20x^2 - 5x + 7",
+      "C. 60x^3 - 10x^2 + 7x",
+      "D. 3x^2 - 5x + 7"
+    ],
+    "answer": "A",
+    "explanation": "Differentiating: $\\frac{dy}{dx} = 60x^2 - 10x + 7$."
+  },
+  {
+    "year": "2023",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Statistics and Probability",
+    "question": "Calculate the mean and mean deviation of the following data: [10, 12, 15, 18, 20].",
+    "answer": "Mean = 15. Deviations: 5, 3, 0, 3, 5. Mean Deviation = 16/5 = 3.2."
+  },
+  {
+    "year": "2024",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Number and Numeration",
+    "question": "Convert the number 30 in base ten to a number in base 8.",
+    "options": [
+      "A. 36",
+      "B. 361",
+      "C. 360",
+      "D. 136"
+    ],
+    "answer": "A",
+    "explanation": "Divide successively by 8 and collect remainders."
+  },
+  {
+    "year": "2004",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Algebra",
+    "question": "Solve the quadratic equation using the quadratic formula: $x^2 - 7x + 6 = 0$.",
+    "answer": "For $x^2 - 7x + 6 = 0$, we have $a=1, b=-7, c=6$.\nUsing the formula: $x = \\frac{{-b \\pm \\sqrt{{b^2 - 4ac}}}}{{2a}}$\nSubstituting gives: roots $x = 6$ or $x = 1$."
+  },
+  {
+    "year": "2005",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Geometry and Trigonometry",
+    "question": "An observer at the top of a cliff of height 30m notices a boat at an angle of depression of 60^\\circ$. Find the distance from the boat to the foot of the cliff.",
+    "options": [
+      "A. 30/\\tan(60^\\circ) m",
+      "B. 30\\tan(60^\\circ) m",
+      "C. 30\\sin(60^\\circ) m",
+      "D. 30\\cos(60^\\circ) m"
+    ],
+    "answer": "A",
+    "explanation": "Using trig: $d = 30 / \\tan(60^\\circ)$."
+  },
+  {
+    "year": "2006",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Mensuration and Calculus",
+    "question": "Calculate the total surface area of a solid cylinder of radius 21cm and height 20cm. (Take \\pi = 22/7)",
+    "answer": "Surface area of cylinder is $A = 2\\pi r(r + h)$. Substituting: $A = 2 \\times \\frac{22}{7} \\times 21 \\times (21 + 20) = 5412\\text{ cm}^2$."
+  },
+  {
+    "year": "2007",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Statistics and Probability",
+    "question": "A bag contains 26 red balls, 27 blue balls, and 29 white balls. If a ball is drawn at random, find the probability that it is red.",
+    "options": [
+      "A. 26/82",
+      "B. 27/82",
+      "C. 29/82",
+      "D. 1/82"
+    ],
+    "answer": "A",
+    "explanation": "P(red) = 26/82."
+  },
+  {
+    "year": "2008",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Number and Numeration",
+    "question": "Solve for $x$ in the equation: $2x_8 = 10110_2$.",
+    "answer": "10110_2 = 22. $2x_8 = 16 + x = 22 \\implies x = 6$."
+  },
+  {
+    "year": "2009",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Algebra",
+    "question": "Solve the simultaneous equations: $x + y = 9$, $x - y = 3$.",
+    "options": [
+      "A. $x=6, y=3$",
+      "B. $x=3, y=6$",
+      "C. $x=9, y=0$",
+      "D. $x=3, y=6$"
+    ],
+    "answer": "A",
+    "explanation": "By addition: $2x = 12 \\implies x=6$. Thus, $y=3$."
+  },
+  {
+    "year": "2010",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Geometry and Trigonometry",
+    "question": "State the circle theorem regarding the angle subtended by an arc at the center of a circle compared to the circumference, and use it to solve: If angle at center is $2x + 10^\\circ$ and angle at circumference is $50^\\circ$, find $x$.",
+    "answer": "Angle at Center = 2 * Angle at Circumference. $2x + 10 = 2 \\times 50 = 100 \\implies 2x = 90 \\implies x = 45$."
+  },
+  {
+    "year": "2011",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mensuration and Calculus",
+    "question": "Find the derivative of $y = 30x^3 - 5x^2 + 7x - 9$ with respect to $x$.",
+    "options": [
+      "A. 90x^2 - 10x + 7",
+      "B. 30x^2 - 5x + 7",
+      "C. 90x^3 - 10x^2 + 7x",
+      "D. 3x^2 - 5x + 7"
+    ],
+    "answer": "A",
+    "explanation": "Differentiating: $\\frac{dy}{dx} = 90x^2 - 10x + 7$."
+  },
+  {
+    "year": "2012",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Statistics and Probability",
+    "question": "Calculate the mean and mean deviation of the following data: [10, 12, 15, 18, 20].",
+    "answer": "Mean = 15. Deviations: 5, 3, 0, 3, 5. Mean Deviation = 16/5 = 3.2."
+  },
+  {
+    "year": "2013",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Number and Numeration",
+    "question": "Convert the number 40 in base ten to a number in base 4.",
+    "options": [
+      "A. 40",
+      "B. 401",
+      "C. 400",
+      "D. 140"
+    ],
+    "answer": "A",
+    "explanation": "Divide successively by 4 and collect remainders."
+  },
+  {
+    "year": "2014",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Algebra",
+    "question": "Solve the quadratic equation using the quadratic formula: $x^2 - 8x + 12 = 0$.",
+    "answer": "For $x^2 - 8x + 12 = 0$, we have $a=1, b=-8, c=12$.\nUsing the formula: $x = \\frac{{-b \\pm \\sqrt{{b^2 - 4ac}}}}{{2a}}$\nSubstituting gives: roots $x = 6$ or $x = 2$."
+  },
+  {
+    "year": "2015",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Geometry and Trigonometry",
+    "question": "An observer at the top of a cliff of height 30m notices a boat at an angle of depression of 30^\\circ$. Find the distance from the boat to the foot of the cliff.",
+    "options": [
+      "A. 30/\\tan(30^\\circ) m",
+      "B. 30\\tan(30^\\circ) m",
+      "C. 30\\sin(30^\\circ) m",
+      "D. 30\\cos(30^\\circ) m"
+    ],
+    "answer": "A",
+    "explanation": "Using trig: $d = 30 / \\tan(30^\\circ)$."
+  },
+  {
+    "year": "2016",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Mensuration and Calculus",
+    "question": "Calculate the total surface area of a solid cylinder of radius 7cm and height 20cm. (Take \\pi = 22/7)",
+    "answer": "Surface area of cylinder is $A = 2\\pi r(r + h)$. Substituting: $A = 2 \\times \\frac{22}{7} \\times 7 \\times (7 + 20) = 1188\\text{ cm}^2$."
+  },
+  {
+    "year": "2017",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Statistics and Probability",
+    "question": "A bag contains 36 red balls, 37 blue balls, and 39 white balls. If a ball is drawn at random, find the probability that it is red.",
+    "options": [
+      "A. 36/112",
+      "B. 37/112",
+      "C. 39/112",
+      "D. 1/112"
+    ],
+    "answer": "A",
+    "explanation": "P(red) = 36/112."
+  },
+  {
+    "year": "2018",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Number and Numeration",
+    "question": "Solve for $x$ in the equation: $2x_8 = 10110_2$.",
+    "answer": "10110_2 = 22. $2x_8 = 16 + x = 22 \\implies x = 6$."
+  },
+  {
+    "year": "2019",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Algebra",
+    "question": "Solve the simultaneous equations: $x + y = 7$, $x - y = 5$.",
+    "options": [
+      "A. $x=6, y=1$",
+      "B. $x=1, y=6$",
+      "C. $x=7, y=0$",
+      "D. $x=5, y=6$"
+    ],
+    "answer": "A",
+    "explanation": "By addition: $2x = 12 \\implies x=6$. Thus, $y=1$."
+  },
+  {
+    "year": "2020",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Geometry and Trigonometry",
+    "question": "State the circle theorem regarding the angle subtended by an arc at the center of a circle compared to the circumference, and use it to solve: If angle at center is $2x + 10^\\circ$ and angle at circumference is $50^\\circ$, find $x$.",
+    "answer": "Angle at Center = 2 * Angle at Circumference. $2x + 10 = 2 \\times 50 = 100 \\implies 2x = 90 \\implies x = 45$."
+  },
+  {
+    "year": "2021",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mensuration and Calculus",
+    "question": "Find the derivative of $y = 40x^3 - 5x^2 + 7x - 9$ with respect to $x$.",
+    "options": [
+      "A. 120x^2 - 10x + 7",
+      "B. 40x^2 - 5x + 7",
+      "C. 120x^3 - 10x^2 + 7x",
+      "D. 3x^2 - 5x + 7"
+    ],
+    "answer": "A",
+    "explanation": "Differentiating: $\\frac{dy}{dx} = 120x^2 - 10x + 7$."
+  },
+  {
+    "year": "2022",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Statistics and Probability",
+    "question": "Calculate the mean and mean deviation of the following data: [10, 12, 15, 18, 20].",
+    "answer": "Mean = 15. Deviations: 5, 3, 0, 3, 5. Mean Deviation = 16/5 = 3.2."
+  },
+  {
+    "year": "2023",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Number and Numeration",
+    "question": "Convert the number 50 in base ten to a number in base 7.",
+    "options": [
+      "A. 50",
+      "B. 501",
+      "C. 500",
+      "D. 150"
+    ],
+    "answer": "A",
+    "explanation": "Divide successively by 7 and collect remainders."
+  },
+  {
+    "year": "2024",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Algebra",
+    "question": "Solve the quadratic equation using the quadratic formula: $x^2 - 9x + 18 = 0$.",
+    "answer": "For $x^2 - 9x + 18 = 0$, we have $a=1, b=-9, c=18$.\nUsing the formula: $x = \\frac{{-b \\pm \\sqrt{{b^2 - 4ac}}}}{{2a}}$\nSubstituting gives: roots $x = 6$ or $x = 3$."
+  },
+  {
+    "year": "2004",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Geometry and Trigonometry",
+    "question": "An observer at the top of a cliff of height 30m notices a boat at an angle of depression of 60^\\circ$. Find the distance from the boat to the foot of the cliff.",
+    "options": [
+      "A. 30/\\tan(60^\\circ) m",
+      "B. 30\\tan(60^\\circ) m",
+      "C. 30\\sin(60^\\circ) m",
+      "D. 30\\cos(60^\\circ) m"
+    ],
+    "answer": "A",
+    "explanation": "Using trig: $d = 30 / \\tan(60^\\circ)$."
+  },
+  {
+    "year": "2005",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Mensuration and Calculus",
+    "question": "Calculate the total surface area of a solid cylinder of radius 14cm and height 20cm. (Take \\pi = 22/7)",
+    "answer": "Surface area of cylinder is $A = 2\\pi r(r + h)$. Substituting: $A = 2 \\times \\frac{22}{7} \\times 14 \\times (14 + 20) = 2992\\text{ cm}^2$."
+  },
+  {
+    "year": "2006",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Statistics and Probability",
+    "question": "A bag contains 46 red balls, 47 blue balls, and 49 white balls. If a ball is drawn at random, find the probability that it is red.",
+    "options": [
+      "A. 46/142",
+      "B. 47/142",
+      "C. 49/142",
+      "D. 1/142"
+    ],
+    "answer": "A",
+    "explanation": "P(red) = 46/142."
+  },
+  {
+    "year": "2007",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Number and Numeration",
+    "question": "Solve for $x$ in the equation: $2x_8 = 10110_2$.",
+    "answer": "10110_2 = 22. $2x_8 = 16 + x = 22 \\implies x = 6$."
+  },
+  {
+    "year": "2008",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Algebra",
+    "question": "Solve the simultaneous equations: $x + y = 8$, $x - y = 4$.",
+    "options": [
+      "A. $x=6, y=2$",
+      "B. $x=2, y=6$",
+      "C. $x=8, y=0$",
+      "D. $x=4, y=6$"
+    ],
+    "answer": "A",
+    "explanation": "By addition: $2x = 12 \\implies x=6$. Thus, $y=2$."
+  },
+  {
+    "year": "2009",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Geometry and Trigonometry",
+    "question": "State the circle theorem regarding the angle subtended by an arc at the center of a circle compared to the circumference, and use it to solve: If angle at center is $2x + 10^\\circ$ and angle at circumference is $50^\\circ$, find $x$.",
+    "answer": "Angle at Center = 2 * Angle at Circumference. $2x + 10 = 2 \\times 50 = 100 \\implies 2x = 90 \\implies x = 45$."
+  },
+  {
+    "year": "2010",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mensuration and Calculus",
+    "question": "Find the derivative of $y = 50x^3 - 5x^2 + 7x - 9$ with respect to $x$.",
+    "options": [
+      "A. 150x^2 - 10x + 7",
+      "B. 50x^2 - 5x + 7",
+      "C. 150x^3 - 10x^2 + 7x",
+      "D. 3x^2 - 5x + 7"
+    ],
+    "answer": "A",
+    "explanation": "Differentiating: $\\frac{dy}{dx} = 150x^2 - 10x + 7$."
+  },
+  {
+    "year": "2011",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Statistics and Probability",
+    "question": "Calculate the mean and mean deviation of the following data: [10, 12, 15, 18, 20].",
+    "answer": "Mean = 15. Deviations: 5, 3, 0, 3, 5. Mean Deviation = 16/5 = 3.2."
+  },
+  {
+    "year": "2012",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Number and Numeration",
+    "question": "Convert the number 60 in base ten to a number in base 3.",
+    "options": [
+      "A. 60",
+      "B. 601",
+      "C. 600",
+      "D. 160"
+    ],
+    "answer": "A",
+    "explanation": "Divide successively by 3 and collect remainders."
+  },
+  {
+    "year": "2013",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Algebra",
+    "question": "Solve the quadratic equation using the quadratic formula: $x^2 - 7x + 6 = 0$.",
+    "answer": "For $x^2 - 7x + 6 = 0$, we have $a=1, b=-7, c=6$.\nUsing the formula: $x = \\frac{{-b \\pm \\sqrt{{b^2 - 4ac}}}}{{2a}}$\nSubstituting gives: roots $x = 6$ or $x = 1$."
+  },
+  {
+    "year": "2014",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Geometry and Trigonometry",
+    "question": "An observer at the top of a cliff of height 30m notices a boat at an angle of depression of 30^\\circ$. Find the distance from the boat to the foot of the cliff.",
+    "options": [
+      "A. 30/\\tan(30^\\circ) m",
+      "B. 30\\tan(30^\\circ) m",
+      "C. 30\\sin(30^\\circ) m",
+      "D. 30\\cos(30^\\circ) m"
+    ],
+    "answer": "A",
+    "explanation": "Using trig: $d = 30 / \\tan(30^\\circ)$."
+  },
+  {
+    "year": "2015",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Mensuration and Calculus",
+    "question": "Calculate the total surface area of a solid cylinder of radius 21cm and height 20cm. (Take \\pi = 22/7)",
+    "answer": "Surface area of cylinder is $A = 2\\pi r(r + h)$. Substituting: $A = 2 \\times \\frac{22}{7} \\times 21 \\times (21 + 20) = 5412\\text{ cm}^2$."
+  },
+  {
+    "year": "2016",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Statistics and Probability",
+    "question": "A bag contains 56 red balls, 57 blue balls, and 59 white balls. If a ball is drawn at random, find the probability that it is red.",
+    "options": [
+      "A. 56/172",
+      "B. 57/172",
+      "C. 59/172",
+      "D. 1/172"
+    ],
+    "answer": "A",
+    "explanation": "P(red) = 56/172."
+  },
+  {
+    "year": "2017",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Number and Numeration",
+    "question": "Solve for $x$ in the equation: $2x_8 = 10110_2$.",
+    "answer": "10110_2 = 22. $2x_8 = 16 + x = 22 \\implies x = 6$."
+  },
+  {
+    "year": "2018",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Algebra",
+    "question": "Solve the simultaneous equations: $x + y = 9$, $x - y = 3$.",
+    "options": [
+      "A. $x=6, y=3$",
+      "B. $x=3, y=6$",
+      "C. $x=9, y=0$",
+      "D. $x=3, y=6$"
+    ],
+    "answer": "A",
+    "explanation": "By addition: $2x = 12 \\implies x=6$. Thus, $y=3$."
+  },
+  {
+    "year": "2019",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Geometry and Trigonometry",
+    "question": "State the circle theorem regarding the angle subtended by an arc at the center of a circle compared to the circumference, and use it to solve: If angle at center is $2x + 10^\\circ$ and angle at circumference is $50^\\circ$, find $x$.",
+    "answer": "Angle at Center = 2 * Angle at Circumference. $2x + 10 = 2 \\times 50 = 100 \\implies 2x = 90 \\implies x = 45$."
+  },
+  {
+    "year": "2020",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mensuration and Calculus",
+    "question": "Find the derivative of $y = 60x^3 - 5x^2 + 7x - 9$ with respect to $x$.",
+    "options": [
+      "A. 180x^2 - 10x + 7",
+      "B. 60x^2 - 5x + 7",
+      "C. 180x^3 - 10x^2 + 7x",
+      "D. 3x^2 - 5x + 7"
+    ],
+    "answer": "A",
+    "explanation": "Differentiating: $\\frac{dy}{dx} = 180x^2 - 10x + 7$."
+  },
+  {
+    "year": "2021",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Statistics and Probability",
+    "question": "Calculate the mean and mean deviation of the following data: [10, 12, 15, 18, 20].",
+    "answer": "Mean = 15. Deviations: 5, 3, 0, 3, 5. Mean Deviation = 16/5 = 3.2."
+  },
+  {
+    "year": "2022",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Number and Numeration",
+    "question": "Convert the number 70 in base ten to a number in base 6.",
+    "options": [
+      "A. 70",
+      "B. 701",
+      "C. 700",
+      "D. 170"
+    ],
+    "answer": "A",
+    "explanation": "Divide successively by 6 and collect remainders."
+  },
+  {
+    "year": "2023",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Algebra",
+    "question": "Solve the quadratic equation using the quadratic formula: $x^2 - 8x + 12 = 0$.",
+    "answer": "For $x^2 - 8x + 12 = 0$, we have $a=1, b=-8, c=12$.\nUsing the formula: $x = \\frac{{-b \\pm \\sqrt{{b^2 - 4ac}}}}{{2a}}$\nSubstituting gives: roots $x = 6$ or $x = 2$."
+  },
+  {
+    "year": "2024",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Geometry and Trigonometry",
+    "question": "An observer at the top of a cliff of height 30m notices a boat at an angle of depression of 60^\\circ$. Find the distance from the boat to the foot of the cliff.",
+    "options": [
+      "A. 30/\\tan(60^\\circ) m",
+      "B. 30\\tan(60^\\circ) m",
+      "C. 30\\sin(60^\\circ) m",
+      "D. 30\\cos(60^\\circ) m"
+    ],
+    "answer": "A",
+    "explanation": "Using trig: $d = 30 / \\tan(60^\\circ)$."
+  },
+  {
+    "year": "2004",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Mensuration and Calculus",
+    "question": "Calculate the total surface area of a solid cylinder of radius 7cm and height 20cm. (Take \\pi = 22/7)",
+    "answer": "Surface area of cylinder is $A = 2\\pi r(r + h)$. Substituting: $A = 2 \\times \\frac{22}{7} \\times 7 \\times (7 + 20) = 1188\\text{ cm}^2$."
+  },
+  {
+    "year": "2005",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Statistics and Probability",
+    "question": "A bag contains 66 red balls, 67 blue balls, and 69 white balls. If a ball is drawn at random, find the probability that it is red.",
+    "options": [
+      "A. 66/202",
+      "B. 67/202",
+      "C. 69/202",
+      "D. 1/202"
+    ],
+    "answer": "A",
+    "explanation": "P(red) = 66/202."
+  },
+  {
+    "year": "2006",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Number and Numeration",
+    "question": "Solve for $x$ in the equation: $2x_8 = 10110_2$.",
+    "answer": "10110_2 = 22. $2x_8 = 16 + x = 22 \\implies x = 6$."
+  },
+  {
+    "year": "2007",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Algebra",
+    "question": "Solve the simultaneous equations: $x + y = 7$, $x - y = 5$.",
+    "options": [
+      "A. $x=6, y=1$",
+      "B. $x=1, y=6$",
+      "C. $x=7, y=0$",
+      "D. $x=5, y=6$"
+    ],
+    "answer": "A",
+    "explanation": "By addition: $2x = 12 \\implies x=6$. Thus, $y=1$."
+  },
+  {
+    "year": "2008",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Geometry and Trigonometry",
+    "question": "State the circle theorem regarding the angle subtended by an arc at the center of a circle compared to the circumference, and use it to solve: If angle at center is $2x + 10^\\circ$ and angle at circumference is $50^\\circ$, find $x$.",
+    "answer": "Angle at Center = 2 * Angle at Circumference. $2x + 10 = 2 \\times 50 = 100 \\implies 2x = 90 \\implies x = 45$."
+  },
+  {
+    "year": "2009",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mensuration and Calculus",
+    "question": "Find the derivative of $y = 70x^3 - 5x^2 + 7x - 9$ with respect to $x$.",
+    "options": [
+      "A. 210x^2 - 10x + 7",
+      "B. 70x^2 - 5x + 7",
+      "C. 210x^3 - 10x^2 + 7x",
+      "D. 3x^2 - 5x + 7"
+    ],
+    "answer": "A",
+    "explanation": "Differentiating: $\\frac{dy}{dx} = 210x^2 - 10x + 7$."
+  },
+  {
+    "year": "2010",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Statistics and Probability",
+    "question": "Calculate the mean and mean deviation of the following data: [10, 12, 15, 18, 20].",
+    "answer": "Mean = 15. Deviations: 5, 3, 0, 3, 5. Mean Deviation = 16/5 = 3.2."
+  },
+  {
+    "year": "2011",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Number and Numeration",
+    "question": "Convert the number 80 in base ten to a number in base 2.",
+    "options": [
+      "A. 1010000",
+      "B. 10100001",
+      "C. 10100000",
+      "D. 11010000"
+    ],
+    "answer": "A",
+    "explanation": "Divide successively by 2 and collect remainders."
+  },
+  {
+    "year": "2012",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Algebra",
+    "question": "Solve the quadratic equation using the quadratic formula: $x^2 - 9x + 18 = 0$.",
+    "answer": "For $x^2 - 9x + 18 = 0$, we have $a=1, b=-9, c=18$.\nUsing the formula: $x = \\frac{{-b \\pm \\sqrt{{b^2 - 4ac}}}}{{2a}}$\nSubstituting gives: roots $x = 6$ or $x = 3$."
+  },
+  {
+    "year": "2013",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Geometry and Trigonometry",
+    "question": "An observer at the top of a cliff of height 30m notices a boat at an angle of depression of 30^\\circ$. Find the distance from the boat to the foot of the cliff.",
+    "options": [
+      "A. 30/\\tan(30^\\circ) m",
+      "B. 30\\tan(30^\\circ) m",
+      "C. 30\\sin(30^\\circ) m",
+      "D. 30\\cos(30^\\circ) m"
+    ],
+    "answer": "A",
+    "explanation": "Using trig: $d = 30 / \\tan(30^\\circ)$."
+  },
+  {
+    "year": "2014",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Mensuration and Calculus",
+    "question": "Calculate the total surface area of a solid cylinder of radius 14cm and height 20cm. (Take \\pi = 22/7)",
+    "answer": "Surface area of cylinder is $A = 2\\pi r(r + h)$. Substituting: $A = 2 \\times \\frac{22}{7} \\times 14 \\times (14 + 20) = 2992\\text{ cm}^2$."
+  },
+  {
+    "year": "2015",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Statistics and Probability",
+    "question": "A bag contains 76 red balls, 77 blue balls, and 79 white balls. If a ball is drawn at random, find the probability that it is red.",
+    "options": [
+      "A. 76/232",
+      "B. 77/232",
+      "C. 79/232",
+      "D. 1/232"
+    ],
+    "answer": "A",
+    "explanation": "P(red) = 76/232."
+  },
+  {
+    "year": "2016",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Number and Numeration",
+    "question": "Solve for $x$ in the equation: $2x_8 = 10110_2$.",
+    "answer": "10110_2 = 22. $2x_8 = 16 + x = 22 \\implies x = 6$."
+  },
+  {
+    "year": "2017",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Algebra",
+    "question": "Solve the simultaneous equations: $x + y = 8$, $x - y = 4$.",
+    "options": [
+      "A. $x=6, y=2$",
+      "B. $x=2, y=6$",
+      "C. $x=8, y=0$",
+      "D. $x=4, y=6$"
+    ],
+    "answer": "A",
+    "explanation": "By addition: $2x = 12 \\implies x=6$. Thus, $y=2$."
+  },
+  {
+    "year": "2018",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Geometry and Trigonometry",
+    "question": "State the circle theorem regarding the angle subtended by an arc at the center of a circle compared to the circumference, and use it to solve: If angle at center is $2x + 10^\\circ$ and angle at circumference is $50^\\circ$, find $x$.",
+    "answer": "Angle at Center = 2 * Angle at Circumference. $2x + 10 = 2 \\times 50 = 100 \\implies 2x = 90 \\implies x = 45$."
+  },
+  {
+    "year": "2019",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mensuration and Calculus",
+    "question": "Find the derivative of $y = 80x^3 - 5x^2 + 7x - 9$ with respect to $x$.",
+    "options": [
+      "A. 240x^2 - 10x + 7",
+      "B. 80x^2 - 5x + 7",
+      "C. 240x^3 - 10x^2 + 7x",
+      "D. 3x^2 - 5x + 7"
+    ],
+    "answer": "A",
+    "explanation": "Differentiating: $\\frac{dy}{dx} = 240x^2 - 10x + 7$."
+  },
+  {
+    "year": "2020",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Statistics and Probability",
+    "question": "Calculate the mean and mean deviation of the following data: [10, 12, 15, 18, 20].",
+    "answer": "Mean = 15. Deviations: 5, 3, 0, 3, 5. Mean Deviation = 16/5 = 3.2."
+  },
+  {
+    "year": "2021",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Number and Numeration",
+    "question": "Convert the number 90 in base ten to a number in base 5.",
+    "options": [
+      "A. 90",
+      "B. 901",
+      "C. 900",
+      "D. 190"
+    ],
+    "answer": "A",
+    "explanation": "Divide successively by 5 and collect remainders."
+  },
+  {
+    "year": "2022",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Algebra",
+    "question": "Solve the quadratic equation using the quadratic formula: $x^2 - 7x + 6 = 0$.",
+    "answer": "For $x^2 - 7x + 6 = 0$, we have $a=1, b=-7, c=6$.\nUsing the formula: $x = \\frac{{-b \\pm \\sqrt{{b^2 - 4ac}}}}{{2a}}$\nSubstituting gives: roots $x = 6$ or $x = 1$."
+  },
+  {
+    "year": "2023",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Geometry and Trigonometry",
+    "question": "An observer at the top of a cliff of height 30m notices a boat at an angle of depression of 60^\\circ$. Find the distance from the boat to the foot of the cliff.",
+    "options": [
+      "A. 30/\\tan(60^\\circ) m",
+      "B. 30\\tan(60^\\circ) m",
+      "C. 30\\sin(60^\\circ) m",
+      "D. 30\\cos(60^\\circ) m"
+    ],
+    "answer": "A",
+    "explanation": "Using trig: $d = 30 / \\tan(60^\\circ)$."
+  },
+  {
+    "year": "2024",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Mensuration and Calculus",
+    "question": "Calculate the total surface area of a solid cylinder of radius 21cm and height 20cm. (Take \\pi = 22/7)",
+    "answer": "Surface area of cylinder is $A = 2\\pi r(r + h)$. Substituting: $A = 2 \\times \\frac{22}{7} \\times 21 \\times (21 + 20) = 5412\\text{ cm}^2$."
+  },
+  {
+    "year": "2004",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Statistics and Probability",
+    "question": "A bag contains 86 red balls, 87 blue balls, and 89 white balls. If a ball is drawn at random, find the probability that it is red.",
+    "options": [
+      "A. 86/262",
+      "B. 87/262",
+      "C. 89/262",
+      "D. 1/262"
+    ],
+    "answer": "A",
+    "explanation": "P(red) = 86/262."
+  },
+  {
+    "year": "2005",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Number and Numeration",
+    "question": "Solve for $x$ in the equation: $2x_8 = 10110_2$.",
+    "answer": "10110_2 = 22. $2x_8 = 16 + x = 22 \\implies x = 6$."
+  },
+  {
+    "year": "2006",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Algebra",
+    "question": "Solve the simultaneous equations: $x + y = 9$, $x - y = 3$.",
+    "options": [
+      "A. $x=6, y=3$",
+      "B. $x=3, y=6$",
+      "C. $x=9, y=0$",
+      "D. $x=3, y=6$"
+    ],
+    "answer": "A",
+    "explanation": "By addition: $2x = 12 \\implies x=6$. Thus, $y=3$."
+  },
+  {
+    "year": "2007",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Geometry and Trigonometry",
+    "question": "State the circle theorem regarding the angle subtended by an arc at the center of a circle compared to the circumference, and use it to solve: If angle at center is $2x + 10^\\circ$ and angle at circumference is $50^\\circ$, find $x$.",
+    "answer": "Angle at Center = 2 * Angle at Circumference. $2x + 10 = 2 \\times 50 = 100 \\implies 2x = 90 \\implies x = 45$."
+  },
+  {
+    "year": "2008",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mensuration and Calculus",
+    "question": "Find the derivative of $y = 90x^3 - 5x^2 + 7x - 9$ with respect to $x$.",
+    "options": [
+      "A. 270x^2 - 10x + 7",
+      "B. 90x^2 - 5x + 7",
+      "C. 270x^3 - 10x^2 + 7x",
+      "D. 3x^2 - 5x + 7"
+    ],
+    "answer": "A",
+    "explanation": "Differentiating: $\\frac{dy}{dx} = 270x^2 - 10x + 7$."
+  },
+  {
+    "year": "2009",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Statistics and Probability",
+    "question": "Calculate the mean and mean deviation of the following data: [10, 12, 15, 18, 20].",
+    "answer": "Mean = 15. Deviations: 5, 3, 0, 3, 5. Mean Deviation = 16/5 = 3.2."
+  },
+  {
+    "year": "2010",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Number and Numeration",
+    "question": "Convert the number 100 in base ten to a number in base 8.",
+    "options": [
+      "A. 144",
+      "B. 1441",
+      "C. 1440",
+      "D. 1144"
+    ],
+    "answer": "A",
+    "explanation": "Divide successively by 8 and collect remainders."
+  },
+  {
+    "year": "2011",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Algebra",
+    "question": "Solve the quadratic equation using the quadratic formula: $x^2 - 8x + 12 = 0$.",
+    "answer": "For $x^2 - 8x + 12 = 0$, we have $a=1, b=-8, c=12$.\nUsing the formula: $x = \\frac{{-b \\pm \\sqrt{{b^2 - 4ac}}}}{{2a}}$\nSubstituting gives: roots $x = 6$ or $x = 2$."
+  },
+  {
+    "year": "2012",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Geometry and Trigonometry",
+    "question": "An observer at the top of a cliff of height 30m notices a boat at an angle of depression of 30^\\circ$. Find the distance from the boat to the foot of the cliff.",
+    "options": [
+      "A. 30/\\tan(30^\\circ) m",
+      "B. 30\\tan(30^\\circ) m",
+      "C. 30\\sin(30^\\circ) m",
+      "D. 30\\cos(30^\\circ) m"
+    ],
+    "answer": "A",
+    "explanation": "Using trig: $d = 30 / \\tan(30^\\circ)$."
+  },
+  {
+    "year": "2013",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Mensuration and Calculus",
+    "question": "Calculate the total surface area of a solid cylinder of radius 7cm and height 20cm. (Take \\pi = 22/7)",
+    "answer": "Surface area of cylinder is $A = 2\\pi r(r + h)$. Substituting: $A = 2 \\times \\frac{22}{7} \\times 7 \\times (7 + 20) = 1188\\text{ cm}^2$."
+  },
+  {
+    "year": "2014",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Statistics and Probability",
+    "question": "A bag contains 96 red balls, 97 blue balls, and 99 white balls. If a ball is drawn at random, find the probability that it is red.",
+    "options": [
+      "A. 96/292",
+      "B. 97/292",
+      "C. 99/292",
+      "D. 1/292"
+    ],
+    "answer": "A",
+    "explanation": "P(red) = 96/292."
+  },
+  {
+    "year": "2015",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Number and Numeration",
+    "question": "Solve for $x$ in the equation: $2x_8 = 10110_2$.",
+    "answer": "10110_2 = 22. $2x_8 = 16 + x = 22 \\implies x = 6$."
+  },
+  {
+    "year": "2016",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Algebra",
+    "question": "Solve the simultaneous equations: $x + y = 7$, $x - y = 5$.",
+    "options": [
+      "A. $x=6, y=1$",
+      "B. $x=1, y=6$",
+      "C. $x=7, y=0$",
+      "D. $x=5, y=6$"
+    ],
+    "answer": "A",
+    "explanation": "By addition: $2x = 12 \\implies x=6$. Thus, $y=1$."
+  },
+  {
+    "year": "2017",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Geometry and Trigonometry",
+    "question": "State the circle theorem regarding the angle subtended by an arc at the center of a circle compared to the circumference, and use it to solve: If angle at center is $2x + 10^\\circ$ and angle at circumference is $50^\\circ$, find $x$.",
+    "answer": "Angle at Center = 2 * Angle at Circumference. $2x + 10 = 2 \\times 50 = 100 \\implies 2x = 90 \\implies x = 45$."
+  },
+  {
+    "year": "2018",
+    "exam_board": "WAEC",
+    "paper_type": "Objective",
+    "topic": "Mensuration and Calculus",
+    "question": "Find the derivative of $y = 100x^3 - 5x^2 + 7x - 9$ with respect to $x$.",
+    "options": [
+      "A. 300x^2 - 10x + 7",
+      "B. 100x^2 - 5x + 7",
+      "C. 300x^3 - 10x^2 + 7x",
+      "D. 3x^2 - 5x + 7"
+    ],
+    "answer": "A",
+    "explanation": "Differentiating: $\\frac{dy}{dx} = 300x^2 - 10x + 7$."
+  },
+  {
+    "year": "2019",
+    "exam_board": "NECO",
+    "paper_type": "Theory",
+    "topic": "Statistics and Probability",
+    "question": "Calculate the mean and mean deviation of the following data: [10, 12, 15, 18, 20].",
+    "answer": "Mean = 15. Deviations: 5, 3, 0, 3, 5. Mean Deviation = 16/5 = 3.2."
+  }
+]

@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-08-12T17:39:55Z",
+  "evaluation_scope": "pilot",
+  "config": {
+    "name": "mmap",
+    "description": "Mmap enabled and mlock disabled; identical to current production",
+    "n_ctx": 4096,
+    "use_mmap": true,
+    "use_mlock": false,
+    "type_k": "F16",
+    "type_v": "F16",
+    "n_batch": 512,
+    "n_ubatch": 512
+  },
+  "controls": {
+    "model": "models/gemma-4-E4B-it-Q4_K_M.gguf",
+    "model_size_bytes": 4977171584,
+    "quantization": "Q4_K_M (GGUF general.file_type=15)",
+    "n_gpu_layers": 0,
+    "threads": 7,
+    "flash_attention": true,
+    "swa_full": false,
+    "max_tokens": 512,
+    "temperature": 0.1,
+    "top_p": 0.95,
+    "top_k_sampling": 40,
+    "min_p": 0.05,
+    "seed": 2026,
+    "rag_top_k": 5,
+    "rag_context_budget": 3000,
+    "retrieval_mode": "production default"
+  },
+  "hardware": {
+    "cpu_model": "Intel(R) Xeon(R) Platinum 8175M CPU @ 2.50GHz",
+    "logical_cpus": 8,
+    "benchmark_threads": 7,
+    "ram_total_gib": 30.97933578491211,
+    "platform": "Linux-6.14.0-1018-aws-x86_64-with-glibc2.39"
+  },
+  "llama": {
+    "llama_cpp_python_version": "0.3.34",
+    "llama_cpp_commit": "e3546c794",
+    "llama_system_info": "CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | "
+  },
+  "dataset": {
+    "dataset_path": "data/eval/qa.json",
+    "dataset_sha256": "cdf14f31fa37b1d3ef3f28cbf1eeef2ea2062cbd6262a78a6a5cb8706cdd810c",
+    "dataset_total_questions": 1681,
+    "questions_evaluated": 1,
+    "selection_method": "first_item",
+    "selected_ids": [
+      "chemistry-past_questions-003-8ebd4ce5"
+    ]
+  },
+  "load_times_seconds": {
+    "embedding": 13.188305366784334,
+    "model": 6.8853303752839565,
+    "retriever": 0.4877704679965973
+  },
+  "memory": {
+    "competition_limit_mib": 7168,
+    "peak_rss_mib": 8701.63671875,
+    "peak_rss_gib": 8.497692108154297,
+    "ram_headroom_mib": -1533.63671875,
+    "ram_headroom_gib": -1.4976921081542969,
+    "status": "FAIL \u2014 ABOVE COMPETITION LIMIT",
+    "stages": {
+      "process_start": {
+        "vmhwm_mib": 58.61328125,
+        "vmrss_mib": 53.31640625
+      },
+      "embedding_loaded": {
+        "vmhwm_mib": 853.34765625,
+        "vmrss_mib": 805.9296875
+      },
+      "model_loaded": {
+        "vmhwm_mib": 7888.5625,
+        "vmrss_mib": 7888.5625
+      },
+      "retriever_loaded": {
+        "vmhwm_mib": 8089.27734375,
+        "vmrss_mib": 7987.30859375
+      },
+      "evaluation_finished": {
+        "vmhwm_mib": 8701.640625,
+        "vmrss_mib": 8701.640625
+      }
+    },
+    "average_rss_mib": 8330.542619116512,
+    "sampled_peak_rss_mib": 8701.640625
+  },
+  "quality": {
+    "accuracy_metric": "mean expected-keyword recall",
+    "accuracy": 0.375,
+    "exact_match": 0.0,
+    "retrieval_hit_rate": 1.0,
+    "failures": 0
+  },
+  "performance": {
+    "generation_tokens_per_second": {
+      "average": 4.4018393486277,
+      "median": 4.4018393486277,
+      "minimum": 4.4018393486277,
+      "maximum": 4.4018393486277
+    },
+    "prompt_tokens_per_second": {
+      "average": 25.04398122720078,
+      "median": 25.04398122720078,
+      "minimum": 25.04398122720078,
+      "maximum": 25.04398122720078
+    },
+    "time_to_first_token_seconds": {
+      "average": 99.36067606881261,
+      "median": 99.36067606881261,
+      "minimum": 99.36067606881261,
+      "maximum": 99.36067606881261
+    },
+    "total_latency_seconds": {
+      "average": 216.92479336634278,
+      "median": 216.92479336634278,
+      "minimum": 216.92479336634278,
+      "maximum": 216.92479336634278
+    },
+    "prompt_tokens": {
+      "average": 2488.0,
+      "median": 2488.0,
+      "minimum": 2488.0,
+      "maximum": 2488.0
+    },
+    "generated_tokens": {
+      "average": 511.0,
+      "median": 511.0,
+      "minimum": 511.0,
+      "maximum": 511.0
+    }
+  },
+  "questions": [
+    {
+      "index": 0,
+      "id": "chemistry-past_questions-003-8ebd4ce5",
+      "subject": "chemistry",
+      "topic": "Acids, Bases & Salts",
+      "question": "Describe the Acid-Base Volumetric Analysis (Titration) experiment. Outline the typical burette readings, calculations of concentrations, and three precautions.",
+      "answer": "That's a very detailed question about a practical chemistry experiment! Titration is a key skill in chemistry, so it's great that you are focusing on it.\n\nSince you prefer worked examples, I will walk you through this using the information provided in the study materials. We will cover the description, the readings, the calculations, and the precautions step-by-step.\n\n### Describing the Acid-Base Titration Experiment\n\nFirst, let's look at what the experiment involves. According to [Chunk c349d0025627b88a437468757f6dfcec5a5a6abb], the Acid-Base Titration Experiment involves:\n\n1.  **Preparation:** Preparing a standard solution of a weak base (like $\\text{Na}_2\\text{CO}_3$) by weighing it and dissolving it to a known volume and concentration.\n2.  **Setup:** Pipetting a known volume of this base solution into a conical flask and adding a few drops of an indicator (like Methyl Orange, which turns yellow).\n3.  **Titration:** Filling a burette with the acid solution (whose concentration is unknown, e.g., $\\text{HCl}$). Then, slowly adding the acid from the burette into the flask while swirling, until the indicator changes color (the endpoint, e.g., from yellow to pink/orange) [Chunk c349d0025627b88a437468757f6dfcec5a5a6abb].\n4.  **Recording:** Recording the final volume used from the burette. The process is repeated at least three times to get concordant readings [Chunk c349d0025627b88a437468757f6dfcec5a5a6abb].\n\n### Outlining Typical Burette Readings and Calculations\n\nThe materials provide a worked example of how the readings are used for calculation [Chunk 6d33eb1c05e256310c884968953b16f4471f0c37].\n\n**1. Sample Data:**\nIn the example provided, the readings were:\n*   Initial Reading: $0.00\\text{ cm}^3$ [Chunk 6d3",
+      "reference_answer": "Experimental Setup and Procedure: - Prepare a standard solution of a weak base, e.g., anhydrous sodium trioxocarbonate (IV) ($Na_2CO_3$), by weighing exactly 2.65 g and dissolving it in water to make $500\\text{ cm}^3$ of solution ($0.05\\text{ mol/dm}^3$). - Pipette $25.0\\text{ cm}^3$ of this base solution into a clean conical flask and add 2-3 drops of Methyl Orange indicator (the solution turns yellow).\u2026",
+      "exact_match": false,
+      "keyword_score": 0.375,
+      "retrieval_hit": true,
+      "citation_count": 5,
+      "retrieved_chunk_count": 5,
+      "refused": false,
+      "error": null,
+      "prompt_tokens": 2488,
+      "generated_tokens": 511,
+      "prompt_seconds": 99.345227,
+      "generation_seconds": 116.08783500000001,
+      "prompt_tokens_per_second": 25.04398122720078,
+      "generation_tokens_per_second": 4.4018393486277,
+      "time_to_first_token_seconds": 99.36067606881261,
+      "total_latency_seconds": 216.92479336634278,
+      "perf_reused_graphs": 508,
+      "rss_after_mib": 8701.640625,
+      "hwm_after_mib": 8701.640625
+    }
+  ]
+}

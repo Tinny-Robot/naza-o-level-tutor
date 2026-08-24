@@ -1,0 +1,33 @@
+services:
+  naza:
+    build: .
+    ports:
+      - "5151:5151"
+      - "8010:8010"
+    volumes:
+      # Weights and index stay on the host (never baked into the image).
+      - ./models:/app/models
+      - ./data:/app/data
+      - ./student:/app/student
+    environment:
+      HF_HUB_OFFLINE: "1"
+      TRANSFORMERS_OFFLINE: "1"
+      BIND_HOST: "0.0.0.0"
+      NAZA_DOCKER: "1"
+    shm_size: "2gb"
+    init: true
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "uv",
+          "run",
+          "--no-dev",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8010/health', timeout=5)",
+        ]
+      interval: 15s
+      timeout: 8s
+      retries: 60
+      start_period: 600s

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>O-Level Physics Pro - Refraction</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-background": "#dfe2f1",
+                      "background": "#0f131d",
+                      "primary-fixed": "#d8e2ff",
+                      "secondary-fixed": "#eaddff",
+                      "on-tertiary-fixed-variant": "#004e5a",
+                      "on-secondary-fixed-variant": "#5a00c6",
+                      "inverse-primary": "#005ac2",
+                      "on-surface-variant": "#c2c6d6",
+                      "secondary-fixed-dim": "#d2bbff",
+                      "on-error-container": "#ffdad6",
+                      "surface-container-high": "#262a35",
+                      "surface": "#0f131d",
+                      "on-secondary-fixed": "#25005a",
+                      "surface-variant": "#313540",
+                      "primary-fixed-dim": "#adc6ff",
+                      "primary-container": "#4d8eff",
+                      "inverse-on-surface": "#2c303b",
+                      "tertiary-fixed-dim": "#2fd9f4",
+                      "surface-dim": "#0f131d",
+                      "surface-bright": "#353944",
+                      "on-primary-fixed": "#001a42",
+                      "on-surface": "#dfe2f1",
+                      "on-primary": "#002e6a",
+                      "error": "#ffb4ab",
+                      "surface-tint": "#adc6ff",
+                      "surface-container-low": "#171b26",
+                      "secondary-container": "#6001d1",
+                      "on-tertiary-fixed": "#001f25",
+                      "outline-variant": "#424754",
+                      "on-primary-container": "#00285d",
+                      "on-tertiary": "#00363e",
+                      "surface-container-highest": "#313540",
+                      "inverse-surface": "#dfe2f1",
+                      "outline": "#8c909f",
+                      "error-container": "#93000a",
+                      "surface-container-lowest": "#0a0e18",
+                      "on-secondary": "#3f008e",
+                      "surface-container": "#1c1f2a",
+                      "on-error": "#690005",
+                      "on-primary-fixed-variant": "#004395",
+                      "primary": "#adc6ff",
+                      "on-secondary-container": "#c9aeff",
+                      "tertiary-fixed": "#a2eeff",
+                      "tertiary-container": "#009fb4",
+                      "tertiary": "#2fd9f4",
+                      "on-tertiary-container": "#002f36",
+                      "secondary": "#d2bbff"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "margin-mobile": "16px",
+                      "container-max": "1280px",
+                      "margin-desktop": "64px",
+                      "unit": "4px",
+                      "gutter": "24px"
+              },
+              "fontFamily": {
+                      "display-sm": [
+                              "Sora"
+                      ],
+                      "display-lg": [
+                              "Sora"
+                      ],
+                      "body-lg": [
+                              "Hanken Grotesk"
+                      ],
+                      "headline-lg": [
+                              "Sora"
+                      ],
+                      "display-lg-mobile": [
+                              "Sora"
+                      ],
+                      "body-md": [
+                              "Hanken Grotesk"
+                      ],
+                      "label-sm": [
+                              "JetBrains Mono"
+                      ],
+                      "label-md": [
+                              "JetBrains Mono"
+                      ]
+              },
+              "fontSize": {
+                      "display-sm": [
+                              "32px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "display-lg": [
+                              "48px",
+                              {
+                                      "lineHeight": "1.1",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "800"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "1.6",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-lg": [
+                              "24px",
+                              {
+                                      "lineHeight": "1.3",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "display-lg-mobile": [
+                              "32px",
+                              {
+                                      "lineHeight": "1.1",
+                                      "fontWeight": "800"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "1.6",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "label-sm": [
+                              "12px",
+                              {
+                                      "lineHeight": "1.4",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "label-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "1.4",
+                                      "letterSpacing": "0.05em",
+                                      "fontWeight": "500"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+      </script>
+<style>
+        .glass-panel {
+            background: rgba(11, 15, 25, 0.6);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .ai-glow {
+            box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+            border: 1px solid transparent;
+            background-image: linear-gradient(#0f131d, #0f131d), linear-gradient(to right, #6001d1, #2fd9f4);
+            background-origin: border-box;
+            background-clip: padding-box, border-box;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md text-body-md antialiased overflow-x-hidden selection:bg-primary selection:text-on-primary">
+<!-- TopNavBar -->
+<nav class="bg-surface/60 backdrop-blur-xl border-b border-white/10 shadow-sm fixed top-0 w-full z-50 flex justify-between items-center px-margin-desktop h-16">
+<div class="font-display-sm text-display-sm font-bold text-primary truncate flex items-center">
+            O-Level Physics Pro
+        </div>
+<div class="flex items-center gap-4">
+<span class="font-body-md text-body-md text-on-surface-variant hidden md:block">Study Mode</span>
+<button class="w-10 h-10 rounded-full hover:bg-white/5 transition-colors flex items-center justify-center active:scale-95 duration-150">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 0;">account_circle</span>
+</button>
+<button class="w-10 h-10 rounded-full hover:bg-white/5 transition-colors flex items-center justify-center active:scale-95 duration-150">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 0;">settings</span>
+</button>
+</div>
+</nav>
+<!-- SideNavBar -->
+<aside class="hidden md:flex bg-surface-container-low/60 backdrop-blur-2xl fixed left-0 top-0 h-full w-64 flex-col pt-20 border-r border-white/10 z-40 transition-all duration-200 ease-in-out">
+<div class="px-6 pb-6">
+<h2 class="font-display-sm text-display-sm text-primary mb-1">Physics Master</h2>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Unit 4: Electromagnetism</p>
+</div>
+<nav class="flex-1 px-4 space-y-2">
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-primary bg-primary/5 border-r-2 border-primary font-label-md text-label-md transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">menu_book</span>
+                Theory
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-white/5 font-label-md text-label-md transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">lightbulb</span>
+                Examples
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-white/5 font-label-md text-label-md transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">edit_square</span>
+                Practice
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-white/5 font-label-md text-label-md transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">assignment</span>
+                Summary
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-white/5 font-label-md text-label-md transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">quiz</span>
+                Quiz
+            </a>
+</nav>
+<div class="p-4 mt-auto">
+<button class="w-full py-3 rounded-lg bg-gradient-to-r from-primary-container to-secondary-container text-white font-label-md text-label-md flex items-center justify-center gap-2 ai-glow transition-all hover:brightness-110">
+<span class="material-symbols-outlined text-sm">smart_toy</span>
+                Ask AI
+            </button>
+<div class="mt-4 pt-4 border-t border-white/10 space-y-2">
+<a class="flex items-center gap-3 px-4 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-white/5 font-label-sm text-label-sm transition-all duration-200" href="#">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 0;">folder</span>
+                    Resources
+                </a>
+<a class="flex items-center gap-3 px-4 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-white/5 font-label-sm text-label-sm transition-all duration-200" href="#">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 0;">help</span>
+                    Help
+                </a>
+</div>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="pt-20 md:pl-64 min-h-screen">
+<div class="max-w-[container-max] mx-auto px-margin-mobile md:px-margin-desktop py-8 space-y-12">
+<!-- Page Header -->
+<header>
+<div class="inline-flex items-center gap-2 bg-secondary-container/20 text-secondary-fixed-dim px-3 py-1 rounded-full font-label-sm text-label-sm mb-4 border border-secondary-container/30">
+<span class="material-symbols-outlined text-[14px]">bolt</span>
+                    Core Concept
+                </div>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary-fixed mb-4">Refraction of Light</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl">
+                    Understand how light bends when crossing boundaries between different mediums, governed by Snell's Law and the refractive index.
+                </p>
+</header>
+<!-- Theory Section -->
+<section class="glass-panel rounded-xl p-8" id="theory">
+<h3 class="font-headline-lg text-headline-lg text-on-background mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">menu_book</span>
+                    Theory: The Bending of Light
+                </h3>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+<div class="space-y-4 font-body-md text-body-md text-on-surface">
+<p>When light travels from one transparent medium to another, its speed changes. This change in speed causes the direction of the light ray to bend, a phenomenon known as <strong>refraction</strong>.</p>
+<div class="bg-surface-container/50 p-4 rounded-lg border border-white/5 mt-4">
+<h4 class="font-label-md text-label-md text-tertiary mb-2">Snell's Law</h4>
+<p class="mb-2">The relationship between the angles of incidence and refraction is given by:</p>
+<div class="bg-surface-container-lowest p-3 rounded font-label-md text-label-md text-center border border-white/10 text-primary-fixed">
+                                n₁ sin(θ₁) = n₂ sin(θ₂)
+                            </div>
+</div>
+<p>Where <em>n</em> is the <strong>refractive index</strong>, a measure of how much a medium slows down light.</p>
+</div>
+<!-- Diagram Placeholder -->
+<div class="rounded-lg overflow-hidden border border-white/10 bg-surface-container aspect-video relative group">
+<img class="w-full h-full object-cover opacity-80 mix-blend-screen group-hover:opacity-100 transition-opacity duration-300" data-alt="A highly detailed, technical scientific diagram illustrating the refraction of light. A bright neon blue laser beam passes from a dark vacuum into a translucent glass block, bending at the interface. Normal lines are dashed white, angles of incidence and refraction are clearly marked with glowing arcs. The style is modern, sleek, and set against a dark slate background, typical of a premium educational software interface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsd4h8i_5TthtDYF4ba9lc9exh_W6UHtKxwcbHAfdcRRFv31AI7ldY_p-I3CR8RWfm0VYcVtPESOz1FbSCkL497NxjRFNozjyaJJ7hGtat16WQchzNc0VJSJxwk7GtdGZHhLUMgBwdjsVoVR9euDiYJkV4JcoQIpeMCp5oXmNE4DNHrZl8obRTDd9OEpf8JhsHIGlX03nJ0vsGH-1g2ps3BkVjoVJTzn3ADVGeeZmReTPpCAjgOlAh_lF_OVBs1Z_szEB_QTCBZg"/>
+<div class="absolute bottom-3 right-3 bg-surface/80 backdrop-blur px-2 py-1 rounded text-label-sm font-label-sm border border-white/10">Interactive Diagram</div>
+</div>
+</div>
+</section>
+<!-- Examples Section -->
+<section class="glass-panel rounded-xl p-8" id="examples">
+<h3 class="font-headline-lg text-headline-lg text-on-background mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary">lightbulb</span>
+                    Worked Example
+                </h3>
+<div class="bg-surface-container-low p-6 rounded-lg border border-outline-variant/30">
+<p class="font-body-md text-body-md text-on-surface mb-6 font-medium">
+                        A light ray travelling in air (n=1.00) strikes a glass surface (n=1.52) at an angle of incidence of 45°. Calculate the angle of refraction.
+                    </p>
+<div class="space-y-3 relative before:absolute before:inset-y-0 before:left-[11px] before:w-[2px] before:bg-surface-variant">
+<div class="relative pl-8">
+<div class="absolute left-0 top-1 w-6 h-6 rounded-full bg-surface-bright flex items-center justify-center font-label-sm text-label-sm text-primary z-10 border border-surface-variant">1</div>
+<p class="font-label-md text-label-md text-on-surface-variant mb-1">State knowns:</p>
+<p class="font-body-md text-body-md">n₁ = 1.00, θ₁ = 45°, n₂ = 1.52</p>
+</div>
+<div class="relative pl-8">
+<div class="absolute left-0 top-1 w-6 h-6 rounded-full bg-surface-bright flex items-center justify-center font-label-sm text-label-sm text-primary z-10 border border-surface-variant">2</div>
+<p class="font-label-md text-label-md text-on-surface-variant mb-1">Apply Snell's Law:</p>
+<p class="font-body-md text-body-md">1.00 × sin(45°) = 1.52 × sin(θ₂)</p>
+</div>
+<div class="relative pl-8">
+<div class="absolute left-0 top-1 w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center font-label-sm text-label-sm text-primary z-10 border border-primary/50 shadow-[0_0_10px_rgba(173,198,255,0.3)]">3</div>
+<p class="font-label-md text-label-md text-on-surface-variant mb-1">Solve for θ₂:</p>
+<p class="font-body-md text-body-md">sin(θ₂) = 0.707 / 1.52 = 0.465<br/>θ₂ = sin⁻¹(0.465) = <strong class="text-primary-fixed">27.7°</strong></p>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+</body></html>

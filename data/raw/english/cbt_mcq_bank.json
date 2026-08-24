@@ -1,0 +1,487 @@
+[
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option that best completes the sentence: The committee _____ divided on the proposal.",
+    "options": ["A. are", "B. is", "C. were", "D. have"],
+    "answer": "B",
+    "explanation": "Committee is a collective noun treated as singular when acting as one unit."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option nearest in meaning to the underlined word: The principal gave a *terse* reply to the complaint.",
+    "options": ["A. lengthy", "B. polite", "C. brief", "D. confusing"],
+    "answer": "C",
+    "explanation": "Terse means brief and concise, often abruptly so."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option opposite in meaning to the underlined word: His explanation was rather *obscure*.",
+    "options": ["A. unclear", "B. vague", "C. lucid", "D. complex"],
+    "answer": "C",
+    "explanation": "Obscure means unclear; lucid means clear and easy to understand."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option that best completes the sentence: Neither of the boys _____ finished the assignment.",
+    "options": ["A. have", "B. has", "C. were", "D. are"],
+    "answer": "B",
+    "explanation": "'Neither' takes a singular verb."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option that best completes the sentence: She preferred tea _____ coffee.",
+    "options": ["A. than", "B. from", "C. to", "D. for"],
+    "answer": "C",
+    "explanation": "Prefer is followed by 'to', not 'than'."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option that best completes the sentence: If he _____ harder, he would have passed.",
+    "options": ["A. works", "B. worked", "C. had worked", "D. has worked"],
+    "answer": "C",
+    "explanation": "Third conditional: If + past perfect, would have + past participle."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option nearest in meaning to the underlined expression: The plan fell *through*.",
+    "options": ["A. succeeded", "B. failed", "C. continued", "D. improved"],
+    "answer": "B",
+    "explanation": "Fall through means to fail or not be completed."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option that best completes the sentence: The news _____ shocking to everyone.",
+    "options": ["A. are", "B. were", "C. was", "D. have been"],
+    "answer": "C",
+    "explanation": "'News' is uncountable and takes a singular verb."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option opposite in meaning to the underlined word: The witness gave a *candid* account of the event.",
+    "options": ["A. honest", "B. frank", "C. deceitful", "D. clear"],
+    "answer": "C",
+    "explanation": "Candid means frank/honest; deceitful is the opposite."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option that best completes the sentence: One of the players _____ injured during the match.",
+    "options": ["A. were", "B. are", "C. was", "D. have"],
+    "answer": "C",
+    "explanation": "'One of' takes a singular verb."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option nearest in meaning to the underlined word: The teacher *admonished* the latecomers.",
+    "options": ["A. praised", "B. rewarded", "C. warned", "D. ignored"],
+    "answer": "C",
+    "explanation": "Admonish means to warn or reprimand firmly."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option that best completes the sentence: Hardly had she arrived _____ it started raining.",
+    "options": ["A. than", "B. when", "C. then", "D. before"],
+    "answer": "B",
+    "explanation": "Hardly/scarcely is followed by when (or before), not than."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option that best completes the sentence: The man, together with his children, _____ travelling tomorrow.",
+    "options": ["A. are", "B. were", "C. is", "D. have been"],
+    "answer": "C",
+    "explanation": "The subject is 'The man'; the phrase 'together with...' does not make it plural."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option nearest in meaning to the underlined word: She spoke in a *hostile* manner.",
+    "options": ["A. friendly", "B. unfriendly", "C. calm", "D. humorous"],
+    "answer": "B",
+    "explanation": "Hostile means unfriendly or antagonistic."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option that best completes the sentence: This is the boy _____ won the prize.",
+    "options": ["A. which", "B. whom", "C. who", "D. whose"],
+    "answer": "C",
+    "explanation": "'Who' is the subject relative pronoun for people."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option opposite in meaning to the underlined word: The soil in that region is very *fertile*.",
+    "options": ["A. rich", "B. productive", "C. barren", "D. moist"],
+    "answer": "C",
+    "explanation": "Fertile means productive; barren means unproductive."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option that best completes the sentence: He insisted _____ paying the bill himself.",
+    "options": ["A. in", "B. on", "C. at", "D. for"],
+    "answer": "B",
+    "explanation": "Insist is followed by on + gerund/noun."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option nearest in meaning to the underlined expression: The students were told to *keep their fingers crossed*.",
+    "options": ["A. write neatly", "B. hope for the best", "C. stop talking", "D. remain silent in class"],
+    "answer": "B",
+    "explanation": "Keep one's fingers crossed means to hope for a good outcome."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option that best completes the sentence: A number of candidates _____ still waiting outside.",
+    "options": ["A. is", "B. was", "C. are", "D. has"],
+    "answer": "C",
+    "explanation": "'A number of' takes a plural verb; 'the number of' takes singular."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option that best completes the sentence: She is taller than _____ in her class.",
+    "options": ["A. any girl", "B. any other girl", "C. all girl", "D. every girls"],
+    "answer": "B",
+    "explanation": "Use 'any other' when comparing one member with the rest of the same group."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Register",
+    "paper_type": "Objective",
+    "question": "In a hospital register, a doctor who performs operations is called a _____.",
+    "options": ["A. pharmacist", "B. surgeon", "C. radiologist", "D. pathologist"],
+    "answer": "B",
+    "explanation": "A surgeon performs operations."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Register",
+    "paper_type": "Objective",
+    "question": "In a legal register, a person who brings a case to court is the _____.",
+    "options": ["A. defendant", "B. witness", "C. plaintiff", "D. jury"],
+    "answer": "C",
+    "explanation": "The plaintiff initiates a civil action; the defendant responds."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Register",
+    "paper_type": "Objective",
+    "question": "In agriculture, the process of supplying water to farmland is called _____.",
+    "options": ["A. irrigation", "B. germination", "C. pollination", "D. harvesting"],
+    "answer": "A",
+    "explanation": "Irrigation is artificial watering of crops."
+  },
+  {
+    "exam_board": "NECO",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option that best completes the sentence: By this time tomorrow, we _____ the project.",
+    "options": ["A. complete", "B. completed", "C. will have completed", "D. are completing"],
+    "answer": "C",
+    "explanation": "Future perfect expresses completion before a future time."
+  },
+  {
+    "exam_board": "NECO",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option nearest in meaning to the underlined word: The manager's decision was *arbitrary*.",
+    "options": ["A. carefully reasoned", "B. based on whim", "C. widely accepted", "D. legally binding"],
+    "answer": "B",
+    "explanation": "Arbitrary means based on personal whim rather than reason or system."
+  },
+  {
+    "exam_board": "NECO",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option opposite in meaning to the underlined word: The path through the forest was *tortuous*.",
+    "options": ["A. winding", "B. straight", "C. rough", "D. narrow"],
+    "answer": "B",
+    "explanation": "Tortuous means full of twists; straight is the opposite."
+  },
+  {
+    "exam_board": "JAMB",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option that best completes the sentence: Each of the girls _____ a new uniform.",
+    "options": ["A. have", "B. has", "C. are having", "D. were given"],
+    "answer": "B",
+    "explanation": "'Each' requires a singular verb."
+  },
+  {
+    "exam_board": "JAMB",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option nearest in meaning to the underlined word: The speaker's argument was *cogent*.",
+    "options": ["A. weak", "B. convincing", "C. amusing", "D. confusing"],
+    "answer": "B",
+    "explanation": "Cogent means clear, logical, and convincing."
+  },
+  {
+    "exam_board": "JAMB",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option that best completes the sentence: No sooner had the bell rung _____ the students rushed out.",
+    "options": ["A. when", "B. than", "C. before", "D. then"],
+    "answer": "B",
+    "explanation": "No sooner is followed by than."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Oral English",
+    "paper_type": "Oral English",
+    "question": "Choose the word that has the same vowel sound as the underlined letters in c<a>ke.",
+    "options": ["A. cat", "B. care", "C. rain", "D. said"],
+    "answer": "C",
+    "explanation": "Cake and rain both have the diphthong /eɪ/."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Oral English",
+    "paper_type": "Oral English",
+    "question": "Choose the word that has the same consonant sound as the underlined letter in <u>th</u>ink.",
+    "options": ["A. this", "B. thin", "C. though", "D. that"],
+    "answer": "B",
+    "explanation": "Think and thin both begin with voiceless /θ/."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Oral English",
+    "paper_type": "Oral English",
+    "question": "In which word is the letter 'b' silent?",
+    "options": ["A. about", "B. number", "C. debt", "D. bubble"],
+    "answer": "C",
+    "explanation": "In debt, 'b' is not pronounced."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Oral English",
+    "paper_type": "Oral English",
+    "question": "Choose the word that rhymes with 'night'.",
+    "options": ["A. neat", "B. bite", "C. knit", "D. note"],
+    "answer": "B",
+    "explanation": "Night and bite share the rhyme /-aɪt/."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Oral English",
+    "paper_type": "Oral English",
+    "question": "Choose the option with the correct stress pattern for the noun 'present' (a gift).",
+    "options": ["A. preSENT", "B. PREsent", "C. pre sent", "D. PRESENT"],
+    "answer": "B",
+    "explanation": "As a noun, stress falls on the first syllable: PREsent."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Oral English",
+    "paper_type": "Oral English",
+    "question": "In the sentence 'Ada BOUGHT a new phone', the emphatic stress on BOUGHT answers which question?",
+    "options": [
+      "A. Who bought a new phone?",
+      "B. Did Ada borrow a new phone?",
+      "C. Did Ada buy an old phone?",
+      "D. Did Ada buy a new laptop?"
+    ],
+    "answer": "B",
+    "explanation": "Stress on BOUGHT contrasts with another verb such as borrow."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Oral English",
+    "paper_type": "Oral English",
+    "question": "Choose the word that has the same vowel sound as the underlined letters in sh<u>oe</u>.",
+    "options": ["A. show", "B. two", "C. how", "D. boy"],
+    "answer": "B",
+    "explanation": "Shoe and two both have /u:/."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Oral English",
+    "paper_type": "Oral English",
+    "question": "Which word contains a consonant cluster?",
+    "options": ["A. eat", "B. street", "C. oat", "D. air"],
+    "answer": "B",
+    "explanation": "Street begins with the cluster /str/."
+  },
+  {
+    "exam_board": "NECO",
+    "year": "practice",
+    "topic": "Oral English",
+    "paper_type": "Oral English",
+    "question": "Choose the word with a different vowel sound from the others.",
+    "options": ["A. beat", "B. seat", "C. sit", "D. feet"],
+    "answer": "C",
+    "explanation": "Sit has /ɪ/; the others have /i:/."
+  },
+  {
+    "exam_board": "JAMB",
+    "year": "practice",
+    "topic": "Oral English",
+    "paper_type": "Oral English",
+    "question": "Choose the appropriate stress pattern for the verb 'record' (to store information).",
+    "options": ["A. REcord", "B. reCORD", "C. re cord", "D. RECORD"],
+    "answer": "B",
+    "explanation": "As a verb, stress is on the second syllable: reCORD."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option that best completes the sentence: The book on the table _____ to me.",
+    "options": ["A. belong", "B. belongs", "C. are belonging", "D. have belonged"],
+    "answer": "B",
+    "explanation": "Singular subject 'book' takes belongs."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option nearest in meaning to the underlined word: The athlete showed great *resilience*.",
+    "options": ["A. weakness", "B. toughness", "C. laziness", "D. anger"],
+    "answer": "B",
+    "explanation": "Resilience is the capacity to recover quickly; toughness/endurance."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option that best completes the sentence: He congratulated me _____ my success.",
+    "options": ["A. for", "B. on", "C. about", "D. with"],
+    "answer": "B",
+    "explanation": "Congratulate someone on something."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option opposite in meaning to the underlined word: The crowd was *hostile* to the speaker.",
+    "options": ["A. unfriendly", "B. aggressive", "C. friendly", "D. noisy"],
+    "answer": "C",
+    "explanation": "Hostile means unfriendly; friendly is the antonym."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option that best completes the sentence: Scarcely _____ the match started when it began to rain.",
+    "options": ["A. had", "B. has", "C. have", "D. was"],
+    "answer": "A",
+    "explanation": "Inversion after scarcely/hardly: Scarcely had + subject + past participle."
+  },
+  {
+    "exam_board": "NECO",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option nearest in meaning to the underlined expression: After the scandal, he was *in the doghouse*.",
+    "options": ["A. highly praised", "B. in disgrace", "C. promoted quickly", "D. travelling abroad"],
+    "answer": "B",
+    "explanation": "In the doghouse means in disgrace or out of favour."
+  },
+  {
+    "exam_board": "JAMB",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option that best completes the sentence: The students as well as the teacher _____ present.",
+    "options": ["A. was", "B. were", "C. is", "D. has"],
+    "answer": "B",
+    "explanation": "With 'as well as', the verb agrees with the first subject if treated carefully; WAEC/JAMB often take the plural sense when the head is plural 'students'."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option that best completes the sentence: It is high time we _____ home.",
+    "options": ["A. go", "B. went", "C. gone", "D. going"],
+    "answer": "B",
+    "explanation": "'It is high time' is followed by a past-tense verb form."
+  },
+  {
+    "exam_board": "WAEC",
+    "year": "practice",
+    "topic": "Lexis & Structure",
+    "paper_type": "Objective",
+    "question": "Choose the option nearest in meaning to the underlined word: The lawyer's *advocacy* helped the accused.",
+    "options": ["A. opposition", "B. support", "C. silence", "D. delay"],
+    "answer": "B",
+    "explanation": "Advocacy means public support or pleading for a cause."
+  }
+]

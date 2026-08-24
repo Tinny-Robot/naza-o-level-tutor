@@ -1,0 +1,1195 @@
+.page {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(12px, 1.6vw, 18px);
+  overflow-wrap: break-word;
+}
+
+.pageFill {
+  gap: 0;
+  height: 100%;
+  min-height: 0;
+}
+
+.pageFill .learnShell {
+  flex: 1;
+  min-height: 0;
+  height: 100%;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(200px, 0.9fr);
+  gap: clamp(10px, 1.4vw, 16px);
+  align-items: stretch;
+}
+
+.heroCard {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(
+    135deg,
+    rgba(211, 146, 18, 0.22),
+    rgba(255, 248, 232, 0.9) 45%,
+    var(--color-card)
+  );
+  border: 1px solid rgba(211, 146, 18, 0.35);
+  border-radius: var(--radius-xl);
+  padding: clamp(14px, 2vw, 20px);
+  min-height: 0;
+  min-width: 0;
+}
+
+.heroCard::after {
+  content: "";
+  position: absolute;
+  inset: auto -20% -40% auto;
+  width: 280px;
+  height: 280px;
+  background: radial-gradient(circle, rgba(211, 146, 18, 0.28), transparent 65%);
+  pointer-events: none;
+}
+
+.eyebrow {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 10px;
+}
+
+.heroTitle {
+  font-size: clamp(1.35rem, 2.4vw, 1.85rem);
+  line-height: 1.15;
+  margin-bottom: 6px;
+}
+
+.heroLead {
+  color: var(--color-text-muted);
+  max-width: 58ch;
+  margin-bottom: 12px;
+}
+
+.statsRow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(72px, 1fr));
+  gap: var(--space-3);
+}
+
+.statLabel {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  margin-bottom: 6px;
+}
+
+.statValue {
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 2.2vw, 1.75rem);
+  font-weight: 700;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: clamp(10px, 1.4vw, 16px);
+}
+
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 10px;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+.sectionTitle {
+  font-size: 17px;
+  margin-bottom: 2px;
+}
+
+.sectionHead {
+  margin-bottom: 8px;
+}
+
+.sectionBodyGap {
+  margin-top: 12px;
+}
+
+.goalHead {
+  margin-bottom: 8px;
+}
+
+.courseTitle {
+  font-weight: 600;
+  margin: 4px 0 0;
+  overflow-wrap: anywhere;
+}
+
+.courseActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.inlineAction {
+  margin-top: 16px;
+}
+
+.nextLine {
+  margin: 8px 0 0;
+}
+
+.metaFoot {
+  margin-top: 8px;
+}
+
+.fieldSpaced {
+  margin-top: 12px;
+}
+
+.chipSpaced {
+  margin-top: 6px;
+}
+
+.muted {
+  color: var(--color-text-muted);
+  font-size: 14px;
+}
+
+.rowBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.pillRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  overflow-wrap: anywhere;
+}
+
+.subjectDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.listItem:last-child {
+  border-bottom: none;
+}
+
+/* Tutor */
+.tutorLayout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(200px, 240px);
+  gap: var(--space-3);
+  height: 100%;
+  min-height: 0;
+}
+
+.chatPane {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-panel-low);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+}
+
+.chatHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bubbleUser,
+.bubbleAi {
+  max-width: 85%;
+  padding: 10px 12px;
+  border-radius: 14px;
+  line-height: 1.45;
+}
+
+.bubbleUser {
+  align-self: flex-end;
+  background: var(--color-card-high);
+  border: 1px solid var(--color-border);
+  border-top-right-radius: 6px;
+}
+
+.bubbleAi {
+  align-self: flex-start;
+  background: var(--color-panel-low);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-secondary);
+  border-top-left-radius: 6px;
+}
+
+.composer {
+  display: flex;
+  gap: 8px;
+  padding: 10px;
+  border-top: 1px solid var(--color-border);
+  background: var(--color-card);
+}
+
+.composer input,
+.composer textarea {
+  flex: 1;
+  min-width: 0;
+}
+
+.sourcesPane {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: auto;
+}
+
+.citeCard {
+  font-size: 13px;
+}
+
+.citeMeta {
+  color: var(--color-text-muted);
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+/* Quiz */
+.answerGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.answerCard {
+  text-align: left;
+  padding: 18px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  background: var(--color-card);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: border-color var(--dur) var(--ease), transform var(--dur) var(--ease),
+    background var(--dur) var(--ease);
+}
+
+.answerCard:hover {
+  border-color: rgba(211, 146, 18, 0.45);
+  transform: translateY(-2px);
+}
+
+.answerKey {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--color-primary-soft);
+  margin-right: 8px;
+}
+
+.answerSelected {
+  border-color: rgba(211, 146, 18, 0.65);
+  background: rgba(211, 146, 18, 0.12);
+  box-shadow: 0 0 0 1px rgba(211, 146, 18, 0.25);
+  color: var(--color-text);
+  font-weight: 700;
+}
+
+.optionStack .answerSelected,
+.optionStack .answerCorrect,
+.optionStack .answerWrong {
+  text-align: left;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+  cursor: pointer;
+}
+
+.answerCorrect {
+  border-color: var(--color-success);
+  background: rgba(16, 185, 129, 0.12);
+}
+
+.answerWrong {
+  border-color: var(--color-error);
+  background: rgba(248, 113, 113, 0.1);
+}
+
+/* Flashcard */
+.flashcard {
+  min-height: 180px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-size: 18px;
+  font-family: var(--font-display);
+  cursor: pointer;
+  background: linear-gradient(160deg, rgba(211, 146, 18, 0.15), var(--color-card));
+}
+
+/* Heatmap */
+.heat {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+
+.heatCell {
+  aspect-ratio: 1;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.empty {
+  text-align: center;
+  padding: 24px 16px;
+  color: var(--color-text-muted);
+}
+
+/* Structured Lesson View (Tutor) */
+.lessonView {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.lessonTop {
+  padding: 10px 12px 8px;
+  border-bottom: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.lessonTitle {
+  font-family: var(--font-display);
+  font-size: 18px;
+  margin-top: 4px;
+  line-height: 1.25;
+}
+
+.lessonProgressTrack {
+  height: 4px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  overflow: hidden;
+}
+
+.lessonProgressFill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+  transition: width 0.3s var(--ease);
+}
+
+.lessonBody {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px 16px 24px;
+}
+
+.lessonStepPanel {
+  max-width: 62ch;
+  margin: 0 auto;
+  outline: none;
+}
+
+.lessonIntroRow {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.lessonLead {
+  line-height: 1.7;
+  margin: 0;
+}
+
+.diagramImg {
+  max-width: 100%;
+  border-radius: 12px;
+  display: block;
+}
+
+.figCap {
+  margin-top: 8px;
+}
+
+.lessonCheckActions {
+  margin-top: 12px;
+}
+
+.lessonHint {
+  margin-top: 12px;
+}
+
+.lessonFeedbackText {
+  margin-top: 14px;
+  line-height: 1.65;
+}
+
+.localNote {
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+.flashMeta {
+  font-size: 12px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.lessonKeysHint {
+  font-size: 12px;
+  align-self: center;
+}
+
+.lessonCardCurrent {
+  box-shadow: inset 3px 0 0 var(--color-primary);
+  border-color: rgba(211, 146, 18, 0.45);
+}
+
+.tutorEmpty {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+.tutorStatus {
+  margin: 0 12px 8px;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.citeTopic {
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.lessonStack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sectionBodyStack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.sectionBody {
+  margin: 0;
+  margin-top: 12px;
+  font-size: 1.02rem;
+  line-height: 1.8;
+  white-space: pre-wrap;
+}
+
+.sectionBodyStack .sectionBody {
+  margin-top: 0;
+}
+
+.lessonList {
+  margin: 12px 0 0;
+  padding-left: 1.2rem;
+  color: var(--color-text);
+  line-height: 1.55;
+}
+
+.lessonList li + li {
+  margin-top: 8px;
+}
+
+.lessonAnswerBox {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  background: rgba(16, 185, 129, 0.08);
+}
+
+.diagramPlaceholder {
+  margin-top: 14px;
+  padding: 28px 16px;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 13px;
+  border: 1px dashed var(--color-border-strong);
+  border-radius: 16px;
+  background: rgba(34, 211, 238, 0.05);
+}
+
+.lessonFlash {
+  width: 100%;
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+}
+
+.lessonControls {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px 12px;
+  border-top: 1px solid var(--color-border);
+  background: var(--color-panel-low);
+}
+
+.lessonBuilding {
+  flex: 1;
+  display: grid;
+  place-items: center;
+  padding: 28px 18px;
+  min-height: 0;
+}
+
+.lessonBuildingCard {
+  width: min(100%, 440px);
+  position: relative;
+  overflow: hidden;
+}
+
+.lessonBuildingPulse {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    110deg,
+    transparent 30%,
+    rgba(211, 146, 18, 0.08) 45%,
+    rgba(34, 211, 238, 0.1) 55%,
+    transparent 70%
+  );
+  background-size: 200% 100%;
+  animation: lessonShimmer 1.6s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes lessonShimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+.stack {
+  display: grid;
+  gap: 12px;
+}
+
+.activityList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.pageTitle {
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 2.4vw, 1.75rem);
+  margin: 4px 0 8px;
+}
+
+.fieldBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.fieldBlock select,
+.fieldBlock input {
+  width: 100%;
+  max-width: 100%;
+  background: var(--color-panel-low);
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.optionStack {
+  display: grid;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.optionBtn {
+  text-align: left;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+  background: var(--color-panel-low);
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.optionBtn:hover:not(:disabled) {
+  border-color: rgba(211, 146, 18, 0.45);
+}
+
+.feedbackBlock {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--color-border);
+  display: grid;
+  gap: 6px;
+}
+
+.cbtPage {
+  display: grid;
+  gap: 10px;
+  height: 100%;
+  min-height: 0;
+}
+
+.cbtTopBar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(135deg, rgba(15, 23, 42, 0.92), rgba(30, 41, 59, 0.88)),
+    var(--color-panel);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.cbtTopLeft {
+  display: grid;
+  gap: 2px;
+}
+
+.cbtTopLeft strong {
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+}
+
+.cbtTopActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.cbtTimer {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #fde68a;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: rgba(251, 191, 36, 0.12);
+  border: 1px solid rgba(251, 191, 36, 0.35);
+}
+
+.cbtTimer[data-urgent="true"] {
+  color: #fecaca;
+  background: rgba(239, 68, 68, 0.14);
+  border-color: rgba(239, 68, 68, 0.45);
+  animation: cbtPulse 1s ease-in-out infinite;
+}
+
+@keyframes cbtPulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cbtTimer[data-urgent="true"],
+  .lessonBuildingPulse {
+    animation: none;
+  }
+}
+
+.cbtNotice {
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(251, 191, 36, 0.35);
+  background: rgba(251, 191, 36, 0.1);
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.cbtShell {
+  display: grid;
+  grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.cbtSide {
+  position: sticky;
+  top: 76px;
+  padding: 14px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-panel);
+}
+
+.cbtPalette {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+}
+
+.cbtPalBtn {
+  aspect-ratio: 1;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  background: var(--color-panel-low);
+  color: var(--color-text-muted);
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.cbtPalBtn:hover {
+  border-color: rgba(211, 146, 18, 0.45);
+}
+
+.cbtPalBtnActive {
+  border-color: var(--color-primary);
+  color: var(--color-primary-soft);
+  background: rgba(211, 146, 18, 0.14);
+}
+
+.cbtPalBtnAnswered {
+  background: rgba(34, 197, 94, 0.12);
+  color: #86efac;
+}
+
+.cbtPalBtnFlagged {
+  box-shadow: inset 0 0 0 1px #fbbf24;
+}
+
+.cbtLegend {
+  display: grid;
+  gap: 6px;
+  margin-top: 12px;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.cbtLegend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.cbtLegend i {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.dotAnswered {
+  background: rgba(34, 197, 94, 0.7);
+}
+
+.dotFlagged {
+  background: #fbbf24;
+}
+
+.dotCurrent {
+  background: rgba(211, 146, 18, 0.8);
+}
+
+.cbtMain {
+  min-width: 0;
+}
+
+.cbtQuestionCard {
+  display: grid;
+  gap: 12px;
+}
+
+.cbtPassage {
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  background:
+    linear-gradient(180deg, rgba(15, 23, 42, 0.35), rgba(30, 41, 59, 0.2)),
+    var(--color-panel-low);
+  max-height: 280px;
+  overflow: auto;
+}
+
+.cbtPassage p {
+  margin: 8px 0 0;
+  line-height: 1.65;
+  white-space: pre-wrap;
+}
+
+.cbtStem {
+  font-size: 1.05rem;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.cbtFigure {
+  margin: 0;
+  display: grid;
+  gap: 6px;
+}
+
+.cbtFigure img {
+  width: min(100%, 520px);
+  max-height: 320px;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+  background: #0b1220;
+}
+
+.cbtFigure figcaption {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.cbtNavRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.cbtMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.chipRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  overflow-wrap: anywhere;
+}
+
+.chip {
+  border: 1px solid var(--color-border);
+  background: var(--color-panel-low);
+  color: var(--color-text-muted);
+  border-radius: 999px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  max-width: 100%;
+  line-height: 1.25;
+}
+
+.chipActive {
+  border-color: var(--color-primary);
+  color: var(--color-primary-soft);
+  background: rgba(211, 146, 18, 0.16);
+}
+
+.segmentRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.segmentRow .chip {
+  flex: 1 1 140px;
+  text-align: center;
+}
+
+.suggestRow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.suggestChip {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 56px;
+  width: 100%;
+  padding: 10px 12px 10px 8px;
+  border-radius: 16px;
+  border: 1px solid var(--color-border);
+  background: var(--color-card);
+  color: var(--color-text);
+  cursor: pointer;
+  text-align: left;
+}
+
+.suggestChip:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.suggestChip strong {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.suggestChip span {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.diagramFrame {
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px dashed var(--color-border-strong);
+  background: var(--color-panel-low);
+}
+
+.diagramFrame svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.heroNaza {
+  position: absolute;
+  right: 12px;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.learnHub {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(240px, 0.85fr);
+  gap: clamp(12px, 1.8vw, 18px);
+  align-items: start;
+}
+
+.learnPrimary,
+.learnAside {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.learnShell {
+  display: grid;
+  grid-template-columns: minmax(160px, 200px) minmax(0, 1fr);
+  gap: 10px;
+  align-items: stretch;
+}
+
+.learnRail {
+  display: grid;
+  gap: 6px;
+}
+
+.learnRailBtn {
+  text-align: left;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+  background: var(--color-panel-low);
+  color: var(--color-text);
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+
+.learnRailBtn:disabled {
+  opacity: 0.55;
+  cursor: wait;
+}
+
+.learnRailBtnActive {
+  border-color: var(--color-primary);
+  background: rgba(211, 146, 18, 0.14);
+}
+
+.banner {
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(251, 191, 36, 0.35);
+  background: rgba(251, 191, 36, 0.1);
+  color: var(--color-text);
+}
+
+@media (max-width: 1100px) {
+  .tutorLayout {
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
+
+  .chatPane {
+    min-height: 0;
+    flex: 1;
+  }
+
+  .sourcesPane {
+    max-height: 180px;
+  }
+}
+
+@media (max-width: 960px) {
+  .learnHub {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .grid2 {
+    grid-template-columns: 1fr;
+  }
+
+  .learnShell,
+  .cbtShell {
+    grid-template-columns: 1fr;
+  }
+
+  .cbtSide {
+    position: static;
+  }
+
+  .cbtTopBar {
+    position: static;
+  }
+
+  .heroNaza {
+    display: none;
+  }
+
+  .heroCard {
+    padding-right: clamp(12px, 2vw, 20px);
+  }
+}
+
+.examStemNote {
+  margin: 8px 0 0;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+@media (max-width: 720px) {
+  .courseActions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .courseActions a,
+  .courseActions button {
+    width: 100%;
+  }
+
+  .pageFill {
+    min-height: 100%;
+  }
+
+  .tutorLayout {
+    height: auto;
+  }
+
+  .chatPane {
+    min-height: min(52dvh, 480px);
+  }
+}
+
+@media (max-width: 640px) {
+  .heroCard {
+    min-height: 0;
+  }
+
+  .flashcard {
+    min-height: 140px;
+    font-size: 16px;
+  }
+
+  .cbtPalette {
+    grid-template-columns: repeat(auto-fill, minmax(36px, 1fr));
+  }
+
+  .composer {
+    flex-wrap: wrap;
+  }
+
+  .chatHeader,
+  .lessonControls,
+  .cbtNavRow {
+    flex-wrap: wrap;
+  }
+
+  .pageTitle {
+    font-size: 1.25rem;
+  }
+}
+
+

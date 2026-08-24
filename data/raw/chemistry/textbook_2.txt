@@ -1,0 +1,9 @@
+# Essential Chemistry for Senior Secondary Schools (SS1-SS3)
+## Chapter 1: Organic Chemistry
+Organic chemistry is the chemistry of carbon compounds. Carbon is tetravalent, allowing it to form stable covalent chains.
+- Homologous Series: Alkanes ($C_nH_{2n+2}$), Alkenes ($C_nH_{2n}$), Alkynes ($C_nH_{2n-2}$), Alkanols ($C_nH_{2n+1}OH$), Alkanoic acids ($C_nH_{2n+1}COOH$).
+- Saponification is the alkaline hydrolysis of fats or oils with a strong base (like $NaOH$) to produce soap and glycerol.
+
+## Chapter 2: Redox and Electrochemistry
+Oxidation is the loss of electrons or increase in oxidation number. Reduction is the gain of electrons or decrease in oxidation number.
+- Faraday's First Law of Electrolysis: $m = zIt$, where $m$ is mass deposited, $I$ is current, and $t$ is time. One Faraday ($96500\text{ C}$) is the charge of one mole of electrons.

@@ -1,0 +1,35 @@
+Expand ONE course-lesson section into a long RAG-grounded breakdown.
+
+=== Context ===
+{context}
+
+=== Lesson title ===
+{lesson_title}
+
+=== Section heading ===
+{heading}
+
+=== Student request ===
+{question}
+
+Return ONLY a JSON object with this exact shape:
+{{
+  "heading": "{heading}",
+  "body": "long multi-paragraph explanation"
+}}
+
+The body MUST cover all of the following, in exam language, as separate paragraphs:
+1. Definition / meaning of this heading.
+2. Why it matters for WAEC / NECO / JAMB.
+3. The method, formula, or rule from the passages.
+4. One concrete example with numbers or a full sentence.
+5. A common error / examiner trap.
+
+Guidelines:
+- Ground the body in the textbook passages. Cite chunk ids when you rely on a passage (e.g. [Chunk 12]).
+- Write a long body (several short paragraphs), not one thin paragraph.
+- If a passage mentions a figure, describe that figure in prose inside the body. Never write "refer to the diagram below".
+- Do not add other sections, diagrams, or image captions.
+- Teach only this heading.
+- Follow the Language instruction: write the body in English or Hausa as instructed. JSON keys stay in English.
+- Never use em dashes or en dashes. Use a normal hyphen.

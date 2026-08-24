@@ -1,0 +1,8 @@
+# Senior Secondary Chemistry (SS1-SS3) by Ababio
+## Chapter 1: Stoichiometry and the Mole Concept
+The mole is the SI unit for the amount of substance. One mole contains $6.02 \times 10^{23}$ elementary particles. At standard temperature and pressure (s.t.p.), one mole of any gas occupies a volume of $22.4\text{ dm}^3$. The formula for concentration in mol/dm³ is $C = \frac{n}{V}$. Empirical formula is the simplest whole-number ratio of atoms in a compound, while molecular formula shows the actual numbers of atoms.
+
+## Chapter 2: Acids, Bases, and Salts
+Acids are substances which in aqueous solution produce hydrogen ions ($H^+$ or $H_3O^+$) as the only positive ions. Bases are metallic oxides or hydroxides which react with acids to form salt and water only. A salt is formed when the replaceable hydrogen ions of an acid are partially or completely replaced by a metal or ammonium ion.
+- Neutralization: $\text{Acid} + \text{Base} \rightarrow \text{Salt} + \text{Water}$.
+- Volumetric Analysis (Titration): Using the formula $\frac{C_A V_A}{C_B V_B} = \frac{n_A}{n_B}$ to find unknown concentrations.
