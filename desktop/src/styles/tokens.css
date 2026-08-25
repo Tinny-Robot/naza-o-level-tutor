@@ -51,16 +51,12 @@
   --shadow-md: 0 10px 28px rgba(28, 39, 64, 0.1);
   --shadow-glow: 0 8px 24px rgba(211, 146, 18, 0.22);
 
-  /* Compact chrome so 1.25 UI scale still fits a laptop viewport */
-  --sidebar-w: 168px;
-  --topbar-h: 48px;
-  --context-w: 240px;
-  --main-pad: clamp(8px, 1.2vw, 14px);
+  --sidebar-w: 180px;
+  --topbar-h: 52px;
+  --context-w: 260px;
+  --main-pad: clamp(10px, 1.4vw, 18px);
   --bottom-nav-h: 56px;
 
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --dur: 220ms;
-
-  /* Default UI scale (~Chrome zoom 125%). Adjust here if needed. */
-  --ui-scale: 1.25;
 }
