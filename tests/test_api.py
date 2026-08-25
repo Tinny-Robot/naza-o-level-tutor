@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 from contextlib import asynccontextmanager
 from typing import Any, AsyncIterator
 
@@ -13,7 +14,7 @@ from backend.api.main import create_app
 
 
 class StubPipeline:
-    """Minimal stand-in for GenerationPipeline.ask / lesson grading."""
+    """Minimal stand-in for GenerationPipeline.ask / stream_ask / lesson grading."""
 
     def __init__(self) -> None:
         self.calls: list[dict[str, Any]] = []
@@ -94,6 +95,36 @@ class StubPipeline:
             "retrieved_chunks": [],
             "refused": False,
         }
+
+    def stream_ask(
+        self,
+        question: str,
+        *,
+        history: list[dict[str, str]] | None = None,
+        **_: Any,
+    ) -> Any:
+        self.calls.append({"question": question, "history": history or []})
+        if "fail_stream" in question:
+            raise RuntimeError("Simulated stream engine crash")
+        if "empty_stream" in question:
+            return
+        yield {
+            "type": "meta",
+            "mode": "study",
+            "citations": [
+                {
+                    "subject": "physics",
+                    "topic": "equilibrium",
+                    "source": "data/raw/physics/notes.txt",
+                    "chunk_id": "phy-1",
+                    "score": 0.88,
+                }
+            ],
+            "confidence": 0.77,
+            "refused": False,
+        }
+        for token in ["Equi", "librium ", "is ", "balance."]:
+            yield {"type": "token", "token": token}
 
 
 class _StubGradeLLM:
@@ -211,3 +242,101 @@ def test_static_learning_routes() -> None:
             res = client.get(path)
             assert res.status_code == 200, path
             assert isinstance(res.json(), dict)
+
+
+# ---------------------------------------------------------------------------
+# Input validation tests (Pydantic field limits)
+# ---------------------------------------------------------------------------
+
+class TestChatInputValidation:
+    """Verify that the chat endpoint enforces input length and history limits."""
+
+    def test_message_too_long_returns_422(self) -> None:
+        with _client() as client:
+            res = client.post("/chat", json={"message": "x" * 4001, "history": []})
+        assert res.status_code == 422
+
+    def test_empty_message_returns_422(self) -> None:
+        with _client() as client:
+            res = client.post("/chat", json={"message": "", "history": []})
+        assert res.status_code == 422
+
+    def test_message_at_max_length_accepted(self) -> None:
+        with _client() as client:
+            res = client.post("/chat", json={"message": "a" * 4000, "history": []})
+        assert res.status_code == 200
+
+    def test_history_too_many_turns_returns_422(self) -> None:
+        turn = {"role": "user", "content": "hi"}
+        with _client() as client:
+            res = client.post("/chat", json={"message": "hello", "history": [turn] * 21})
+        assert res.status_code == 422
+
+    def test_history_at_max_turns_accepted(self) -> None:
+        turn = {"role": "user", "content": "hi"}
+        with _client() as client:
+            res = client.post("/chat", json={"message": "hello", "history": [turn] * 20})
+        assert res.status_code == 200
+
+    def test_history_content_too_long_returns_422(self) -> None:
+        turn = {"role": "user", "content": "x" * 2001}
+        with _client() as client:
+            res = client.post("/chat", json={"message": "hello", "history": [turn]})
+        assert res.status_code == 422
+
+
+# ---------------------------------------------------------------------------
+# SSE Streaming endpoint tests
+# ---------------------------------------------------------------------------
+
+class TestChatStreaming:
+    """Verify SSE streaming behavior on /chat/stream."""
+
+    def test_stream_normal_response_and_done(self) -> None:
+        with _client() as client:
+            res = client.post(
+                "/chat/stream",
+                json={"message": "What is equilibrium?", "history": []},
+            )
+            assert res.status_code == 200
+            assert "text/event-stream" in res.headers["content-type"]
+            text = res.text
+            assert "data: " in text
+            assert "data: [DONE]" in text
+            # Ensure metadata chunk is present
+            assert '"type": "meta"' in text
+            # Ensure tokens are present
+            assert '"token": "Equi"' in text
+            assert '"token": "balance."' in text
+
+    def test_stream_failure_emits_error_and_no_done(self) -> None:
+        with _client() as client:
+            res = client.post(
+                "/chat/stream",
+                json={"message": "fail_stream query", "history": []},
+            )
+            assert res.status_code == 200
+            text = res.text
+            assert "data: " in text
+            assert '"error":' in text
+            # Should NOT emit [DONE] on failure
+            assert "[DONE]" not in text
+
+    def test_stream_empty_generation_emits_error(self) -> None:
+        with _client() as client:
+            res = client.post(
+                "/chat/stream",
+                json={"message": "empty_stream query", "history": []},
+            )
+            assert res.status_code == 200
+            text = res.text
+            assert '"error": "No response was generated."' in text
+            assert "[DONE]" not in text
+
+    def test_stream_input_validation(self) -> None:
+        with _client() as client:
+            res = client.post(
+                "/chat/stream",
+                json={"message": "x" * 4001, "history": []},
+            )
+            assert res.status_code == 422

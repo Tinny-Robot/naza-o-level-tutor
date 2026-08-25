@@ -56,15 +56,40 @@ def strip_chunk_citations(text: str) -> str:
 
 
 def _unescape_json_string(value: str) -> str:
+    """Unescape JSON string content.
+
+    Primary path: standard JSON parsing via json.loads (preserves all standard
+    escapes including \\", \\\\, \\n, \\t, \\r, \\b, \\f, and \\uXXXX unicode).
+    Recovery path: robust manual substitution for truncated or malformed JSON
+    strings that contain unescaped quotes or invalid control characters.
+    """
+    if not value:
+        return ""
     try:
         return json.loads(f'"{value}"')
-    except json.JSONDecodeError:
-        return (
-            value.replace("\\n", "\n")
-            .replace("\\t", "\t")
-            .replace('\\"', '"')
-            .replace("\\\\", "\\")
-        )
+    except (json.JSONDecodeError, UnicodeDecodeError, ValueError):
+        pass
+
+    def _replace_escape(match: re.Match[str]) -> str:
+        esc = match.group(1)
+        if esc == "n":
+            return "\n"
+        if esc == "t":
+            return "\t"
+        if esc == "r":
+            return "\r"
+        if esc == '"':
+            return '"'
+        if esc == "\\":
+            return "\\"
+        if esc.startswith("u") and len(esc) == 5:
+            try:
+                return chr(int(esc[1:], 16))
+            except ValueError:
+                return match.group(0)
+        return match.group(0)
+
+    return re.sub(r'\\(\\|"|n|t|r|u[0-9a-fA-F]{4})', _replace_escape, value)
 
 
 def _body_from_broken_json(raw: str) -> str:

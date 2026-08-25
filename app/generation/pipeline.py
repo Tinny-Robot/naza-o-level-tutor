@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from collections.abc import Callable
 from pathlib import Path
-from typing import Any
+from typing import Any, TypedDict
 
 from app.config import (
     CONFIDENCE_MEAN_WEIGHT,
@@ -15,7 +15,7 @@ from app.config import (
 )
 from app.generation.citations import build_citations
 from app.generation.context_builder import ContextBuilder
-from app.generation.hallucination import refusal_message, should_refuse
+from app.generation.hallucination import refusal_message, should_refuse, warn_if_low_coverage
 from app.generation.llm import LLMClient, get_llm
 from app.generation.prompt_manager import PromptManager, get_prompt_manager
 from app.generation.rag import RetrievalService
@@ -23,6 +23,19 @@ from app.generation.router import QueryMode, QueryRouter, get_router
 from app.utils.logging import get_logger
 
 logger = get_logger(__name__)
+
+
+class ChatResult(TypedDict, total=False):
+    """Normalized dictionary returned by study and general chat handlers."""
+
+    type: str
+    mode: str
+    answer: str
+    citations: list[dict[str, Any]]
+    confidence: float
+    retrieved_chunks: list[dict[str, Any]]
+    refused: bool
+    image_refs: list[dict[str, Any]]
 
 
 def blend_confidence(
@@ -56,14 +69,17 @@ def format_history(
 ) -> str:
     """Format the last ``max_turns`` chat messages for optional prompt context.
 
-    Empty / missing history returns ``\"\"`` so Study/General prompts are unchanged.
+    Empty / missing history returns ``""`` so Study/General prompts are unchanged.
+    Each turn's content is capped at 2000 characters to prevent oversized
+    history from flooding the context window.
     """
     if not history:
         return ""
     lines: list[str] = []
     for turn in history[-max_turns:]:
         role = str(turn.get("role", "")).strip().lower()
-        content = str(turn.get("content", "")).strip()
+        # Cap per-turn content — prevents oversized history from flooding context.
+        content = str(turn.get("content", "")).strip()[:2000]
         if not content:
             continue
         label = "User" if role == "user" else "Assistant" if role == "assistant" else None
@@ -248,6 +264,120 @@ class GenerationPipeline:
             language=lang,
         )
 
+    def stream_ask(
+        self,
+        question: str,
+        *,
+        top_k: int = TOP_K,
+        subject: str | None = None,
+        topic: str | None = None,
+        source: str | None = None,
+        history: list[dict[str, str]] | None = None,
+        language: str | None = None,
+    ) -> Generator[dict[str, Any], None, None]:
+        """Stream chat tokens with query routing, retrieval, and guardrails."""
+        cleaned = question.strip()
+        if not cleaned:
+            yield {
+                "type": "meta",
+                "mode": QueryMode.GENERAL.value,
+                "citations": [],
+                "confidence": 0.0,
+                "refused": True,
+            }
+            return
+
+        from app.i18n.language import resolve_language
+
+        lang = resolve_language(language)
+        history_block = format_history(history)
+        mode = self.router.classify(cleaned)
+
+        if mode is QueryMode.STUDY:
+            retrieved = self.retrieval.retrieve(
+                cleaned,
+                top_k=top_k,
+                subject=subject,
+                topic=topic,
+                source=source,
+            )
+            scores = _scores_from_results(retrieved)
+            confidence = blend_confidence(scores)
+
+            if should_refuse(retrieved):
+                logger.info("Refusing answer in stream (empty or low retrieval score)")
+                yield {
+                    "type": "meta",
+                    "mode": QueryMode.STUDY.value,
+                    "citations": [],
+                    "confidence": confidence,
+                    "refused": True,
+                }
+                yield {"type": "token", "token": refusal_message(lang)}
+                return
+
+            prompt_question = _question_with_history(cleaned, history_block)
+            builder = ContextBuilder(
+                self.llm,
+                max_context_tokens=self._max_context_tokens,
+            )
+            system = personalized_system(self.prompts.system_prompt, lang)
+            scaffolding = self.prompts.render_user(context="", question=prompt_question)
+            reserved = self.llm.count_tokens(system) + self.llm.count_tokens(scaffolding)
+            builder.reserved_tokens = min(reserved, max(0, self._max_context_tokens // 4))
+
+            context, selected = builder.build(retrieved)
+            citations = build_citations(selected)
+            user = self.prompts.render_user(context=context, question=prompt_question)
+
+            yield {
+                "type": "meta",
+                "mode": QueryMode.STUDY.value,
+                "citations": citations,
+                "confidence": confidence,
+                "refused": False,
+            }
+
+            accumulated: list[str] = []
+            for token in self.llm.stream_generate(system, user):
+                accumulated.append(token)
+                yield {"type": "token", "token": token}
+
+            warn_if_low_coverage("".join(accumulated), selected)
+            try:
+                from app.student.updater import LearningProfileUpdater
+
+                LearningProfileUpdater().apply_event(
+                    {"kind": "chat", "label": cleaned[:80], "mode": "study"}
+                )
+            except Exception:
+                logger.exception("Failed to update Learning Profile after study stream")
+
+        else:
+            prompt_question = _question_with_history(cleaned, history_block)
+            system = personalized_system(self.prompts.general_system_prompt, lang)
+            user = self.prompts.render_general_user(question=prompt_question)
+
+            yield {
+                "type": "meta",
+                "mode": QueryMode.GENERAL.value,
+                "citations": [],
+                "confidence": 1.0,
+                "refused": False,
+            }
+
+            for token in self.llm.stream_generate(system, user):
+                yield {"type": "token", "token": token}
+
+            try:
+                from app.student.updater import LearningProfileUpdater
+
+                LearningProfileUpdater().apply_event(
+                    {"kind": "chat", "label": cleaned[:80], "mode": "general"}
+                )
+            except Exception:
+                logger.exception("Failed to update Learning Profile after general stream")
+
     def _ask_study(
         self,
         question: str,
@@ -258,7 +388,7 @@ class GenerationPipeline:
         source: str | None = None,
         history_block: str = "",
         language: str | None = None,
-    ) -> dict[str, Any]:
+    ) -> ChatResult:
         """Existing offline RAG path: retrieve → guard → context → study prompts."""
         retrieved = self.retrieval.retrieve(
             question,
@@ -297,6 +427,8 @@ class GenerationPipeline:
         citations = build_citations(selected)
         user = self.prompts.render_user(context=context, question=prompt_question)
         answer = self.llm.generate(system, user)
+        # Lightweight coverage check: warn if answer has little overlap with context.
+        warn_if_low_coverage(answer, selected)
         try:
             from app.student.updater import LearningProfileUpdater
 
@@ -327,7 +459,7 @@ class GenerationPipeline:
         source: str | None = None,
         history_block: str = "",
         language: str | None = None,
-    ) -> dict[str, Any]:
+    ) -> ChatResult:
         """LLM-only path on the same ``get_llm()`` singleton; no retrieval."""
         _ = (top_k, subject, topic, source)
         prompt_question = _question_with_history(question, history_block)

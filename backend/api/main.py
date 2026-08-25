@@ -22,7 +22,7 @@ from backend.api.routes import chat, exams, learn, lesson, media, practice_api, 
 logger = get_logger(__name__)
 
 # Localhost-only SPA origins (any port on loopback).
-_LOCAL_ORIGIN_RE = r"https?://(localhost|127\.0\.0\.1)(:\d+)?"
+_LOCAL_ORIGIN_RE = r"^https?://(localhost|127\.0\.0\.1)(:\d+)?$"
 
 
 def warm_pipeline() -> GenerationPipeline:

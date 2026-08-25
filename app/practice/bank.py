@@ -791,8 +791,58 @@ def _comprehension_passages(subject: str) -> list[dict[str, Any]]:
                         "D. The passage is mainly a sports fixture list.",
                     ],
                     "answer": "A",
-                    "explanation": "Identify the controlling idea; details support it.",
-                }
+                    "explanation": "Identify the controlling idea; all details support it.",
+                },
+                {
+                    "question": (
+                        "Which of the following best describes the writer's purpose in the passage?"
+                    ),
+                    "options": [
+                        "A. To inform and explain a situation or idea.",
+                        "B. To advertise a commercial product.",
+                        "C. To write a personal diary entry.",
+                        "D. To list scientific equations.",
+                    ],
+                    "answer": "A",
+                    "explanation": (
+                        "The writer presents information with supporting details, "
+                        "which is characteristic of an informative/expository purpose."
+                    ),
+                },
+                {
+                    "question": (
+                        "In the context of the passage, a word used to convey a "
+                        "strong emotion or personal attitude is an example of _____."
+                    ),
+                    "options": [
+                        "A. Loaded or emotive language",
+                        "B. A mathematical symbol",
+                        "C. Punctuation",
+                        "D. A proper noun",
+                    ],
+                    "answer": "A",
+                    "explanation": (
+                        "Words chosen for emotional effect show the writer's attitude "
+                        "and are called loaded or emotive language."
+                    ),
+                },
+                {
+                    "question": (
+                        "A phrase that gives human qualities to a non-human subject "
+                        "in the passage is an example of _____."
+                    ),
+                    "options": [
+                        "A. Personification",
+                        "B. Onomatopoeia",
+                        "C. Alliteration",
+                        "D. Hyperbole",
+                    ],
+                    "answer": "A",
+                    "explanation": (
+                        "Personification attributes human qualities to animals, "
+                        "objects, or abstract ideas."
+                    ),
+                },
             ]
 
         for i, item in enumerate(items):

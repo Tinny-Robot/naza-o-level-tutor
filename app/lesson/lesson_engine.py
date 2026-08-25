@@ -365,7 +365,7 @@ class LessonEngine:
         if refused:
             context, selected = "", []
             citations: list[dict[str, Any]] = []
-            logger.info("Course lesson retrieval weak; generating with empty context")
+            logger.warning("Course lesson retrieval weak; generating with empty context")
         else:
             context, selected = builder.build(retrieved)
             citations = build_citations(selected)
@@ -454,15 +454,39 @@ class LessonEngine:
         render_section: Any,
         system: str,
     ) -> dict[str, Any]:
-        """Pass B: long body for each heading, same packed textbook context."""
+        """Pass B: long body for each heading, same packed textbook context.
+
+        Sections that already have substantial prose from the frame pass (>= 60 words)
+        are skipped to avoid redundant LLM calls. This reduces worst-case sequential
+        calls from 7 down to only the sections that genuinely need expansion.
+        """
         lesson_title = str(data.get("title") or "")
-        sections = list(data.get("sections") or [])[:7]
+        # Cap at 5 sections — reduces worst-case calls from 7 to 5 while
+        # preserving lesson quality for typical O-Level topics.
+        sections = list(data.get("sections") or [])[:5]
         expanded: list[dict[str, Any]] = []
         for index, section in enumerate(sections):
             if not isinstance(section, dict):
                 expanded.append(section)
                 continue
             heading = str(section.get("heading") or f"Section {index + 1}").strip()
+            existing_body = str(section.get("body") or "").strip()
+
+            # Skip expansion if the frame already provided substantial prose.
+            existing_word_count = len(existing_body.split()) if existing_body else 0
+            if existing_word_count >= 60:
+                logger.info(
+                    "Skipping expansion for '%s' — frame provided %d words",
+                    heading,
+                    existing_word_count,
+                )
+                copy = dict(section)
+                copy["heading"] = heading
+                copy["diagram_placeholder"] = None
+                copy["diagram_svg"] = None
+                expanded.append(copy)
+                continue
+
             if callable(render_section):
                 user = render_section(
                     context=context_block,

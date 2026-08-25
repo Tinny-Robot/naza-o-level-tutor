@@ -3,8 +3,10 @@
 from __future__ import annotations
 
 import atexit
+import queue
 import re
 import threading
+from collections.abc import Generator
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from typing import Any, Callable, Protocol, TypeVar
@@ -206,6 +208,66 @@ class LlamaCppLLM:
         cleaned, gen_tokens = _run_on_llm_thread(_generate)
         self.last_gen_tokens = gen_tokens
         return cleaned
+
+    def stream_generate(
+        self,
+        system: str,
+        user: str,
+        *,
+        max_tokens: int | None = None,
+    ) -> Generator[str, None, None]:
+        """Stream token chunks from the llama thread via a queue bridge.
+
+        Yields string token fragments as they are generated. Callers can wrap
+        this in a FastAPI ``StreamingResponse`` for SSE.
+
+        Architecture::
+
+            llama thread (stream=True generator)
+                ↓ puts tokens into
+            threading.Queue
+                ↑ drained by
+            caller (FastAPI response generator)
+
+        The ``_LLM_EXECUTOR`` (max_workers=1) still serializes all inference.
+        """
+        logger.info("LLM streaming request via llama.cpp model=%s", self.model_name)
+        limit = max_tokens if max_tokens is not None else self.max_tokens
+        # Sentinel: unique object signals end of stream; Exception instances signal errors.
+        _SENTINEL = object()
+        token_queue: queue.Queue[Any] = queue.Queue(maxsize=512)
+
+        def _stream_on_llama_thread() -> None:
+            try:
+                for chunk in self._llama.create_chat_completion(
+                    messages=[
+                        {"role": "system", "content": system},
+                        {"role": "user", "content": user},
+                    ],
+                    temperature=self.temperature,
+                    max_tokens=limit,
+                    stream=True,
+                ):
+                    delta = chunk["choices"][0]["delta"].get("content", "") or ""
+                    if delta:
+                        token_queue.put(delta)
+            except Exception as exc:  # noqa: BLE001
+                logger.error("Streaming generation error: %s", exc)
+                token_queue.put(exc)
+            finally:
+                token_queue.put(_SENTINEL)
+
+        # Submit streaming task to the dedicated llama thread (non-blocking).
+        _LLM_EXECUTOR.submit(_stream_on_llama_thread)
+
+        # Drain the queue until the sentinel arrives.
+        while True:
+            item = token_queue.get()
+            if item is _SENTINEL:
+                break
+            if isinstance(item, Exception):
+                raise item
+            yield item
 
 
 def get_llm(force_reload: bool = False) -> LlamaCppLLM:

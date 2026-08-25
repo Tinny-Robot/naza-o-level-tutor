@@ -10,7 +10,7 @@ import { MarkdownMessage } from "../../components/ui/MarkdownMessage";
 import { stripChunkCitations } from "../../utils/stripChunkCitations";
 import { TextArea } from "../../components/ui/Input";
 import { ApiError } from "../../services/api";
-import { looksLikeLessonIntent, sendChat } from "../../services/chat";
+import { looksLikeLessonIntent, sendChat, sendChatStream } from "../../services/chat";
 import { planCourse } from "../../services/learn";
 import type {
   ChatMessage,
@@ -101,6 +101,7 @@ export function TutorPage() {
   useEffect(() => {
     return () => {
       if (typingTimer.current != null) window.clearInterval(typingTimer.current);
+      abortControllerRef.current?.abort();
     };
   }, []);
 
@@ -196,9 +197,15 @@ export function TutorPage() {
     }, TYPE_MS);
   }
 
+  const abortControllerRef = useRef<AbortController | null>(null);
+
   async function send(text?: string) {
     const q = (text ?? input).trim();
     if (!q || busy) return;
+
+    abortControllerRef.current?.abort();
+    const abortController = new AbortController();
+    abortControllerRef.current = abortController;
 
     const history: ChatMessage[] = messages
       .filter((m) => m.role === "user" || (m.role === "assistant" && Boolean(m.meta)))
@@ -224,36 +231,111 @@ export function TutorPage() {
     setActiveLesson(null);
 
     try {
-      const res = await sendChat(q, history);
-      setLast(res);
-      setRetryPayload(null);
-      setBuildingLesson(false);
-      if (isLessonResponse(res)) {
-        setActiveLesson(res);
-        setMessages((m) => [
-          ...m,
-          {
-            role: "assistant",
-            text: t("tutor.opening", { title: res.title }),
-            meta: {
-              type: "chat",
-              mode: "study",
-              answer: res.answer || t("tutor.lessonReady", { title: res.title }),
-              citations: res.citations,
-              confidence: res.confidence,
-              retrieved_chunks: [],
-              refused: res.refused,
-              latency_ms: res.latency_ms ?? 0,
+      if (lessonIntent) {
+        // Lesson responses need full structured JSON — use the non-streaming endpoint.
+        const res = await sendChat(q, history);
+        setLast(res);
+        setRetryPayload(null);
+        setBuildingLesson(false);
+        if (isLessonResponse(res)) {
+          setActiveLesson(res);
+          setMessages((m) => [
+            ...m,
+            {
+              role: "assistant",
+              text: t("tutor.opening", { title: res.title }),
+              meta: {
+                type: "chat",
+                mode: "study",
+                answer: res.answer || t("tutor.lessonReady", { title: res.title }),
+                citations: res.citations,
+                confidence: res.confidence,
+                retrieved_chunks: [],
+                refused: res.refused,
+                latency_ms: res.latency_ms ?? 0,
+              },
             },
-          },
-        ]);
+          ]);
+        } else {
+          revealAnswer(res.answer, res);
+        }
       } else {
-        revealAnswer(res.answer, res);
+        // Non-lesson queries use the streaming endpoint — tokens appear immediately.
+        let streamedText = "";
+        let streamMeta: ChatResponse | undefined = undefined;
+        const placeholder: Msg = { role: "assistant", text: "", full: "", typing: true };
+        setMessages((m) => [...m, placeholder]);
+
+        let tokenCount = 0;
+        for await (const ev of sendChatStream(q, history, abortController.signal)) {
+          if (ev.type === "meta") {
+            streamMeta = {
+              type: "chat",
+              mode: ev.mode || "general",
+              answer: "",
+              citations: ev.citations || [],
+              confidence: ev.confidence ?? 1.0,
+              retrieved_chunks: [],
+              refused: ev.refused ?? false,
+              latency_ms: 0,
+            };
+            setLast(streamMeta);
+          } else if (ev.type === "token") {
+            tokenCount++;
+            streamedText += ev.token;
+            const cleaned = stripChunkCitations(streamedText);
+            setMessages((m) => {
+              const copy = [...m];
+              const idx = copy.length - 1;
+              if (idx >= 0 && copy[idx].typing) {
+                copy[idx] = {
+                  ...copy[idx],
+                  text: cleaned,
+                  full: cleaned,
+                  meta: streamMeta ? { ...streamMeta, answer: cleaned } : undefined,
+                };
+              }
+              return copy;
+            });
+          }
+        }
+
+        if (tokenCount === 0 && !streamMeta?.refused) {
+          throw new ApiError(t("offline"));
+        }
+
+        setMessages((m) => {
+          const copy = [...m];
+          const idx = copy.length - 1;
+          if (idx >= 0 && copy[idx].typing) {
+            copy[idx] = { ...copy[idx], typing: false };
+          }
+          return copy;
+        });
+        setRetryPayload(null);
       }
     } catch (err) {
+      if (err instanceof Error && err.name === "AbortError") {
+        return;
+      }
       const msg = err instanceof ApiError ? err.message : t("offline");
       setError(msg);
-      setMessages((m) => m.slice(0, -1));
+      setMessages((m) => {
+        const last = m[m.length - 1];
+        if (last?.role === "assistant" && last.typing) {
+          if (last.text.trim()) {
+            const copy = [...m];
+            copy[copy.length - 1] = {
+              ...last,
+              typing: false,
+              text: `${last.text}\n\n⚠️ *(Response generation was interrupted. Please retry.)*`,
+            };
+            return copy;
+          }
+          return m.slice(0, -1);
+        }
+        return m;
+      });
       if (!lessonIntent) setBuildingLesson(false);
     } finally {
       setBusy(false);
@@ -262,47 +344,15 @@ export function TutorPage() {
 
   async function retry() {
     if (!retryPayload || busy) return;
-    const { message, history } = retryPayload;
-    const lessonIntent = looksLikeLessonIntent(message);
-    setBusy(true);
-    setBuildingLesson(lessonIntent);
-    setError(null);
-    setMessages((m) => [...m, { role: "user", text: message }]);
-    try {
-      const res = await sendChat(message, history);
-      setLast(res);
-      setRetryPayload(null);
-      setBuildingLesson(false);
-      if (isLessonResponse(res)) {
-        setActiveLesson(res);
-        setMessages((m) => [
-          ...m,
-          {
-            role: "assistant",
-            text: t("tutor.opening", { title: res.title }),
-            meta: {
-              type: "chat",
-              mode: "study",
-              answer: res.answer || t("tutor.lessonReady", { title: res.title }),
-              citations: res.citations,
-              confidence: res.confidence,
-              retrieved_chunks: [],
-              refused: res.refused,
-              latency_ms: res.latency_ms ?? 0,
-            },
-          },
-        ]);
-      } else {
-        revealAnswer(res.answer, res);
+    const { message } = retryPayload;
+    setMessages((m) => {
+      const last = m[m.length - 1];
+      if (last?.role === "assistant" && !last.meta) {
+        return m.slice(0, -1);
       }
-    } catch (err) {
-      const msg = err instanceof ApiError ? err.message : t("offline");
-      setError(msg);
-      setMessages((m) => m.slice(0, -1));
-      if (!lessonIntent) setBuildingLesson(false);
-    } finally {
-      setBusy(false);
-    }
+      return m;
+    });
+    void send(message);
   }
 
   function askFollowUp() {

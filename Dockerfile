@@ -40,4 +40,9 @@ COPY --from=ui /ui/dist ./desktop/dist
 
 EXPOSE 8010 5151
 
+# Run as a non-root user. UID 1000 matches the typical Linux host user, so
+# bind-mounted volumes (model/, student/, data/) remain readable/writable.
+RUN useradd --uid 1000 --create-home --shell /bin/bash naza
+USER naza
+
 CMD ["uv", "run", "--no-dev", "python", "scripts/serve_docker.py"]

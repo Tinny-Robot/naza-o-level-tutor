@@ -27,7 +27,7 @@ def _safe_path(raw: str) -> Path:
         path = (PROJECT_ROOT / path).resolve()
     else:
         path = path.resolve()
-    if not any(str(path).startswith(str(root)) for root in _ALLOWED_ROOTS):
+    if not any(path.is_relative_to(root) for root in _ALLOWED_ROOTS):
         raise HTTPException(status_code=403, detail="Path not allowed")
     if not path.is_file():
         raise HTTPException(status_code=404, detail="Image not found")

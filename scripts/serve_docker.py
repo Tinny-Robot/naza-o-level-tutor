@@ -28,6 +28,10 @@ def main() -> None:
             f"Missing built UI at {index}. The Docker image must run the UI build stage."
         )
 
+    # Fail fast if the GGUF model is absent — clearer than a crash inside warm_pipeline().
+    from scripts.preflight import run_all as _preflight
+    _preflight()
+
     def run_ui() -> None:
         from launcher.static_server import serve
 

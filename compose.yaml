@@ -2,8 +2,11 @@ services:
   naza:
     build: .
     ports:
-      - "5151:5151"
-      - "8010:8010"
+      # Bind to loopback only — prevents LAN/network exposure.
+      # The host browser reaches these via 127.0.0.1; Docker publish still works.
+      # Remove the 127.0.0.1: prefix only if you explicitly need LAN/server access.
+      - "127.0.0.1:5151:5151"
+      - "127.0.0.1:8010:8010"
     volumes:
       # Weights and index stay on the host (never baked into the image).
       - ./model:/app/model

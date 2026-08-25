@@ -12,7 +12,7 @@ import pytest
 from app.generation.citations import build_citations
 from app.generation.context_builder import ContextBuilder, format_chunk_block
 from app.generation.hallucination import should_refuse
-from app.generation.pipeline import GenerationPipeline, blend_confidence
+from app.generation.pipeline import ChatResult, GenerationPipeline, blend_confidence
 from app.generation.prompt_manager import PromptManager
 from app.generation.rag import RetrievalService
 from app.generation.router import QueryMode
@@ -475,3 +475,165 @@ def test_llamacpp_llm_passes_kwargs_to_llama(
     assert captured["swa_full"] is False
     assert captured["n_gpu_layers"] == 0
     assert client.llama_kwargs["flash_attn"] is True
+
+
+# ---------------------------------------------------------------------------
+# JSON recovery / _unescape_json_string hardening tests
+# ---------------------------------------------------------------------------
+
+class TestUnescapeJsonString:
+    """Tests for lesson_formatter._unescape_json_string after hardening."""
+
+    def setup_method(self) -> None:
+        from app.lesson.lesson_formatter import _unescape_json_string
+        self._fn = _unescape_json_string
+
+    def test_empty_string(self) -> None:
+        assert self._fn("") == ""
+
+    def test_newline_escape(self) -> None:
+        assert self._fn("hello\\nworld") == "hello\nworld"
+
+    def test_tab_escape(self) -> None:
+        assert self._fn("a\\tb") == "a\tb"
+
+    def test_embedded_quote_does_not_crash(self) -> None:
+        """This previously caused json.loads(f'"{value}"') to raise JSONDecodeError."""
+        result = self._fn('say \\"hello\\" please')
+        assert '"hello"' in result
+
+    def test_backslash_escape(self) -> None:
+        result = self._fn("path\\\\file")
+        assert result == "path\\file"
+
+    def test_plain_text_unchanged(self) -> None:
+        text = "Photosynthesis converts light to glucose."
+        assert self._fn(text) == text
+
+    def test_multiple_escapes(self) -> None:
+        result = self._fn("line1\\nline2\\nline3")
+        assert result.count("\n") == 2
+
+    def test_hausa_text_unchanged(self) -> None:
+        """Hausa characters with hooked letters should pass through untouched."""
+        text = "Makaranta tana koyar da ilimi mai fa'ida ga ɗalibai da ƙwararru."
+        assert self._fn(text) == text
+
+    def test_hausa_unicode_escapes_decoded(self) -> None:
+        """Verify \\u018a (Ɗ) and \\u0199 (ƙ) are decoded correctly."""
+        raw = "\\u018aalibi yana son karatu a \\u0199asar Hausa."
+        assert self._fn(raw) == "Ɗalibi yana son karatu a ƙasar Hausa."
+
+    def test_combinations_escapes(self) -> None:
+        """Verify combinations of \\", \\\\, \\n, \\t in a single string."""
+        raw = 'Title: \\"Photosynthesis\\"\\n\\tPoint 1: Light\\\\Energy\\n\\tPoint 2: H2O'
+        expected = 'Title: "Photosynthesis"\n\tPoint 1: Light\\Energy\n\tPoint 2: H2O'
+        assert self._fn(raw) == expected
+
+    def test_embedded_unescaped_quotes_and_newlines(self) -> None:
+        """Handle broken JSON with unescaped literal quotes and escaped newlines."""
+        raw = 'He said "listen carefully"\\nbefore writing \\"WAEC\\".'
+        assert self._fn(raw) == 'He said "listen carefully"\nbefore writing "WAEC".'
+
+    def test_consecutive_backslashes_and_quotes(self) -> None:
+        raw = '\\\\\\"'
+        # \\ is \, \" is "
+        assert self._fn(raw) == '\\"'
+
+    def test_preserves_intended_prose_accurately(self) -> None:
+        """Verify typical LLM educational response text is fully preserved."""
+        raw = (
+            "Equation:\\n"
+            "6CO2 + 6H2O -> C6H12O6 + 6O2\\n"
+            'Note: \\"Chlorophyll\\" acts as catalyst.\\t[Important]'
+        )
+        expected = (
+            "Equation:\n"
+            "6CO2 + 6H2O -> C6H12O6 + 6O2\n"
+            'Note: "Chlorophyll" acts as catalyst.\t[Important]'
+        )
+        assert self._fn(raw) == expected
+
+
+class TestFormatLessonMalformedJson:
+    """format_lesson should never raise on malformed LLM output."""
+
+    def test_empty_raw(self) -> None:
+        from app.lesson.lesson_formatter import format_lesson
+        lesson = format_lesson(None, topic="Test")
+        assert lesson.title == "Test"
+
+    def test_garbage_raw(self) -> None:
+        from app.lesson.lesson_formatter import format_lesson
+        lesson = format_lesson("not json at all!!! @@@ ###", topic="Test")
+        assert lesson.title == "Test"
+
+    def test_truncated_json(self) -> None:
+        from app.lesson.lesson_formatter import format_lesson
+        truncated = '{"title": "Osmosis", "introduction": "Plants use osmosis'
+        lesson = format_lesson(truncated, topic="Osmosis")
+        assert lesson.title == "Osmosis"
+
+    def test_valid_json_parsed_correctly(self) -> None:
+        from app.lesson.lesson_formatter import format_lesson
+        raw = """{
+            "title": "Photosynthesis",
+            "introduction": "Plants make food.",
+            "objectives": ["Understand photosynthesis"],
+            "sections": [{"heading": "Light", "body": "Light is needed."}],
+            "worked_example": {"problem": "A plant...", "steps": ["step1"], "answer": "glucose"},
+            "check_understanding": {"question": "What does a plant need?", "expected_answer": "light"},
+            "practice": {"question": "Which gas?", "options": ["A. CO2", "B. N2"], "correct_answer": "A", "explanation": "CO2"},
+            "summary": ["Plants use light"],
+            "revision_card": {"front": "Photosynthesis?", "back": "Light + CO2 = glucose"}
+        }"""
+        lesson = format_lesson(raw, topic="Photosynthesis")
+        assert lesson.title == "Photosynthesis"
+        assert lesson.introduction == "Plants make food."
+        assert len(lesson.sections) == 1
+
+
+class TestWarnIfLowCoverage:
+    """Tests for the hallucination coverage warning."""
+
+    def test_no_warning_on_high_overlap(self, caplog) -> None:
+        import logging
+        from app.generation.hallucination import warn_if_low_coverage
+        chunks = [{"text": "photosynthesis occurs in chlorophyll using sunlight carbon dioxide"}]
+        answer = "Photosynthesis uses sunlight and carbon dioxide in the chlorophyll."
+        with caplog.at_level(logging.WARNING, logger="app.generation.hallucination"):
+            warn_if_low_coverage(answer, chunks)
+        assert "Low curriculum coverage" not in caplog.text
+
+    def test_warning_on_low_overlap(self, caplog) -> None:
+        import logging
+        from app.generation.hallucination import warn_if_low_coverage
+        chunks = [{"text": "mitochondria cell energy atp respiration glucose oxygen"}]
+        answer = "Cats are mammals that drink water."
+        with caplog.at_level(logging.WARNING, logger="app.generation.hallucination"):
+            warn_if_low_coverage(answer, chunks)
+        assert "Low curriculum coverage" in caplog.text
+
+    def test_empty_answer_no_error(self) -> None:
+        from app.generation.hallucination import warn_if_low_coverage
+        warn_if_low_coverage("", [{"text": "some context"}])
+
+    def test_empty_chunks_no_error(self) -> None:
+        from app.generation.hallucination import warn_if_low_coverage
+        warn_if_low_coverage("some answer", [])
+
+
+def test_chat_result_structure() -> None:
+    """Verify ChatResult TypedDict keys and contract."""
+    res: ChatResult = {
+        "type": "chat",
+        "mode": "study",
+        "answer": "Photosynthesis is the process...",
+        "citations": [],
+        "confidence": 0.85,
+        "retrieved_chunks": [],
+        "refused": False,
+    }
+    assert res["type"] == "chat"
+    assert res["mode"] == "study"
+    assert res["refused"] is False
