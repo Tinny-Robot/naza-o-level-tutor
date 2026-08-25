@@ -19,6 +19,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 
 def main() -> None:
+    from scripts.preflight import run_all as _preflight
+
+    _preflight()
+
     import uvicorn
 
     uvicorn.run(
