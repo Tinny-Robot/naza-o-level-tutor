@@ -1,8 +1,9 @@
 # Technical Report - Naza: Offline Nigerian O-Level STEM Tutor
 
-**Team ID:** REPLACE_WITH_YOUR_ADTC_TEAM_ID  
-**Domain:** math_scientific_reasoning  
-**Model:** gemma-4-E4B-it-Q4_K_M (llama.cpp / GGUF Q4_K_M)  
+**Team ID:** `naza`
+**Devpost:** https://devpost.com/software/naza
+**Domain:** math_scientific_reasoning
+**Model:** gemma-4-E4B-it-IQ3_M (llama.cpp / GGUF IQ3_M)
 **Languages:** English (`en`), Hausa (`ha`)
 
 ---
@@ -23,12 +24,12 @@ inference time.
 
 ## Design Decisions
 
-- **Base model:** Google **Gemma 4 E4B-it** (edge-scale instruct model, ~4B
-  effective parameters), run through **llama.cpp** only (ADTC requirement).
-- **Quantization:** **GGUF Q4_K_M** - balances answer quality against the
-  **8 GB RAM** laptop profile. Heavier quants (Q5/Q6/Q8) risk memory pressure
-  once the OS and optional retrieval stack share RAM; lighter quants degrade
-  STEM step quality too aggressively for exam tutoring.
+- **Base model:** Google **Gemma 4 E4B-it** (about 4.5B effective parameters;
+  7.52B tensors reported by the profiler), run through **llama.cpp** only.
+- **Quantization:** **GGUF IQ3_M** - selected after Q4_K_M exceeded the desired
+  memory headroom. IQ3_M reduces the model artifact to about 4.71 GB while
+  retaining better low-bit quality than similarly sized conventional Q3
+  variants. This is a deliberate trade-off for an **8 GB RAM** laptop.
 - **Grounding (product layer):** Outside the profiler-only GGUF path, the full
   Naza app adds **local FAISS RAG** over Nigerian O-Level materials and a
   curated `data/eval/qa.json` practice bank so study answers stay syllabus-
@@ -41,29 +42,28 @@ inference time.
 
 ---
 
-## Fine-tuning
+## Adaptation and fine-tuning status
 
-**Why:** General instruct models under-serve **Hausa** and often drift from
-**WAEC / NECO** syllabus language. Curriculum-aligned fine-tuning teaches
-exam-style tutoring tone and subject vocabulary for Chemistry, Physics,
-Mathematics, and English Language.
+General instruct models under-serve **Hausa** and often drift from **WAEC /
+NECO** syllabus language. Naza's submitted GGUF is an unmodified quantized base
+model; the competition artifact does not claim weight-level fine-tuning.
 
-**Data:** Instruction pairs exported from the local practice bank
+The repository includes a reproducible LoRA/QLoRA pipeline and instruction data
+exported from the local practice bank
 (`data/eval/qa.json`) and aligned with the same O-Level corpus used for RAG.
 Records include English outputs and Hausa-targeted fields (see
 `finetune/data/schema.md`).
 
-**Method:** LoRA / QLoRA on a Gemma-class instruct checkpoint. Hyperparameters
-and prompt templates live in `finetune/configs/lora_hausa_curriculum.yaml`.
-Dataset export and training entrypoints are under `finetune/scripts/`.
+Hyperparameters and prompt templates live in
+`finetune/configs/lora_hausa_curriculum.yaml`; dataset export and training
+entrypoints are under `finetune/scripts/`. These files document planned and
+reproducible weight adaptation, but no adapter is merged into the submitted
+GGUF.
 
-**Scope:** Fine-tuning improves language fluency and curriculum alignment.
-**RAG still grounds study answers** in FAISS-retrieved chunks at runtime - it
-does not replace retrieval.
-
-**ADTC submission:** The GGUF judges download via `download_model.sh` is the
-**base quant**. Fine-tuning methodology, config, and reproducible scripts are
-documented under `finetune/` for inspection.
+The current product adaptation is therefore the fully offline application
+layer: local FAISS retrieval, curriculum data, language-aware prompts, and the
+curated practice bank. The bare GGUF profiler intentionally measures only the
+submitted model artifact, without RAG.
 
 ---
 
@@ -82,16 +82,26 @@ documented under `finetune/` for inspection.
 
 ## Benchmarks
 
-Self-reported on the development machine (not official ADTC profiler scores):
+Measured with `adtc-profiler 0.1.0` in participant mode on August 24, 2026.
+Accuracy was intentionally skipped for the required repository smoke test.
 
 | Metric | Value |
 |---|---|
-| Machine | Linux x86_64 cloud/dev host (CPU llama.cpp) |
-| GGUF on disk | ~4.7–5.3 GB (`gemma-4-E4B-it-Q4_K_M.gguf`) |
-| Quantization | GGUF Q4_K_M |
-| Runtime | llama.cpp (Python bindings in app; ADTC uses llama.cpp) |
-| Typical tutor reply | Study-mode RAG + generation (app); profiler uses bare GGUF |
-| Thermal throttling | Not profiled on ADTC official laptop - run `adtc-profiler` locally |
+| Machine | Intel Xeon Platinum 8175M, Ubuntu 24.04, CPU-only llama.cpp |
+| GGUF on disk | 4,714,697,408 bytes (`gemma-4-E4B-it-IQ3_M.gguf`) |
+| Quantization | GGUF IQ3_M |
+| Generation throughput | 3.61 tokens/second |
+| First-token latency | 110,279.04 ms |
+| Peak RSS | 5,006.40 MB |
+| Steady-state RSS | 4,815.40 MB |
+| Parameter check | 7,518,069,290 measured; 7.5B claimed; match passes |
+| Thermal throttling | Not detected |
+
+The previous Q4_K_M artifact measured 4.53 tokens/second and 7,178.95 MB peak
+RSS on the same host. IQ3_M sacrifices throughput and latency to recover about
+2.17 GB of peak memory headroom, which is the safer trade-off for the required
+8 GB laptop target. These figures are machine-specific and must be rechecked on
+the final participant laptop.
 
 Re-measure on your 8 GB laptop before submit:
 
@@ -111,7 +121,7 @@ adtc-profiler run --submission . --mode participant --output submission.json --s
 | `download_model.sh` | Public download of GGUF → `model/` |
 | `REPORT.md` | This writeup |
 | `model/` | Downloaded `.gguf` (gitignored) |
-| `finetune/` | Hausa + curriculum fine-tuning (dataset, config, scripts) |
+| `finetune/` | Hausa + curriculum training pipeline (data, config, scripts) |
 | `app/`, `desktop/`, `launch.sh` | Full offline tutor product (demo beyond bare GGUF) |
 
 ---

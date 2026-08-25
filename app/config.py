@@ -95,7 +95,7 @@ MODEL_NAME: str = os.getenv("MODEL_NAME", "Gemma-4-E4B-it")
 MODEL_PATH: Path = Path(
     os.getenv(
         "MODEL_PATH",
-        str(MODELS_DIR / "gemma-4-E4B-it-Q4_K_M.gguf"),
+        str(PROJECT_ROOT / "model" / "gemma-4-E4B-it-IQ3_M.gguf"),
     )
 )
 
@@ -123,6 +123,6 @@ def _env_bool(name: str, default: bool) -> bool:
     return raw.strip().lower() in {"1", "true", "yes", "on"}
 
 
-# llama.cpp memory knobs (profiled on Gemma-4-E4B-it Q4_K_M).
+# llama.cpp memory knobs for the Gemma-4-E4B-it IQ3_M submission quant.
 FLASH_ATTN: bool = _env_bool("FLASH_ATTN", True)
 SWA_FULL: bool = _env_bool("SWA_FULL", False)

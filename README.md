@@ -14,10 +14,10 @@ Before submitting, confirm every item:
 - [ ] `metadata.json` is fully filled - replace every `REPLACE_WITH_*` placeholder
 - [ ] `metadata.json` has exactly **2** `test_prompts`
 - [ ] `bash download_model.sh` downloads a valid **GGUF** into `model/`
-- [ ] `model/*.gguf` is gitignored - **do not** commit weights
+- [ ] `model/` and `*.gguf` are gitignored - **do not** commit weights
 - [ ] `REPORT.md` is filled and factual
 - [ ] Model runs **offline** during inference (no network after download)
-- [ ] `finetune/` documents Hausa + curriculum fine-tuning (dataset, config, scripts)
+- [ ] `finetune/` documents the Hausa + curriculum training pipeline
 
 ---
 
@@ -29,7 +29,7 @@ Before submitting, confirm every item:
 ├── download_model.sh      ← Public download of .gguf → model/
 ├── REPORT.md              ← Technical writeup for judges / audit
 ├── model/
-│   └── gemma-4-E4B-it-Q4_K_M.gguf   ← via download_model.sh (NOT in git)
+│   └── gemma-4-E4B-it-IQ3_M.gguf   ← via download_model.sh (NOT in git)
 ├── LICENSE                ← GPL-3.0 (template)
 ├── .gitignore             ← Excludes *.gguf and model weights
 ├── finetune/              ← Hausa + curriculum fine-tuning (dataset, config, scripts)
@@ -71,20 +71,19 @@ answered via a fully offline retrieve-then-generate (RAG) layer powered by
 **Gemma-4-E4B-it** (GGUF) through llama.cpp. No cloud APIs or Hugging Face downloads
 at runtime.
 
-The project also includes **offline fine-tuning** on curriculum-aligned instruction
-data for **English and Hausa** tutoring - instruction pairs exported from
-`data/eval/qa.json`, LoRA/QLoRA config, and reproducible scripts under
-[`finetune/`](finetune/). RAG grounding keeps study answers tied to local syllabus
-materials at demo time.
+The project also includes an **offline fine-tuning pipeline** for curriculum-
+aligned **English and Hausa** tutoring data: instruction-pair export,
+LoRA/QLoRA config, and reproducible scripts under [`finetune/`](finetune/).
+The submitted GGUF is the quantized base model; RAG grounding keeps product
+answers tied to local syllabus materials at demo time.
 
 Optional upgrades (off or dense-only by default so existing behaviour is
 unchanged): BM25 / hybrid RRF retrieval, cross-encoder reranking, metadata
 filters, and a retrieval evaluation harness.
 
-> **Note:** The ADTC profiler evaluates the GGUF under `model/` via llama.cpp.
-> The full product demo (`./launch.sh`) still uses `models/` by default
-> (`MODEL_PATH`). `download_model.sh` can hard-link an existing local GGUF into
-> `model/` without changing the running app.
+> **Note:** Both the ADTC profiler and the full product demo use the pinned GGUF
+> under `model/` by default. `download_model.sh` verifies its exact size and
+> SHA-256 before the model is used offline.
 
 ## Project structure
 
@@ -128,8 +127,8 @@ O-Level/
 │   │   └── general_user.txt   # General user template ({question})
 │   ├── models/document.py     # Document and Chunk dataclasses
 │   └── utils/logging.py       # get_logger() helper
-├── models/                    # App GGUF + embeddings (gitignored weights; demo MODEL_PATH)
-├── model/                     # ADTC GGUF dir (download_model.sh → *.gguf gitignored)
+├── models/                    # Local embedding snapshot (gitignored weights)
+├── model/                     # Pinned app + ADTC GGUF (entire directory gitignored)
 ├── finetune/                  # Hausa + curriculum fine-tuning (dataset, config, scripts)
 ├── data/
 │   ├── raw/                   # Source corpus, one folder per subject (keep)
@@ -184,7 +183,7 @@ From the project root:
 The image contains code plus a production UI build. It does **not** copy `.env`, the GGUF, embedding weights, or the FAISS index. Mount those from the host:
 
 ```bash
-# Place models/gemma-4-E4B-it-Q4_K_M.gguf and models/embeddings/KEmbed-naija-v3/
+# Run download_model.sh, then place models/embeddings/KEmbed-naija-v3/
 # plus data/index/index.faiss and data/processed/* as in Setup below.
 docker compose up --build
 ```
@@ -262,20 +261,18 @@ python3 -m venv .venv
 
 ### Local GGUF (required for `ask.py`)
 
-The app **never downloads** model weights. Place a **Gemma 4 E4B-it Q4_K_M** GGUF at:
+The app **never downloads** model weights. Place a **Gemma 4 E4B-it IQ3_M** GGUF at:
 
 ```text
-models/gemma-4-E4B-it-Q4_K_M.gguf
+model/gemma-4-E4B-it-IQ3_M.gguf
 ```
 
 (or set `MODEL_PATH` to your file). `*.gguf` files are gitignored.
 
-Suggested source (Unsloth, ~5 GB):
+Download and verify the pinned public artifact:
 
 ```bash
-hf download unsloth/gemma-4-E4B-it-GGUF \
-  --include "gemma-4-E4B-it-Q4_K_M.gguf" \
-  --local-dir models/
+bash download_model.sh
 ```
 
 Requires `llama-cpp-python>=0.3.34` (bundled llama.cpp with `gemma4` arch support).
@@ -309,7 +306,7 @@ least `config.json`, `modules.json`, `model.safetensors`). Override with
 | Variable | Default | Description |
 |---|---|---|
 | `MODEL_NAME` | `Gemma-4-E4B-it` | Display / log name |
-| `MODEL_PATH` | `models/gemma-4-E4B-it-Q4_K_M.gguf` | Path to the GGUF |
+| `MODEL_PATH` | `model/gemma-4-E4B-it-IQ3_M.gguf` | Path to the GGUF |
 | `EMBEDDING_MODEL_PATH` | `models/embeddings/KEmbed-naija-v3` | Local SentenceTransformer dir |
 | `HF_HUB_OFFLINE` | `1` (set by `ask.py`) | Block Hugging Face hub access |
 | `TRANSFORMERS_OFFLINE` | `1` (set by `ask.py`) | Block Transformers downloads |
@@ -538,11 +535,12 @@ A retrieved doc is **relevant** if (case-insensitive):
 
 Eval retrieves at least 10 docs per query so Recall@10 is meaningful.
 
-## Fine-tuning (Hausa + curriculum)
+## Fine-tuning pipeline (Hausa + curriculum)
 
-Naza was fine-tuned on **Nigerian O-Level curriculum instruction data** for
-**English and Hausa** tutoring. The live demo uses the **base Gemma GGUF + local
-RAG**; fine-tuning evidence lives under `finetune/` for judges and reproducibility.
+The repository provides a reproducible training pipeline for **Nigerian O-Level
+curriculum instruction data** in **English and Hausa**. The submitted artifact
+and live demo use the **base Gemma GGUF + local RAG**; no adapter is merged into
+the competition GGUF.
 
 | Piece | Contents |
 |---|---|

@@ -104,9 +104,8 @@ class LlamaCppLLM:
         if not path.is_file():
             raise FileNotFoundError(
                 f"GGUF model not found at {path}. "
-                f"Place {MODEL_NAME} Q4_K_M at MODEL_PATH before asking "
-                "(e.g. download gemma-4-E4B-it-Q4_K_M.gguf from "
-                "unsloth/gemma-4-E4B-it-GGUF on Hugging Face). "
+                f"Place {MODEL_NAME} IQ3_M at MODEL_PATH before asking "
+                "(run bash download_model.sh from the repository root). "
                 "The app does not download model weights."
             )
         from llama_cpp import Llama

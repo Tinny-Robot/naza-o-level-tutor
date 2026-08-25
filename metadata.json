@@ -1,18 +1,18 @@
 {
-  "team_id": "REPLACE_WITH_YOUR_ADTC_TEAM_ID",
+  "team_id": "naza",
   "domain": "math_scientific_reasoning",
   "language_scope": ["en", "ha"],
   "african_alpha_claim": true,
   "budget_laptop_claim": true,
   "submitter": {
-    "name": "REPLACE_WITH_YOUR_NAME",
-    "email": "REPLACE_WITH_YOUR_EMAIL",
+    "name": "Nathaniel Handan",
+    "email": "handanfoun@gmail.com",
     "github_handle": "Tinny-Robot"
   },
   "cross_disciplinary_pairing": {
     "discipline": "education",
     "load_bearing": true,
-    "description": "Offline Nigerian O-Level (WAEC/NECO) STEM tutor grounded in local syllabus materials, with curriculum-aligned fine-tuning for English and Hausa teaching support on constrained networks."
+    "description": "Offline Nigerian O-Level (WAEC/NECO) STEM tutor grounded in local syllabus materials, with local RAG and English/Hausa teaching support on constrained networks."
   },
   "test_prompts": [
     {
@@ -25,13 +25,13 @@
     }
   ],
   "model": {
-    "name": "gemma-4-E4B-it-Q4_K_M",
+    "name": "gemma-4-E4B-it-IQ3_M",
     "runtime": "llama.cpp",
-    "quantization": "GGUF Q4_K_M",
-    "parameters_estimate": "4B",
+    "quantization": "GGUF IQ3_M",
+    "parameters_estimate": "7.5B",
     "packaging": "binary_bundle"
   },
   "_runtime": {
-    "model_path": "model/gemma-4-E4B-it-Q4_K_M.gguf"
+    "model_path": "model/gemma-4-E4B-it-IQ3_M.gguf"
   }
 }

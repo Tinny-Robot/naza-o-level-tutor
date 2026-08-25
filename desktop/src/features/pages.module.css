@@ -13,6 +13,8 @@
   gap: 0;
   height: 100%;
   min-height: 0;
+  max-height: 100%;
+  overflow: hidden;
 }
 
 .pageFill .learnShell {
@@ -112,7 +114,7 @@
 }
 
 .sectionTitle {
-  font-size: 17px;
+  font-size: 15px;
   margin-bottom: 2px;
 }
 
@@ -153,11 +155,11 @@
 }
 
 .fieldSpaced {
-  margin-top: 12px;
+  margin-top: 8px;
 }
 
 .chipSpaced {
-  margin-top: 6px;
+  margin-top: 4px;
 }
 
 .muted {
@@ -335,15 +337,15 @@
 .practiceHudRow {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 8px;
+  gap: 6px;
 }
 
 .hudChip {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 8px 10px;
-  border-radius: 12px;
+  gap: 6px;
+  padding: 6px 8px;
+  border-radius: 10px;
   background: var(--color-panel-low);
   border: 1px solid var(--color-border);
   min-width: 0;
@@ -453,14 +455,14 @@
   height: 100%;
   min-height: 0;
   overflow: hidden;
-  gap: 8px;
+  gap: 6px;
 }
 
 .practiceTopBar {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  gap: 12px;
+  gap: 8px;
   flex-wrap: wrap;
   flex-shrink: 0;
 }
@@ -471,44 +473,44 @@
 
 .practiceTitle {
   font-family: var(--font-display);
-  font-size: clamp(1.35rem, 2.2vw, 1.7rem);
-  margin: 2px 0 0;
+  font-size: clamp(1.15rem, 1.8vw, 1.45rem);
+  margin: 0;
   line-height: 1.15;
 }
 
 .practiceFilters {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
   align-items: flex-end;
 }
 
 .fieldBlockCompact {
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  font-size: 0.82rem;
+  gap: 2px;
+  font-size: 0.75rem;
   color: var(--color-text-muted);
-  min-width: 120px;
+  min-width: 110px;
 }
 
 .fieldBlockCompact select {
-  min-height: 40px;
+  min-height: 34px;
   border-radius: 10px;
   border: 1px solid var(--color-border);
   background: var(--color-card);
   color: var(--color-text);
-  padding: 6px 10px;
-  font-size: 0.95rem;
+  padding: 4px 8px;
+  font-size: 0.88rem;
 }
 
 .practiceArenaCompact {
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  padding: 10px 12px;
-  border-radius: 14px;
+  gap: 6px;
+  padding: 8px 10px;
+  border-radius: 12px;
   border: 1px solid var(--color-border);
   background:
     radial-gradient(120% 80% at 0% 0%, rgba(211, 146, 18, 0.12), transparent 55%),
@@ -548,17 +550,17 @@
 }
 
 .practiceStem {
-  margin: 8px 0;
-  font-size: 1.05rem;
-  line-height: 1.45;
+  margin: 4px 0;
+  font-size: 0.98rem;
+  line-height: 1.4;
   font-weight: 600;
 }
 
 .practiceFigures {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  margin: 4px 0 8px;
+  gap: 6px;
+  margin: 2px 0 6px;
 }
 
 .practiceFigure {
@@ -568,8 +570,8 @@
 
 .practiceFigure img {
   display: block;
-  max-width: min(100%, 420px);
-  max-height: 140px;
+  max-width: min(100%, 360px);
+  max-height: 110px;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -578,10 +580,12 @@
   background: #fffdf6;
 }
 
+/* A B / C D  — two-column option grid */
 .optionStackCompact {
   display: grid;
-  gap: 6px;
-  margin-top: 8px;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 6px;
 }
 
 .optionStackCompact .optionBtn,
@@ -589,13 +593,20 @@
 .optionStackCompact .answerCorrect,
 .optionStackCompact .answerWrong {
   padding: 10px 12px;
-  font-size: 0.98rem;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  min-height: 44px;
+  width: 100%;
+  align-self: stretch;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .practiceActions {
-  margin-top: 10px;
+  margin-top: 8px;
   display: flex;
   gap: 8px;
+  flex-shrink: 0;
 }
 
 @media (max-width: 900px) {
@@ -620,7 +631,20 @@
   }
 
   .practiceFigure img {
-    max-height: 120px;
+    max-height: 100px;
+  }
+
+  .optionStackCompact,
+  .optionStack {
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+  }
+}
+
+@media (max-width: 420px) {
+  .optionStackCompact,
+  .optionStack {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -645,10 +669,12 @@
 /* Tutor */
 .tutorLayout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(200px, 240px);
+  grid-template-columns: minmax(0, 1fr) minmax(180px, 220px);
   gap: var(--space-3);
   height: 100%;
   min-height: 0;
+  overflow: hidden;
+  flex: 1;
 }
 
 .chatPane {
@@ -658,23 +684,28 @@
   border: 1px solid var(--color-border);
   border-radius: var(--radius-xl);
   overflow: hidden;
+  min-height: 0;
+  min-width: 0;
+  height: 100%;
 }
 
 .chatHeader {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 12px;
+  padding: 8px 10px;
   border-bottom: 1px solid var(--color-border);
+  flex-shrink: 0;
 }
 
 .messages {
   flex: 1;
+  min-height: 0;
   overflow-y: auto;
-  padding: 12px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 
 .bubbleUser,
@@ -703,22 +734,27 @@
 .composer {
   display: flex;
   gap: 8px;
-  padding: 10px;
+  padding: 8px 10px;
   border-top: 1px solid var(--color-border);
   background: var(--color-card);
+  flex-shrink: 0;
+  align-items: flex-end;
 }
 
 .composer input,
 .composer textarea {
   flex: 1;
   min-width: 0;
+  max-height: 88px;
 }
 
 .sourcesPane {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
   overflow-y: auto;
+  min-height: 0;
+  min-width: 0;
 }
 
 .citeCard {
@@ -942,6 +978,15 @@
   margin: 0 12px 8px;
   color: var(--color-text-muted);
   font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+.chatPane > .banner {
+  flex-shrink: 0;
+  margin: 0;
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
 }
 
 .citeTopic {
@@ -1079,15 +1124,15 @@
 
 .pageTitle {
   font-family: var(--font-display);
-  font-size: clamp(1.5rem, 2.6vw, 1.95rem);
-  margin: 4px 0 8px;
+  font-size: clamp(1.25rem, 2.2vw, 1.7rem);
+  margin: 2px 0 6px;
 }
 
 .fieldBlock {
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  font-size: 0.92rem;
+  gap: 4px;
+  font-size: 0.88rem;
   color: var(--color-text-muted);
 }
 
@@ -1099,11 +1144,13 @@
   border: 1px solid var(--color-border);
   color: var(--color-text);
   border-radius: 10px;
-  padding: 10px 12px;
+  padding: 8px 10px;
+  min-height: 36px;
 }
 
 .optionStack {
   display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 8px;
   margin-top: 14px;
 }
@@ -1116,6 +1163,10 @@
   background: var(--color-panel-low);
   color: var(--color-text);
   cursor: pointer;
+  min-height: 44px;
+  width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .optionBtn:hover:not(:disabled) {
@@ -1131,10 +1182,12 @@
 }
 
 .cbtPage {
-  display: grid;
-  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   height: 100%;
   min-height: 0;
+  overflow: hidden;
 }
 
 .cbtTopBar {
@@ -1142,45 +1195,55 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  padding: 12px 14px;
+  gap: 6px 10px;
+  padding: 6px 10px;
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-md);
   background:
     linear-gradient(135deg, rgba(15, 23, 42, 0.92), rgba(30, 41, 59, 0.88)),
     var(--color-panel);
   position: sticky;
   top: 0;
   z-index: 20;
+  flex-shrink: 0;
 }
 
 .cbtTopLeft {
   display: grid;
-  gap: 2px;
+  gap: 0;
+  font-size: 0.82rem;
+  line-height: 1.25;
 }
 
 .cbtTopLeft strong {
   font-family: var(--font-display);
   letter-spacing: 0.02em;
+  font-size: 0.92rem;
 }
 
 .cbtTopActions {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 4px;
   align-items: center;
+}
+
+.cbtTopActions button {
+  min-height: 32px;
+  padding: 4px 10px;
+  font-size: 0.85rem;
 }
 
 .cbtTimer {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   font-variant-numeric: tabular-nums;
   font-weight: 700;
-  font-size: 1.05rem;
+  font-size: 0.92rem;
   color: #fde68a;
-  padding: 8px 12px;
-  border-radius: 10px;
+  padding: 4px 8px;
+  border-radius: 8px;
   background: rgba(251, 191, 36, 0.12);
   border: 1px solid rgba(251, 191, 36, 0.35);
 }
@@ -1221,20 +1284,18 @@
 
 .cbtShell {
   display: grid;
-  grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
-  gap: 14px;
+  grid-template-columns: minmax(160px, 210px) minmax(0, 1fr);
+  gap: 10px;
   align-items: stretch;
-  height: 100%;
+  flex: 1;
   min-height: 0;
+  overflow: hidden;
 }
 
 .cbtSide {
-  position: sticky;
-  top: 0;
-  align-self: start;
-  max-height: calc(100dvh - var(--topbar-h) - 2 * var(--main-pad) - 48px);
+  min-height: 0;
   overflow: auto;
-  padding: 14px;
+  padding: 10px;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   background: var(--color-panel);
@@ -1311,6 +1372,8 @@
 
 .cbtMain {
   min-width: 0;
+  min-height: 0;
+  overflow: auto;
 }
 
 .cbtQuestionCard {
@@ -1388,9 +1451,9 @@
   background: var(--color-panel-low);
   color: var(--color-text-muted);
   border-radius: 999px;
-  padding: 8px 12px;
+  padding: 5px 10px;
   cursor: pointer;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   white-space: normal;
   overflow-wrap: anywhere;
   max-width: 100%;
@@ -1478,8 +1541,8 @@
 
 .learnHub {
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(240px, 0.85fr);
-  gap: clamp(12px, 1.8vw, 18px);
+  grid-template-columns: minmax(0, 1.35fr) minmax(220px, 0.85fr);
+  gap: clamp(10px, 1.4vw, 14px);
   align-items: start;
 }
 
@@ -1488,7 +1551,7 @@
   min-width: 0;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 
 .learnShell {
@@ -1601,15 +1664,18 @@
   }
 
   .pageFill {
-    min-height: 100%;
+    height: 100%;
+    min-height: 0;
+    max-height: 100%;
   }
 
   .tutorLayout {
-    height: auto;
+    height: 100%;
+    min-height: 0;
   }
 
   .chatPane {
-    min-height: min(52dvh, 480px);
+    min-height: 0;
   }
 }
 

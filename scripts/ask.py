@@ -4,8 +4,8 @@ Run from the project root:
 
     python scripts/ask.py
 
-Requires a Gemma 4 E4B-it Q4_K_M GGUF at MODEL_PATH (default
-``models/gemma-4-E4B-it-Q4_K_M.gguf``), a local embedding snapshot at
+Requires a Gemma 4 E4B-it IQ3_M GGUF at MODEL_PATH (default
+``model/gemma-4-E4B-it-IQ3_M.gguf``), a local embedding snapshot at
 ``EMBEDDING_MODEL_PATH``, and a built index (see scripts/ingest.py /
 scripts/build_index.py). The app never downloads model weights.
 

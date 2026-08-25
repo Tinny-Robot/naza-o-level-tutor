@@ -131,7 +131,7 @@
 
 .textarea {
   resize: vertical;
-  min-height: 44px;
+  min-height: 40px;
 }
 
 .input:disabled,

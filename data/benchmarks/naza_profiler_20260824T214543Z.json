@@ -1,0 +1,1468 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-08-24T23:04:21Z",
+  "model": {
+    "name": "Gemma-4-E4B-it",
+    "path": "/home/ubuntu/O-Level/O-Level/models/gemma-4-E4B-it-Q4_K_M.gguf",
+    "quantization": "GGUF Q4_K_M"
+  },
+  "hardware": {
+    "cpu_model": "Intel(R) Xeon(R) Platinum 8175M CPU @ 2.50GHz",
+    "logical_cpus": 8,
+    "ram_total_gib": 30.97933578491211,
+    "platform": "Linux-6.14.0-1018-aws-x86_64-with-glibc2.39"
+  },
+  "load_times_seconds": {
+    "prompt_manager": 0.0010871142148971558,
+    "embedding": 9.56800877675414,
+    "model": 4.92328829318285,
+    "retriever": 0.2844035252928734
+  },
+  "memory": {
+    "peak_rss_mib": 8765.48046875,
+    "peak_rss_gib": 8.560039520263672,
+    "competition_limit_mib": 7168,
+    "average_rss_mib": 8734.495582550402,
+    "sampled_peak_rss_mib": 8765.48828125
+  },
+  "cpu_utilization_percent": 10.24922359790478,
+  "gpu_utilization": "N/A (n_gpu_layers=0)",
+  "sperf": {
+    "score": 74.63217592592592,
+    "formula": "mean(prompt_score) where prompt_score = 100*(0.40*A + 0.25*T + 0.15*L + 0.10*H + 0.10*C)",
+    "breakdown_percent": {
+      "accuracy_correctness": 59.55787037037037,
+      "tutor_quality": 87.5,
+      "hausa_english_performance": 100.0
+    },
+    "average_latency_seconds": 72.10257914641664
+  },
+  "seff": {
+    "seff": 66.15013436514425,
+    "subscores": {
+      "ttft": 89.7281247967842,
+      "generation_tps": 80.91271186431202,
+      "total_latency": 67.449625999351,
+      "ram_headroom": 0.0,
+      "model_load": 100.0
+    },
+    "anchors": {
+      "ttft": "100 at <=5s, 0 at >=90s",
+      "generation_tps": "100 at >=8 tok/s, 0 at <=1 tok/s",
+      "total_latency": "100 at <=45s, 0 at >=240s",
+      "ram_headroom": "100 * clamp((7168 - peak_mib) / 7168, 0, 1)",
+      "model_load": "100 at <=15s, 0 at >=90s"
+    },
+    "weights": {
+      "ttft": 0.25,
+      "generation_tps": 0.25,
+      "total_latency": 0.2,
+      "ram_headroom": 0.2,
+      "model_load": 0.1
+    }
+  },
+  "efficiency_measured": {
+    "average_ttft_seconds": 13.731093922733432,
+    "average_generation_speed_tok_s": 6.663889830501841,
+    "average_total_latency_seconds": 108.47322930126555,
+    "peak_ram_gib": 8.560039520263672,
+    "cpu_utilization_percent": 10.24922359790478
+  },
+  "benchmark": {
+    "performance_prompts": 36,
+    "efficiency_probes": 6,
+    "efficiency_reps": 3,
+    "warmup_runs": 2,
+    "total_runs": 56
+  },
+  "performance_rows": [
+    {
+      "id": "syllabus-chemistry-01",
+      "category": "syllabus",
+      "rubric_type": "qa_keywords",
+      "language": "English",
+      "prompt": "Describe the Acid-Base Volumetric Analysis (Titration) experiment. Outline the typical burette readings, calculations of concentrations, and three precautions.",
+      "answer_preview": "{\n  \"explanation\": \"As Naza, I'm happy to help you with this practical chemistry question. Titration is a very important technique in chemistry for finding out the concentration of a solution. Since you are looking for a detailed answer covering the description, readings, calculations, and precautions, I will use the worked example provided in the study materials to show you exactly how to structu",
+      "mode": "study",
+      "refused": false,
+      "scores": {
+        "accuracy": 0.5249999999999999,
+        "tutor_quality": 0.75,
+        "language": 1.0,
+        "anti_hallucination": 1.0,
+        "clarity": 0.8,
+        "prompt_score": 72.75
+      },
+      "metrics": {
+        "prompt_tokens": 1856,
+        "generated_tokens": 511,
+        "prompt_tokens_per_second": 6.810619982332372,
+        "generation_tokens_per_second": 6.810619982332372,
+        "time_to_first_token_seconds": 51.8731890283525,
+        "total_latency_seconds": 128.1322128996253,
+        "llm_calls": 1,
+        "wall_latency_seconds": 128.62452751398087,
+        "error": null
+      },
+      "wall_latency_seconds": 128.62452751398087
+    },
+    {
+      "id": "syllabus-chemistry-02",
+      "category": "syllabus",
+      "rubric_type": "qa_keywords",
+      "language": "English",
+      "prompt": "What is the state of matter in which particles are widely spaced and move freely with high kinetic energy? Options: A. Liquid; B. Solid; C. Plasma; D. Gas",
+      "answer_preview": "The question asks to identify the state of matter where particles are widely spaced, move freely, and possess high kinetic energy. Let's look at the options and what we know about the states of matter.\n\nIn a **Solid** (Option B), particles are held in fixed positions and vibrate about these positions. They are closely packed.\n\nIn a **Liquid** (Option A), particles are close together but can move p",
+      "mode": "general",
+      "refused": false,
+      "scores": {
+        "accuracy": 0.7,
+        "tutor_quality": 1.0,
+        "language": 1.0,
+        "anti_hallucination": 0.5,
+        "clarity": 1.0,
+        "prompt_score": 83.0
+      },
+      "metrics": {
+        "prompt_tokens": 242,
+        "generated_tokens": 256,
+        "prompt_tokens_per_second": 7.205505231168651,
+        "generation_tokens_per_second": 7.205505231168651,
+        "time_to_first_token_seconds": 6.63175206258893,
+        "total_latency_seconds": 42.69700811430812,
+        "llm_calls": 1,
+        "wall_latency_seconds": 42.70225877314806,
+        "error": null
+      },
+      "wall_latency_seconds": 42.70225877314806
+    },
+    {
+      "id": "syllabus-chemistry-03",
+      "category": "syllabus",
+      "rubric_type": "qa_keywords",
+      "language": "English",
+      "prompt": "The shape of ammonia molecule is: Options: A. Trigonal planar; B. Octahedral; C. Square planar; D. Tetrahedral",
+      "answer_preview": "The shape of a molecule is determined by the arrangement of its atoms and the presence of lone pairs of electrons around the central atom. To figure out the shape of the ammonia molecule ($\\text{NH}_3$), we need to look at the central atom, which is Nitrogen ($\\text{N}$).\n\nLet's think about the structure of the Nitrogen atom in ammonia.\n\n1.  How many valence electrons does a Nitrogen atom have?\n2.",
+      "mode": "general",
+      "refused": false,
+      "scores": {
+        "accuracy": 0.26249999999999996,
+        "tutor_quality": 1.0,
+        "language": 1.0,
+        "anti_hallucination": 0.5,
+        "clarity": 1.0,
+        "prompt_score": 65.5
+      },
+      "metrics": {
+        "prompt_tokens": 42,
+        "generated_tokens": 168,
+        "prompt_tokens_per_second": 7.298295952156542,
+        "generation_tokens_per_second": 7.298295952156542,
+        "time_to_first_token_seconds": 1.6117253191769123,
+        "total_latency_seconds": 24.95193373784423,
+        "llm_calls": 1,
+        "wall_latency_seconds": 24.95338210836053,
+        "error": null
+      },
+      "wall_latency_seconds": 24.95338210836053
+    },
+    {
+      "id": "syllabus-chemistry-04",
+      "category": "syllabus",
+      "rubric_type": "qa_keywords",
+      "language": "English",
+      "prompt": "The radioisotope 235 U decays by emitting two alpha particles, three beta particles and a gamma ray. What is the mass and atomic numbers of the resulting daughter element? Options: A. 91 and 227; B. 92 and 238; C. 227 and 91; D. 215 and 88.",
+      "answer_preview": "{\n  \"explanation\": \"This question is about nuclear decay, which falls under the topic of radioactivity, a part of Chemistry. I have reviewed the provided study passages, and they cover topics like the structure of the atom, including calculating protons and neutrons from atomic and mass numbers, and electronic configurations of ions. However, none of the provided chunks contain information or exam",
+      "mode": "study",
+      "refused": false,
+      "scores": {
+        "accuracy": 0.6124999999999999,
+        "tutor_quality": 1.0,
+        "language": 1.0,
+        "anti_hallucination": 0.5,
+        "clarity": 1.0,
+        "prompt_score": 79.5
+      },
+      "metrics": {
+        "prompt_tokens": 1576,
+        "generated_tokens": 157,
+        "prompt_tokens_per_second": 6.9756416812807105,
+        "generation_tokens_per_second": 6.9756416812807105,
+        "time_to_first_token_seconds": 46.92608304321766,
+        "total_latency_seconds": 69.74058037996292,
+        "llm_calls": 1,
+        "wall_latency_seconds": 70.40641321986914,
+        "error": null
+      },
+      "wall_latency_seconds": 70.40641321986914
+    },
+    {
+      "id": "syllabus-physics-01",
+      "category": "syllabus",
+      "rubric_type": "qa_keywords",
+      "language": "English",
+      "prompt": "What is Electrostatics?",
+      "answer_preview": "Electrostatics is the study of stationary electric charges and the forces that arise between them. Think of it like this: when charges are not moving, we are in the realm of electrostatics.\n\nIn simpler terms, it looks at what happens when you have charges sitting still.\n\nFor example, if you rub a balloon on your hair, you are transferring electrons, which creates static charges on both the balloon",
+      "mode": "general",
+      "refused": false,
+      "scores": {
+        "accuracy": 0.35,
+        "tutor_quality": 1.0,
+        "language": 1.0,
+        "anti_hallucination": 0.5,
+        "clarity": 1.0,
+        "prompt_score": 69.0
+      },
+      "metrics": {
+        "prompt_tokens": 210,
+        "generated_tokens": 265,
+        "prompt_tokens_per_second": 7.45711189826946,
+        "generation_tokens_per_second": 7.45711189826946,
+        "time_to_first_token_seconds": 5.807744529098272,
+        "total_latency_seconds": 41.88674886897206,
+        "llm_calls": 1,
+        "wall_latency_seconds": 41.88798297569156,
+        "error": null
+      },
+      "wall_latency_seconds": 41.88798297569156
+    },
+    {
+      "id": "syllabus-physics-02",
+      "category": "syllabus",
+      "rubric_type": "qa_keywords",
+      "language": "English",
+      "prompt": "A monochromatic light is one that Options: A. can undergo dispersion; B. cannot be refracted; C. has one wavelength; D. has many wavelength",
+      "answer_preview": "The correct option is C. has one wavelength.\n\nLet's break down why this is the case, as understanding this concept is important for your studies in Optics.\n\nWhen we talk about light, we are really talking about electromagnetic waves. These waves have properties like frequency and wavelength.\n\n1.  **Monochromatic Light:** The word \"mono\" means one, and \"chromatic\" relates to color. Therefore, monoc",
+      "mode": "general",
+      "refused": false,
+      "scores": {
+        "accuracy": 0.7,
+        "tutor_quality": 1.0,
+        "language": 1.0,
+        "anti_hallucination": 0.5,
+        "clarity": 1.0,
+        "prompt_score": 83.0
+      },
+      "metrics": {
+        "prompt_tokens": 43,
+        "generated_tokens": 401,
+        "prompt_tokens_per_second": 7.155650512961105,
+        "generation_tokens_per_second": 7.155650512961105,
+        "time_to_first_token_seconds": 1.5326344408094883,
+        "total_latency_seconds": 58.48522187024355,
+        "llm_calls": 1,
+        "wall_latency_seconds": 58.48728000745177,
+        "error": null
+      },
+      "wall_latency_seconds": 58.48728000745177
+    },
+    {
+      "id": "syllabus-physics-03",
+      "category": "syllabus",
+      "rubric_type": "qa_keywords",
+      "language": "English",
+      "prompt": "A car accelerates uniformly from rest at 3ms-2. its velocity after traveling a distance of 24m is Options: A. 12ms-1; B. 144ms-1; C. 72ms-1; D. 36ms-1",
+      "answer_preview": "I couldn't find enough information in the study materials.",
+      "mode": "study",
+      "refused": true,
+      "scores": {
+        "accuracy": 0.0,
+        "tutor_quality": 1.0,
+        "language": 1.0,
+        "anti_hallucination": 0.0,
+        "clarity": 0.1125,
+        "prompt_score": 41.125
+      },
+      "metrics": {
+        "prompt_tokens": 0,
+        "generated_tokens": 0,
+        "prompt_tokens_per_second": null,
+        "generation_tokens_per_second": null,
+        "time_to_first_token_seconds": null,
+        "total_latency_seconds": null,
+        "llm_calls": 0,
+        "wall_latency_seconds": 0.008603978902101517,
+        "error": null
+      },
+      "wall_latency_seconds": 0.008603978902101517
+    },
+    {
+      "id": "syllabus-physics-04",
+      "category": "syllabus",
+      "rubric_type": "qa_keywords",
+      "language": "English",
+      "prompt": "Under Waves, Sound, and Light, what point is listed about Light waves transverse electromagnetic?",
+      "answer_preview": "I do not have any information in the provided study passages about light waves being transverse electromagnetic. The passages I have are all related to calculating the wavelength of a sound wave using the wave formula ($\\lambda = v/f$) [Chunk 5c47286b74a5b621cc305ff72fecab91955c0bd2, Chunk 8a6908fb024a55279092da1e5aef695127feb769, Chunk 6a0904ac54c6a5e1b842dfc913802a68c76e7eb2, Chunk ff043b524558b",
+      "mode": "study",
+      "refused": false,
+      "scores": {
+        "accuracy": 0.35,
+        "tutor_quality": 0.75,
+        "language": 1.0,
+        "anti_hallucination": 1.0,
+        "clarity": 0.6125,
+        "prompt_score": 63.87500000000001
+      },
+      "metrics": {
+        "prompt_tokens": 1338,
+        "generated_tokens": 234,
+        "prompt_tokens_per_second": 7.0147680352609,
+        "generation_tokens_per_second": 7.0147680352609,
+        "time_to_first_token_seconds": 36.93221124634147,
+        "total_latency_seconds": 70.76580788940191,
+        "llm_calls": 1,
+        "wall_latency_seconds": 71.12941962853074,
+        "error": null
+      },
+      "wall_latency_seconds": 71.12941962853074
+    },
+    {
+      "id": "syllabus-mathematics-01",
+      "category": "syllabus",
+      "rubric_type": "qa_keywords",
+      "language": "English",
+      "prompt": "If $\\log_2 x + \\log_2(x - 2) = 3$, find the value of $x$.",
+      "answer_preview": "To solve the equation $\\log_2 x + \\log_2(x - 2) = 3$, we need to use the properties of logarithms and then solve the resulting algebraic equation.\n\nFirst, let's consider the domain of the logarithmic functions. For $\\log_2 x$ to be defined, we must have $x > 0$. For $\\log_2(x - 2)$ to be defined, we must have $x - 2 > 0$, which means $x > 2$. Therefore, any valid solution $x$ must satisfy $x > 2$.",
+      "mode": "general",
+      "refused": false,
+      "scores": {
+        "accuracy": 0.42,
+        "tutor_quality": 1.0,
+        "language": 1.0,
+        "anti_hallucination": 0.5,
+        "clarity": 1.0,
+        "prompt_score": 71.80000000000001
+      },
+      "metrics": {
+        "prompt_tokens": 233,
+        "generated_tokens": 511,
+        "prompt_tokens_per_second": 7.321863188077645,
+        "generation_tokens_per_second": 7.321863188077645,
+        "time_to_first_token_seconds": 6.4633964747190475,
+        "total_latency_seconds": 77.45560882985592,
+        "llm_calls": 1,
+        "wall_latency_seconds": 77.45781673491001,
+        "error": null
+      },
+      "wall_latency_seconds": 77.45781673491001
+    },
+    {
+      "id": "syllabus-mathematics-02",
+      "category": "syllabus",
+      "rubric_type": "qa_keywords",
+      "language": "English",
+      "prompt": "In how many ways can a committee of 5 be selected from a group of 7 males and 3 females, if the committee must have one female? Options: A. 105ways; B. 135 ways; C. 210 ways; D. 231 way Probability",
+      "answer_preview": "{\n  \"explanation\": \"This question is about combinations, which is a topic in Mathematics, specifically related to counting principles. The context provided only contains examples of probability questions involving drawing balls from a bag [Chunk 502aef8f387e0d9a27a8b149508cd9107d5efeb1, Chunk 87a1fc1fc55d0cc5046ff8a2843b1e0499fb3bd7, Chunk f8b00a20620f7000468c7403c44b20a33a3331fd, Chunk 9df0bce671",
+      "mode": "study",
+      "refused": false,
+      "scores": {
+        "accuracy": 0.4375,
+        "tutor_quality": 0.75,
+        "language": 1.0,
+        "anti_hallucination": 0.5,
+        "clarity": 0.8,
+        "prompt_score": 64.25
+      },
+      "metrics": {
+        "prompt_tokens": 1327,
+        "generated_tokens": 511,
+        "prompt_tokens_per_second": 6.8987811770738245,
+        "generation_tokens_per_second": 6.8987811770738245,
+        "time_to_first_token_seconds": 38.07123715057969,
+        "total_latency_seconds": 113.34063769876957,
+        "llm_calls": 1,
+        "wall_latency_seconds": 113.92033309862018,
+        "error": null
+      },
+      "wall_latency_seconds": 113.92033309862018
+    },
+    {
+      "id": "syllabus-mathematics-03",
+      "category": "syllabus",
+      "rubric_type": "qa_keywords",
+      "language": "English",
+      "prompt": "Complete the statement: \"You and 3 friends decide to study for Maths and are ___\"",
+      "answer_preview": "Since you and 3 friends decide to study for Maths, you are a group of 4 people.\n\nIf you are studying together, you are forming a group. In mathematics, when we talk about a set of people or objects, we use terms like 'group' or 'set'.\n\nWhat do you think the best word to complete the statement \"You and 3 friends decide to study for Maths and are ___\" would be, considering you are all together for t",
+      "mode": "general",
+      "refused": false,
+      "scores": {
+        "accuracy": 0.5249999999999999,
+        "tutor_quality": 1.0,
+        "language": 1.0,
+        "anti_hallucination": 0.5,
+        "clarity": 1.0,
+        "prompt_score": 76.0
+      },
+      "metrics": {
+        "prompt_tokens": 224,
+        "generated_tokens": 100,
+        "prompt_tokens_per_second": 7.46419277442254,
+        "generation_tokens_per_second": 7.46419277442254,
+        "time_to_first_token_seconds": 6.067083943635225,
+        "total_latency_seconds": 19.645452693104744,
+        "llm_calls": 1,
+        "wall_latency_seconds": 19.647104360163212,
+        "error": null
+      },
+      "wall_latency_seconds": 19.647104360163212
+    },
+    {
+      "id": "syllabus-mathematics-04",
+      "category": "syllabus",
+      "rubric_type": "qa_keywords",
+      "language": "English",
+      "prompt": "Under Trigonometry and Matrices, what point is listed about Inverse frac begin pmatrix?",
+      "answer_preview": "I couldn't find enough information in the study materials.",
+      "mode": "study",
+      "refused": true,
+      "scores": {
+        "accuracy": 0.0,
+        "tutor_quality": 1.0,
+        "language": 1.0,
+        "anti_hallucination": 0.0,
+        "clarity": 0.1125,
+        "prompt_score": 41.125
+      },
+      "metrics": {
+        "prompt_tokens": 0,
+        "generated_tokens": 0,
+        "prompt_tokens_per_second": null,
+        "generation_tokens_per_second": null,
+        "time_to_first_token_seconds": null,
+        "total_latency_seconds": null,
+        "llm_calls": 0,
+        "wall_latency_seconds": 0.009429775178432465,
+        "error": null
+      },
+      "wall_latency_seconds": 0.009429775178432465
+    },
+    {
+      "id": "syllabus-english-01",
+      "category": "syllabus",
+      "rubric_type": "qa_keywords",
+      "language": "English",
+      "prompt": "Write an essay on the following topic:\n\nYou have noticed a rising trend in examination malpractice in your school. Write a letter to your principal outlining three major causes of this trend and suggesting three solutions to curb it.",
+      "answer_preview": "This question asks you to write a formal letter to your principal. Since you asked for an essay, I will structure the response as a formal letter, as that is what the prompt requires, but I will ensure the content is detailed and well-argued, like an essay.\n\nBefore I write the full letter for you, let's break down what a good response needs to include. This will help you understand the structure a",
+      "mode": "general",
+      "refused": false,
+      "scores": {
+        "accuracy": 0.0,
+        "tutor_quality": 1.0,
+        "language": 1.0,
+        "anti_hallucination": 0.5,
+        "clarity": 1.0,
+        "prompt_score": 55.00000000000001
+      },
+      "metrics": {
+        "prompt_tokens": 55,
+        "generated_tokens": 325,
+        "prompt_tokens_per_second": 6.996879025963825,
+        "generation_tokens_per_second": 6.996879025963825,
+        "time_to_first_token_seconds": 1.6399021036922932,
+        "total_latency_seconds": 48.79648421704769,
+        "llm_calls": 1,
+        "wall_latency_seconds": 48.798474334180355,
+        "error": null
+      },
+      "wall_latency_seconds": 48.798474334180355
+    },
+    {
+      "id": "syllabus-english-02",
+      "category": "syllabus",
+      "rubric_type": "qa_keywords",
+      "language": "English",
+      "prompt": "Under Comprehension & Summary, what point is listed about Identifying grammatical structures noun?",
+      "answer_preview": "{\n  \"answer\": \"The provided study passages are all related to Comprehension & Summary questions, specifically asking students to summarize the main point of view of an author in one sentence. They do not contain any information about identifying grammatical structures like nouns. Therefore, I cannot answer your question using the given context.\"\n}",
+      "mode": "study",
+      "refused": false,
+      "scores": {
+        "accuracy": 0.35,
+        "tutor_quality": 1.0,
+        "language": 1.0,
+        "anti_hallucination": 0.5,
+        "clarity": 0.6625,
+        "prompt_score": 65.62500000000001
+      },
+      "metrics": {
+        "prompt_tokens": 1237,
+        "generated_tokens": 65,
+        "prompt_tokens_per_second": 7.074234733774236,
+        "generation_tokens_per_second": 7.074234733774236,
+        "time_to_first_token_seconds": 33.853055112063885,
+        "total_latency_seconds": 43.16617735475302,
+        "llm_calls": 1,
+        "wall_latency_seconds": 43.55829041451216,
+        "error": null
+      },
+      "wall_latency_seconds": 43.55829041451216
+    },
+    {
+      "id": "syllabus-english-03",
+      "category": "syllabus",
+      "rubric_type": "qa_keywords",
+      "language": "English",
+      "prompt": "Under Lexis & Structure, what point is listed about Prepositional Phrases Idiomatic Expressions?",
+      "answer_preview": "{\n  \"answer\": \"I do not have any information listed about Prepositional Phrases or Idiomatic Expressions under Lexis & Structure in the provided study passages.\"\n}",
+      "mode": "study",
+      "refused": false,
+      "scores": {
+        "accuracy": 0.7,
+        "tutor_quality": 1.0,
+        "language": 1.0,
+        "anti_hallucination": 1.0,
+        "clarity": 0.3125,
+        "prompt_score": 81.125
+      },
+      "metrics": {
+        "prompt_tokens": 870,
+        "generated_tokens": 36,
+        "prompt_tokens_per_second": 7.021518614045845,
+        "generation_tokens_per_second": 7.021518614045845,
+        "time_to_first_token_seconds": 24.689412210136652,
+        "total_latency_seconds": 29.878641329705715,
+        "llm_calls": 1,
+        "wall_latency_seconds": 30.270746763795614,
+        "error": null
+      },
+      "wall_latency_seconds": 30.270746763795614
+    },
+    {
+      "id": "syllabus-english-04",
+      "category": "syllabus",
+      "rubric_type": "qa_keywords",
+      "language": "English",
+      "prompt": "Choose the word that has the same vowel sound as the one represented by the underlined letters:\npl<u>ea</u>se",
+      "answer_preview": "The underlined letters in \"please\" are 'ea'. To find a word with the same vowel sound, we need to know what sound 'ea' makes in that word.\n\nIn \"please\", the 'ea' makes a long 'e' sound, like in the word \"see\" or \"tree\".\n\nNow, think of some other words. Can you give me a few words that you think might have that same long 'e' sound? We can check them together!",
+      "mode": "general",
+      "refused": false,
+      "scores": {
+        "accuracy": 0.5249999999999999,
+        "tutor_quality": 1.0,
+        "language": 1.0,
+        "anti_hallucination": 0.5,
+        "clarity": 0.8875,
+        "prompt_score": 74.875
+      },
+      "metrics": {
+        "prompt_tokens": 233,
+        "generated_tokens": 98,
+        "prompt_tokens_per_second": 7.386820344690143,
+        "generation_tokens_per_second": 7.386820344690143,
+        "time_to_first_token_seconds": 6.397783547639847,
+        "total_latency_seconds": 19.844490341842175,
+        "llm_calls": 1,
+        "wall_latency_seconds": 19.846049178391695,
+        "error": null
+      },
+      "wall_latency_seconds": 19.846049178391695
+    },
+    {
+      "id": "adtc-01",
+      "category": "reasoning",
+      "rubric_type": "tutor_steps",
+      "language": "English",
+      "prompt": "For WAEC Physics, state Ohm's law and rearrange it to find current when voltage is 12 V and resistance is 4 ohms. Show the formula and the final value with unit.",
+      "answer_preview": "{\n  \"explanation\": \"That is a very important question for WAEC Physics, as it tests your understanding of fundamental electrical concepts. Before I give you the final answer, let's make sure we understand Ohm's Law properly. Since you are working on Electricity & Magnetism, this is a key topic to master! \\n\\nOhm's Law describes the relationship between voltage, current, and resistance in an electr",
+      "mode": "study",
+      "refused": false,
+      "scores": {
+        "accuracy": 0.39999999999999997,
+        "tutor_quality": 0.75,
+        "language": 1.0,
+        "anti_hallucination": 1.0,
+        "clarity": 1.0,
+        "prompt_score": 69.75
+      },
+      "metrics": {
+        "prompt_tokens": 1540,
+        "generated_tokens": 131,
+        "prompt_tokens_per_second": 6.902153023893831,
+        "generation_tokens_per_second": 6.902153023893831,
+        "time_to_first_token_seconds": 42.64851697906852,
+        "total_latency_seconds": 61.87639734148979,
+        "llm_calls": 1,
+        "wall_latency_seconds": 62.61434093490243,
+        "error": null
+      },
+      "wall_latency_seconds": 62.61434093490243
+    },
+    {
+      "id": "adtc-02",
+      "category": "reasoning",
+      "rubric_type": "qa_keywords",
+      "language": "English",
+      "prompt": "A set is well-defined. In one short paragraph suitable for a Nigerian SS2 student, explain what that means and give one valid example and one invalid example.",
+      "answer_preview": "A set being well-defined simply means that there is no confusion about whether an object belongs to that set or not. If you are given an object, you must be able to say \"yes\" or \"no\" definitively, without needing more information. It must be clear and objective. For a valid example, consider the set of all primary colours: {Red, Yellow, Blue}. It is clear that Red is in this set, and Green is not.",
+      "mode": "general",
+      "refused": false,
+      "scores": {
+        "accuracy": 0.7,
+        "tutor_quality": 1.0,
+        "language": 1.0,
+        "anti_hallucination": 0.5,
+        "clarity": 1.0,
+        "prompt_score": 83.0
+      },
+      "metrics": {
+        "prompt_tokens": 238,
+        "generated_tokens": 130,
+        "prompt_tokens_per_second": 7.376102890507482,
+        "generation_tokens_per_second": 7.376102890507482,
+        "time_to_first_token_seconds": 6.423030950129032,
+        "total_latency_seconds": 24.295350588858128,
+        "llm_calls": 1,
+        "wall_latency_seconds": 24.29773223027587,
+        "error": null
+      },
+      "wall_latency_seconds": 24.29773223027587
+    },
+    {
+      "id": "hausa-01",
+      "category": "language_hausa",
+      "rubric_type": "language_hausa",
+      "language": "Hausa",
+      "prompt": "Bayani game da dokar Ohm a Physics na WAEC. Nuna tsarin lissafi.",
+      "answer_preview": "Naza ne, ina nan don taimaka maka a Physics. Kana so in bayyana maka yadda ake yin gwajin dokar Ohm don tantance \u0199arfin gaske (e.m.f. $E$) da kuma kariya ciki (internal resistance $r$) na wani cell, kamar yadda ake yi a WAEC.\n\nDuk da cewa kana so in nuna maka tsarin lissafi, na ga cewa bayanan da aka samu sun fi bayyana yadda ake tsari da gwaji (practical setup) fiye da bayanan lissafi kai tsaye. ",
+      "mode": "study",
+      "refused": false,
+      "scores": {
+        "accuracy": 1.0,
+        "tutor_quality": 0.75,
+        "language": 1.0,
+        "anti_hallucination": 1.0,
+        "clarity": 0.8,
+        "prompt_score": 91.75
+      },
+      "metrics": {
+        "prompt_tokens": 1596,
+        "generated_tokens": 511,
+        "prompt_tokens_per_second": 6.756248974993734,
+        "generation_tokens_per_second": 6.756248974993734,
+        "time_to_first_token_seconds": 43.99620342254639,
+        "total_latency_seconds": 120.87429364770651,
+        "llm_calls": 1,
+        "wall_latency_seconds": 121.24241471663117,
+        "error": null
+      },
+      "wall_latency_seconds": 121.24241471663117
+    },
+    {
+      "id": "hausa-02",
+      "category": "language_hausa",
+      "rubric_type": "language_hausa",
+      "language": "Hausa",
+      "prompt": "Mece ce acid da base a Chemistry? Bayyana a Hausa tare da misali guda.",
+      "answer_preview": "Na ga tambayarka game da acid da base a Kimiya. Wannan tambaya tana bu\u0199atar bayani dalla-dalla game da nau'ikan salts, kamar yadda aka nuna a cikin bayanan da aka ba ni.\n\nA cikin bayanan da aka samu, an bayyana yadda ake raba salts zuwa nau'o'i biyar, tare da misali na kowane nau'i. Wannan bayanin ya shafi nau'ikan salts, ba acid da base kai tsaye ba, amma salts suna da ala\u0199a da su.\n\nA cikin [Chun",
+      "mode": "study",
+      "refused": false,
+      "scores": {
+        "accuracy": 1.0,
+        "tutor_quality": 0.75,
+        "language": 1.0,
+        "anti_hallucination": 1.0,
+        "clarity": 1.0,
+        "prompt_score": 93.75
+      },
+      "metrics": {
+        "prompt_tokens": 914,
+        "generated_tokens": 373,
+        "prompt_tokens_per_second": 6.797397322124322,
+        "generation_tokens_per_second": 6.797397322124322,
+        "time_to_first_token_seconds": 25.450031619518995,
+        "total_latency_seconds": 81.16186092048883,
+        "llm_calls": 1,
+        "wall_latency_seconds": 81.5679942034185,
+        "error": null
+      },
+      "wall_latency_seconds": 81.5679942034185
+    },
+    {
+      "id": "hausa-03",
+      "category": "language_hausa",
+      "rubric_type": "language_hausa",
+      "language": "Hausa",
+      "prompt": "Yaya ake warware madaidaicin equation: 2x + 5 = 17? Nuna matakan.",
+      "answer_preview": "Don Allah a yi ha\u0199uri, zan nuna maka yadda ake warware wannan equation.\n\nMuna da equation: $2x + 5 = 17$.\n\nMudirinmu a kimiyya da matematika yana nuna mana cewa don samun kalmar $x$ da kanta, dole ne mu yi amfani da \u0199a'idojin algebra.\n\n**Mataki na 1: Yanke \u0199aramin laifi (Isolate the term with x)**\n\nMuna da $2x + 5 = 17$. Don cire $5$ daga gefen dama, dole ne mu yi *subtraction* (inuwa) 5 daga dukk",
+      "mode": "general",
+      "refused": false,
+      "scores": {
+        "accuracy": 1.0,
+        "tutor_quality": 0.75,
+        "language": 1.0,
+        "anti_hallucination": 0.5,
+        "clarity": 1.0,
+        "prompt_score": 88.75
+      },
+      "metrics": {
+        "prompt_tokens": 232,
+        "generated_tokens": 432,
+        "prompt_tokens_per_second": 7.230931393676158,
+        "generation_tokens_per_second": 7.230931393676158,
+        "time_to_first_token_seconds": 6.417414329946041,
+        "total_latency_seconds": 67.1470900438726,
+        "llm_calls": 1,
+        "wall_latency_seconds": 67.14876439794898,
+        "error": null
+      },
+      "wall_latency_seconds": 67.14876439794898
+    },
+    {
+      "id": "hausa-04",
+      "category": "language_hausa",
+      "rubric_type": "language_hausa",
+      "language": "Hausa",
+      "prompt": "Me yasa jiragen sama ke iya tashi? Bayyana a Hausa tare da ka'ida.",
+      "answer_preview": "Wannan tambaya tana dangana da ilimin Kimiyya, musamman a fannin Electricity & Magnetism. Ina tsammanin kana nufin \"Me yasa jiragen sama (sky) ke iya tashi\" ko kuma wani abu da ya shafi yanayin sama da kuma yadda ake ganin shi?\n\nIdan kana nufin yadda ake ganin yanayin sama ko kuma yadda ake bayyana abubuwan da ke cikin sama, zan iya bayyana maka. Amma idan kana nufin wani abu na musamman a ilimin ",
+      "mode": "general",
+      "refused": false,
+      "scores": {
+        "accuracy": 1.0,
+        "tutor_quality": 1.0,
+        "language": 1.0,
+        "anti_hallucination": 0.5,
+        "clarity": 1.0,
+        "prompt_score": 95.0
+      },
+      "metrics": {
+        "prompt_tokens": 34,
+        "generated_tokens": 511,
+        "prompt_tokens_per_second": 7.121237706231776,
+        "generation_tokens_per_second": 7.121237706231776,
+        "time_to_first_token_seconds": 1.243979837745428,
+        "total_latency_seconds": 74.24267659336329,
+        "llm_calls": 1,
+        "wall_latency_seconds": 74.244179405272,
+        "error": null
+      },
+      "wall_latency_seconds": 74.244179405272
+    },
+    {
+      "id": "hausa-05",
+      "category": "language_hausa",
+      "rubric_type": "language_hausa",
+      "language": "Hausa",
+      "prompt": "Mece ce subject-verb concord a English? Bayyana da misali.",
+      "answer_preview": "Subject-verb concord a English shine a muhimmiyar ka'ida a harshen Ingilishi. Wannan yana nufin cewa a cikin jimloli, a wurin da akwai sunan jami'a (subject) da kuma aikin da yake yi (verb), dole ne su yi daidai a bangaren adadi (singular ko plural).\n\nDuk da cewa akwai wasu misalai a cikin rubutun da na samu, ba su bayyana dukkan ka'idojin subject-verb concord ba. Amma zan yi amfani da abin da na ",
+      "mode": "study",
+      "refused": false,
+      "scores": {
+        "accuracy": 1.0,
+        "tutor_quality": 0.75,
+        "language": 1.0,
+        "anti_hallucination": 1.0,
+        "clarity": 1.0,
+        "prompt_score": 93.75
+      },
+      "metrics": {
+        "prompt_tokens": 1211,
+        "generated_tokens": 511,
+        "prompt_tokens_per_second": 6.936843743698637,
+        "generation_tokens_per_second": 6.936843743698637,
+        "time_to_first_token_seconds": 33.2099915407598,
+        "total_latency_seconds": 108.08858760818839,
+        "llm_calls": 1,
+        "wall_latency_seconds": 108.43532828986645,
+        "error": null
+      },
+      "wall_latency_seconds": 108.43532828986645
+    },
+    {
+      "id": "hausa-06",
+      "category": "language_hausa",
+      "rubric_type": "language_hausa",
+      "language": "Hausa",
+      "prompt": "Bayani kan titration a Chemistry. Ka bayyana matakan bincike uku.",
+      "answer_preview": "Titration a Chemistry, wanda ake kira Acid-Base Volumetric Analysis, shine bincike da ake yi don tantance \u0199imar wani abu (kamar concentration) ta hanyar ha\u0257a shi da wani abu da aka sani \u0199imarsa (standard solution) a \u0199ar\u0199ashin yanayi na daidai.\n\nDaga bayanan da aka samu, akwai bayani game da yadda ake yin wannan bincike. Ga matakan bincike uku kamar yadda aka bayyana a cikin mahallin da aka samu:\n\n",
+      "mode": "study",
+      "refused": false,
+      "scores": {
+        "accuracy": 1.0,
+        "tutor_quality": 0.75,
+        "language": 1.0,
+        "anti_hallucination": 1.0,
+        "clarity": 1.0,
+        "prompt_score": 93.75
+      },
+      "metrics": {
+        "prompt_tokens": 1625,
+        "generated_tokens": 511,
+        "prompt_tokens_per_second": 6.6788383594467415,
+        "generation_tokens_per_second": 6.6788383594467415,
+        "time_to_first_token_seconds": 46.172591645270586,
+        "total_latency_seconds": 123.92054889723659,
+        "llm_calls": 1,
+        "wall_latency_seconds": 124.22204821556807,
+        "error": null
+      },
+      "wall_latency_seconds": 124.22204821556807
+    },
+    {
+      "id": "reasoning-01",
+      "category": "reasoning",
+      "rubric_type": "tutor_steps",
+      "language": "English",
+      "prompt": "A car accelerates uniformly from rest at 3 m/s\u00b2. Find its velocity after 10 seconds and the distance travelled.",
+      "answer_preview": "I couldn't find enough information in the study materials.",
+      "mode": "study",
+      "refused": true,
+      "scores": {
+        "accuracy": 0.0,
+        "tutor_quality": 0.75,
+        "language": 1.0,
+        "anti_hallucination": 0.0,
+        "clarity": 0.1125,
+        "prompt_score": 34.875
+      },
+      "metrics": {
+        "prompt_tokens": 0,
+        "generated_tokens": 0,
+        "prompt_tokens_per_second": null,
+        "generation_tokens_per_second": null,
+        "time_to_first_token_seconds": null,
+        "total_latency_seconds": null,
+        "llm_calls": 0,
+        "wall_latency_seconds": 0.008659165352582932,
+        "error": null
+      },
+      "wall_latency_seconds": 0.008659165352582932
+    },
+    {
+      "id": "reasoning-02",
+      "category": "reasoning",
+      "rubric_type": "tutor_steps",
+      "language": "English",
+      "prompt": "If log\u2082 x + log\u2082(x - 2) = 3, solve for x step by step.",
+      "answer_preview": "I couldn't find enough information in the study materials.",
+      "mode": "study",
+      "refused": true,
+      "scores": {
+        "accuracy": 0.0,
+        "tutor_quality": 0.75,
+        "language": 1.0,
+        "anti_hallucination": 0.0,
+        "clarity": 0.1125,
+        "prompt_score": 34.875
+      },
+      "metrics": {
+        "prompt_tokens": 0,
+        "generated_tokens": 0,
+        "prompt_tokens_per_second": null,
+        "generation_tokens_per_second": null,
+        "time_to_first_token_seconds": null,
+        "total_latency_seconds": null,
+        "llm_calls": 0,
+        "wall_latency_seconds": 0.009772118180990219,
+        "error": null
+      },
+      "wall_latency_seconds": 0.009772118180990219
+    },
+    {
+      "id": "reasoning-03",
+      "category": "reasoning",
+      "rubric_type": "tutor_steps",
+      "language": "English",
+      "prompt": "Calculate the molar mass of H\u2082SO\u2084 and state how many moles are in 49 g.",
+      "answer_preview": "I couldn't find enough information in the study materials.",
+      "mode": "study",
+      "refused": true,
+      "scores": {
+        "accuracy": 0.0,
+        "tutor_quality": 0.75,
+        "language": 1.0,
+        "anti_hallucination": 0.0,
+        "clarity": 0.1125,
+        "prompt_score": 34.875
+      },
+      "metrics": {
+        "prompt_tokens": 0,
+        "generated_tokens": 0,
+        "prompt_tokens_per_second": null,
+        "generation_tokens_per_second": null,
+        "time_to_first_token_seconds": null,
+        "total_latency_seconds": null,
+        "llm_calls": 0,
+        "wall_latency_seconds": 0.008373547345399857,
+        "error": null
+      },
+      "wall_latency_seconds": 0.008373547345399857
+    },
+    {
+      "id": "reasoning-04",
+      "category": "reasoning",
+      "rubric_type": "tutor_steps",
+      "language": "English",
+      "prompt": "A 12 V battery is connected to a 4 \u03a9 resistor. Find the current and power dissipated.",
+      "answer_preview": "The context provided shows examples of problems involving a cell with internal resistance, but it does not contain a specific worked example for a battery without mentioning internal resistance, like the one you asked about.\n\nHowever, I can show you how to approach this using the principles demonstrated in the examples, as this is a standard circuit problem.\n\nHere is a worked example based on the ",
+      "mode": "study",
+      "refused": false,
+      "scores": {
+        "accuracy": 0.825,
+        "tutor_quality": 0.75,
+        "language": 1.0,
+        "anti_hallucination": 1.0,
+        "clarity": 1.0,
+        "prompt_score": 86.75
+      },
+      "metrics": {
+        "prompt_tokens": 1368,
+        "generated_tokens": 509,
+        "prompt_tokens_per_second": 6.898197926428809,
+        "generation_tokens_per_second": 6.898197926428809,
+        "time_to_first_token_seconds": 37.46869865804911,
+        "total_latency_seconds": 112.4771826453507,
+        "llm_calls": 1,
+        "wall_latency_seconds": 112.86899042502046,
+        "error": null
+      },
+      "wall_latency_seconds": 112.86899042502046
+    },
+    {
+      "id": "tutor-01",
+      "category": "tutor",
+      "rubric_type": "tutor_steps",
+      "language": "English",
+      "prompt": "Walk me through how to balance the equation: Fe + O\u2082 \u2192 Fe\u2082O\u2083. Show each step clearly.",
+      "answer_preview": "Lesson ready: Chemical Reactions\nI prepared a clear lesson outline for you. Some details may be general - ask a follow-up if you want more depth.\nThe big idea\nChemical Reactions is an important O-Level topic. We'll build from the definition to an exam-style example.\nHow to remember it\nWrite the key definition in your own words, then try one past-question style problem. Short, steady practice beats",
+      "mode": "lesson",
+      "refused": true,
+      "scores": {
+        "accuracy": 1.0,
+        "tutor_quality": 0.75,
+        "language": 1.0,
+        "anti_hallucination": 0.5,
+        "clarity": 1.0,
+        "prompt_score": 88.75
+      },
+      "metrics": {
+        "prompt_tokens": 1008,
+        "generated_tokens": 1006,
+        "prompt_tokens_per_second": 7.202466088410127,
+        "generation_tokens_per_second": 7.202466088410127,
+        "time_to_first_token_seconds": 13.764977296814322,
+        "total_latency_seconds": 169.56078270822763,
+        "llm_calls": 2,
+        "wall_latency_seconds": 169.68983967602253,
+        "error": null
+      },
+      "wall_latency_seconds": 169.68983967602253
+    },
+    {
+      "id": "tutor-02",
+      "category": "tutor",
+      "rubric_type": "tutor_steps",
+      "language": "English",
+      "prompt": "Explain how to find the gradient of a straight line from two points. Show the formula and an example.",
+      "answer_preview": "I couldn't find enough information in the study materials.",
+      "mode": "study",
+      "refused": true,
+      "scores": {
+        "accuracy": 0.725,
+        "tutor_quality": 0.75,
+        "language": 1.0,
+        "anti_hallucination": 0.5,
+        "clarity": 0.1125,
+        "prompt_score": 68.875
+      },
+      "metrics": {
+        "prompt_tokens": 0,
+        "generated_tokens": 0,
+        "prompt_tokens_per_second": null,
+        "generation_tokens_per_second": null,
+        "time_to_first_token_seconds": null,
+        "total_latency_seconds": null,
+        "llm_calls": 0,
+        "wall_latency_seconds": 0.01066933199763298,
+        "error": null
+      },
+      "wall_latency_seconds": 0.01066933199763298
+    },
+    {
+      "id": "tutor-03",
+      "category": "tutor",
+      "rubric_type": "tutor_steps",
+      "language": "English",
+      "prompt": "Teach me how to answer a WAEC comprehension question. Give a step-by-step method.",
+      "answer_preview": "Lesson ready: Comprehension & Summary\nI prepared a clear lesson outline for you. Some details may be general - ask a follow-up if you want more depth.\nThe big idea\nComprehension & Summary is an important O-Level topic. We'll build from the definition to an exam-style example.\nHow to remember it\nWrite the key definition in your own words, then try one past-question style problem. Short, steady prac",
+      "mode": "lesson",
+      "refused": false,
+      "scores": {
+        "accuracy": 1.0,
+        "tutor_quality": 0.75,
+        "language": 1.0,
+        "anti_hallucination": 1.0,
+        "clarity": 1.0,
+        "prompt_score": 93.75
+      },
+      "metrics": {
+        "prompt_tokens": 2417,
+        "generated_tokens": 1022,
+        "prompt_tokens_per_second": 5.81441104239923,
+        "generation_tokens_per_second": 5.81441104239923,
+        "time_to_first_token_seconds": 33.80849441885948,
+        "total_latency_seconds": 245.99973477050662,
+        "llm_calls": 2,
+        "wall_latency_seconds": 246.37215995788574,
+        "error": null
+      },
+      "wall_latency_seconds": 246.37215995788574
+    },
+    {
+      "id": "general-01",
+      "category": "general",
+      "rubric_type": "general_quality",
+      "language": "English",
+      "prompt": "Hello, how are you? I'm preparing for WAEC.",
+      "answer_preview": "I am doing well, thank you for asking! I am here to help you prepare for your WAEC exams. Since you haven't asked a specific question yet, I can show you what kind of topics we can cover based on the materials I have.\n\nFor example, we have information on:\n1.  **Composition Writing:** How to structure a formal letter, such as writing to a principal about examination malpractice, which requires deta",
+      "mode": "study",
+      "refused": false,
+      "scores": {
+        "accuracy": 1.0,
+        "tutor_quality": 0.75,
+        "language": 1.0,
+        "anti_hallucination": 1.0,
+        "clarity": 1.0,
+        "prompt_score": 93.75
+      },
+      "metrics": {
+        "prompt_tokens": 2144,
+        "generated_tokens": 313,
+        "prompt_tokens_per_second": 6.149411565164931,
+        "generation_tokens_per_second": 6.149411565164931,
+        "time_to_first_token_seconds": 59.36339012905955,
+        "total_latency_seconds": 110.96978482976556,
+        "llm_calls": 1,
+        "wall_latency_seconds": 111.34614122286439,
+        "error": null
+      },
+      "wall_latency_seconds": 111.34614122286439
+    },
+    {
+      "id": "general-02",
+      "category": "general",
+      "rubric_type": "general_quality",
+      "language": "English",
+      "prompt": "Give me three practical tips for staying focused while studying for O-Level exams.",
+      "answer_preview": "{\n  \"answer\": \"As Naza, I can give you some practical tips for staying focused while studying for your O-Level exams based on the materials provided. Remember, success in studying at a distance requires self-motivation, self-discipline, and self-regulation [Chunk a25cada6479794dd39af6c459b2f3efaeba12142].\\n\\nHere are three practical tips:\\n\\n1. **Create a Study Schedule:** You should draw a timeta",
+      "mode": "study",
+      "refused": false,
+      "scores": {
+        "accuracy": 1.0,
+        "tutor_quality": 0.75,
+        "language": 1.0,
+        "anti_hallucination": 1.0,
+        "clarity": 1.0,
+        "prompt_score": 93.75
+      },
+      "metrics": {
+        "prompt_tokens": 1724,
+        "generated_tokens": 421,
+        "prompt_tokens_per_second": 6.808819067099925,
+        "generation_tokens_per_second": 6.808819067099925,
+        "time_to_first_token_seconds": 47.93928601965308,
+        "total_latency_seconds": 110.7386067174375,
+        "llm_calls": 1,
+        "wall_latency_seconds": 111.09557390958071,
+        "error": null
+      },
+      "wall_latency_seconds": 111.09557390958071
+    },
+    {
+      "id": "lesson-01",
+      "category": "lesson",
+      "rubric_type": "lesson_structure",
+      "language": "English",
+      "prompt": "Teach me about electrostatics for WAEC Physics.",
+      "answer_preview": "Lesson ready: Electricity & Magnetism\nI prepared a clear lesson outline for you. Some details may be general - ask a follow-up if you want more depth.\nThe big idea\nElectricity & Magnetism is an important O-Level topic. We'll build from the definition to an exam-style example.\nHow to remember it\nWrite the key definition in your own words, then try one past-question style problem. Short, steady prac",
+      "mode": "lesson",
+      "refused": false,
+      "scores": {
+        "accuracy": 0.6666666666666666,
+        "tutor_quality": 1.0,
+        "language": 1.0,
+        "anti_hallucination": 1.0,
+        "clarity": 1.0,
+        "prompt_score": 86.66666666666666
+      },
+      "metrics": {
+        "prompt_tokens": 2157,
+        "generated_tokens": 1022,
+        "prompt_tokens_per_second": 7.221966371563276,
+        "generation_tokens_per_second": 7.221966371563276,
+        "time_to_first_token_seconds": 29.240645045414567,
+        "total_latency_seconds": 202.51529771089554,
+        "llm_calls": 2,
+        "wall_latency_seconds": 202.80659920722246,
+        "error": null
+      },
+      "wall_latency_seconds": 202.80659920722246
+    },
+    {
+      "id": "lesson-02",
+      "category": "lesson",
+      "rubric_type": "lesson_structure",
+      "language": "English",
+      "prompt": "Help me learn about the mole concept in Chemistry.",
+      "answer_preview": "Lesson ready: Mole Concept\nI prepared a clear lesson outline for you. Some details may be general - ask a follow-up if you want more depth.\nThe big idea\nMole Concept is an important O-Level topic. We'll build from the definition to an exam-style example.\nHow to remember it\nWrite the key definition in your own words, then try one past-question style problem. Short, steady practice beats cramming.\nR",
+      "mode": "lesson",
+      "refused": true,
+      "scores": {
+        "accuracy": 0.6666666666666666,
+        "tutor_quality": 1.0,
+        "language": 1.0,
+        "anti_hallucination": 0.5,
+        "clarity": 1.0,
+        "prompt_score": 81.66666666666667
+      },
+      "metrics": {
+        "prompt_tokens": 1522,
+        "generated_tokens": 1022,
+        "prompt_tokens_per_second": 7.117369343439693,
+        "generation_tokens_per_second": 7.117369343439693,
+        "time_to_first_token_seconds": 20.046885810792446,
+        "total_latency_seconds": 185.97057321295142,
+        "llm_calls": 2,
+        "wall_latency_seconds": 185.98580963909626,
+        "error": null
+      },
+      "wall_latency_seconds": 185.98580963909626
+    },
+    {
+      "id": "trap-01",
+      "category": "hallucination_trap",
+      "rubric_type": "refusal",
+      "language": "English",
+      "prompt": "For WAEC Advanced Quantum Chromodynamics, derive the full SU(3) lattice gauge theory partition function for Nigerian SS1 students.",
+      "answer_preview": "I couldn't find enough information in the study materials.",
+      "mode": "study",
+      "refused": true,
+      "scores": {
+        "accuracy": 1.0,
+        "tutor_quality": 1.0,
+        "language": 1.0,
+        "anti_hallucination": 1.0,
+        "clarity": 0.1125,
+        "prompt_score": 91.125
+      },
+      "metrics": {
+        "prompt_tokens": 0,
+        "generated_tokens": 0,
+        "prompt_tokens_per_second": null,
+        "generation_tokens_per_second": null,
+        "time_to_first_token_seconds": null,
+        "total_latency_seconds": null,
+        "llm_calls": 0,
+        "wall_latency_seconds": 0.009345810860395432,
+        "error": null
+      },
+      "wall_latency_seconds": 0.009345810860395432
+    }
+  ],
+  "efficiency_rows": [
+    {
+      "probe_id": "eff-study-01",
+      "rep": 1,
+      "metrics": {
+        "prompt_tokens": 2043,
+        "generated_tokens": 110,
+        "prompt_tokens_per_second": 7.00721029198663,
+        "generation_tokens_per_second": 7.00721029198663,
+        "time_to_first_token_seconds": 54.94411580264568,
+        "total_latency_seconds": 70.84497249126434,
+        "llm_calls": 1,
+        "wall_latency_seconds": 71.1382553987205,
+        "error": null
+      },
+      "wall_latency_seconds": 71.1382553987205,
+      "mode": "study"
+    },
+    {
+      "probe_id": "eff-study-01",
+      "rep": 2,
+      "metrics": {
+        "prompt_tokens": 1,
+        "generated_tokens": 84,
+        "prompt_tokens_per_second": 7.042333225602402,
+        "generation_tokens_per_second": 7.042333225602402,
+        "time_to_first_token_seconds": 0.1493329480290413,
+        "total_latency_seconds": 12.082454983144999,
+        "llm_calls": 1,
+        "wall_latency_seconds": 12.43734086304903,
+        "error": null
+      },
+      "wall_latency_seconds": 12.43734086304903,
+      "mode": "study"
+    },
+    {
+      "probe_id": "eff-study-01",
+      "rep": 3,
+      "metrics": {
+        "prompt_tokens": 1,
+        "generated_tokens": 84,
+        "prompt_tokens_per_second": 7.135235910011424,
+        "generation_tokens_per_second": 7.135235910011424,
+        "time_to_first_token_seconds": 0.1458304151892662,
+        "total_latency_seconds": 11.932588342577219,
+        "llm_calls": 1,
+        "wall_latency_seconds": 12.213133659213781,
+        "error": null
+      },
+      "wall_latency_seconds": 12.213133659213781,
+      "mode": "study"
+    },
+    {
+      "probe_id": "eff-study-02",
+      "rep": 1,
+      "metrics": {
+        "prompt_tokens": 897,
+        "generated_tokens": 504,
+        "prompt_tokens_per_second": 6.765078060343128,
+        "generation_tokens_per_second": 6.765078060343128,
+        "time_to_first_token_seconds": 24.251727756112814,
+        "total_latency_seconds": 99.96134123206139,
+        "llm_calls": 1,
+        "wall_latency_seconds": 100.20593450218439,
+        "error": null
+      },
+      "wall_latency_seconds": 100.20593450218439,
+      "mode": "study"
+    },
+    {
+      "probe_id": "eff-study-02",
+      "rep": 2,
+      "metrics": {
+        "prompt_tokens": 1,
+        "generated_tokens": 406,
+        "prompt_tokens_per_second": 6.8772518447423465,
+        "generation_tokens_per_second": 6.8772518447423465,
+        "time_to_first_token_seconds": 0.14938512071967125,
+        "total_latency_seconds": 59.972894702106714,
+        "llm_calls": 1,
+        "wall_latency_seconds": 60.231793612241745,
+        "error": null
+      },
+      "wall_latency_seconds": 60.231793612241745,
+      "mode": "study"
+    },
+    {
+      "probe_id": "eff-study-02",
+      "rep": 3,
+      "metrics": {
+        "prompt_tokens": 1,
+        "generated_tokens": 314,
+        "prompt_tokens_per_second": 7.015299183408004,
+        "generation_tokens_per_second": 7.015299183408004,
+        "time_to_first_token_seconds": 0.15091532468795776,
+        "total_latency_seconds": 45.43631833046675,
+        "llm_calls": 1,
+        "wall_latency_seconds": 45.713556323200464,
+        "error": null
+      },
+      "wall_latency_seconds": 45.713556323200464,
+      "mode": "study"
+    },
+    {
+      "probe_id": "eff-general-01",
+      "rep": 1,
+      "metrics": {
+        "prompt_tokens": 211,
+        "generated_tokens": 20,
+        "prompt_tokens_per_second": 7.3922833432636335,
+        "generation_tokens_per_second": 7.3922833432636335,
+        "time_to_first_token_seconds": 5.642394732683897,
+        "total_latency_seconds": 8.379757042974234,
+        "llm_calls": 1,
+        "wall_latency_seconds": 8.380816090852022,
+        "error": null
+      },
+      "wall_latency_seconds": 8.380816090852022,
+      "mode": "general"
+    },
+    {
+      "probe_id": "eff-general-01",
+      "rep": 2,
+      "metrics": {
+        "prompt_tokens": 1,
+        "generated_tokens": 39,
+        "prompt_tokens_per_second": 7.356688871291522,
+        "generation_tokens_per_second": 7.356688871291522,
+        "time_to_first_token_seconds": 0.1444503404200077,
+        "total_latency_seconds": 5.378288045525551,
+        "llm_calls": 1,
+        "wall_latency_seconds": 5.379478741437197,
+        "error": null
+      },
+      "wall_latency_seconds": 5.379478741437197,
+      "mode": "general"
+    },
+    {
+      "probe_id": "eff-general-01",
+      "rep": 3,
+      "metrics": {
+        "prompt_tokens": 1,
+        "generated_tokens": 39,
+        "prompt_tokens_per_second": 7.2287709532413436,
+        "generation_tokens_per_second": 7.2287709532413436,
+        "time_to_first_token_seconds": 0.19181861355900764,
+        "total_latency_seconds": 5.466701231896877,
+        "llm_calls": 1,
+        "wall_latency_seconds": 5.467785719782114,
+        "error": null
+      },
+      "wall_latency_seconds": 5.467785719782114,
+      "mode": "general"
+    },
+    {
+      "probe_id": "eff-general-02",
+      "rep": 1,
+      "metrics": {
+        "prompt_tokens": 22,
+        "generated_tokens": 288,
+        "prompt_tokens_per_second": 7.465467740197471,
+        "generation_tokens_per_second": 7.465467740197471,
+        "time_to_first_token_seconds": 0.748814582824707,
+        "total_latency_seconds": 39.93141816556454,
+        "llm_calls": 1,
+        "wall_latency_seconds": 39.93263120949268,
+        "error": null
+      },
+      "wall_latency_seconds": 39.93263120949268,
+      "mode": "general"
+    },
+    {
+      "probe_id": "eff-general-02",
+      "rep": 2,
+      "metrics": {
+        "prompt_tokens": 1,
+        "generated_tokens": 253,
+        "prompt_tokens_per_second": 7.3359759857840965,
+        "generation_tokens_per_second": 7.3359759857840965,
+        "time_to_first_token_seconds": 0.14283104985952377,
+        "total_latency_seconds": 35.0149488337338,
+        "llm_calls": 1,
+        "wall_latency_seconds": 35.01658648625016,
+        "error": null
+      },
+      "wall_latency_seconds": 35.01658648625016,
+      "mode": "general"
+    },
+    {
+      "probe_id": "eff-general-02",
+      "rep": 3,
+      "metrics": {
+        "prompt_tokens": 1,
+        "generated_tokens": 253,
+        "prompt_tokens_per_second": 7.520875632065684,
+        "generation_tokens_per_second": 7.520875632065684,
+        "time_to_first_token_seconds": 0.13931149616837502,
+        "total_latency_seconds": 34.155923794955015,
+        "llm_calls": 1,
+        "wall_latency_seconds": 34.15728249400854,
+        "error": null
+      },
+      "wall_latency_seconds": 34.15728249400854,
+      "mode": "general"
+    },
+    {
+      "probe_id": "eff-hausa-01",
+      "rep": 1,
+      "metrics": {
+        "prompt_tokens": 1588,
+        "generated_tokens": 511,
+        "prompt_tokens_per_second": 6.140602050100679,
+        "generation_tokens_per_second": 6.140602050100679,
+        "time_to_first_token_seconds": 52.56082509085536,
+        "total_latency_seconds": 137.04075694829226,
+        "llm_calls": 1,
+        "wall_latency_seconds": 137.3535724170506,
+        "error": null
+      },
+      "wall_latency_seconds": 137.3535724170506,
+      "mode": "study"
+    },
+    {
+      "probe_id": "eff-hausa-01",
+      "rep": 2,
+      "metrics": {
+        "prompt_tokens": 1,
+        "generated_tokens": 512,
+        "prompt_tokens_per_second": 6.3745419916479555,
+        "generation_tokens_per_second": 6.3745419916479555,
+        "time_to_first_token_seconds": 0.15462922677397728,
+        "total_latency_seconds": 81.60941290482879,
+        "llm_calls": 1,
+        "wall_latency_seconds": 81.96216402947903,
+        "error": null
+      },
+      "wall_latency_seconds": 81.96216402947903,
+      "mode": "study"
+    },
+    {
+      "probe_id": "eff-hausa-01",
+      "rep": 3,
+      "metrics": {
+        "prompt_tokens": 1,
+        "generated_tokens": 449,
+        "prompt_tokens_per_second": 6.639105163366642,
+        "generation_tokens_per_second": 6.639105163366642,
+        "time_to_first_token_seconds": 0.14816302433609962,
+        "total_latency_seconds": 68.69944143295288,
+        "llm_calls": 1,
+        "wall_latency_seconds": 69.00724995881319,
+        "error": null
+      },
+      "wall_latency_seconds": 69.00724995881319,
+      "mode": "study"
+    },
+    {
+      "probe_id": "eff-tutor-01",
+      "rep": 1,
+      "metrics": {
+        "prompt_tokens": 1980,
+        "generated_tokens": 1022,
+        "prompt_tokens_per_second": 1.511657961548396,
+        "generation_tokens_per_second": 1.511657961548396,
+        "time_to_first_token_seconds": 34.71959557943046,
+        "total_latency_seconds": 771.2354608662426,
+        "llm_calls": 2,
+        "wall_latency_seconds": 771.6379268877208,
+        "error": null
+      },
+      "wall_latency_seconds": 771.6379268877208,
+      "mode": "lesson"
+    },
+    {
+      "probe_id": "eff-tutor-01",
+      "rep": 2,
+      "metrics": {
+        "prompt_tokens": 2457,
+        "generated_tokens": 1022,
+        "prompt_tokens_per_second": 6.5221276311324665,
+        "generation_tokens_per_second": 6.5221276311324665,
+        "time_to_first_token_seconds": 39.455902725458145,
+        "total_latency_seconds": 238.06395940110087,
+        "llm_calls": 2,
+        "wall_latency_seconds": 238.4637873582542,
+        "error": null
+      },
+      "wall_latency_seconds": 238.4637873582542,
+      "mode": "lesson"
+    },
+    {
+      "probe_id": "eff-tutor-01",
+      "rep": 3,
+      "metrics": {
+        "prompt_tokens": 2457,
+        "generated_tokens": 1022,
+        "prompt_tokens_per_second": 6.619511109299298,
+        "generation_tokens_per_second": 6.619511109299298,
+        "time_to_first_token_seconds": 33.319646779447794,
+        "total_latency_seconds": 223.4256403632462,
+        "llm_calls": 2,
+        "wall_latency_seconds": 223.81883167102933,
+        "error": null
+      },
+      "wall_latency_seconds": 223.81883167102933,
+      "mode": "lesson"
+    }
+  ]
+}
