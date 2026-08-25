@@ -61,9 +61,22 @@ export function TutorPage() {
   const [buildingLesson, setBuildingLesson] = useState(false);
   const typingTimer = useRef<number | null>(null);
   const composerRef = useRef<HTMLTextAreaElement | null>(null);
+  const messagesRef = useRef<HTMLDivElement | null>(null);
+  const [waitPhase, setWaitPhase] = useState(0);
 
   const citations = last?.citations ?? [];
   const isEmpty = messages.length === 0 && !busy && !error && !buildingLesson;
+
+  const preparingLead = useMemo(() => {
+    if (!busy && !buildingLesson) return null;
+    if (buildingLesson) return t("tutor.buildingLead");
+    const phases: MessageKey[] = [
+      "tutor.preparingWait",
+      "tutor.preparingStill",
+      "tutor.preparingAlmost",
+    ];
+    return t(phases[waitPhase % phases.length]);
+  }, [busy, buildingLesson, t, waitPhase]);
 
   const modeBadge = useMemo(() => {
     if (!last) return null;
@@ -96,6 +109,24 @@ export function TutorPage() {
       composerRef.current?.focus();
     }
   }, [composerFocusToken]);
+
+  useEffect(() => {
+    if (!busy && !buildingLesson) {
+      setWaitPhase(0);
+      return;
+    }
+    const id = window.setInterval(() => {
+      setWaitPhase((p) => p + 1);
+    }, 18000);
+    return () => window.clearInterval(id);
+  }, [busy, buildingLesson]);
+
+  useEffect(() => {
+    if (!busy && !buildingLesson) return;
+    const node = messagesRef.current;
+    if (!node) return;
+    node.scrollTop = node.scrollHeight;
+  }, [busy, buildingLesson, waitPhase, messages.length]);
 
   useEffect(() => {
     const q = searchParams.get("q")?.trim();
@@ -300,12 +331,6 @@ export function TutorPage() {
     }
   }
 
-  const statusCopy = buildingLesson
-    ? t("tutor.findingLesson")
-    : busy
-      ? t("tutor.preparing")
-      : null;
-
   return (
     <div className={`${styles.page} ${styles.pageFill}`}>
       <div className={styles.tutorLayout}>
@@ -317,6 +342,9 @@ export function TutorPage() {
                 <span className={styles.muted}>
                   {t("tutor.confidence", { pct: (last.confidence * 100).toFixed(0) })}
                 </span>
+              ) : null}
+              {busy || buildingLesson ? (
+                <Badge tone="study">{t("tutor.thinking")}</Badge>
               ) : null}
             </div>
             <span className={styles.muted}>{t("tutor.modes")}</span>
@@ -391,7 +419,7 @@ export function TutorPage() {
             </div>
           ) : (
             <>
-              <div className={styles.messages}>
+              <div className={styles.messages} ref={messagesRef}>
                 {isEmpty ? (
                   <div className={styles.tutorEmpty}>
                     <Naza pose="look" size={80} speech={t("tutor.emptyLead")} />
@@ -455,10 +483,29 @@ export function TutorPage() {
                     </div>
                   ))
                 )}
-                {statusCopy && !buildingLesson ? (
-                  <p className={styles.tutorStatus} role="status" aria-live="polite">
-                    {statusCopy}
-                  </p>
+                {busy ? (
+                  <div
+                    className={styles.tutorPreparing}
+                    role="status"
+                    aria-live="polite"
+                    aria-busy="true"
+                  >
+                    <Naza pose="fly" size={48} animate={!reduceMotion} />
+                    <div className={styles.tutorPreparingCopy}>
+                      <p className={styles.tutorPreparingTitle}>
+                        {t("tutor.preparing")}
+                        <span className={styles.tutorDots} aria-hidden>
+                          <span />
+                          <span />
+                          <span />
+                        </span>
+                      </p>
+                      {preparingLead ? (
+                        <p className={styles.tutorPreparingLead}>{preparingLead}</p>
+                      ) : null}
+                      <div className={styles.tutorPreparingShimmer} aria-hidden />
+                    </div>
+                  </div>
                 ) : null}
                 {error ? (
                   <Card lift={false} className={styles.empty}>
@@ -470,6 +517,20 @@ export function TutorPage() {
                   </Card>
                 ) : null}
               </div>
+
+              {busy ? (
+                <div className={styles.tutorPreparingBar} role="status" aria-live="polite">
+                  <span className={styles.tutorDots} aria-hidden>
+                    <span />
+                    <span />
+                    <span />
+                  </span>
+                  <span>{t("tutor.preparing")}</span>
+                  {preparingLead ? (
+                    <span className={styles.tutorPreparingBarLead}>{preparingLead}</span>
+                  ) : null}
+                </div>
+              ) : null}
 
               <div className={styles.composer}>
                 <TextArea

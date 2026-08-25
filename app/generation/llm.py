@@ -2,9 +2,12 @@
 
 from __future__ import annotations
 
+import atexit
 import re
+import threading
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
-from typing import Any, Protocol
+from typing import Any, Callable, Protocol, TypeVar
 
 from app.config import (
     CONTEXT_LENGTH,
@@ -21,6 +24,25 @@ from app.utils.logging import get_logger
 logger = get_logger(__name__)
 
 _llm_singleton: LlamaCppLLM | None = None
+
+# llama.cpp GGUF handles are not safe across arbitrary FastAPI/anyio worker
+# threads. Keep all Llama construct / tokenize / generate calls on one thread.
+_LLM_EXECUTOR = ThreadPoolExecutor(max_workers=1, thread_name_prefix="naza-llama")
+_T = TypeVar("_T")
+
+
+def _run_on_llm_thread(fn: Callable[[], _T]) -> _T:
+    """Run ``fn`` on the dedicated llama thread (inline if already there)."""
+    if threading.current_thread().name.startswith("naza-llama"):
+        return fn()
+    return _LLM_EXECUTOR.submit(fn).result()
+
+
+def _shutdown_llm_executor() -> None:
+    _LLM_EXECUTOR.shutdown(wait=False)
+
+
+atexit.register(_shutdown_llm_executor)
 
 # Some models may emit visible reasoning / think blocks; strip globally.
 _REASONING_BLOCK_RE = re.compile(
@@ -108,9 +130,11 @@ class LlamaCppLLM:
                 "(run bash download_model.sh from the repository root). "
                 "The app does not download model weights."
             )
-        from llama_cpp import Llama
-
-        kwargs = build_llama_kwargs(
+        self.model_name = model_name
+        self.temperature = temperature
+        self.max_tokens = max_tokens
+        self.last_gen_tokens: int = 0
+        self.llama_kwargs = build_llama_kwargs(
             model_path=path,
             n_ctx=n_ctx,
             n_threads=n_threads,
@@ -127,46 +151,60 @@ class LlamaCppLLM:
             flash_attn,
             swa_full,
         )
-        self._llama = Llama(**kwargs)
-        self.model_name = model_name
-        self.temperature = temperature
-        self.max_tokens = max_tokens
-        self.last_gen_tokens: int = 0
-        self.llama_kwargs = dict(kwargs)
+
+        def _load() -> Any:
+            from llama_cpp import Llama
+
+            return Llama(**self.llama_kwargs)
+
+        self._llama = _run_on_llm_thread(_load)
 
     def count_tokens(self, text: str) -> int:
         """Count tokens using the model's ``tokenize`` API (no heuristics)."""
         if not text:
             return 0
-        tokens = self._llama.tokenize(text.encode("utf-8"), add_bos=False)
-        return len(tokens)
+
+        def _count() -> int:
+            tokens = self._llama.tokenize(text.encode("utf-8"), add_bos=False)
+            return len(tokens)
+
+        return _run_on_llm_thread(_count)
 
     def generate(self, system: str, user: str, *, max_tokens: int | None = None) -> str:
         """Chat completion via llama.cpp (GGUF chat template)."""
         logger.info("LLM request via llama.cpp model=%s", self.model_name)
-        response = self._llama.create_chat_completion(
-            messages=[
-                {"role": "system", "content": system},
-                {"role": "user", "content": user},
-            ],
-            temperature=self.temperature,
-            max_tokens=max_tokens if max_tokens is not None else self.max_tokens,
-        )
-        content = response["choices"][0]["message"]["content"]
-        if not content:
-            self.last_gen_tokens = 0
-            raise RuntimeError("llama.cpp returned an empty completion.")
-        cleaned = strip_reasoning(content)
-        usage = response.get("usage") or {}
-        completion_tokens = usage.get("completion_tokens")
-        if isinstance(completion_tokens, int) and completion_tokens > 0:
-            self.last_gen_tokens = completion_tokens
-        else:
-            self.last_gen_tokens = self.count_tokens(cleaned)
-        if not cleaned:
-            raise RuntimeError(
-                "llama.cpp completion was empty after stripping reasoning blocks."
+        limit = max_tokens if max_tokens is not None else self.max_tokens
+
+        def _generate() -> tuple[str, int]:
+            response = self._llama.create_chat_completion(
+                messages=[
+                    {"role": "system", "content": system},
+                    {"role": "user", "content": user},
+                ],
+                temperature=self.temperature,
+                max_tokens=limit,
             )
+            content = response["choices"][0]["message"]["content"]
+            if not content:
+                raise RuntimeError("llama.cpp returned an empty completion.")
+            cleaned = strip_reasoning(content)
+            usage = response.get("usage") or {}
+            completion_tokens = usage.get("completion_tokens")
+            if isinstance(completion_tokens, int) and completion_tokens > 0:
+                gen_tokens = completion_tokens
+            else:
+                tokens = self._llama.tokenize(
+                    cleaned.encode("utf-8"), add_bos=False
+                )
+                gen_tokens = len(tokens)
+            if not cleaned:
+                raise RuntimeError(
+                    "llama.cpp completion was empty after stripping reasoning blocks."
+                )
+            return cleaned, gen_tokens
+
+        cleaned, gen_tokens = _run_on_llm_thread(_generate)
+        self.last_gen_tokens = gen_tokens
         return cleaned
 
 

@@ -7,6 +7,7 @@
   flex-direction: column;
   gap: clamp(12px, 1.6vw, 18px);
   overflow-wrap: break-word;
+  overflow: auto;
 }
 
 .pageFill {
@@ -671,10 +672,11 @@
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(180px, 220px);
   gap: var(--space-3);
+  flex: 1;
   height: 100%;
   min-height: 0;
+  max-height: 100%;
   overflow: hidden;
-  flex: 1;
 }
 
 .chatPane {
@@ -687,6 +689,7 @@
   min-height: 0;
   min-width: 0;
   height: 100%;
+  max-height: 100%;
 }
 
 .chatHeader {
@@ -699,8 +702,9 @@
 }
 
 .messages {
-  flex: 1;
+  flex: 1 1 auto;
   min-height: 0;
+  overflow-x: hidden;
   overflow-y: auto;
   padding: 10px;
   display: flex;
@@ -737,15 +741,18 @@
   padding: 8px 10px;
   border-top: 1px solid var(--color-border);
   background: var(--color-card);
-  flex-shrink: 0;
+  flex: 0 0 auto;
   align-items: flex-end;
+  position: sticky;
+  bottom: 0;
+  z-index: 6;
 }
 
 .composer input,
 .composer textarea {
   flex: 1;
   min-width: 0;
-  max-height: 88px;
+  max-height: 72px;
 }
 
 .sourcesPane {
@@ -755,6 +762,8 @@
   overflow-y: auto;
   min-height: 0;
   min-width: 0;
+  height: 100%;
+  max-height: 100%;
 }
 
 .citeCard {
@@ -979,6 +988,132 @@
   color: var(--color-text-muted);
   font-size: 0.9rem;
   flex-shrink: 0;
+}
+
+.tutorPreparing {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: flex-start;
+  max-width: min(100%, 420px);
+  margin: 4px 0 8px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(211, 146, 18, 0.35);
+  background:
+    linear-gradient(135deg, rgba(211, 146, 18, 0.1), transparent 55%),
+    var(--color-card);
+  box-shadow: var(--shadow-sm);
+}
+
+.tutorPreparingCopy {
+  min-width: 0;
+  display: grid;
+  gap: 4px;
+}
+
+.tutorPreparingTitle {
+  margin: 0;
+  font-weight: 600;
+  font-size: 0.98rem;
+  color: var(--color-text);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tutorPreparingLead {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  line-height: 1.4;
+}
+
+.tutorDots {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.tutorDots span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  animation: tutorDotPulse 1.2s ease-in-out infinite;
+}
+
+.tutorDots span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.tutorDots span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes tutorDotPulse {
+  0%,
+  80%,
+  100% {
+    opacity: 0.35;
+    transform: translateY(0);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(-2px);
+  }
+}
+
+.tutorPreparingBar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  padding: 8px 12px;
+  border-top: 1px solid var(--color-border);
+  background: rgba(255, 248, 232, 0.95);
+  color: var(--color-text);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.tutorPreparingBarLead {
+  font-weight: 500;
+  color: var(--color-text-muted);
+  font-size: 0.82rem;
+}
+
+.tutorPreparingShimmer {
+  height: 3px;
+  flex-shrink: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(211, 146, 18, 0.55),
+    transparent
+  );
+  background-size: 200% 100%;
+  animation: tutorShimmer 1.4s linear infinite;
+}
+
+@keyframes tutorShimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tutorDots span,
+  .tutorPreparingShimmer {
+    animation: none;
+  }
+
+  .tutorDots span {
+    opacity: 0.8;
+  }
 }
 
 .chatPane > .banner {
@@ -1598,16 +1733,21 @@
 @media (max-width: 1100px) {
   .tutorLayout {
     grid-template-columns: 1fr;
+    grid-template-rows: minmax(0, 1fr) auto;
     height: 100%;
   }
 
   .chatPane {
     min-height: 0;
-    flex: 1;
+    max-height: none;
+    height: auto;
+    grid-row: 1;
   }
 
   .sourcesPane {
-    max-height: 180px;
+    max-height: 140px;
+    height: auto;
+    grid-row: 2;
   }
 }
 

@@ -40,7 +40,7 @@ data/index/*.faiss
 ecosystem.config.cjs.bak
 .DS_Store
 
-# Editors, IDEs, and local agent tooling (never commit)
+# Editors, IDEs,
 .cursor/
 .cursorrules
 .vscode/

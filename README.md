@@ -10,16 +10,18 @@ Submit the public GitHub URL via [adtc-2026.devpost.com](https://adtc-2026.devpo
 
 Before submitting, confirm every item:
 
-- [ ] Repository is **public** on GitHub
-- [ ] `metadata.json` is fully filled - replace every `REPLACE_WITH_*` placeholder
-- [ ] `metadata.json` has exactly **2** `test_prompts`
-- [ ] `bash download_model.sh` downloads a valid **GGUF** into `model/`
-- [ ] `model/` and `*.gguf` are gitignored - **do not** commit weights
-- [ ] `REPORT.md` is filled and factual
-- [ ] Model runs **offline** during inference (no network after download)
-- [ ] `finetune/` documents the Hausa + curriculum training pipeline
+- [x] Repository is **public** on GitHub
+- [x] `metadata.json` is fully filled - replace every `REPLACE_WITH_*` placeholder
+- [x] `metadata.json` has exactly **2** `test_prompts`
+- [x] `bash download_model.sh` downloads a valid **GGUF** into `model/`
+- [x] `model/` and `*.gguf` are gitignored - **do not** commit weights
+- [x] `REPORT.md` is filled and factual
+- [x] Model runs **offline** during inference (no network after download)
+- [x] `finetune/` documents the Hausa + curriculum training pipeline
 
 ---
+
+
 
 ## Required ADTC file structure
 
@@ -36,6 +38,8 @@ Before submitting, confirm every item:
 └── …                      ← Full offline tutor app (see below)
 ```
 
+
+
 ### Quick start (profiler)
 
 ```bash
@@ -49,9 +53,11 @@ adtc-profiler run \
   --skip-accuracy
 ```
 
+
+
 ### Metadata you must edit
 
-Open [`metadata.json`](metadata.json) and set:
+Open `[metadata.json](metadata.json)` and set:
 
 - `team_id`, `submitter.name`, `submitter.email`
 - Keep `budget_laptop_claim: true`, `model.runtime: "llama.cpp"`
@@ -60,6 +66,8 @@ Open [`metadata.json`](metadata.json) and set:
 - `domain`: `math_scientific_reasoning`
 
 ---
+
+
 
 # Naza - Offline O-Level RAG Tutor
 
@@ -73,7 +81,7 @@ at runtime.
 
 The project also includes an **offline fine-tuning pipeline** for curriculum-
 aligned **English and Hausa** tutoring data: instruction-pair export,
-LoRA/QLoRA config, and reproducible scripts under [`finetune/`](finetune/).
+LoRA/QLoRA config, and reproducible scripts under `[finetune/](finetune/)`.
 The submitted GGUF is the quantized base model; RAG grounding keeps product
 answers tied to local syllabus materials at demo time.
 
@@ -84,6 +92,8 @@ filters, and a retrieval evaluation harness.
 > **Note:** Both the ADTC profiler and the full product demo use the pinned GGUF
 > under `model/` by default. `download_model.sh` verifies its exact size and
 > SHA-256 before the model is used offline.
+
+
 
 ## Project structure
 
@@ -164,6 +174,8 @@ O-Level/
 └── README.md
 ```
 
+
+
 ## Desktop + API
 
 Premium dark-mode learning shell designed in [Google Stitch](https://stitch.withgoogle.com/projects/628528694332230301) and implemented as a Vite React app. FastAPI is the **internal IPC layer** (loopback only): the UI talks only to `http://127.0.0.1:8010`. Judges and demos should use one command.
@@ -178,6 +190,8 @@ From the project root:
 ./launch.sh
 ```
 
+
+
 ### Docker (uv image)
 
 The image contains code plus a production UI build. It does **not** copy `.env`, the GGUF, embedding weights, or the FAISS index. Mount those from the host:
@@ -188,7 +202,7 @@ The image contains code plus a production UI build. It does **not** copy `.env`,
 docker compose up --build
 ```
 
-UI: http://127.0.0.1:5151/ · API: http://127.0.0.1:8010/health
+UI: [http://127.0.0.1:5151/](http://127.0.0.1:5151/) · API: [http://127.0.0.1:8010/health](http://127.0.0.1:8010/health)
 
 If `models/embeddings/KEmbed-naija-v3` is a symlink into `~/.cache/huggingface`, copy the snapshot into `models/embeddings/` (or add a compose volume for that cache). The container cannot follow a host-only symlink.
 
@@ -202,30 +216,32 @@ pm2 status          # olevel-api (:8010), olevel-ui (:5151)
 pm2 logs olevel-api # wait until /health is ok (Gemma warm-start)
 ```
 
-UI: http://127.0.0.1:5151/ · API: http://127.0.0.1:8010/health  
+UI: [http://127.0.0.1:5151/](http://127.0.0.1:5151/) · API: [http://127.0.0.1:8010/health](http://127.0.0.1:8010/health)  
 Stop: `pm2 stop olevel-api olevel-ui` · Restart: `pm2 restart ecosystem.config.cjs`
 
 This runs the Application Manager which:
 
-1. Enables offline mode and verifies GGUF, embeddings, and FAISS assets  
-2. Starts local FastAPI IPC on `127.0.0.1:8010` and waits for `GET /health` (`status: ok`; warm-start may take several minutes)  
-3. Starts the Vite desktop UI on `127.0.0.1:5151` (routes use hash URLs, e.g. `/#/tutor`)  
-4. Opens a Chromium/Chrome `--app=` window (falls back to the default browser)  
-5. Supervises both processes and cleans up on window close / Ctrl+C  
+1. Enables offline mode and verifies GGUF, embeddings, and FAISS assets
+2. Starts local FastAPI IPC on `127.0.0.1:8010` and waits for `GET /health` (`status: ok`; warm-start may take several minutes)
+3. Starts the Vite desktop UI on `127.0.0.1:5151` (routes use hash URLs, e.g. `/#/tutor`)
+4. Opens a Chromium/Chrome `--app=` window (falls back to the default browser)
+5. Supervises both processes and cleans up on window close / Ctrl+C
 
 Optional: `./launch.sh --no-window` for headless/CI (UI still served at `http://127.0.0.1:5151`).  
-Optional UI override: `VITE_API_BASE=http://127.0.0.1:8010` (default). See [`desktop/DESIGN.md`](desktop/DESIGN.md) for tokens, motion, and screen map.
+Optional UI override: `VITE_API_BASE=http://127.0.0.1:8010` (default). See `[desktop/DESIGN.md](desktop/DESIGN.md)` for tokens, motion, and screen map.
 
 IPC contract (stable for a future Electron shell):
 
-| Method | Path | Role |
-|--------|------|------|
-| GET | `/health` | readiness |
-| POST | `/chat` | tutor IPC (chat or structured lesson) |
-| GET | `/student/summary` | Learning Plan + mastery aggregates |
-| POST | `/practice/next`, `/practice/answer` | adaptive practice |
-| POST | `/exams/start`, `/exams/submit` | CBT mock exams |
-| GET | `/media` | textbook diagram files |
+
+| Method | Path                                 | Role                                  |
+| ------ | ------------------------------------ | ------------------------------------- |
+| GET    | `/health`                            | readiness                             |
+| POST   | `/chat`                              | tutor IPC (chat or structured lesson) |
+| GET    | `/student/summary`                   | Learning Plan + mastery aggregates    |
+| POST   | `/practice/next`, `/practice/answer` | adaptive practice                     |
+| POST   | `/exams/start`, `/exams/submit`      | CBT mock exams                        |
+| GET    | `/media`                             | textbook diagram files                |
+
 
 Invisible Learning Profile lives in project-root `student/` (gitignored).
 
@@ -241,6 +257,8 @@ To run services separately while debugging:
 .venv/bin/python scripts/serve_api.py   # Terminal A - API only
 cd desktop && npm run dev               # Terminal B - UI only
 ```
+
+
 
 ## Setup
 
@@ -258,6 +276,8 @@ pip fallback if you are not using uv:
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 ```
+
+
 
 ### Local GGUF (required for `ask.py`)
 
@@ -303,20 +323,22 @@ least `config.json`, `modules.json`, `model.safetensors`). Override with
 
 ## Environment / generation settings
 
-| Variable | Default | Description |
-|---|---|---|
-| `MODEL_NAME` | `Gemma-4-E4B-it` | Display / log name |
-| `MODEL_PATH` | `model/gemma-4-E4B-it-IQ3_M.gguf` | Path to the GGUF |
-| `EMBEDDING_MODEL_PATH` | `models/embeddings/KEmbed-naija-v3` | Local SentenceTransformer dir |
-| `HF_HUB_OFFLINE` | `1` (set by `ask.py`) | Block Hugging Face hub access |
-| `TRANSFORMERS_OFFLINE` | `1` (set by `ask.py`) | Block Transformers downloads |
-| `CONTEXT_LENGTH` | `4096` | llama.cpp `n_ctx` |
-| `THREADS` | `max(2, cpu_count - 1)` | CPU threads |
-| `MAX_TOKENS` | `512` | Generation cap |
-| `TEMPERATURE` | `0.1` | Sampling temperature |
-| `MAX_CONTEXT_TOKENS` | `3000` | Retrieved-context budget (real tokenizer) |
-| `MIN_RETRIEVAL_SCORE` | `0.35` | Refuse below this top score |
-| `PROMPTS_DIR` | `app/prompts` | Prompt template directory |
+
+| Variable               | Default                             | Description                               |
+| ---------------------- | ----------------------------------- | ----------------------------------------- |
+| `MODEL_NAME`           | `Gemma-4-E4B-it`                    | Display / log name                        |
+| `MODEL_PATH`           | `model/gemma-4-E4B-it-IQ3_M.gguf`   | Path to the GGUF                          |
+| `EMBEDDING_MODEL_PATH` | `models/embeddings/KEmbed-naija-v3` | Local SentenceTransformer dir             |
+| `HF_HUB_OFFLINE`       | `1` (set by `ask.py`)               | Block Hugging Face hub access             |
+| `TRANSFORMERS_OFFLINE` | `1` (set by `ask.py`)               | Block Transformers downloads              |
+| `CONTEXT_LENGTH`       | `4096`                              | llama.cpp `n_ctx`                         |
+| `THREADS`              | `max(2, cpu_count - 1)`             | CPU threads                               |
+| `MAX_TOKENS`           | `512`                               | Generation cap                            |
+| `TEMPERATURE`          | `0.1`                               | Sampling temperature                      |
+| `MAX_CONTEXT_TOKENS`   | `3000`                              | Retrieved-context budget (real tokenizer) |
+| `MIN_RETRIEVAL_SCORE`  | `0.35`                              | Refuse below this top score               |
+| `PROMPTS_DIR`          | `app/prompts`                       | Prompt template directory                 |
+
 
 No cloud API keys or provider selection.
 
@@ -339,6 +361,8 @@ and writes:
 - `data/processed/embeddings.npy`
 - `data/index/index.faiss`
 
+
+
 ### Flow B: split GPU flow (chunk locally, embed elsewhere)
 
 ```bash
@@ -353,6 +377,8 @@ externally with the same `matt-wisdom/KEmbed-naija-v3` model (float32
 ```bash
 .venv/bin/python scripts/build_index.py
 ```
+
+
 
 ## Searching (retrieval only)
 
@@ -374,6 +400,8 @@ results = search(
     source=None,
 )
 ```
+
+
 
 ### Retriever API
 
@@ -409,10 +437,10 @@ Type a question at `Enter question:`. A **rule-based offline router** (no
 network, no LLM classification) chooses:
 
 - **Study** - exam / syllabus / subject cues → existing RAG path (retrieve →
-  hallucination guard → context → study prompts → same local Gemma-4-E4B-it).
+hallucination guard → context → study prompts → same local Gemma-4-E4B-it).
 - **General Conversation** - greetings, casual chat, programming, careers,
-  etc. → same in-memory Gemma-4-E4B-it via `get_llm()`, with general prompts only
-  (no retrieval, no citations).
+etc. → same in-memory Gemma-4-E4B-it via `get_llm()`, with general prompts only
+(no retrieval, no citations).
 
 Each answer prints Mode, Confidence, Latency, Tokens Generated, Tokens/sec,
 Memory Usage, and Citations (Study only).
@@ -454,27 +482,31 @@ Requires a built index (for Study) and the GGUF at `MODEL_PATH`.
 
 Configure in `app/config.py`:
 
-| Setting | Default | Meaning |
-|---|---|---|
+
+| Setting          | Default   | Meaning                                    |
+| ---------------- | --------- | ------------------------------------------ |
 | `RETRIEVAL_MODE` | `"dense"` | `"dense"` (FAISS), `"bm25"`, or `"hybrid"` |
-| `RRF_K` | `60` | Reciprocal Rank Fusion constant |
+| `RRF_K`          | `60`      | Reciprocal Rank Fusion constant            |
+
 
 - **dense** - cosine similarity via FAISS `IndexFlatIP` (unchanged default for
-  `ask.py` / RAG).
+`ask.py` / RAG).
 - **bm25** - lexical BM25Okapi over chunk texts (`rank_bm25`).
 - **hybrid** - run dense + BM25, fuse ranks with RRF:
-  `score(d) = Σ 1 / (RRF_K + rank_i(d))`.
+`score(d) = Σ 1 / (RRF_K + rank_i(d))`.
 
 Example: set `RETRIEVAL_MODE = "hybrid"` in `app/config.py`, then re-run
 `scripts/search.py` or `scripts/evaluate.py`.
 
 ## Cross-encoder reranker
 
-| Setting | Default | Meaning |
-|---|---|---|
-| `ENABLE_RERANKER` | `False` | Master switch (off avoids forced model download) |
-| `RERANK_CANDIDATES` | `30` | Retrieve this many, then rerank |
-| `RERANKER_MODEL` | `cross-encoder/ms-marco-MiniLM-L-6-v2` | HF model id |
+
+| Setting             | Default                                | Meaning                                          |
+| ------------------- | -------------------------------------- | ------------------------------------------------ |
+| `ENABLE_RERANKER`   | `False`                                | Master switch (off avoids forced model download) |
+| `RERANK_CANDIDATES` | `30`                                   | Retrieve this many, then rerank                  |
+| `RERANKER_MODEL`    | `cross-encoder/ms-marco-MiniLM-L-6-v2` | HF model id                                      |
+
 
 Flow when enabled: retrieve top `RERANK_CANDIDATES` → CrossEncoder scores →
 return top `top_k` (usually 5). If `ENABLE_RERANKER=True` and the model cannot
@@ -523,8 +555,10 @@ An empty `qa.json` exits cleanly with a message to add items.
 A retrieved doc is **relevant** if (case-insensitive):
 
 1. its `metadata.subject` matches the item subject **and** (no keywords, or at
-   least one `expected_keywords` substring appears in text/topic/subject), or
+  least one `expected_keywords` substring appears in text/topic/subject), or
 2. any expected keyword overlaps text/topic/subject (even if subject differs).
+
+
 
 ### Metric definitions
 
@@ -542,14 +576,16 @@ curriculum instruction data** in **English and Hausa**. The submitted artifact
 and live demo use the **base Gemma GGUF + local RAG**; no adapter is merged into
 the competition GGUF.
 
-| Piece | Contents |
-|---|---|
-| Dataset | Instruction pairs exported from `data/eval/qa.json` (EN + Hausa schema) |
-| Config | LoRA/QLoRA hyperparameters in `finetune/configs/lora_hausa_curriculum.yaml` |
-| Scripts | `prepare_dataset.py` (export JSONL), `train_lora.py` (training entrypoint) |
 
-See [`finetune/README.md`](finetune/README.md), [`finetune/SUBMISSION.md`](finetune/SUBMISSION.md),
-and [`finetune/scripts/prepare_dataset.py`](finetune/scripts/prepare_dataset.py).
+| Piece   | Contents                                                                    |
+| ------- | --------------------------------------------------------------------------- |
+| Dataset | Instruction pairs exported from `data/eval/qa.json` (EN + Hausa schema)     |
+| Config  | LoRA/QLoRA hyperparameters in `finetune/configs/lora_hausa_curriculum.yaml` |
+| Scripts | `prepare_dataset.py` (export JSONL), `train_lora.py` (training entrypoint)  |
+
+
+See `[finetune/README.md](finetune/README.md)`, `[finetune/SUBMISSION.md](finetune/SUBMISSION.md)`,
+and `[finetune/scripts/prepare_dataset.py](finetune/scripts/prepare_dataset.py)`.
 The submitted ADTC GGUF remains the base quant under `model/`.
 
 ## Adding new datasets
@@ -577,16 +613,19 @@ do not download the GGUF or call external APIs.
 
 Tunables live in `app/config.py`:
 
-| Setting | Default | Notes |
-|---|---|---|
-| `EMBEDDING_MODEL` | `matt-wisdom/KEmbed-naija-v3` | Metadata / docs id only |
-| `EMBEDDING_MODEL_PATH` | `models/embeddings/KEmbed-naija-v3` | Local SentenceTransformer dir |
-| `CHUNK_SIZE` / `CHUNK_OVERLAP` | `220` / `40` | Words |
-| `TOP_K` | `5` | Final results returned |
-| `RETRIEVAL_MODE` | `"dense"` | `dense` \| `bm25` \| `hybrid` |
-| `RRF_K` | `60` | Hybrid fusion constant |
-| `ENABLE_RERANKER` | `False` | Cross-encoder on/off |
-| `RERANK_CANDIDATES` | `30` | Pool size before rerank |
-| `RERANKER_MODEL` | `cross-encoder/ms-marco-MiniLM-L-6-v2` | |
-| `EVAL_DIR` / `QA_PATH` | `data/eval`, `data/eval/qa.json` | Eval dataset |
-| `MODEL_PATH` / `TEMPERATURE` / `THREADS` | see above | Offline Gemma-4-E4B-it |
+
+| Setting                                  | Default                                | Notes                         |
+| ---------------------------------------- | -------------------------------------- | ----------------------------- |
+| `EMBEDDING_MODEL`                        | `matt-wisdom/KEmbed-naija-v3`          | Metadata / docs id only       |
+| `EMBEDDING_MODEL_PATH`                   | `models/embeddings/KEmbed-naija-v3`    | Local SentenceTransformer dir |
+| `CHUNK_SIZE` / `CHUNK_OVERLAP`           | `220` / `40`                           | Words                         |
+| `TOP_K`                                  | `5`                                    | Final results returned        |
+| `RETRIEVAL_MODE`                         | `"dense"`                              | `dense` | `bm25` | `hybrid`   |
+| `RRF_K`                                  | `60`                                   | Hybrid fusion constant        |
+| `ENABLE_RERANKER`                        | `False`                                | Cross-encoder on/off          |
+| `RERANK_CANDIDATES`                      | `30`                                   | Pool size before rerank       |
+| `RERANKER_MODEL`                         | `cross-encoder/ms-marco-MiniLM-L-6-v2` |                               |
+| `EVAL_DIR` / `QA_PATH`                   | `data/eval`, `data/eval/qa.json`       | Eval dataset                  |
+| `MODEL_PATH` / `TEMPERATURE` / `THREADS` | see above                              | Offline Gemma-4-E4B-it        |
+
+
