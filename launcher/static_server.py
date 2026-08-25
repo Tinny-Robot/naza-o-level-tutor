@@ -140,7 +140,7 @@ class SpaRequestHandler(SimpleHTTPRequestHandler):
         return
 
 
-def make_handler(root: Path, api_base: str) -> type[SpaRequestHandler]:
+def make_handler(root: Path, api_base: str = DEFAULT_API) -> type[SpaRequestHandler]:
     resolved = Path(root).resolve()
     upstream = api_base
 

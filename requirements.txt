@@ -157,11 +157,7 @@ tokenizers==0.22.2
     # via
     #   sentence-transformers
     #   transformers
-torch==2.13.0 ; sys_platform == 'darwin'
-    # via
-    #   naza-o-level-tutor
-    #   sentence-transformers
-torch==2.13.0+cpu ; sys_platform != 'darwin'
+torch==2.13.0
     # via
     #   naza-o-level-tutor
     #   sentence-transformers

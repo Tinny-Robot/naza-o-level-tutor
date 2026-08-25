@@ -6,6 +6,7 @@ services:
       - "8010:8010"
     volumes:
       # Weights and index stay on the host (never baked into the image).
+      - ./model:/app/model
       - ./models:/app/models
       - ./data:/app/data
       - ./student:/app/student

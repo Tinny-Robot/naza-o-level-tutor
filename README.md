@@ -40,11 +40,80 @@ Before submitting, confirm every item:
 
 
 
-### Quick start (profiler)
+### Quick Start: One-Command Launch
+
+You can run the entire application with a single turnkey command. `./launch.sh` automatically detects and bootstraps missing Python dependencies, the desktop frontend build, offline model weights, and the FAISS index:
 
 ```bash
-bash download_model.sh
+./launch.sh
+```
 
+*(Headless / browser mode: `./launch.sh --no-window` — access the UI at `http://127.0.0.1:5151`)*
+
+---
+
+### Manual Setup (Step-by-Step)
+
+Alternatively, if you want to inspect or run each setup stage individually:
+
+#### Step 1: Set Up Python Environment
+Using [uv](https://docs.astral.sh/uv/):
+```bash
+uv sync
+```
+Or using standard `venv` + `pip`:
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+#### Step 2: Build Desktop Frontend UI
+```bash
+cd desktop
+npm install
+npm run build
+cd ..
+```
+
+#### Step 3: Download Offline Model Weights
+1. **Gemma-4-E4B-it LLM (GGUF)**:
+   ```bash
+   bash download_model.sh
+   ```
+   *(Downloads and verifies `model/gemma-4-E4B-it-IQ3_M.gguf`)*
+
+2. **KEmbed-naija-v3 Embedding Model**:
+   ```bash
+   python -c "from huggingface_hub import snapshot_download; snapshot_download('matt-wisdom/KEmbed-naija-v3', local_dir='models/embeddings/KEmbed-naija-v3')"
+   ```
+
+#### Step 4: Ingest Curriculum Data & Build FAISS Index
+```bash
+python scripts/ingest.py
+```
+*(Processes raw textbooks/syllabi from `data/raw/` and builds `data/index/index.faiss`)*
+
+#### Step 5: Launch the Application
+- **Interactive Desktop / Browser GUI**:
+  ```bash
+  ./launch.sh
+  ```
+  *(Or headless mode: `./launch.sh --no-window` — access UI at `http://127.0.0.1:5151`)*
+- **Interactive CLI Tutor**:
+  ```bash
+  python scripts/ask.py
+  ```
+- **CLI Semantic Search**:
+  ```bash
+  python scripts/search.py
+  ```
+
+---
+
+### ADTC Profiler Benchmark
+
+```bash
 pip install "git+https://github.com/Africa-Deep-Tech-Foundation/adtc-profiler.git"
 adtc-profiler run \
   --submission . \
@@ -52,8 +121,6 @@ adtc-profiler run \
   --output submission.json \
   --skip-accuracy
 ```
-
-
 
 ### Metadata you must edit
 
@@ -182,13 +249,13 @@ Premium dark-mode learning shell designed in [Google Stitch](https://stitch.with
 
 ### Launch the app
 
-Prerequisites (once): `uv sync` (or a venv), `npm install` + `npm run build` in `desktop/`, and local GGUF / embedding snapshot / FAISS index (see Setup below).
-
-From the project root:
+Run the turnkey launcher from the project root (automatically bootstraps missing environment, desktop frontend build, offline models, and FAISS index):
 
 ```bash
 ./launch.sh
 ```
+
+*(For headless/browser mode: `./launch.sh --no-window` — access the UI at `http://127.0.0.1:5151`)*
 
 
 
@@ -212,12 +279,12 @@ Warm-start can take several minutes. Stop with Ctrl+C. `.env` is never baked int
 
 ```bash
 pm2 start ecosystem.config.cjs
-pm2 status          # olevel-api (:8010), olevel-ui (:5151)
-pm2 logs olevel-api # wait until /health is ok (Gemma warm-start)
+pm2 status          # naza-api (:8010), naza-ui (:5151)
+pm2 logs naza-api   # wait until /health is ok (Gemma warm-start)
 ```
 
 UI: [http://127.0.0.1:5151/](http://127.0.0.1:5151/) · API: [http://127.0.0.1:8010/health](http://127.0.0.1:8010/health)  
-Stop: `pm2 stop olevel-api olevel-ui` · Restart: `pm2 restart ecosystem.config.cjs`
+Stop: `pm2 stop naza-api naza-ui` · Restart: `pm2 restart ecosystem.config.cjs`
 
 This runs the Application Manager which:
 
@@ -262,7 +329,7 @@ cd desktop && npm run dev               # Terminal B - UI only
 
 ## Setup
 
-From the project root, using [uv](https://docs.astral.sh/uv/):
+From the project root, using [uv](https://docs.astral.sh/uv/) (recommended):
 
 ```bash
 uv sync
@@ -274,20 +341,22 @@ pip fallback if you are not using uv:
 
 ```bash
 python3 -m venv .venv
-.venv/bin/pip install -r requirements.txt
+source .venv/bin/activate
+pip install -r requirements.txt
+cd desktop && npm install && npm run build && cd ..
 ```
 
 
 
-### Local GGUF (required for `ask.py`)
+### Local GGUF (required for LLM tutoring)
 
-The app **never downloads** model weights. Place a **Gemma 4 E4B-it IQ3_M** GGUF at:
+The app **never downloads** model weights at runtime. Place a **Gemma 4 E4B-it IQ3_M** GGUF at:
 
 ```text
 model/gemma-4-E4B-it-IQ3_M.gguf
 ```
 
-(or set `MODEL_PATH` to your file). `*.gguf` files are gitignored.
+(or set `MODEL_PATH` in `.env`). `*.gguf` files and `model/` are gitignored.
 
 Download and verify the pinned public artifact:
 
@@ -306,20 +375,21 @@ Embeddings load only from disk (`local_files_only=True`) with
 models/embeddings/KEmbed-naija-v3/
 ```
 
-If you already have a Hugging Face cache entry, symlink or copy the snapshot
-(no download):
+Download the local snapshot directly via Python:
+
+```bash
+python -c "from huggingface_hub import snapshot_download; snapshot_download('matt-wisdom/KEmbed-naija-v3', local_dir='models/embeddings/KEmbed-naija-v3')"
+```
+
+Alternatively, if you already have the snapshot cached locally:
 
 ```bash
 mkdir -p models/embeddings
-SNAP="$HOME/.cache/huggingface/hub/models--matt-wisdom--KEmbed-naija-v3/snapshots/$(
-  cat "$HOME/.cache/huggingface/hub/models--matt-wisdom--KEmbed-naija-v3/refs/main"
-)"
+SNAP="$HOME/.cache/huggingface/hub/models--matt-wisdom--KEmbed-naija-v3/snapshots/$(cat "$HOME/.cache/huggingface/hub/models--matt-wisdom--KEmbed-naija-v3/refs/main")"
 ln -sfn "$SNAP" models/embeddings/KEmbed-naija-v3
 ```
 
-If the cache is missing, place the snapshot files offline yourself (need at
-least `config.json`, `modules.json`, `model.safetensors`). Override with
-`EMBEDDING_MODEL_PATH`.
+Ensure the directory contains `config.json`, `modules.json`, and `model.safetensors`. Override with `EMBEDDING_MODEL_PATH` in `.env` if stored elsewhere.
 
 ## Environment / generation settings
 
@@ -602,8 +672,9 @@ re-run ingestion (and recompute embeddings if using Flow B).
 ## Running the tests
 
 ```bash
-uv run pytest
-# or: .venv/bin/python -m pytest
+pytest
+# or: .venv/bin/pytest
+# or: uv run pytest
 ```
 
 Tests mock the embedding model, CrossEncoder, and local LLM tokenizer, so they

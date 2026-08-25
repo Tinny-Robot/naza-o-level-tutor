@@ -28,7 +28,7 @@ desktop/dist/
 *.faiss
 .launcher-api.log
 .launcher-desktop.log
-student/
+/student/
 logs/
 *.log
 data/raw/**/*.pdf
