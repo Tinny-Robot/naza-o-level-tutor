@@ -62,3 +62,6 @@ finetune/artifacts/**
 !finetune/artifacts/**/
 !finetune/artifacts/**/.gitkeep
 !finetune/artifacts/**/README.md
+
+# Local tunnel binary (download separately)
+bin/cloudflared

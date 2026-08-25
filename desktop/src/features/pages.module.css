@@ -581,7 +581,7 @@
   background: #fffdf6;
 }
 
-/* A B / C D  — two-column option grid */
+/* A B / C D  - two-column option grid */
 .optionStackCompact {
   display: grid;
   grid-template-columns: 1fr 1fr;
