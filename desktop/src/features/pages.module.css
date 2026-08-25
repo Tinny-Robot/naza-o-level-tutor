@@ -715,9 +715,9 @@
 .bubbleUser,
 .bubbleAi {
   max-width: 85%;
-  padding: 10px 12px;
+  padding: 10px 14px;
   border-radius: 14px;
-  line-height: 1.45;
+  line-height: 1.55;
 }
 
 .bubbleUser {
@@ -725,6 +725,8 @@
   background: var(--color-card-high);
   border: 1px solid var(--color-border);
   border-top-right-radius: 6px;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 .bubbleAi {
@@ -733,6 +735,18 @@
   border: 1px solid var(--color-border);
   border-left: 3px solid var(--color-secondary);
   border-top-left-radius: 6px;
+  word-break: break-word;
+}
+
+.bubbleAi :global(.katex-display) {
+  overflow-x: auto;
+  max-width: 100%;
+  margin: 0.5em 0;
+  padding: 0.2em 0;
+}
+
+.bubbleAi :global(.katex) {
+  font-size: 1.05em;
 }
 
 .composer {

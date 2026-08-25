@@ -6,4 +6,4 @@ Use the following retrieved study passages as your primary source of truth.
 === Question ===
 {question}
 
-Answer the question using the context. If the context is not enough, say so clearly.
+Answer the question using the context. If the context is not enough, say so clearly. Respond directly in conversational markdown prose, not JSON.

@@ -637,3 +637,52 @@ def test_chat_result_structure() -> None:
     assert res["type"] == "chat"
     assert res["mode"] == "study"
     assert res["refused"] is False
+
+
+def test_clean_chat_response_json_unwrapping() -> None:
+    """Verify clean_chat_response strips JSON envelopes and unescapes newlines."""
+    from app.generation.pipeline import clean_chat_response
+
+    # Full JSON
+    sample_json = '{\n  "answer": "Ohm\'s Law states that current is proportional to voltage.\\n\\nFormula: V=RI"\n}'
+    cleaned = clean_chat_response(sample_json)
+    assert cleaned.startswith("Ohm's Law states")
+    assert "{" not in cleaned
+    assert '"answer"' not in cleaned
+    assert "\n\nFormula:" in cleaned
+    assert "\\n" not in cleaned
+
+    # Truncated JSON (ended before closing quote/brace)
+    sample_truncated = '{"answer": "Ohm\'s Law is V=RI.\\n\\nIt applies to'
+    cleaned_trunc = clean_chat_response(sample_truncated)
+    assert cleaned_trunc == "Ohm's Law is V=RI.\n\nIt applies to"
+
+
+def test_clean_chat_response_katex_artifacts() -> None:
+    """Verify clean_chat_response repairs KaTeX/MathML scraping artifacts."""
+    from app.generation.pipeline import clean_chat_response
+
+    raw = "If we let \nV\nV be the voltage and \nI\nI be the current, \nV\n=\nR\nI\nV=RI"
+    cleaned = clean_chat_response(raw)
+    assert "$V$" in cleaned
+    assert "$I$" in cleaned
+    assert "$V=RI$" in cleaned
+    assert "\nV\nV" not in cleaned
+
+
+def test_stream_clean_tokens() -> None:
+    """Verify _stream_clean_tokens filters JSON prefixes and unescapes newlines."""
+    from app.generation.pipeline import _stream_clean_tokens
+
+    # JSON wrapped stream
+    json_stream = ["{", ' "answer"', ': "', "Hello", " student!\\n\\n", "Here is ", "Ohm's law:\"", "}"]
+    output = "".join(_stream_clean_tokens(json_stream))
+    assert output == "Hello student!\n\nHere is Ohm's law:"
+    assert "{" not in output
+    assert '"answer"' not in output
+
+    # Plain text stream
+    plain_stream = ["Hello", " student! ", "Ohm's ", "law is $V = IR$."]
+    output_plain = "".join(_stream_clean_tokens(plain_stream))
+    assert output_plain == "Hello student! Ohm's law is $V = IR$."
+

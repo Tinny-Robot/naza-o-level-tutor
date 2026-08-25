@@ -2,8 +2,9 @@
 
 from __future__ import annotations
 
-from collections.abc import Callable
+from collections.abc import Callable, Iterable, Iterator
 from pathlib import Path
+import re
 from typing import Any, TypedDict
 
 from app.config import (
@@ -95,6 +96,112 @@ def _question_with_history(question: str, history_block: str) -> str:
     if not history_block:
         return question
     return f"{history_block}\n\n{question}"
+
+
+def clean_chat_response(raw: str) -> str:
+    """Normalize chat generation output: unwrap accidental JSON, unescape newlines, and clean math artifacts."""
+    s = raw.strip()
+    if not s:
+        return ""
+
+    # 1. Unwrap JSON wrapper if present (full or truncated by max_tokens)
+    m = re.match(
+        r'^\s*\{\s*"(?:answer|explanation|text|response|reply|content)"\s*:\s*"(.*)',
+        s,
+        re.DOTALL,
+    )
+    if m:
+        s = m.group(1)
+        s = re.sub(r'"\s*\}?\s*$', "", s)
+        s = (
+            s.replace('\\"', '"')
+            .replace("\\n", "\n")
+            .replace("\\t", "\t")
+            .replace("\\\\", "\\")
+        )
+    elif r"\n" in s and "\n" not in s:
+        s = s.replace(r"\n", "\n").replace(r"\t", "\t")
+
+    # 2. Clean duplicated MathML / KaTeX web-scraping artifacts:
+    # e.g. single character on newline followed by same character: \nV\nV -> $V$
+    s = re.sub(r"\n([A-Za-z0-9])\n\1\b", r" $\1$", s)
+    # e.g. multi-line split symbols followed by compacted formula: \nV\n=\nR\nI\nV=RI -> $V=RI$
+    s = re.sub(r"(?:\n[A-Za-z0-9=∝/+\-Δ]+)+\n([A-Za-z0-9=∝/+\-Δ]+)", r" $\1$", s)
+    # Convert unicode math operators to LaTeX math representations
+    s = s.replace("∝", r" \propto ").replace("Δ", r"\Delta ")
+
+    return s.strip()
+
+
+def _stream_clean_tokens(token_stream: Iterable[str]) -> Iterator[str]:
+    """Filter out accidental leading JSON wrapper syntax and unescape newlines."""
+    buf = ""
+    prefix_checked = False
+    in_json = False
+    tail = ""
+
+    for token in token_stream:
+        if not prefix_checked:
+            buf += token
+            stripped = buf.lstrip()
+            if stripped and not stripped.startswith("{"):
+                prefix_checked = True
+                yield buf
+                buf = ""
+                continue
+            m = re.match(
+                r'^\s*\{\s*"(?:answer|explanation|text|response|reply|content)"\s*:\s*"',
+                buf,
+            )
+            if m:
+                prefix_checked = True
+                in_json = True
+                rem = buf[m.end():]
+                buf = ""
+                if rem:
+                    rem = (
+                        rem.replace(r"\n", "\n")
+                        .replace(r"\t", "\t")
+                        .replace(r'\"', '"')
+                    )
+                    tail = rem
+                continue
+            elif len(buf) > 30:
+                prefix_checked = True
+                yield buf
+                buf = ""
+                continue
+        else:
+            if in_json:
+                token = (
+                    token.replace(r"\n", "\n")
+                    .replace(r"\t", "\t")
+                    .replace(r'\"', '"')
+                )
+                tail += token
+                if len(tail) > 4:
+                    to_yield = tail[:-4]
+                    tail = tail[-4:]
+                    yield to_yield
+            else:
+                yield token
+
+    if buf:
+        if not prefix_checked:
+            m = re.match(
+                r'^\s*\{\s*"(?:answer|explanation|text|response|reply|content)"\s*:\s*"',
+                buf,
+            )
+            if m:
+                buf = buf[m.end():]
+        tail = buf
+
+    if in_json and tail:
+        tail = re.sub(r'"\s*\}?\s*$', "", tail)
+        tail = tail.replace(r"\n", "\n").replace(r"\t", "\t").replace(r'\"', '"')
+
+    if tail:
+        yield tail
 
 
 def personalized_system(base: str, language: str | None = None) -> str:
@@ -339,7 +446,7 @@ class GenerationPipeline:
             }
 
             accumulated: list[str] = []
-            for token in self.llm.stream_generate(system, user):
+            for token in _stream_clean_tokens(self.llm.stream_generate(system, user)):
                 accumulated.append(token)
                 yield {"type": "token", "token": token}
 
@@ -366,7 +473,7 @@ class GenerationPipeline:
                 "refused": False,
             }
 
-            for token in self.llm.stream_generate(system, user):
+            for token in _stream_clean_tokens(self.llm.stream_generate(system, user)):
                 yield {"type": "token", "token": token}
 
             try:
@@ -427,6 +534,7 @@ class GenerationPipeline:
         citations = build_citations(selected)
         user = self.prompts.render_user(context=context, question=prompt_question)
         answer = self.llm.generate(system, user)
+        answer = clean_chat_response(answer)
         # Lightweight coverage check: warn if answer has little overlap with context.
         warn_if_low_coverage(answer, selected)
         try:
@@ -466,6 +574,7 @@ class GenerationPipeline:
         system = personalized_system(self.prompts.general_system_prompt, language)
         user = self.prompts.render_general_user(question=prompt_question)
         answer = self.llm.generate(system, user)
+        answer = clean_chat_response(answer)
         try:
             from app.student.updater import LearningProfileUpdater
 

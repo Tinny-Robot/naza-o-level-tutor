@@ -7,7 +7,7 @@ import { Badge } from "../../components/ui/Badge";
 import { Button, ButtonLink } from "../../components/ui/Button";
 import { Card } from "../../components/ui/Card";
 import { MarkdownMessage } from "../../components/ui/MarkdownMessage";
-import { stripChunkCitations } from "../../utils/stripChunkCitations";
+import { cleanMarkdown } from "../../utils/cleanMarkdown";
 import { TextArea } from "../../components/ui/Input";
 import { ApiError } from "../../services/api";
 import { looksLikeLessonIntent, sendChat, sendChatStream } from "../../services/chat";
@@ -160,7 +160,7 @@ export function TutorPage() {
   }
 
   function revealAnswer(full: string, meta: ChatResponse) {
-    const cleaned = stripChunkCitations(full);
+    const cleaned = cleanMarkdown(full);
     if (reduceMotion) {
       setMessages((m) => [...m, { role: "assistant", text: cleaned, full: cleaned, meta }]);
       return;
@@ -283,7 +283,7 @@ export function TutorPage() {
           } else if (ev.type === "token") {
             tokenCount++;
             streamedText += ev.token;
-            const cleaned = stripChunkCitations(streamedText);
+            const cleaned = cleanMarkdown(streamedText);
             setMessages((m) => {
               const copy = [...m];
               const idx = copy.length - 1;
@@ -495,13 +495,13 @@ export function TutorPage() {
                       aria-busy={m.typing || undefined}
                       onClick={m.typing ? finishTyping : undefined}
                     >
-                      {m.role === "assistant" && !m.typing ? (
-                        <MarkdownMessage>{m.text}</MarkdownMessage>
-                      ) : (
+                      {m.role === "assistant" ? (
                         <>
-                          {m.text}
-                          {m.typing ? "▍" : null}
+                          <MarkdownMessage>{m.text}</MarkdownMessage>
+                          {m.typing ? <span style={{ opacity: 0.7 }}>▍</span> : null}
                         </>
+                      ) : (
+                        <>{m.text}</>
                       )}
                       {m.role === "assistant" &&
                         m.meta?.mode === "study" &&

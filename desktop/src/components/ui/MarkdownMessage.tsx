@@ -2,7 +2,7 @@ import ReactMarkdown from "react-markdown";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 import "katex/dist/katex.min.css";
-import { stripChunkCitations } from "../../utils/stripChunkCitations";
+import { cleanMarkdown } from "../../utils/cleanMarkdown";
 
 type MarkdownMessageProps = {
   children: string;
@@ -12,24 +12,24 @@ type MarkdownMessageProps = {
 };
 
 export function MarkdownMessage({ children, className, inline }: MarkdownMessageProps) {
-  const cleaned = stripChunkCitations(children);
+  const cleaned = cleanMarkdown(children);
   const body = (
     <ReactMarkdown
       remarkPlugins={[remarkMath]}
       rehypePlugins={[rehypeKatex]}
       components={{
         p: ({ children: c }) =>
-          inline ? <span>{c}</span> : <p style={{ margin: "0 0 0.4em" }}>{c}</p>,
+          inline ? <span>{c}</span> : <p style={{ margin: "0 0 0.6em", lineHeight: 1.6 }}>{c}</p>,
         ul: ({ children: c }) =>
           inline ? <span>{c}</span> : (
-            <ul style={{ margin: "0 0 0.4em", paddingLeft: "1.4em" }}>{c}</ul>
+            <ul style={{ margin: "0.2em 0 0.6em", paddingLeft: "1.4em", lineHeight: 1.55 }}>{c}</ul>
           ),
         ol: ({ children: c }) =>
           inline ? <span>{c}</span> : (
-            <ol style={{ margin: "0 0 0.4em", paddingLeft: "1.4em" }}>{c}</ol>
+            <ol style={{ margin: "0.2em 0 0.6em", paddingLeft: "1.4em", lineHeight: 1.55 }}>{c}</ol>
           ),
         li: ({ children: c }) =>
-          inline ? <span>{c} </span> : <li style={{ margin: "0.15em 0" }}>{c}</li>,
+          inline ? <span>{c} </span> : <li style={{ margin: "0.25em 0" }}>{c}</li>,
         code: ({ children: c, className: lang }) => {
           const isBlock = lang?.startsWith("language-");
           return isBlock ? (
